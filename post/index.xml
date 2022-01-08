@@ -5,12 +5,49 @@
     <link>https://astrockragh.github.io/post/</link>
       <atom:link href="https://astrockragh.github.io/post/index.xml" rel="self" type="application/rss+xml" />
     <description>Posts</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© Christian Kragh Jespersen 2022</copyright><lastBuildDate>Sun, 13 Dec 2020 00:00:00 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© Christian Kragh Jespersen 2022</copyright><lastBuildDate>Sat, 08 Jan 2022 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://astrockragh.github.io/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_3.png</url>
       <title>Posts</title>
       <link>https://astrockragh.github.io/post/</link>
     </image>
+    
+    <item>
+      <title>Hello Everyone!</title>
+      <link>https://astrockragh.github.io/post/hello_everyone/</link>
+      <pubDate>Sat, 08 Jan 2022 00:00:00 +0000</pubDate>
+      <guid>https://astrockragh.github.io/post/hello_everyone/</guid>
+      <description>&lt;h2 id=&#34;so-whats-going-on&#34;&gt;So what&amp;rsquo;s going on&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;I&amp;rsquo;ve finally gotten around to making a website where I can share some thoughts, some science and a little about myself&lt;/li&gt;
+&lt;li&gt;Above you see a picture of me and my smart and cute girlfriend &lt;a href=&#34;https://www.linkedin.com/in/ciara-sypherd-547511126/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Ciara Sypherd&lt;/a&gt; right after accepting our respective Graduate School offers, wearing each others school gear.&lt;/li&gt;
+&lt;li&gt;I&amp;rsquo;ll be updating this when I have time in the future&lt;/li&gt;
+&lt;/ol&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  id=&#34;figure-somebody-once-wrote-something-nice-about-me-and-my-co-students&#34;&gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;https://uniavisen.dk/wp-content/uploads/2020/08/trestuderendeastrofysik.jpg&#34; alt=&#34;Somebody once wrote something nice about me and my co-students.&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;figcaption&gt;
+      Somebody once wrote something nice about me and my co-students.
+    &lt;/figcaption&gt;&lt;/figure&gt;
+&lt;h2 id=&#34;intention-with-this-page&#34;&gt;Intention with this page&lt;/h2&gt;
+&lt;p&gt;I want to share some of the science that I and my collaborators do here, as well as some of the other cool stuff we get up to from time to time. There will also be some personal stuff on this webpage, but it will mainly center around big life updates and personal views on academic matters.&lt;/p&gt;
+&lt;p&gt;I hope that you will be interested in sticking around and hope that this page proves helpful and that if you have any questions, ideas or other interesting things, that you reach out to me so that we can have a chat!&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>Welcome to Wowchemy, the website builder for Hugo</title>
