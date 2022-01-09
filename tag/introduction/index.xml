@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Posts | Christian Kragh Jespersen</title>
-    <link>https://astrockragh.github.io/post/</link>
-      <atom:link href="https://astrockragh.github.io/post/index.xml" rel="self" type="application/rss+xml" />
-    <description>Posts</description>
+    <title>Introduction | Christian Kragh Jespersen</title>
+    <link>https://astrockragh.github.io/tag/introduction/</link>
+      <atom:link href="https://astrockragh.github.io/tag/introduction/index.xml" rel="self" type="application/rss+xml" />
+    <description>Introduction</description>
     <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© Christian Kragh Jespersen 2022</copyright><lastBuildDate>Sat, 08 Jan 2022 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://astrockragh.github.io/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_3.png</url>
-      <title>Posts</title>
-      <link>https://astrockragh.github.io/post/</link>
+      <title>Introduction</title>
+      <link>https://astrockragh.github.io/tag/introduction/</link>
     </image>
     
     <item>
