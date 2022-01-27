@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Particle Physics | Christian Kragh Jespersen</title>
+    <link>https://astrockragh.github.io/tag/particle-physics/</link>
+      <atom:link href="https://astrockragh.github.io/tag/particle-physics/index.xml" rel="self" type="application/rss+xml" />
+    <description>Particle Physics</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© Christian Kragh Jespersen 2022</copyright><lastBuildDate>Tue, 25 Jan 2022 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://astrockragh.github.io/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_3.png</url>
+      <title>Particle Physics</title>
+      <link>https://astrockragh.github.io/tag/particle-physics/</link>
+    </image>
+    
+    <item>
+      <title>Classifying - particles from the ATLAS detector for detector calibration</title>
+      <link>https://astrockragh.github.io/project/puk_troels/</link>
+      <pubDate>Tue, 25 Jan 2022 00:00:00 +0000</pubDate>
+      <guid>https://astrockragh.github.io/project/puk_troels/</guid>
+      <description>&lt;p&gt;This project was done in collaboration with &lt;a href=&#34;https://github.com/Vinther901&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Jonas Vinther&lt;/a&gt;, &lt;a href=&#34;https://github.com/JohannSeverin&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Johann Bock Severin&lt;/a&gt; and &lt;a href=&#34;https://github.com/JakobSchauser&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Jakob H. Schauser&lt;/a&gt;. Check out their GitHubs!&lt;/p&gt;
+&lt;p&gt;In most branches of physics, new discoveries are made by identifying som signal peak upon a background of noise. In High Energy Physics, this could be the peak of a new particle found amongst the almost uncountable amount of collisions happening every second the Large Hadron Collider is running. Only a few collisions actually produce the particles we search for, so finding and quantifying small peaks is the cornerstone of making the actual discovery. This makes it crucial to be able to classify which detections are part of the actual signal, and which are not. In this project we employed a range of statistical methods and machine learning algorithms to get the best estimate of the masses of $V^0$ - particles, in both simulated data and real data.&lt;/p&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;https://astrockragh.github.io/project/puk_troels/Truesimplefits.png&#34; alt=&#34;Signal in simulation and data for normal fit. The background is fitted with a third degree polynomial and a double Gaussian is used on the peak.&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;p&gt;As can be seen in the top figure, among some of the methods tried were simply doing some linear cuts in the feature space, found by simple annealing, using Fisher&amp;rsquo;s discriminant analysis, a simple decision tree and XGBoost, which ended up being the method of choice. We ended up getting an accuracy of 99.7% for classyfing signal and background.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

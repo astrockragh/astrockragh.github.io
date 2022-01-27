@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Transients | Christian Kragh Jespersen</title>
+    <link>https://astrockragh.github.io/tag/transients/</link>
+      <atom:link href="https://astrockragh.github.io/tag/transients/index.xml" rel="self" type="application/rss+xml" />
+    <description>Transients</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© Christian Kragh Jespersen 2022</copyright><lastBuildDate>Thu, 20 Jan 2022 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://astrockragh.github.io/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_3.png</url>
+      <title>Transients</title>
+      <link>https://astrockragh.github.io/tag/transients/</link>
+    </image>
+    
+    <item>
+      <title>Classifying Gamma-Ray Bursts into Two Classes using t-SNE</title>
+      <link>https://astrockragh.github.io/project/tsne_grb/</link>
+      <pubDate>Thu, 20 Jan 2022 00:00:00 +0000</pubDate>
+      <guid>https://astrockragh.github.io/project/tsne_grb/</guid>
+      <description>&lt;p&gt;The duration of a gamma-ray burst (GRB) is a key indicator of its physical origin, with long bursts perhaps associated with the collapse of massive stars (also known as supernovae) and short bursts with mergers of neutron stars (kilonovae).
+However, trying to categorize these events from the burst itself is very troublesome, as there is substantial overlap in the properties of both short and long GRBs and neither duration nor any other parameter so far considered completely separates the two groups [insert figure]. Some very long bursts even show up without any observble supernova, even when we know exactly where it came from, which even led people to propose extra classes of bursts, like the Extended Short Gamma Ray Burst, to explain the lack of a supernova. In this project, which was done by myself and my two good friends &lt;a href=&#34;https://github.com/JohannSeverin&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Johann Bock Severin&lt;/a&gt; and &lt;a href=&#34;https://github.com/Vinther901&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Jonas Vinther&lt;/a&gt; as a semester project during our first year at the University of Copenhagen, we unambiguously classified every known GRB from the Swift Space observatory, using a dimensionality reduction algorithm, t-distributed stochastic neighborhood embedding, which had never been before and so was quite exciting. Although the classification takes place only using prompt emission light curves, every burst with an associated supernova is found in the longer group and bursts with kilonovae in the short, suggesting along with the duration distributions that these two groups are truly long and short GRBs, or some sort of proxy.&lt;/p&gt;
+&lt;p&gt;Since t-SNE works by comparing vectors dimension by dimension, it was crucial that each dimension actually meant the same for each burst. Unfortunately, there is a great deal of uncertainty surrounding exactly when a burst begins or ends, so the lightcurves where rarely aligned such that the first second of a given burst meant the same as the first second of any other burst. The trick behind getting this to work was shifting the bursts from the time domain into the frequency domain using the &amp;lsquo;Fourier Transform&amp;rsquo;, which eliminates temporal translational differences in the lightcurves and makes it possible to actually compare the bursts dimension by dimension!&lt;/p&gt;
+&lt;p&gt;Running the machine learning algorithm on the Fourier transformed light curves let&amp;rsquo;s us get these two beautiful groups! TSNE GROUP FIGURE&lt;/p&gt;
+&lt;p&gt;One of the interesting things that came out of this project was to determine that those supernovae that we couldn&amp;rsquo;t find before go firmly in the group with all the other supernovae, so we&amp;rsquo;re pretty sure that they actually exploded, but the exact mechanism that led to an explosion with no visible supernova is still unknown. Professor Darach Watson at DAWN Copenhagen [link] currently has my favourite theory for why this is: Instead of the star exploding and then turning into a black hole, it would BOLD &amp;lsquo;implode&amp;rsquo; and turn directly into a black hole!&lt;/p&gt;
+&lt;p&gt;Anyone who wishes to do anything similar to this project is encourage to &lt;a href=&#34;https://ui.adsabs.harvard.edu/abs/2020ApJ...896L..20J/abstract&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;read the paper&lt;/a&gt; and check out the [Github](&lt;a href=&#34;https://github.com/astrockragh/GRB_TSNE&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://github.com/astrockragh/GRB_TSNE&lt;/a&gt;. Currently, we wish to extend this analysis to other observatories, getting thousands of new bursts included in the analysis!&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Cosmology | Christian Kragh Jespersen</title>
+    <link>https://astrockragh.github.io/tag/cosmology/</link>
+      <atom:link href="https://astrockragh.github.io/tag/cosmology/index.xml" rel="self" type="application/rss+xml" />
+    <description>Cosmology</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© Christian Kragh Jespersen 2022</copyright><lastBuildDate>Thu, 20 Jan 2022 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://astrockragh.github.io/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_3.png</url>
+      <title>Cosmology</title>
+      <link>https://astrockragh.github.io/tag/cosmology/</link>
+    </image>
+    
+    <item>
+      <title>Point Spread Function improvement for COSMOS2020 survey</title>
+      <link>https://astrockragh.github.io/project/cosmos/</link>
+      <pubDate>Thu, 20 Jan 2022 00:00:00 +0000</pubDate>
+      <guid>https://astrockragh.github.io/project/cosmos/</guid>
+      <description>&lt;h2 id=&#34;the-two-catalogs-httpscosmos2020caletorg&#34;&gt;The two CATALOGS: &lt;a href=&#34;https://cosmos2020.calet.org/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://cosmos2020.calet.org/&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;The COSMOS survey is one the longest-running galaxy surveys. Over two decades, we have collected observations of x-ray, optical, infrared, and radio light to obtain galaxy distances and understand their evolution over 13.7 billion years of cosmic history. &lt;a href=&#34;https://astroweaver.github.io/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;John R. Weaver&lt;/a&gt; at the &lt;a href=&#34;https://cosmicdawn.dk/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Cosmic Dawn Center&lt;/a&gt; lead the 2020 edition of the master galaxy catalog, using bleeding-edge galaxy model-fitting techniques.&lt;/p&gt;
+&lt;p&gt;I worked with John to improve what astronomers call a Point Spread Function, or PSF for short, which essentially details how light becomes spread out and noisy as it moves through the atmosphere. As one might imagine, this isn&amp;rsquo;t the same across the night sky, due to the atmosphere being quite different when looking in different directions. As can be seen in the below figure, if one separates the night-sky into many smaller patches, giving each patch its own PSF, things are a lot better!&lt;/p&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;https://astrockragh.github.io/project/cosmos/psf_homogenization.png&#34; alt=&#34;PSF&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
