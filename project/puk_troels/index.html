@@ -60,7 +60,7 @@
   
     
   
-  <meta name="description" content="We go through several low - to medium level Machine Learning algorithms and optimize their performance for a classifying - particles, both in simulation and real data" />
+  <meta name="description" content="We go through several low - to medium level Machine Learning algorithms and optimize their performance for a classifying  $V^0$ - particles, both in simulation and real data" />
 
   
   <link rel="alternate" hreflang="en-us" href="https://astrockragh.github.io/project/puk_troels/" />
@@ -302,8 +302,8 @@
   
   <meta property="og:site_name" content="Christian Kragh Jespersen" />
   <meta property="og:url" content="https://astrockragh.github.io/project/puk_troels/" />
-  <meta property="og:title" content="Classifying - particles from the ATLAS detector for detector calibration | Christian Kragh Jespersen" />
-  <meta property="og:description" content="We go through several low - to medium level Machine Learning algorithms and optimize their performance for a classifying - particles, both in simulation and real data" /><meta property="og:image" content="https://astrockragh.github.io/project/puk_troels/featured.png" />
+  <meta property="og:title" content="Classifying  $V^0$ - particles from the ATLAS detector for detector calibration | Christian Kragh Jespersen" />
+  <meta property="og:description" content="We go through several low - to medium level Machine Learning algorithms and optimize their performance for a classifying  $V^0$ - particles, both in simulation and real data" /><meta property="og:image" content="https://astrockragh.github.io/project/puk_troels/featured.png" />
     <meta property="twitter:image" content="https://astrockragh.github.io/project/puk_troels/featured.png" /><meta property="og:locale" content="en-us" />
   
     
@@ -336,7 +336,7 @@
     "@type": "WebPage",
     "@id": "https://astrockragh.github.io/project/puk_troels/"
   },
-  "headline": "Classifying - particles from the ATLAS detector for detector calibration",
+  "headline": "Classifying  $V^0$ - particles from the ATLAS detector for detector calibration",
   
   "image": [
     "https://astrockragh.github.io/project/puk_troels/featured.png"
@@ -358,7 +358,7 @@
       "url": "https://astrockragh.github.io/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_192x192_fill_lanczos_center_3.png"
     }
   },
-  "description": "We go through several low - to medium level Machine Learning algorithms and optimize their performance for a classifying - particles, both in simulation and real data"
+  "description": "We go through several low - to medium level Machine Learning algorithms and optimize their performance for a classifying  $V^0$ - particles, both in simulation and real data"
 }
 </script>
 
@@ -374,7 +374,7 @@
 
 
 
-  <title>Classifying - particles from the ATLAS detector for detector calibration | Christian Kragh Jespersen</title>
+  <title>Classifying  $V^0$ - particles from the ATLAS detector for detector calibration | Christian Kragh Jespersen</title>
 </head>
 
 
@@ -849,7 +849,7 @@
 
 
 <div class="article-container pt-3">
-  <h1>Classifying - particles from the ATLAS detector for detector calibration</h1>
+  <h1>Classifying  $V^0$ - particles from the ATLAS detector for detector calibration</h1>
 
   
 
@@ -904,8 +904,14 @@
 
 
   
+    
+  
 
 
+
+<a class="btn btn-outline-primary btn-page-header" href="/project/puk_troels/PUK_med_Troels.pdf" target="_blank" rel="noopener">
+  PDF
+</a>
 
 
 
@@ -949,8 +955,8 @@
   <div class="article-container">
 
     <div class="article-style">
-      <p>This project was done in collaboration with <a href="https://github.com/Vinther901" target="_blank" rel="noopener">Jonas Vinther</a>, <a href="https://github.com/JohannSeverin" target="_blank" rel="noopener">Johann Bock Severin</a> and <a href="https://github.com/JakobSchauser" target="_blank" rel="noopener">Jakob H. Schauser</a>. Check out their GitHubs!</p>
-<p>In most branches of physics, new discoveries are made by identifying som signal peak upon a background of noise. In High Energy Physics, this could be the peak of a new particle found amongst the almost uncountable amount of collisions happening every second the Large Hadron Collider is running. Only a few collisions actually produce the particles we search for, so finding and quantifying small peaks is the cornerstone of making the actual discovery. This makes it crucial to be able to classify which detections are part of the actual signal, and which are not. In this project we employed a range of statistical methods and machine learning algorithms to get the best estimate of the masses of $V^0$ - particles, in both simulated data and real data.</p>
+      <p>This project was done in collaboration with <a href="https://github.com/Vinther901" target="_blank" rel="noopener">Jonas Vinther</a>, <a href="https://github.com/JohannSeverin" target="_blank" rel="noopener">Johann Bock Severin</a> and <a href="https://github.com/JakobSchauser" target="_blank" rel="noopener">Jakob H. Schauser</a> during our third semester as physics undergraduates. Check out their GitHubs!</p>
+<p>In all branches of physics, new discoveries are made by identifying some signal peak upon a background of noise. In High Energy Physics, this could be the peak of a new particle found amongst the almost uncountable amount of collisions happening every second the Large Hadron Collider is running. Only a few collisions actually produce interesting particles. This makes it crucial to be able to classify which detections are part of the actual signal, and which are not. In this project we employed a range of statistical methods and machine learning algorithms to get the best estimate of the masses of different $V^0$ - particles, in both simulated data and real data.</p>
 <p>
 
 
@@ -972,7 +978,8 @@
     <div class="w-100" ><img src="/project/puk_troels/Truesimplefits.png" alt="Signal in simulation and data for normal fit. The background is fitted with a third degree polynomial and a double Gaussian is used on the peak." loading="lazy" data-zoomable /></div>
   </div></figure>
 </p>
-<p>As can be seen in the top figure, among some of the methods tried were simply doing some linear cuts in the feature space, found by simple annealing, using Fisher&rsquo;s discriminant analysis, a simple decision tree and XGBoost, which ended up being the method of choice. We ended up getting an accuracy of 99.7% for classyfing signal and background.</p>
+<p>As can be seen in the top figure, among some of the methods tried were simply doing some linear cuts in the feature space, found by simple annealing, using Fisher&rsquo;s discriminant analysis, a simple decision tree and some boosted decision tree algorithms, of which XGBoost ended up being the method of choice. We ended up getting an accuracy of 99.7% for classyfing signal and background.</p>
+<p>Perhaps the most exciting thing from this project was the ability for our models to learn what a true label looked like in real data without having those labels. Overall, the LHC dataset is fantastic as a learning platform for both classification and regression problem. If you would like to get involved, reach out to <a href="https://www.nbi.dk/~petersen/" target="_blank" rel="noopener">Troels C. Petersen</a>. Anybody who wants to read the resulting report is welcome to do, by clicking the link at the top of the article, where we also explore a range of more or less wacky ideas.</p>
 
     </div>
 
@@ -1004,7 +1011,7 @@
       
       
       <li>
-        <a href="https://twitter.com/intent/tweet?url=https://astrockragh.github.io/project/puk_troels/&amp;text=Classifying%20-%20particles%20from%20the%20ATLAS%20detector%20for%20detector%20calibration" target="_blank" rel="noopener" class="share-btn-twitter" aria-label="twitter">
+        <a href="https://twitter.com/intent/tweet?url=https://astrockragh.github.io/project/puk_troels/&amp;text=Classifying%20%20$V%5e0$%20-%20particles%20from%20the%20ATLAS%20detector%20for%20detector%20calibration" target="_blank" rel="noopener" class="share-btn-twitter" aria-label="twitter">
           <i class="fab fa-twitter"></i>
         </a>
       </li>
@@ -1017,7 +1024,7 @@
       
       
       <li>
-        <a href="https://www.facebook.com/sharer.php?u=https://astrockragh.github.io/project/puk_troels/&amp;t=Classifying%20-%20particles%20from%20the%20ATLAS%20detector%20for%20detector%20calibration" target="_blank" rel="noopener" class="share-btn-facebook" aria-label="facebook">
+        <a href="https://www.facebook.com/sharer.php?u=https://astrockragh.github.io/project/puk_troels/&amp;t=Classifying%20%20$V%5e0$%20-%20particles%20from%20the%20ATLAS%20detector%20for%20detector%20calibration" target="_blank" rel="noopener" class="share-btn-facebook" aria-label="facebook">
           <i class="fab fa-facebook"></i>
         </a>
       </li>
@@ -1030,7 +1037,7 @@
       
       
       <li>
-        <a href="mailto:?subject=Classifying%20-%20particles%20from%20the%20ATLAS%20detector%20for%20detector%20calibration&amp;body=https://astrockragh.github.io/project/puk_troels/" target="_blank" rel="noopener" class="share-btn-email" aria-label="envelope">
+        <a href="mailto:?subject=Classifying%20%20$V%5e0$%20-%20particles%20from%20the%20ATLAS%20detector%20for%20detector%20calibration&amp;body=https://astrockragh.github.io/project/puk_troels/" target="_blank" rel="noopener" class="share-btn-email" aria-label="envelope">
           <i class="fas fa-envelope"></i>
         </a>
       </li>
@@ -1043,7 +1050,7 @@
       
       
       <li>
-        <a href="https://www.linkedin.com/shareArticle?url=https://astrockragh.github.io/project/puk_troels/&amp;title=Classifying%20-%20particles%20from%20the%20ATLAS%20detector%20for%20detector%20calibration" target="_blank" rel="noopener" class="share-btn-linkedin" aria-label="linkedin-in">
+        <a href="https://www.linkedin.com/shareArticle?url=https://astrockragh.github.io/project/puk_troels/&amp;title=Classifying%20%20$V%5e0$%20-%20particles%20from%20the%20ATLAS%20detector%20for%20detector%20calibration" target="_blank" rel="noopener" class="share-btn-linkedin" aria-label="linkedin-in">
           <i class="fab fa-linkedin-in"></i>
         </a>
       </li>
@@ -1056,7 +1063,7 @@
       
       
       <li>
-        <a href="whatsapp://send?text=Classifying%20-%20particles%20from%20the%20ATLAS%20detector%20for%20detector%20calibration%20https://astrockragh.github.io/project/puk_troels/" target="_blank" rel="noopener" class="share-btn-whatsapp" aria-label="whatsapp">
+        <a href="whatsapp://send?text=Classifying%20%20$V%5e0$%20-%20particles%20from%20the%20ATLAS%20detector%20for%20detector%20calibration%20https://astrockragh.github.io/project/puk_troels/" target="_blank" rel="noopener" class="share-btn-whatsapp" aria-label="whatsapp">
           <i class="fab fa-whatsapp"></i>
         </a>
       </li>
@@ -1069,7 +1076,7 @@
       
       
       <li>
-        <a href="https://service.weibo.com/share/share.php?url=https://astrockragh.github.io/project/puk_troels/&amp;title=Classifying%20-%20particles%20from%20the%20ATLAS%20detector%20for%20detector%20calibration" target="_blank" rel="noopener" class="share-btn-weibo" aria-label="weibo">
+        <a href="https://service.weibo.com/share/share.php?url=https://astrockragh.github.io/project/puk_troels/&amp;title=Classifying%20%20$V%5e0$%20-%20particles%20from%20the%20ATLAS%20detector%20for%20detector%20calibration" target="_blank" rel="noopener" class="share-btn-weibo" aria-label="weibo">
           <i class="fab fa-weibo"></i>
         </a>
       </li>
@@ -1247,6 +1254,8 @@
   <div class="article-widget content-widget-hr">
     <h3>Related</h3>
     <ul>
+      
+      <li><a href="/project/neutrino_ml/">Improving event reconstrution at IceCube</a></li>
       
       <li><a href="/project/tsne_grb/">Classifying Gamma-Ray Bursts into Two Classes using t-SNE</a></li>
       

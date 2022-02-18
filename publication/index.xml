@@ -5,7 +5,7 @@
     <link>https://astrockragh.github.io/publication/</link>
       <atom:link href="https://astrockragh.github.io/publication/index.xml" rel="self" type="application/rss+xml" />
     <description>Publications</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© Christian Kragh Jespersen 2022</copyright><lastBuildDate>Mon, 01 Jul 2013 00:00:00 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© Christian Kragh Jespersen 2022</copyright><lastBuildDate>Tue, 01 Feb 2022 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://astrockragh.github.io/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_3.png</url>
       <title>Publications</title>
@@ -13,22 +13,43 @@
     </image>
     
     <item>
-      <title>An example conference paper</title>
-      <link>https://astrockragh.github.io/publication/example/</link>
-      <pubDate>Mon, 01 Jul 2013 00:00:00 +0000</pubDate>
-      <guid>https://astrockragh.github.io/publication/example/</guid>
-      <description>&lt;div class=&#34;alert alert-note&#34;&gt;
-  &lt;div&gt;
-    Click the &lt;em&gt;Cite&lt;/em&gt; button above to demo the feature to enable visitors to import publication metadata into their reference management software.
-  &lt;/div&gt;
-&lt;/div&gt;
-&lt;div class=&#34;alert alert-note&#34;&gt;
-  &lt;div&gt;
-    Create your slides in Markdown - click the &lt;em&gt;Slides&lt;/em&gt; button to check out the example.
-  &lt;/div&gt;
-&lt;/div&gt;
-&lt;p&gt;Supplementary notes can be added here, including &lt;a href=&#34;https://wowchemy.com/docs/writing-markdown-latex/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;code, math, and images&lt;/a&gt;.&lt;/p&gt;
-</description>
+      <title>The interstellar medium in the environment of the supernova-less long-duration GRB 111005A</title>
+      <link>https://astrockragh.github.io/publication/lesniewska-jespersen-etal-2022/</link>
+      <pubDate>Tue, 01 Feb 2022 00:00:00 +0000</pubDate>
+      <guid>https://astrockragh.github.io/publication/lesniewska-jespersen-etal-2022/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>COSMOS2020: A Panchromatic View of the Universe to z $∼$ 10 from Two Complementary Catalogs</title>
+      <link>https://astrockragh.github.io/publication/weaver-kauffmann-ilbert-mc-cracken-moneti-toft-brammer-shuntov-davidzon-hsieh-etal-2022/</link>
+      <pubDate>Sat, 01 Jan 2022 00:00:00 +0000</pubDate>
+      <guid>https://astrockragh.github.io/publication/weaver-kauffmann-ilbert-mc-cracken-moneti-toft-brammer-shuntov-davidzon-hsieh-etal-2022/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Finding High-redshift Galaxies with JWST</title>
+      <link>https://astrockragh.github.io/publication/steinhardt-jespersen-linzer-2021/</link>
+      <pubDate>Wed, 01 Dec 2021 00:00:00 +0000</pubDate>
+      <guid>https://astrockragh.github.io/publication/steinhardt-jespersen-linzer-2021/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>An Unambiguous Separation of Gamma-Ray Bursts into Two Classes from Prompt Emission Alone</title>
+      <link>https://astrockragh.github.io/publication/jespersen-severin-steinhardt-vinther-fynbo-selsing-watson-2020/</link>
+      <pubDate>Mon, 01 Jun 2020 00:00:00 +0000</pubDate>
+      <guid>https://astrockragh.github.io/publication/jespersen-severin-steinhardt-vinther-fynbo-selsing-watson-2020/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Investigating Radius Increases in Hot Exoplanets</title>
+      <link>https://astrockragh.github.io/publication/jespersen-stevenson-2020/</link>
+      <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
+      <guid>https://astrockragh.github.io/publication/jespersen-stevenson-2020/</guid>
+      <description></description>
     </item>
     
   </channel>

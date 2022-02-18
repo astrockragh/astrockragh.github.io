@@ -13,12 +13,12 @@
     </image>
     
     <item>
-      <title>Classifying - particles from the ATLAS detector for detector calibration</title>
+      <title>Classifying  $V^0$ - particles from the ATLAS detector for detector calibration</title>
       <link>https://astrockragh.github.io/project/puk_troels/</link>
       <pubDate>Tue, 25 Jan 2022 00:00:00 +0000</pubDate>
       <guid>https://astrockragh.github.io/project/puk_troels/</guid>
-      <description>&lt;p&gt;This project was done in collaboration with &lt;a href=&#34;https://github.com/Vinther901&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Jonas Vinther&lt;/a&gt;, &lt;a href=&#34;https://github.com/JohannSeverin&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Johann Bock Severin&lt;/a&gt; and &lt;a href=&#34;https://github.com/JakobSchauser&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Jakob H. Schauser&lt;/a&gt;. Check out their GitHubs!&lt;/p&gt;
-&lt;p&gt;In most branches of physics, new discoveries are made by identifying som signal peak upon a background of noise. In High Energy Physics, this could be the peak of a new particle found amongst the almost uncountable amount of collisions happening every second the Large Hadron Collider is running. Only a few collisions actually produce the particles we search for, so finding and quantifying small peaks is the cornerstone of making the actual discovery. This makes it crucial to be able to classify which detections are part of the actual signal, and which are not. In this project we employed a range of statistical methods and machine learning algorithms to get the best estimate of the masses of $V^0$ - particles, in both simulated data and real data.&lt;/p&gt;
+      <description>&lt;p&gt;This project was done in collaboration with &lt;a href=&#34;https://github.com/Vinther901&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Jonas Vinther&lt;/a&gt;, &lt;a href=&#34;https://github.com/JohannSeverin&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Johann Bock Severin&lt;/a&gt; and &lt;a href=&#34;https://github.com/JakobSchauser&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Jakob H. Schauser&lt;/a&gt; during our third semester as physics undergraduates. Check out their GitHubs!&lt;/p&gt;
+&lt;p&gt;In all branches of physics, new discoveries are made by identifying some signal peak upon a background of noise. In High Energy Physics, this could be the peak of a new particle found amongst the almost uncountable amount of collisions happening every second the Large Hadron Collider is running. Only a few collisions actually produce interesting particles. This makes it crucial to be able to classify which detections are part of the actual signal, and which are not. In this project we employed a range of statistical methods and machine learning algorithms to get the best estimate of the masses of different $V^0$ - particles, in both simulated data and real data.&lt;/p&gt;
 &lt;p&gt;
 
 
@@ -40,7 +40,22 @@
     &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;https://astrockragh.github.io/project/puk_troels/Truesimplefits.png&#34; alt=&#34;Signal in simulation and data for normal fit. The background is fitted with a third degree polynomial and a double Gaussian is used on the peak.&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
   &lt;/div&gt;&lt;/figure&gt;
 &lt;/p&gt;
-&lt;p&gt;As can be seen in the top figure, among some of the methods tried were simply doing some linear cuts in the feature space, found by simple annealing, using Fisher&amp;rsquo;s discriminant analysis, a simple decision tree and XGBoost, which ended up being the method of choice. We ended up getting an accuracy of 99.7% for classyfing signal and background.&lt;/p&gt;
+&lt;p&gt;As can be seen in the top figure, among some of the methods tried were simply doing some linear cuts in the feature space, found by simple annealing, using Fisher&amp;rsquo;s discriminant analysis, a simple decision tree and some boosted decision tree algorithms, of which XGBoost ended up being the method of choice. We ended up getting an accuracy of 99.7% for classyfing signal and background.&lt;/p&gt;
+&lt;p&gt;Perhaps the most exciting thing from this project was the ability for our models to learn what a true label looked like in real data without having those labels. Overall, the LHC dataset is fantastic as a learning platform for both classification and regression problem. If you would like to get involved, reach out to &lt;a href=&#34;https://www.nbi.dk/~petersen/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Troels C. Petersen&lt;/a&gt;. Anybody who wants to read the resulting report is welcome to do, by clicking the link at the top of the article, where we also explore a range of more or less wacky ideas.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Improving event reconstrution at IceCube</title>
+      <link>https://astrockragh.github.io/project/neutrino_ml/</link>
+      <pubDate>Thu, 20 Jan 2022 00:00:00 +0000</pubDate>
+      <guid>https://astrockragh.github.io/project/neutrino_ml/</guid>
+      <description>&lt;p&gt;This Bachelors Thesis was done in collaboration with &lt;a href=&#34;https://github.com/Vinther901&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Jonas Vinther&lt;/a&gt;, &lt;a href=&#34;https://github.com/JohannSeverin&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Johann Bock Severin&lt;/a&gt; and &lt;a href=&#34;https://github.com/JakobSchauser&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Jakob H. Schauser&lt;/a&gt; during our sixth semester as physics undergraduates. Check out their GitHubs!&lt;/p&gt;
+&lt;p&gt;This project was concerned with improving the reconstruction of neutrino events at The IceCube Neutrino Observatory, an experiment located at The South Pole, which aims to detect neutrinos and other particles in the ice sheet. Currently the observatory is focused on very very high energy neutrinos (TeV-PeV range) where the entire detector lights up and it is pretty easy to see where it came from, as can be seen in the video below.&lt;/p&gt;
+&lt;iframe width=&#34;1280&#34; height=&#34;720&#34; src=&#34;https://www.youtube.com/embed/vTya9hoKsfM&#34; title=&#34;High energy neutrino at IceCube&#34; frameborder=&#34;0&#34; allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&#34; allowfullscreen&gt;&lt;/iframe&gt;.
+&lt;p&gt;However, IceCube actually gets many more events at lower energies (GeV range), so we wanted to help improving the reconstruction at these energies. Here, only a few dots light up, and it is hard to figure out anything about the particle. As you may also be able to see in the video, this is further complicated by the fact that the IceCube detector has a somewhat odd two-layer hexagonal-cylindrical shape, which makes traditional algorithms almost impossible to use. We therefore turned to Graph Neural Networks (GNNs), which are very powerful when learning on geometric data. It&amp;rsquo;s worth noting that grids are also special cases of graphs.&lt;/p&gt;
+&lt;p&gt;We found superior performance compared to the algorithm currently used by IceCube, which about a factor of a million increase in speed. The project was so successful that a group of people at the Niels Bohr Institute are currently doing a full-scale project, which you can find on the &lt;a href=&#34;https://github.com/icecube/graphnet&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;IceCube official Github&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;If anyone has any questions, feel free to steal our code, read our report or reach out to me. The four different group members constructed four different model, varying from a few thousand parameters to multiple million, so this is also a great way of looking into model differences for the same task.&lt;/p&gt;
 </description>
     </item>
     
