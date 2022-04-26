@@ -5,12 +5,104 @@
     <link>https://astrockragh.github.io/talk/</link>
       <atom:link href="https://astrockragh.github.io/talk/index.xml" rel="self" type="application/rss+xml" />
     <description>Recent and Upcoming Talks</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© Christian Kragh Jespersen 2022</copyright><lastBuildDate>Sun, 14 Nov 2021 10:30:12 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© Christian Kragh Jespersen 2022</copyright><lastBuildDate>Wed, 27 Apr 2022 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://astrockragh.github.io/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_3.png</url>
       <title>Recent and Upcoming Talks</title>
       <link>https://astrockragh.github.io/talk/</link>
     </image>
+    
+    <item>
+      <title>Learning Baryonic Physics from Complete Merger Histories</title>
+      <link>https://astrockragh.github.io/talk/gnn_graphmerge_oslo/</link>
+      <pubDate>Wed, 27 Apr 2022 00:00:00 +0000</pubDate>
+      <guid>https://astrockragh.github.io/talk/gnn_graphmerge_oslo/</guid>
+      <description>&lt;!-- 
+&lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;div&gt;
+    Click on the &lt;strong&gt;Slides&lt;/strong&gt; button above to view the built-in slides feature.
+  &lt;/div&gt;
+&lt;/div&gt;
+
+
+Slides can be added in a few ways:
+
+- **Create** slides using Wowchemy&#39;s [*Slides*](https://wowchemy.com/docs/managing-content/#create-slides) feature and link using `slides` parameter in the front matter of the talk file
+- **Upload** an existing slide deck to `static/` and link using `url_slides` parameter in the front matter of the talk file
+- **Embed** your slides (e.g. Google Slides) or presentation video on this page using [shortcodes](https://wowchemy.com/docs/writing-markdown-latex/).
+
+Further event details, including [page elements](https://wowchemy.com/docs/writing-markdown-latex/) such as image galleries, can be added to the body of this page. --&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Learning Baryonic Physics from Complete Merger Histories</title>
+      <link>https://astrockragh.github.io/talk/gnn_graphmerge_brown/</link>
+      <pubDate>Tue, 05 Apr 2022 00:00:00 +0000</pubDate>
+      <guid>https://astrockragh.github.io/talk/gnn_graphmerge_brown/</guid>
+      <description>&lt;!-- 
+&lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;div&gt;
+    Click on the &lt;strong&gt;Slides&lt;/strong&gt; button above to view the built-in slides feature.
+  &lt;/div&gt;
+&lt;/div&gt;
+
+
+Slides can be added in a few ways:
+
+- **Create** slides using Wowchemy&#39;s [*Slides*](https://wowchemy.com/docs/managing-content/#create-slides) feature and link using `slides` parameter in the front matter of the talk file
+- **Upload** an existing slide deck to `static/` and link using `url_slides` parameter in the front matter of the talk file
+- **Embed** your slides (e.g. Google Slides) or presentation video on this page using [shortcodes](https://wowchemy.com/docs/writing-markdown-latex/).
+
+Further event details, including [page elements](https://wowchemy.com/docs/writing-markdown-latex/) such as image galleries, can be added to the body of this page. --&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Learning Baryonic Physics from Complete Merger Histories</title>
+      <link>https://astrockragh.github.io/talk/gnn_graphmerge_montreal/</link>
+      <pubDate>Tue, 29 Mar 2022 00:00:00 +0000</pubDate>
+      <guid>https://astrockragh.github.io/talk/gnn_graphmerge_montreal/</guid>
+      <description>&lt;!-- 
+&lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;div&gt;
+    Click on the &lt;strong&gt;Slides&lt;/strong&gt; button above to view the built-in slides feature.
+  &lt;/div&gt;
+&lt;/div&gt;
+
+
+Slides can be added in a few ways:
+
+- **Create** slides using Wowchemy&#39;s [*Slides*](https://wowchemy.com/docs/managing-content/#create-slides) feature and link using `slides` parameter in the front matter of the talk file
+- **Upload** an existing slide deck to `static/` and link using `url_slides` parameter in the front matter of the talk file
+- **Embed** your slides (e.g. Google Slides) or presentation video on this page using [shortcodes](https://wowchemy.com/docs/writing-markdown-latex/).
+
+Further event details, including [page elements](https://wowchemy.com/docs/writing-markdown-latex/) such as image galleries, can be added to the body of this page. --&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Learning Baryonic Physics from Complete Merger Histories</title>
+      <link>https://astrockragh.github.io/talk/gnn_graphmerge_cca/</link>
+      <pubDate>Fri, 18 Mar 2022 00:00:00 +0000</pubDate>
+      <guid>https://astrockragh.github.io/talk/gnn_graphmerge_cca/</guid>
+      <description>&lt;!-- 
+&lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;div&gt;
+    Click on the &lt;strong&gt;Slides&lt;/strong&gt; button above to view the built-in slides feature.
+  &lt;/div&gt;
+&lt;/div&gt;
+
+
+Slides can be added in a few ways:
+
+- **Create** slides using Wowchemy&#39;s [*Slides*](https://wowchemy.com/docs/managing-content/#create-slides) feature and link using `slides` parameter in the front matter of the talk file
+- **Upload** an existing slide deck to `static/` and link using `url_slides` parameter in the front matter of the talk file
+- **Embed** your slides (e.g. Google Slides) or presentation video on this page using [shortcodes](https://wowchemy.com/docs/writing-markdown-latex/).
+
+Further event details, including [page elements](https://wowchemy.com/docs/writing-markdown-latex/) such as image galleries, can be added to the body of this page. --&gt;
+</description>
+    </item>
     
     <item>
       <title>Finding High Redshift galaxies with JWST</title>
@@ -72,6 +164,15 @@ Slides can be added in a few ways:
 - **Embed** your slides (e.g. Google Slides) or presentation video on this page using [shortcodes](https://wowchemy.com/docs/writing-markdown-latex/).
 
 Further event details, including [page elements](https://wowchemy.com/docs/writing-markdown-latex/) such as image galleries, can be added to the body of this page. --&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Investigating Radius Increases in Hot Exoplanets</title>
+      <link>https://astrockragh.github.io/talk/aas_exoplanet/</link>
+      <pubDate>Mon, 06 Jan 2020 00:00:00 +0000</pubDate>
+      <guid>https://astrockragh.github.io/talk/aas_exoplanet/</guid>
+      <description>&lt;p&gt;Exoplanetary radii is the most commonly measured property of exoplanets, and thus our understanding of how to interpret any measured radius is crucial to the field. Atmospheric existence is often inferred from radius and mass observations, but this is based on the assumption that the interior of planets do not maintain most of the gravitational energy from their collapse. Recently, there have been doubts about this assumption. This project aims to investigate the potential consequences of planets retaining most of the energy from their collapse. Assuming the Murnaghan EOS, we find that stable rocky planets that maintain some of their gravitational energy can have sizeable radius increases, as much as 21% for a planet of 10 M⊕. Furthermore, limits on the amount of energy that can be maintained by a planet will be discussed.&lt;/p&gt;
 </description>
     </item>
     
