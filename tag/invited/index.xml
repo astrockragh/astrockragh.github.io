@@ -60,6 +60,29 @@ Further event details, including [page elements](https://wowchemy.com/docs/writi
     
     <item>
       <title>Learning Baryonic Physics from Complete Merger Histories</title>
+      <link>https://astrockragh.github.io/talk/gnn_graphmerge_montreal/</link>
+      <pubDate>Tue, 29 Mar 2022 00:00:00 +0000</pubDate>
+      <guid>https://astrockragh.github.io/talk/gnn_graphmerge_montreal/</guid>
+      <description>&lt;!-- 
+&lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;div&gt;
+    Click on the &lt;strong&gt;Slides&lt;/strong&gt; button above to view the built-in slides feature.
+  &lt;/div&gt;
+&lt;/div&gt;
+
+
+Slides can be added in a few ways:
+
+- **Create** slides using Wowchemy&#39;s [*Slides*](https://wowchemy.com/docs/managing-content/#create-slides) feature and link using `slides` parameter in the front matter of the talk file
+- **Upload** an existing slide deck to `static/` and link using `url_slides` parameter in the front matter of the talk file
+- **Embed** your slides (e.g. Google Slides) or presentation video on this page using [shortcodes](https://wowchemy.com/docs/writing-markdown-latex/).
+
+Further event details, including [page elements](https://wowchemy.com/docs/writing-markdown-latex/) such as image galleries, can be added to the body of this page. --&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Learning Baryonic Physics from Complete Merger Histories</title>
       <link>https://astrockragh.github.io/talk/gnn_graphmerge_cca/</link>
       <pubDate>Fri, 18 Mar 2022 00:00:00 +0000</pubDate>
       <guid>https://astrockragh.github.io/talk/gnn_graphmerge_cca/</guid>
