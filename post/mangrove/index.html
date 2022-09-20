@@ -1,0 +1,1465 @@
+<!DOCTYPE html><html lang="en-us" >
+
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  
+  
+  
+    <meta name="generator" content="Wowchemy 5.5.0 for Hugo" />
+  
+
+  
+  
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+  
+  
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  
+
+  
+  
+  
+    
+      
+      <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Roboto+Mono&family=Roboto:wght@400;700&display=swap">
+      <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Roboto+Mono&family=Roboto:wght@400;700&display=swap" media="print" onload="this.media='all'">
+    
+  
+
+  
+  
+  
+  
+  
+    
+    
+    
+  
+  
+
+  <meta name="author" content="Christian Kragh Jespersen" />
+
+  
+  
+  
+    
+  
+  <meta name="description" content="We show how building a graph neural network emulator using merger trees encoded as graphs can both dramatically improve the precision with which we make simulated galaxies **and** improve our understanding of the galaxies we make!" />
+
+  
+  <link rel="alternate" hreflang="en-us" href="https://astrockragh.github.io/post/mangrove/" />
+
+  
+  
+  
+    <meta name="theme-color" content="#bbdefb" />
+  
+
+  
+  
+
+  
+
+  <link rel="stylesheet" href="/css/vendor-bundle.min.c7b8d9abd591ba2253ea42747e3ac3f5.css" media="print" onload="this.media='all'">
+
+  
+  
+  
+    
+    
+
+    
+    
+    
+    
+      
+      
+    
+    
+    
+
+    
+    
+    
+    
+
+    
+    
+    
+
+    
+
+    
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+        
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+  
+
+  
+  
+  
+  
+  
+  <link rel="stylesheet" href="/css/wowchemy.2215a8106e8600c1296dee0a44c6a5ab.css" />
+
+  
+
+
+
+  
+
+
+  
+
+
+  
+
+
+
+
+  
+  
+  
+
+  
+
+  
+    <link rel="manifest" href="/manifest.webmanifest" />
+  
+
+  <link rel="icon" type="image/png" href="/media/icon_hu99cbd5be059c86a221a329805c1c065d_47879_32x32_fill_lanczos_center_3.png" />
+  <link rel="apple-touch-icon" type="image/png" href="/media/icon_hu99cbd5be059c86a221a329805c1c065d_47879_180x180_fill_lanczos_center_3.png" />
+
+  <link rel="canonical" href="https://astrockragh.github.io/post/mangrove/" />
+
+  
+  
+  
+  
+  
+  
+  
+  
+    
+  
+  
+
+  
+  
+    
+    
+  
+  <meta property="twitter:card" content="summary_large_image" />
+  
+  <meta property="og:site_name" content="Christian Kragh Jespersen" />
+  <meta property="og:url" content="https://astrockragh.github.io/post/mangrove/" />
+  <meta property="og:title" content="Building better galaxies with Mangrove | Christian Kragh Jespersen" />
+  <meta property="og:description" content="We show how building a graph neural network emulator using merger trees encoded as graphs can both dramatically improve the precision with which we make simulated galaxies **and** improve our understanding of the galaxies we make!" /><meta property="og:image" content="https://astrockragh.github.io/post/mangrove/featured.png" />
+    <meta property="twitter:image" content="https://astrockragh.github.io/post/mangrove/featured.png" /><meta property="og:locale" content="en-us" />
+  
+    
+      <meta
+        property="article:published_time"
+        content="2022-09-19T00:00:00&#43;00:00"
+      />
+    
+    <meta property="article:modified_time" content="2022-09-19T00:00:00&#43;00:00">
+  
+
+  
+
+
+    
+
+
+
+
+
+
+  
+
+
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://astrockragh.github.io/post/mangrove/"
+  },
+  "headline": "Building better galaxies with Mangrove",
+  
+  "image": [
+    "https://astrockragh.github.io/post/mangrove/featured.png"
+  ],
+  
+  "datePublished": "2022-09-19T00:00:00Z",
+  "dateModified": "2022-09-19T00:00:00Z",
+  
+  "author": {
+    "@type": "Person",
+    "name": "Christian Kragh Jespersen"
+  },
+  
+  "publisher": {
+    "@type": "Organization",
+    "name": "Christian Kragh Jespersen",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://astrockragh.github.io/media/logo_hu99cbd5be059c86a221a329805c1c065d_47879_192x192_fit_lanczos_3.png"
+    }
+  },
+  "description": "We show how building a graph neural network emulator using merger trees encoded as graphs can both dramatically improve the precision with which we make simulated galaxies **and** improve our understanding of the galaxies we make!"
+}
+</script>
+
+  
+
+  
+
+  
+
+  
+
+
+
+
+
+  <title>Building better galaxies with Mangrove | Christian Kragh Jespersen</title>
+</head>
+
+
+<body id="top" data-spy="scroll" data-offset="70" data-target="#TableOfContents" class="page-wrapper  dark " data-wc-page-id="c5365bc256b8cd57be0498780b915825" >
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  <script src="/js/wowchemy-init.min.7139d4fb8f74c01b97e65e19c846e5cc.js"></script>
+
+  
+
+
+
+
+  <div class="page-header">
+    
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+<header class="header--fixed">
+  <nav class="navbar navbar-expand-lg navbar-light compensate-for-scrollbar" id="navbar-main">
+    <div class="container-xl">
+
+      
+      <div class="d-none d-lg-inline-flex">
+        <a class="navbar-brand" href="/"><img src="/media/logo_hu99cbd5be059c86a221a329805c1c065d_47879_0x70_resize_lanczos_3.png" alt="Christian Kragh Jespersen"
+            
+            ></a>
+      </div>
+      
+
+      
+      <button type="button" class="navbar-toggler" data-toggle="collapse"
+              data-target="#navbar-content" aria-controls="navbar-content" aria-expanded="false" aria-label="Toggle navigation">
+      <span><i class="fas fa-bars"></i></span>
+      </button>
+      
+
+      
+      <div class="navbar-brand-mobile-wrapper d-inline-flex d-lg-none">
+        <a class="navbar-brand" href="/"><img src="/media/logo_hu99cbd5be059c86a221a329805c1c065d_47879_0x70_resize_lanczos_3.png" alt="Christian Kragh Jespersen"
+          
+          ></a>
+      </div>
+      
+
+      
+      
+      <div class="navbar-collapse main-menu-item collapse justify-content-start" id="navbar-content">
+
+        
+        <ul class="navbar-nav d-md-inline-flex">
+          
+
+          
+
+          
+          
+          
+            
+          
+
+          
+
+          
+          
+          
+          
+
+          
+            
+              
+              
+            
+            
+              
+              
+              
+                
+              
+              
+            
+          
+
+          <li class="nav-item">
+            <a class="nav-link " href="/#about"><span>Home</span></a>
+          </li>
+
+          
+          
+
+          
+
+          
+          
+          
+            
+          
+
+          
+
+          
+          
+          
+          
+
+          
+            
+              
+              
+            
+            
+              
+              
+              
+                
+              
+              
+            
+          
+
+          <li class="nav-item">
+            <a class="nav-link " href="/#research"><span>Research</span></a>
+          </li>
+
+          
+          
+
+          
+
+          
+          
+          
+            
+          
+
+          
+
+          
+          
+          
+          
+
+          
+            
+              
+              
+            
+            
+              
+              
+              
+                
+              
+              
+            
+          
+
+          <li class="nav-item">
+            <a class="nav-link " href="/#talks"><span>Talks</span></a>
+          </li>
+
+          
+          
+
+          
+
+          
+          
+          
+            
+          
+
+          
+
+          
+          
+          
+          
+
+          
+            
+              
+              
+            
+            
+              
+              
+              
+                
+              
+              
+            
+          
+
+          <li class="nav-item">
+            <a class="nav-link " href="/#posts"><span>Blog posts</span></a>
+          </li>
+
+          
+          
+
+          
+
+          
+          
+          
+            
+          
+
+          
+
+          
+          
+          
+          
+
+          
+            
+              
+              
+            
+            
+              
+              
+              
+                
+              
+              
+            
+          
+
+          <li class="nav-item">
+            <a class="nav-link " href="/#publications"><span>Publications</span></a>
+          </li>
+
+          
+          
+
+          
+
+          
+          
+          
+            
+          
+
+          
+
+          
+          
+          
+          
+
+          
+            
+              
+              
+            
+            
+              
+              
+              
+                
+              
+              
+            
+          
+
+          <li class="nav-item">
+            <a class="nav-link " href="/#press"><span>Press and Public Talks</span></a>
+          </li>
+
+          
+          
+
+          
+
+          
+          
+          
+            
+          
+
+          
+
+          
+          
+          
+          
+
+          
+            
+              
+              
+            
+            
+              
+              
+              
+                
+              
+              
+            
+          
+
+          <li class="nav-item">
+            <a class="nav-link " href="/#contact"><span>Contact</span></a>
+          </li>
+
+          
+          
+
+          
+
+          
+          
+          
+            
+          
+
+          
+
+          
+          
+          
+          
+
+          
+            
+              
+              
+            
+            
+          
+
+          <li class="nav-item">
+            <a class="nav-link " href="/static/uploads/CV_example.pdf"><span>CV</span></a>
+          </li>
+
+          
+          
+
+        
+
+          
+        </ul>
+      </div>
+
+      <ul class="nav-icons navbar-nav flex-row ml-auto d-flex pl-md-2">
+
+        
+        
+          
+        
+
+        
+        
+
+        
+        
+        
+
+        
+        
+
+      </ul>
+
+    </div>
+  </nav>
+</header>
+
+
+  </div>
+
+  <div class="page-body">
+    
+    
+    
+
+    <article class="article">
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+  
+  
+  
+<div class="article-container pt-3">
+  <h1>Building better galaxies with Mangrove</h1>
+
+  
+
+  
+    
+
+
+<div class="article-metadata">
+
+  
+  
+
+  
+  <span class="article-date">
+    
+    
+      
+    
+    Sep 19, 2022
+  </span>
+  
+
+  
+
+  
+  <span class="middot-divider"></span>
+  <span class="article-reading-time">
+    8 min read
+  </span>
+  
+
+  
+  
+  
+  
+
+  
+  
+
+</div>
+
+    
+
+
+
+
+<div class="btn-links mb-3">
+  
+  
+
+
+
+
+
+
+
+
+  
+    
+  
+
+
+
+<a class="btn btn-outline-primary btn-page-header" href="https://ui.adsabs.harvard.edu/search/p_=0&amp;q=author%3A%22Jespersen%2C%20Christian%20K.%22&amp;sort=date%20desc%2C%20bibcode%20desc" target="_blank" rel="noopener">
+  PDF
+</a>
+
+
+
+
+  
+  
+    
+  
+<a class="btn btn-outline-primary btn-page-header" href="https://github.com/astrockragh/Mangrove" target="_blank" rel="noopener">
+  Code
+</a>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</div>
+
+
+  
+</div>
+
+
+
+  <div class="article-container">
+
+    <div class="article-style">
+      <p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<figure  >
+  <div class="d-flex justify-content-center">
+    <div class="w-100" ><img alt="Mangrove&amp;rsquo;s Logo" srcset="
+               /post/mangrove/featured_old_hu7a91daf6b1a6feed761a05f58cec4d84_279687_0ed301d449071dd9ae425fdc4e9d0a3f.webp 400w,
+               /post/mangrove/featured_old_hu7a91daf6b1a6feed761a05f58cec4d84_279687_1278bdb7b01b11e886e8712c7da4ae56.webp 760w,
+               /post/mangrove/featured_old_hu7a91daf6b1a6feed761a05f58cec4d84_279687_1200x1200_fit_q100_h2_lanczos_3.webp 1200w"
+               src="/post/mangrove/featured_old_hu7a91daf6b1a6feed761a05f58cec4d84_279687_0ed301d449071dd9ae425fdc4e9d0a3f.webp"
+               width="760"
+               height="480"
+               loading="lazy" data-zoomable /></div>
+  </div></figure>
+</p>
+<h2 id="motivation">Motivation</h2>
+<p>When scientists discover something, there are three main things that we tend to ask ourselves.</p>
+<ol>
+<li>What is the building blocks of that thing?</li>
+<li>What is keeping the building blocks together in that particular structure?</li>
+<li>How did the thing get assembled?</li>
+</ol>
+<p>One can think of it sort of like getting a new thing from IKEA. We discover a new object, say a galaxy, and it feels like we have discovered a new item in the IKEA catalogue that is our world.</p>
+<p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<figure  >
+  <div class="d-flex justify-content-center">
+    <div class="w-100" ><img alt="Boxes from IKEA" srcset="
+               /post/mangrove/ikea_boxes_hua16e68f23b3733410713f9c2fa435ae2_928645_128d4430dd2e499ed4064fbe0abb1cb5.webp 400w,
+               /post/mangrove/ikea_boxes_hua16e68f23b3733410713f9c2fa435ae2_928645_da2fa61c82a22b2929637bb1391a5e4b.webp 760w,
+               /post/mangrove/ikea_boxes_hua16e68f23b3733410713f9c2fa435ae2_928645_1200x1200_fit_q100_h2_lanczos_3.webp 1200w"
+               src="/post/mangrove/ikea_boxes_hua16e68f23b3733410713f9c2fa435ae2_928645_128d4430dd2e499ed4064fbe0abb1cb5.webp"
+               width="760"
+               height="623"
+               loading="lazy" data-zoomable /></div>
+  </div></figure>
+</p>
+<p>But now we want to investigate it a bit more. We want to answer our three questions, and for that we just need to open the box and find the assembly manual, within which we find:</p>
+<ol>
+<li>What parts is included for building our galaxy, i.e. the building blocks. For galaxies this would be some stars, some dark matter, some gas and so on.</li>
+<li>What tools are included to build our galaxy. For our galaxy we mainly just need one screwdriver, gravity.</li>
+<li>The instructions for how to use our tools to put together our parts.</li>
+</ol>
+<p>Question 1 is actually not as simple as it looks. When we go out and look at galaxies, we see that there seems to a building block that affects the galaxy a lot, but that we cannot see. This is what we call <strong>dark matter</strong>. While dark matter is weird, it is also quite simple. As far as we can tell, it only interacts with other things through gravity, but it is still fundamental to how galaxies end up being. This is because it collapses under its own gravity and makes gravitational wells where galaxies can form. These collapsed clumps are called halos.</p>
+<p>Question 3 is by far the most complicated when it comes to galaxies, because it is really hard to observe. Galaxies evolve over v e r y long timescales.
+Luckily, we have simulations we can investigate this with. There are a couple of key problems with the simulations though.</p>
+<ol>
+<li>They are computationally expensive.</li>
+<li>They are hard interpret/understand.</li>
+</ol>
+<p>Making a model that emulates a simulation can solve problem 1 and give a lot of new insights into problem 2. So that is what we have done by building <em>Mangrove</em>. Mangrove is a Machine Learning based emulator that takes into account all three core aspects of galaxy formations, building blocks, tools and assembly manual, to give us better galaxies faster.</p>
+<h2 id="technical-stuff">Technical stuff</h2>
+<p>First of all, we don&rsquo;t completely bypass the simulation step, since we still need to run a simulation, but only one with <em>nothing but dark matter</em>. Because dark matter is so simple, this can be done pretty quickly. Then, once we have that simulation, we can try to &ldquo;paint&rdquo; galaxies on top of the dark matter. This is by no means the first time this has been attempted, but earlier papers have only included features from the final time step of the simulation as their input to their model. This essentially means that these methods can learn answers to questions 1 and 2 (current building blocks/tools), but are agnostic about the assembly of the galaxies. Mangrove improves on this by using not just the final time step, but an encoding of the temporal evolution of the dark matter known as a <strong>merger tree</strong>.</p>
+<p>The merger tree is made by simply stopping the simulation at different time steps and identifying the halos where we know that galaxies live. We then see which halos merge with other halos from timestep to timestep, and build a tree-like structure encoding this evolution (see Fig. 1).</p>
+<!-- ![]() -->
+<figure>
+<img src="graphic1.png" alt="First graphic" style="width:100%">
+<figcaption align = "center"><b>Fig.1 - Running a simulation and identifying halos at different time steps allows us to build the merger tree, which can then easily be encoded as a graph. </b></figcaption>
+</figure>
+<p>We can then encode the merger tree as a mathematical <strong>graph</strong>, which in this context simply means a collection of nodes and edges, where each node represents a halo, and the edges determine how they have interacted with each other over time. When we have the graphs we can use a <a href="https://en.wikipedia.org/wiki/Graph_neural_network" target="_blank" rel="noopener">Graph Neural Network (GNN)</a>, to learn how the galaxies pertaining to those merger trees should be.</p>
+<p>In order to build an emulator, we also have to find something to emulate. In this post I discuss results from emulating the outputs from a Semi-Analytic Model<sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup> but it works just as well for other kinds of simulations, like magneto-hydrodynamical simulations like <a href="https://www.tng-project.org/" target="_blank" rel="noopener">IllustrisTNG</a>!</p>
+<p>Mangrove is a Graph Neural Network (GNN). GNNs work by acting on both nodes, and the <strong>neighbourhood</strong> of that node, meaning all the nodes that is connected to it by an edge.
+The way we learn from both nodes and neighbourhoods is through <em>Message Passing</em>. Message passing means that each node sends information about its current state along the edges of the graph, and is then updated by a learnable<sup id="fnref:2"><a href="#fn:2" class="footnote-ref" role="doc-noteref">2</a></sup> function <em>f</em>. This information passed along the edges is then used to update the state of the node through another learnable<sup id="fnref:2"><a href="#fn:2" class="footnote-ref" role="doc-noteref">2</a></sup> function <em>g</em>.</p>
+<figure>
+<img src="graphic2.png" alt="Second graphic" style="width:100%">
+</figure>
+<figure>
+<img src="graphic3.png" alt="Second graphic" style="width:100%">
+<figcaption align = "center"><b>Fig.2 - Messages are passed along edges, and the nodes are updated. The updated nodes are then summed over and decoded to give us the properties of the galaxy that resulted from that merger tree. </b></figcaption>
+</figure>
+<p>After doing a couple of these message passing steps, we then sum over all halos in the merger tree and use <strong>yet another learnable function</strong> <em>h</em>, that decodes this sum and predicts the aspects of galaxies that we are interested in, such as the total mass of the stars in the galaxy, the mass of the black hole at the center and the amount of cold gas, as well as the uncertainties on these quantities.</p>
+<p>We like having uncertainties on our predictions, since we recognize that there might be a little area around the true value that would also be reasonable to predict. Furthermore, it gives the model the possiblity of simply letting us know if it doesn&rsquo;t know what&rsquo;s going on, instead of making a foolhardy guess.</p>
+<h2 id="results">Results</h2>
+<p>How much better does Mangrove do compared to methods you ask?</p>
+<p>Well, let&rsquo;s compare how well assign stellar masses to halos work with different methods!</p>
+<p>The first comparison is with the traditional method for assigning galaxy properties based on their dark matter halos, Abundance Matching. Abundance Matching is quite simple, assuming only that there exists a monotonic relationship between halo and galaxy properties. That means that if we were to assign stellar masses to the halos, the most massive halo would get the highest stellar mass, the least massive the least stellar mass and so on. If we compare the abundance matched relationship to the one we predict, we see a dramatic difference.</p>
+<figure>
+<img src="precision_abundance_match.png" alt="precision graphic one" style="width:100%">
+<figcaption align = "center"><b>Fig.3 - We show the relationship between what we are supposed to be getting on the x-axis and what we actually predict using either method on the y-axis. A perfect prediction would mean that all point were on the diagonal, therefore the goal is to cluster as tightly around the diagonal as possible. The difference is quite apparent. </b></figcaption>
+</figure>
+<p>But, that is perhaps an unfair comparison. We use machine learning after all, and abundance matching uses nothing but a single number per halo.</p>
+<p>We should then maybe compare to other machine learning methods that use a lot of information <em>but</em> only from the final halo. That seems more fair.</p>
+<p>But as is apparent, Mangrove still outperforms this by about a factor of 2 when measured by how much the two methods deviate from perfect predictions.</p>
+<figure>
+<img src="precision_halo.png" alt="precision graphic two" style="width:100%">
+<figcaption align = "center"><b>Fig.4 - Same as Fig. 3, but comparing to the state of the art machine learning techniques. The difference is still striking. </b></figcaption>
+</figure>
+<p>Mangrove can also predict a lot of other things, like the amount of cold gas in a galaxy (M<sub>cold</sub>), how fast it is making stars right now (Star Formation Rate/SFR), how much metal there is in the gas (Z<sub>gas</sub>) and the mass of the black hole at its center (M<sub>BH</sub>).</p>
+<p>Mangrove does better than all of the above mentioned methods across the board.</p>
+<figure>
+<img src="precision_others.png" alt="precision graphic three" style="width:100%">
+<figcaption align = "center"><b>Fig.5 - Same as Fig. 4/5, but here we show how other galaxy properties, all improvements over the current state of the art. </b></figcaption>
+</figure>
+<h3 id="other-fun-things">Other fun things</h3>
+<p>Now that we have a well-working model, we can then try to figure out where the improvement comes from. Is it in the first few timesteps, the initial conditions? Can we make galaxies at different spots in time?</p>
+<p>The answer to the last question turns out to be yes. If we take a single Mangrove model and train it at several different times (we encode this as a <a href="https://en.wikipedia.org/wiki/Redshift" target="_blank" rel="noopener">redshift</a>, usually written as a <strong>z</strong>), we see that it both does well at the new times, but also in between!</p>
+<figure>
+<img src="interpolation.png" alt="interpolation" style="width:100%">
+<figcaption align = "center"><b>Fig.6 - Mangrove can do galaxies across time, and interpolate to timesteps it has never seen before! </b></figcaption>
+</figure>
+<p>In terms of removing things from the model, we tried to simply cut down the merger tree from above, leaving out the very earliest halos. We found that the closer you get to the present day, the more each halo matters. The effect is so strong that removing the first half of the merger tree doesn&rsquo;t matter much, but removing the final 1% is measurable!</p>
+<figure>
+<img src="trimming.png" alt="interpolation" style="width:100%">
+<figcaption align = "center"><b>Fig.7 - By removing parts of the merger tree, we see that most of the information comes from times closer to the present day. </b></figcaption>
+</figure>
+<h1 id="conclusion">Conclusion</h1>
+<p>If there is one thing that one should remember from this paper, it is that the long-standing &rsquo;nature versus nurture&rsquo; debate is not just for humans. It also matters for galaxies, and with our code, Mangrove, we can take both aspects into account, and make big improvements!</p>
+<p><strong>It matters <em>how</em> we build our galaxies!</strong></p>
+<h2 id="code">Code</h2>
+<p>Anyone who wishes to do anything similar to this project is encouraged <a href="https://ui.adsabs.harvard.edu/search/p_=0&amp;q=author%3A%22Jespersen%2C%20Christian%20K.%22&amp;sort=date%20desc%2C%20bibcode%20desc" target="_blank" rel="noopener">read the paper</a> and check out the <a href="https://github.com/astrockragh/Mangrove" target="_blank" rel="noopener">Github</a>. All the code used for the projects is free to use, although I do not guarantee that it will be easy to find your way around in it!</p>
+<section class="footnotes" role="doc-endnotes">
+<hr>
+<ol>
+<li id="fn:1" role="doc-endnote">
+<p>Semi Analytic Models are a kind of simulation that is run after running a simulation of only the dark matter in the universe. A good early reference is <a href="https://arxiv.org/pdf/astro-ph/9802268.pdf" target="_blank" rel="noopener">https://arxiv.org/pdf/astro-ph/9802268.pdf</a>&#160;<a href="#fnref:1" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:2" role="doc-endnote">
+<p>Any time I mention a &ldquo;learnable function&rdquo;, think about it as a very basic neural network, what we call a Multi-Layer Perceptron (MLP). An illustration of an MLP can be found at <a href="https://en.wikipedia.org/wiki/Neural_network#/media/File:Neural_network_example.svg" target="_blank" rel="noopener">https://en.wikipedia.org/wiki/Neural_network#/media/File:Neural_network_example.svg</a>&#160;<a href="#fnref:2" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+</ol>
+</section>
+
+    </div>
+
+    
+
+
+
+
+<div class="article-tags">
+  
+  <a class="badge badge-light" href="/tag/machine-learning/">Machine Learning</a>
+  
+  <a class="badge badge-light" href="/tag/galaxies/">Galaxies</a>
+  
+  <a class="badge badge-light" href="/tag/cosmology/">Cosmology</a>
+  
+</div>
+
+
+
+<div class="share-box">
+  <ul class="share">
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="https://twitter.com/intent/tweet?url=https://astrockragh.github.io/post/mangrove/&amp;text=Building%20better%20galaxies%20with%20Mangrove" target="_blank" rel="noopener" class="share-btn-twitter" aria-label="twitter">
+          <i class="fab fa-twitter"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="https://www.facebook.com/sharer.php?u=https://astrockragh.github.io/post/mangrove/&amp;t=Building%20better%20galaxies%20with%20Mangrove" target="_blank" rel="noopener" class="share-btn-facebook" aria-label="facebook">
+          <i class="fab fa-facebook"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="mailto:?subject=Building%20better%20galaxies%20with%20Mangrove&amp;body=https://astrockragh.github.io/post/mangrove/" target="_blank" rel="noopener" class="share-btn-email" aria-label="envelope">
+          <i class="fas fa-envelope"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="https://www.linkedin.com/shareArticle?url=https://astrockragh.github.io/post/mangrove/&amp;title=Building%20better%20galaxies%20with%20Mangrove" target="_blank" rel="noopener" class="share-btn-linkedin" aria-label="linkedin-in">
+          <i class="fab fa-linkedin-in"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="whatsapp://send?text=Building%20better%20galaxies%20with%20Mangrove%20https://astrockragh.github.io/post/mangrove/" target="_blank" rel="noopener" class="share-btn-whatsapp" aria-label="whatsapp">
+          <i class="fab fa-whatsapp"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="https://service.weibo.com/share/share.php?url=https://astrockragh.github.io/post/mangrove/&amp;title=Building%20better%20galaxies%20with%20Mangrove" target="_blank" rel="noopener" class="share-btn-weibo" aria-label="weibo">
+          <i class="fab fa-weibo"></i>
+        </a>
+      </li>
+    
+  </ul>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+
+
+
+  
+  
+  
+    
+  
+  
+  
+  <div class="media author-card content-widget-hr">
+    
+      
+      <a href="https://astrockragh.github.io"><img class="avatar mr-3 avatar-circle" src="/authors/admin/avatar_hudb95a7a789097a064a8a70b64bc03c45_1346388_270x270_fill_q100_lanczos_center.jpg" alt="Christian Kragh Jespersen"></a>
+    
+
+    <div class="media-body">
+      <h5 class="card-title"><a href="https://astrockragh.github.io">Christian Kragh Jespersen</a></h5>
+      <h6 class="card-subtitle">PhD Student in Astrophysical Sciences</h6>
+      <p class="card-text">My research interests are at the intersection between Machine Learning, galaxy formation and evolution and cosmology</p>
+      <ul class="network-icon" aria-hidden="true">
+  
+    
+    
+    
+      
+    
+    
+    
+    
+    
+    <li>
+      <a href="mailto:ckragh@princeton.edu" >
+        <i class="fas fa-envelope"></i>
+      </a>
+    </li>
+  
+    
+    
+    
+    
+    
+    
+    
+      
+    
+    <li>
+      <a href="https://scholar.google.com/citations?view_op=list_works&amp;hl=en&amp;user=0FjNowwAAAAJ" target="_blank" rel="noopener">
+        <i class="ai ai-google-scholar"></i>
+      </a>
+    </li>
+  
+    
+    
+    
+    
+    
+    
+    
+      
+    
+    <li>
+      <a href="https://ui.adsabs.harvard.edu/search/q=author%3A%22Jespersen%2C%20Christian%20K.%22&amp;sort=date%20desc%2C%20bibcode%20desc&amp;p_=0" target="_blank" rel="noopener">
+        <i class="ai ai-ads"></i>
+      </a>
+    </li>
+  
+    
+    
+    
+    
+    
+    
+    
+      
+    
+    <li>
+      <a href="https://orcid.org/0000-0002-8896-6496" target="_blank" rel="noopener">
+        <i class="ai ai-orcid"></i>
+      </a>
+    </li>
+  
+    
+    
+    
+      
+    
+    
+    
+    
+    
+      
+    
+    <li>
+      <a href="https://github.com/astrockragh" target="_blank" rel="noopener">
+        <i class="fab fa-github"></i>
+      </a>
+    </li>
+  
+    
+    
+    
+      
+    
+    
+    
+    
+    
+      
+    
+    <li>
+      <a href="https://twitter.com/AstroCKragh" target="_blank" rel="noopener">
+        <i class="fab fa-twitter"></i>
+      </a>
+    </li>
+  
+    
+    
+    
+      
+    
+    
+    
+    
+    
+      
+    
+    <li>
+      <a href="https://www.linkedin.com/in/christian-kragh-j-24556a12a/" target="_blank" rel="noopener">
+        <i class="fab fa-linkedin"></i>
+      </a>
+    </li>
+  
+</ul>
+
+    </div>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  </div>
+</article>
+  </div>
+
+  <div class="page-footer">
+    
+    
+    <div class="container">
+      <footer class="site-footer">
+
+  
+
+
+
+  
+
+  
+
+  
+
+  
+  
+
+
+
+
+
+
+  
+
+
+
+
+  <p class="powered-by">
+    
+    
+    
+      
+      
+      
+      
+      
+      
+      Published with <a href="https://wowchemy.com/?utm_campaign=poweredby" target="_blank" rel="noopener">Wowchemy</a> — the free, <a href="https://github.com/wowchemy/wowchemy-hugo-themes" target="_blank" rel="noopener">open source</a> website builder that empowers creators.
+    
+  </p>
+</footer>
+
+    </div>
+    
+  </div>
+
+      
+
+    
+    <script src="/js/vendor-bundle.min.92d2024afaa4dce0cad42ba360879ce9.js"></script>
+
+    
+    
+    
+      
+
+      
+      
+
+      
+
+      
+
+    
+
+    
+    
+    
+
+    
+    
+
+    
+    
+    
+
+    
+    
+
+    
+    
+    
+    
+
+    
+    
+
+    
+
+    
+    
+    
+    <script id="page-data" type="application/json">{"use_headroom":true}</script>
+
+    
+    
+      <script src="/js/wowchemy-headroom.e8fd2d733eef6a8bbbe0539398fc0547.js" type="module"></script>
+    
+    
+    
+    
+    
+    
+    
+    
+    <script src="/en/js/wowchemy.min.b3b95b2ec614292e1913846b81375a58.js"></script>
+
+    
+    
+    
+    
+    
+    
+      
+<div id="modal" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">Cite</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <pre><code class="tex hljs"></code></pre>
+      </div>
+      <div class="modal-footer">
+        <a class="btn btn-outline-primary my-1 js-copy-cite" href="#" target="_blank">
+          <i class="fas fa-copy"></i> Copy
+        </a>
+        <a class="btn btn-outline-primary my-1 js-download-cite" href="#" target="_blank">
+          <i class="fas fa-download"></i> Download
+        </a>
+        <div id="modal-error"></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+      <script src="/js/wowchemy-publication.68f8d7090562ca65fc6d3cb3f8f2d2cb.js" type="module"></script>
+
+
+
+
+
+
+</body>
+</html>
