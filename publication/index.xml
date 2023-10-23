@@ -5,52 +5,12 @@
     <link>https://astrockragh.github.io/publication/</link>
       <atom:link href="https://astrockragh.github.io/publication/index.xml" rel="self" type="application/rss+xml" />
     <description>Publications</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© Christian Kragh Jespersen 2022</copyright><lastBuildDate>Tue, 01 Feb 2022 00:00:00 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© Christian Kragh Jespersen 2022</copyright>
     <image>
       <url>https://astrockragh.github.io/media/logo_hu99cbd5be059c86a221a329805c1c065d_47879_300x300_fit_lanczos_3.png</url>
       <title>Publications</title>
       <link>https://astrockragh.github.io/publication/</link>
     </image>
-    
-    <item>
-      <title>The interstellar medium in the environment of the supernova-less long-duration GRB 111005A</title>
-      <link>https://astrockragh.github.io/publication/lesniewska-jespersen-etal-2022/</link>
-      <pubDate>Tue, 01 Feb 2022 00:00:00 +0000</pubDate>
-      <guid>https://astrockragh.github.io/publication/lesniewska-jespersen-etal-2022/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>COSMOS2020: A Panchromatic View of the Universe to z $∼$ 10 from Two Complementary Catalogs</title>
-      <link>https://astrockragh.github.io/publication/weaver-kauffmann-ilbert-mc-cracken-moneti-toft-brammer-shuntov-davidzon-hsieh-etal-2022/</link>
-      <pubDate>Sat, 01 Jan 2022 00:00:00 +0000</pubDate>
-      <guid>https://astrockragh.github.io/publication/weaver-kauffmann-ilbert-mc-cracken-moneti-toft-brammer-shuntov-davidzon-hsieh-etal-2022/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Finding High-redshift Galaxies with JWST</title>
-      <link>https://astrockragh.github.io/publication/steinhardt-jespersen-linzer-2021/</link>
-      <pubDate>Wed, 01 Dec 2021 00:00:00 +0000</pubDate>
-      <guid>https://astrockragh.github.io/publication/steinhardt-jespersen-linzer-2021/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>An Unambiguous Separation of Gamma-Ray Bursts into Two Classes from Prompt Emission Alone</title>
-      <link>https://astrockragh.github.io/publication/jespersen-severin-steinhardt-vinther-fynbo-selsing-watson-2020/</link>
-      <pubDate>Mon, 01 Jun 2020 00:00:00 +0000</pubDate>
-      <guid>https://astrockragh.github.io/publication/jespersen-severin-steinhardt-vinther-fynbo-selsing-watson-2020/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Investigating Radius Increases in Hot Exoplanets</title>
-      <link>https://astrockragh.github.io/publication/jespersen-stevenson-2020/</link>
-      <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
-      <guid>https://astrockragh.github.io/publication/jespersen-stevenson-2020/</guid>
-      <description></description>
-    </item>
     
   </channel>
 </rss>
