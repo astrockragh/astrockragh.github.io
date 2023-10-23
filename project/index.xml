@@ -5,12 +5,21 @@
     <link>https://astrockragh.github.io/project/</link>
       <atom:link href="https://astrockragh.github.io/project/index.xml" rel="self" type="application/rss+xml" />
     <description>Projects</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© Christian Kragh Jespersen 2022</copyright><lastBuildDate>Mon, 19 Sep 2022 00:00:00 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© Christian Kragh Jespersen 2022</copyright><lastBuildDate>Mon, 23 Oct 2023 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://astrockragh.github.io/media/logo_hu99cbd5be059c86a221a329805c1c065d_47879_300x300_fit_lanczos_3.png</url>
       <title>Projects</title>
       <link>https://astrockragh.github.io/project/</link>
     </image>
+    
+    <item>
+      <title>The highest redshift galaxy we will find with JWST</title>
+      <link>https://astrockragh.github.io/project/high_z_jwst/</link>
+      <pubDate>Mon, 23 Oct 2023 00:00:00 +0000</pubDate>
+      <guid>https://astrockragh.github.io/project/high_z_jwst/</guid>
+      <description>&lt;p&gt;One of the primary goals for the upcoming James Webb Space Telescope is to observe the first galaxies. Predictions for planned and proposed surveys have typically focused on average galaxy counts, assuming a random distribution of galaxies across the observed field. The first and most-massive galaxies, however, are expected to be tightly clustered, which can be quantified through an effect known as &lt;strong&gt;cosmic variance&lt;/strong&gt;. We show that cosmic variance is likely to be the dominant contribution to uncertainty for high-redshift mass and luminosity functions, and that median high-redshift and high-mass galaxy counts for planned observations lie significantly below average counts. Several different strategies are considered for improving our understanding of the first galaxies, including adding depth, area, and independent pointings. Adding independent pointings is shown to be the most efficient both for discovering the single highest-redshift galaxy and also for constraining mass and luminosity functions.&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>Learning Galaxy Properties from Merger Trees with Mangrove</title>
