@@ -5,12 +5,138 @@
     <link>https://astrockragh.github.io/project/</link>
       <atom:link href="https://astrockragh.github.io/project/index.xml" rel="self" type="application/rss+xml" />
     <description>Projects</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© Christian Kragh Jespersen 2022</copyright><lastBuildDate>Mon, 23 Oct 2023 00:00:00 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© Christian Kragh Jespersen 2024</copyright><lastBuildDate>Tue, 01 Oct 2024 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://astrockragh.github.io/media/logo_hu99cbd5be059c86a221a329805c1c065d_47879_300x300_fit_lanczos_3.png</url>
       <title>Projects</title>
       <link>https://astrockragh.github.io/project/</link>
     </image>
+    
+    <item>
+      <title>The most massive galaxy we will find with JWST at high redshift</title>
+      <link>https://astrockragh.github.io/project/most_massive_jwst-/</link>
+      <pubDate>Tue, 01 Oct 2024 00:00:00 +0000</pubDate>
+      <guid>https://astrockragh.github.io/project/most_massive_jwst-/</guid>
+      <description>&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;Clustering, or cosmic variance, greatly impacts the observed distribution of massive galaxies at high redshift!&#34; srcset=&#34;
+               /project/most_massive_jwst/demo_hu9e98fe34cccdd82f5fa4dbcef6e68fba_1432983_f9951a38b1833ee2e30f6bb8dd1eecb4.webp 400w,
+               /project/most_massive_jwst/demo_hu9e98fe34cccdd82f5fa4dbcef6e68fba_1432983_7e2b67f3f8fefe283e458c3d93e37c27.webp 760w,
+               /project/most_massive_jwst/demo_hu9e98fe34cccdd82f5fa4dbcef6e68fba_1432983_1200x1200_fit_q100_h2_lanczos_3.webp 1200w&#34;
+               src=&#34;https://astrockragh.github.io/project/most_massive_jwst/demo_hu9e98fe34cccdd82f5fa4dbcef6e68fba_1432983_f9951a38b1833ee2e30f6bb8dd1eecb4.webp&#34;
+               width=&#34;760&#34;
+               height=&#34;592&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;p&gt;Building on &lt;a href=&#34;https://ui.adsabs.harvard.edu/abs/2021ApJ...923....8S/abstract&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;previous work&lt;/a&gt; where we investigated the impact of cosmic variance on the probability of finding a single, ultra-high redshift galaxy, we now turn to the question of the mass of the most massive object in a given observed field. This was motivated by the &lt;a href=&#34;https://ui.adsabs.harvard.edu/abs/2023ApJ...946L..13F/abstract&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;surprising abundance of massive objects observed with JWST&lt;/a&gt;, which challenged all galaxy formation models and even had some people questioning our cosmological model. However, the first analyses of this potential tension was done without much regard for potential subleties, something we attempted to mitigate in this paper. A major issue with many studies is that they often overlook an important factor: &lt;strong&gt;cosmic variance&lt;/strong&gt;. This refers to the uneven clustering of galaxies across different parts of the sky (see the above figure), which causes the number of galaxies observed in a given area to vary more than you’d expect from simple Poisson statistics. In essence, certain regions may systematically have more or fewer galaxies just because of where you&amp;rsquo;re looking, and this systematic is a &lt;strong&gt;big&lt;/strong&gt; effect in the very early universe.&lt;/p&gt;
+&lt;p&gt;Cosmic variance becomes even more pronounced when you look at galaxies that are very massive, at high redshifts, or when observing small areas of the sky — just like in the deep surveys conducted by JWST. These narrow and deep surveys targeting the earliest, most massive galaxies, are especially vulnerable to the effects of cosmic variance.&lt;/p&gt;
+&lt;p&gt;In this paper, we developed a model to predict the distribution of mass of the most massive galaxies in given JWST surveys, taking the cosmic variance into account. The model shows that previous methods, which relied on &lt;a href=&#34;https://arxiv.org/abs/2208.10479&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;idealized Extreme Value Statistics&lt;/a&gt;, don’t fully capture the actual distribution. Instead, the new predictions reveal some surprising differences, both in the position and shape of the distribution of the largest galaxies, as can be see. The results were a little counterintuitive at first, but upon further reflection, they offer a more accurate picture of what we should expect to (and do) find in these surveys! This is shown in the below figure, where the yellow contours (including cosmic variance) can clearly be seen to greatly diverge from the green contours (no cosmic variance), at high redshift.&lt;/p&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;The introduction of cosmic variance greatly impact the probability of finding a single massive galaxy, which makes the results much more realistic.&#34; srcset=&#34;
+               /project/most_massive_jwst/um_comparison_hucb2ce46c9fcd92de04b91bd04f14d71e_288393_e18e940bc8265bc1673493d1f0498c21.webp 400w,
+               /project/most_massive_jwst/um_comparison_hucb2ce46c9fcd92de04b91bd04f14d71e_288393_20ab7d5fc346626f105630db5a278cd0.webp 760w,
+               /project/most_massive_jwst/um_comparison_hucb2ce46c9fcd92de04b91bd04f14d71e_288393_1200x1200_fit_q100_h2_lanczos_3.webp 1200w&#34;
+               src=&#34;https://astrockragh.github.io/project/most_massive_jwst/um_comparison_hucb2ce46c9fcd92de04b91bd04f14d71e_288393_e18e940bc8265bc1673493d1f0498c21.webp&#34;
+               width=&#34;760&#34;
+               height=&#34;275&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;p&gt;To test the models validity, we used simulations from &lt;a href=&#34;https://arxiv.org/abs/1806.07893&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;UniverseMachine&lt;/a&gt; (see the red contours in the figure above), an empirically calibrated tool designed to simulate galaxy formation in the universe. Sure enough, the predicted effects of cosmic variance stood out clearly, showing that it has a major impact on the most massive galaxies we may observe, in exactly the way our simple model predicted!&lt;/p&gt;
+&lt;p&gt;Another key finding was that cosmic variance estimators are affected by a &amp;ldquo;variance on the variance&amp;rdquo; in a way that has so far been neglected. The uncertainty in the cosmic variance itself is highly non-Gaussian in the limit where the cosmic variance itself is high, and we both prove it and empirically measure the effect. The proof can be checked out in the paper, but the result is shown in the below figure!&lt;/p&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;The errors on cosmic variance are greater than one would think&#34; srcset=&#34;
+               /project/most_massive_jwst/demo_sigma_cv_huac8ebcf2b5218e09eb4c8a6de2244082_224715_ffc10ced36aa8971d71943eb4159df22.webp 400w,
+               /project/most_massive_jwst/demo_sigma_cv_huac8ebcf2b5218e09eb4c8a6de2244082_224715_b8ec5d63d2f5c1f2281584cb483c4960.webp 760w,
+               /project/most_massive_jwst/demo_sigma_cv_huac8ebcf2b5218e09eb4c8a6de2244082_224715_1200x1200_fit_q100_h2_lanczos_3.webp 1200w&#34;
+               src=&#34;https://astrockragh.github.io/project/most_massive_jwst/demo_sigma_cv_huac8ebcf2b5218e09eb4c8a6de2244082_224715_ffc10ced36aa8971d71943eb4159df22.webp&#34;
+               width=&#34;760&#34;
+               height=&#34;569&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;p&gt;Ultimately, the study underscores the importance of properly considering cosmic variance when interpreting the results of galaxy surveys, especially when trying to reconcile the existence of extreme galaxies in the early universe with existing galaxy formation models. Without doing so, we may be misinterpreting the true nature of the early universe. The effects for a few sample cases can be seen below.&lt;/p&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;results&#34; srcset=&#34;
+               /project/most_massive_jwst/first_hu5e0e863fe3d9840b6ef3d5873d5e6071_611032_ef0ab455712b5f2a7120248129db2e59.webp 400w,
+               /project/most_massive_jwst/first_hu5e0e863fe3d9840b6ef3d5873d5e6071_611032_791b00077e1e554dddc3f1be9bbe2dce.webp 760w,
+               /project/most_massive_jwst/first_hu5e0e863fe3d9840b6ef3d5873d5e6071_611032_1200x1200_fit_q100_h2_lanczos_3.webp 1200w&#34;
+               src=&#34;https://astrockragh.github.io/project/most_massive_jwst/first_hu5e0e863fe3d9840b6ef3d5873d5e6071_611032_ef0ab455712b5f2a7120248129db2e59.webp&#34;
+               width=&#34;535&#34;
+               height=&#34;760&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>The highest redshift galaxy we will find with JWST</title>
