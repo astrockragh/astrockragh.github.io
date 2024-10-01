@@ -64,10 +64,10 @@
   
     
   
-  <meta name="description" content="We show that cosmic variance must be accounted for in analyses of extremely massive galaxies in high-z JWST surveys, and provide tools and considerations for doing so." />
+  <meta name="description" content="We use Graph Neural Networks to determine how galaxies relate to their environments, and determine a special neighbourhood length scale which shape galaxies the most." />
 
   
-  <link rel="alternate" hreflang="en-us" href="https://astrockragh.github.io/project/most_massive_jwst-/" />
+  <link rel="alternate" hreflang="en-us" href="https://astrockragh.github.io/project/gnn_environment/" />
 
   
   
@@ -270,7 +270,7 @@
   <link rel="icon" type="image/png" href="/media/icon_hu99cbd5be059c86a221a329805c1c065d_47879_32x32_fill_lanczos_center_3.png" />
   <link rel="apple-touch-icon" type="image/png" href="/media/icon_hu99cbd5be059c86a221a329805c1c065d_47879_180x180_fill_lanczos_center_3.png" />
 
-  <link rel="canonical" href="https://astrockragh.github.io/project/most_massive_jwst-/" />
+  <link rel="canonical" href="https://astrockragh.github.io/project/gnn_environment/" />
 
   
   
@@ -292,18 +292,18 @@
   <meta property="twitter:card" content="summary_large_image" />
   
   <meta property="og:site_name" content="Christian Kragh Jespersen" />
-  <meta property="og:url" content="https://astrockragh.github.io/project/most_massive_jwst-/" />
-  <meta property="og:title" content="The most massive galaxy we will find with JWST at high redshift | Christian Kragh Jespersen" />
-  <meta property="og:description" content="We show that cosmic variance must be accounted for in analyses of extremely massive galaxies in high-z JWST surveys, and provide tools and considerations for doing so." /><meta property="og:image" content="https://astrockragh.github.io/project/most_massive_jwst/featured.png" />
-    <meta property="twitter:image" content="https://astrockragh.github.io/project/most_massive_jwst/featured.png" /><meta property="og:locale" content="en-us" />
+  <meta property="og:url" content="https://astrockragh.github.io/project/gnn_environment/" />
+  <meta property="og:title" content="The galaxy-environment connection revealed by Graph Neural Networks | Christian Kragh Jespersen" />
+  <meta property="og:description" content="We use Graph Neural Networks to determine how galaxies relate to their environments, and determine a special neighbourhood length scale which shape galaxies the most." /><meta property="og:image" content="https://astrockragh.github.io/project/gnn_environment/featured.png" />
+    <meta property="twitter:image" content="https://astrockragh.github.io/project/gnn_environment/featured.png" /><meta property="og:locale" content="en-us" />
   
     
       <meta
         property="article:published_time"
-        content="2024-10-01T00:00:00&#43;00:00"
+        content="2024-08-02T00:00:00&#43;00:00"
       />
     
-    <meta property="article:modified_time" content="2024-10-01T00:00:00&#43;00:00">
+    <meta property="article:modified_time" content="2024-08-02T00:00:00&#43;00:00">
   
 
   
@@ -325,16 +325,16 @@
   "@type": "Article",
   "mainEntityOfPage": {
     "@type": "WebPage",
-    "@id": "https://astrockragh.github.io/project/most_massive_jwst-/"
+    "@id": "https://astrockragh.github.io/project/gnn_environment/"
   },
-  "headline": "The most massive galaxy we will find with JWST at high redshift",
+  "headline": "The galaxy-environment connection revealed by Graph Neural Networks",
   
   "image": [
-    "https://astrockragh.github.io/project/most_massive_jwst/featured.png"
+    "https://astrockragh.github.io/project/gnn_environment/featured.png"
   ],
   
-  "datePublished": "2024-10-01T00:00:00Z",
-  "dateModified": "2024-10-01T00:00:00Z",
+  "datePublished": "2024-08-02T00:00:00Z",
+  "dateModified": "2024-08-02T00:00:00Z",
   
   "author": {
     "@type": "Person",
@@ -349,7 +349,7 @@
       "url": "https://astrockragh.github.io/media/logo_hu99cbd5be059c86a221a329805c1c065d_47879_192x192_fit_lanczos_3.png"
     }
   },
-  "description": "We show that cosmic variance must be accounted for in analyses of extremely massive galaxies in high-z JWST surveys, and provide tools and considerations for doing so."
+  "description": "We use Graph Neural Networks to determine how galaxies relate to their environments, and determine a special neighbourhood length scale which shape galaxies the most."
 }
 </script>
 
@@ -365,11 +365,11 @@
 
 
 
-  <title>The most massive galaxy we will find with JWST at high redshift | Christian Kragh Jespersen</title>
+  <title>The galaxy-environment connection revealed by Graph Neural Networks | Christian Kragh Jespersen</title>
 </head>
 
 
-<body id="top" data-spy="scroll" data-offset="70" data-target="#TableOfContents" class="page-wrapper  dark " data-wc-page-id="0c3189eb6cadb7981eb853bf2568315c" >
+<body id="top" data-spy="scroll" data-offset="70" data-target="#TableOfContents" class="page-wrapper  dark " data-wc-page-id="fcb98f7cc9194bf597eb2a44c1df973f" >
 
   
   
@@ -779,18 +779,25 @@
 
 
 
-  
+
+
+
+
+
+
+
+
 
   
   
-  
+
+
 <div class="article-container pt-3">
-  <h1>The most massive galaxy we will find with JWST at high redshift</h1>
+  <h1>The galaxy-environment connection revealed by Graph Neural Networks</h1>
 
   
 
   
-    
 
 
 <div class="article-metadata">
@@ -804,7 +811,7 @@
     
       
     
-    Oct 1, 2024
+    Aug 2, 2024
   </span>
   
 
@@ -822,7 +829,7 @@
 
 </div>
 
-    
+  
 
 
 
@@ -844,7 +851,7 @@
 
 
 
-<a class="btn btn-outline-primary btn-page-header" href="https://arxiv.org/pdf/2403.00050" target="_blank" rel="noopener">
+<a class="btn btn-outline-primary btn-page-header" href="https://arxiv.org/pdf/2402.07995" target="_blank" rel="noopener">
   PDF
 </a>
 
@@ -874,8 +881,8 @@
   
     
   
-  <a class="btn btn-outline-primary btn-page-header" href="https://ui.adsabs.harvard.edu/abs/arXiv:2403.00050" target="_blank" rel="noopener">
-    <i class="fas fa-book mr-1"></i>NASA/ADS</a>
+  <a class="btn btn-outline-primary btn-page-header" href="https://ui.adsabs.harvard.edu/abs/arXiv:2024arXiv240207995W" target="_blank" rel="noopener">
+    <i class="fas fa-book mr-1"></i>NASA/ADS Paper 1</a>
 
   
   
@@ -888,14 +895,49 @@
   
     
   
-  <a class="btn btn-outline-primary btn-page-header" href="https://ui.adsabs.harvard.edu/abs/2024arXiv240300050K/exportcitation" target="_blank" rel="noopener">
-    <i class="fas fa-quote-left mr-1"></i>Cite</a>
+  <a class="btn btn-outline-primary btn-page-header" href="https://ui.adsabs.harvard.edu/abs/2023arXiv230612327W" target="_blank" rel="noopener">
+    <i class="fas fa-book mr-1"></i>NASA/ADS Paper 2</a>
+
+  
+  
+  
+    
+  
+  
+  
+  
+  
+    
+  
+  <a class="btn btn-outline-primary btn-page-header" href="https://ui.adsabs.harvard.edu/abs/2024arXiv240207995W/exportcitation" target="_blank" rel="noopener">
+    <i class="fas fa-quote-left mr-1"></i>Cite Paper 1</a>
+
+  
+  
+  
+    
+  
+  
+  
+  
+  
+    
+  
+  <a class="btn btn-outline-primary btn-page-header" href="https://ui.adsabs.harvard.edu/abs/2023arXiv230612327W/exportcitation" target="_blank" rel="noopener">
+    <i class="fas fa-quote-left mr-1"></i>Cite Paper 2</a>
 
 
 </div>
 
 
-  
+</div>
+
+
+<div class="article-header article-container featured-image-wrapper mt-4 mb-4" style="max-width: 720px; max-height: 695px;">
+  <div style="position: relative">
+    <img src="/project/gnn_environment/featured_hu3307b726ccb6a2caf58757ce1aa536fc_1130439_720x2500_fit_q100_h2_lanczos_3.webp" width="720" height="695" alt="" class="featured-image">
+    <span class="article-header-caption">A graph made out of the cosmic web, using a linking length of 3 Mpc</span>
+  </div>
 </div>
 
 
@@ -903,37 +945,9 @@
   <div class="article-container">
 
     <div class="article-style">
-      <p>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<figure  >
-  <div class="d-flex justify-content-center">
-    <div class="w-100" ><img alt="Clustering, or cosmic variance, greatly impacts the observed distribution of massive galaxies at high redshift!" srcset="
-               /project/most_massive_jwst/demo_hu9e98fe34cccdd82f5fa4dbcef6e68fba_1432983_f9951a38b1833ee2e30f6bb8dd1eecb4.webp 400w,
-               /project/most_massive_jwst/demo_hu9e98fe34cccdd82f5fa4dbcef6e68fba_1432983_7e2b67f3f8fefe283e458c3d93e37c27.webp 760w,
-               /project/most_massive_jwst/demo_hu9e98fe34cccdd82f5fa4dbcef6e68fba_1432983_1200x1200_fit_q100_h2_lanczos_3.webp 1200w"
-               src="/project/most_massive_jwst/demo_hu9e98fe34cccdd82f5fa4dbcef6e68fba_1432983_f9951a38b1833ee2e30f6bb8dd1eecb4.webp"
-               width="760"
-               height="592"
-               loading="lazy" data-zoomable /></div>
-  </div></figure>
-</p>
-<p>Building on <a href="https://ui.adsabs.harvard.edu/abs/2021ApJ...923....8S/abstract" target="_blank" rel="noopener">previous work</a> where we investigated the impact of cosmic variance on the probability of finding a single, ultra-high redshift galaxy, we now turn to the question of the mass of the most massive object in a given observed field. This was motivated by the <a href="https://ui.adsabs.harvard.edu/abs/2023ApJ...946L..13F/abstract" target="_blank" rel="noopener">surprising abundance of massive objects observed with JWST</a>, which challenged all galaxy formation models and even had some people questioning our cosmological model. However, the first analyses of this potential tension was done without much regard for potential subleties, something we attempted to mitigate in this paper. A major issue with many studies is that they often overlook an important factor: <strong>cosmic variance</strong>. This refers to the uneven clustering of galaxies across different parts of the sky (see the above figure), which causes the number of galaxies observed in a given area to vary more than you’d expect from simple Poisson statistics. In essence, certain regions may systematically have more or fewer galaxies just because of where you&rsquo;re looking, and this systematic is a <strong>big</strong> effect in the very early universe.</p>
-<p>Cosmic variance becomes even more pronounced when you look at galaxies that are very massive, at high redshifts, or when observing small areas of the sky — just like in the deep surveys conducted by JWST. These narrow and deep surveys targeting the earliest, most massive galaxies, are especially vulnerable to the effects of cosmic variance.</p>
-<p>In this paper, we developed a model to predict the distribution of mass of the most massive galaxies in given JWST surveys, taking the cosmic variance into account. The model shows that previous methods, which relied on <a href="https://arxiv.org/abs/2208.10479" target="_blank" rel="noopener">idealized Extreme Value Statistics</a>, don’t fully capture the actual distribution. Instead, the new predictions reveal some surprising differences, both in the position and shape of the distribution of the largest galaxies, as can be see. The results were a little counterintuitive at first, but upon further reflection, they offer a more accurate picture of what we should expect to (and do) find in these surveys! This is shown in the below figure, where the yellow contours (including cosmic variance) can clearly be seen to greatly diverge from the green contours (no cosmic variance), at high redshift.</p>
+      <p>To preface all of this, this work, consisting of two projects, was led by the incomparable <a href="https://jwuphysics.github.io/" target="_blank" rel="noopener">John F. Wu</a> at STScI/JHU, and it was a joy to work with him on this! Now on to the research.
+The projects were started during the great <a href="https://datadrivengalaxyevolution.github.io/" target="_blank" rel="noopener">KITP program on Data-Driven Astronomy</a>, taking my earlier work on the connection between <a href="https://astrockragh.github.io/project/mangrove/" target="_blank" rel="noopener">galaxies and their formation histories</a>. A natural follow-up question is whether we can find similar improvements in our modelling of galaxies by exploiting their <strong>environments</strong> instead of their <strong>formation histories</strong>. We therefore dive into the intricate relationship between galaxies, dark matter halos, and their large-scale cosmic environments using data from the Illustris TNG300 hydrodynamic simulation. To better understand these connections, we tested two machine learning (ML) models: Explainable Boosting Machines (EBMs) and E(3)-invariant graph neural networks (GNNs). We use GNNs to make sure that we capture the full information in the cosmic web, instead of realying on summary statistics, an approach which we know did not work for analyzing formation histories! The E(3)-invariance, means that the functions we learned are made explicitly invariant to <a href="https://en.wikipedia.org/wiki/Euclidean_group" target="_blank" rel="noopener"><strong>E</strong>uclidean transfomations</a> in <strong>3</strong>D, meaning all translations, rotations, and reflections in 3D.</p>
+<p>One of the main issues with analyzing environments is that the connections between different galaxies are not given <em>a priori</em>. We therefore must pick a subjective length scale, within which we consider galaxies &ldquo;connected&rdquo;. We must then tune this <strong>linking length</strong> (L), to give us the best results, and see what we can learn from this tuning. In the below plot, I show how graph structures that result from changing linking lengths.</p>
 <p>
 
 
@@ -952,18 +966,17 @@
 
 <figure  >
   <div class="d-flex justify-content-center">
-    <div class="w-100" ><img alt="The introduction of cosmic variance greatly impact the probability of finding a single massive galaxy, which makes the results much more realistic." srcset="
-               /project/most_massive_jwst/um_comparison_hucb2ce46c9fcd92de04b91bd04f14d71e_288393_e18e940bc8265bc1673493d1f0498c21.webp 400w,
-               /project/most_massive_jwst/um_comparison_hucb2ce46c9fcd92de04b91bd04f14d71e_288393_20ab7d5fc346626f105630db5a278cd0.webp 760w,
-               /project/most_massive_jwst/um_comparison_hucb2ce46c9fcd92de04b91bd04f14d71e_288393_1200x1200_fit_q100_h2_lanczos_3.webp 1200w"
-               src="/project/most_massive_jwst/um_comparison_hucb2ce46c9fcd92de04b91bd04f14d71e_288393_e18e940bc8265bc1673493d1f0498c21.webp"
+    <div class="w-100" ><img alt="Changing the linking length means more connections" srcset="
+               /project/gnn_environment/changing_linking_length_huadf1f8ecb3a9b479f02af79a8867c8ec_925841_825f36b36411bb9e43c98cabfaa114ae.webp 400w,
+               /project/gnn_environment/changing_linking_length_huadf1f8ecb3a9b479f02af79a8867c8ec_925841_bc965fb5301a60a2cc29b27d45307001.webp 760w,
+               /project/gnn_environment/changing_linking_length_huadf1f8ecb3a9b479f02af79a8867c8ec_925841_1200x1200_fit_q100_h2_lanczos_3.webp 1200w"
+               src="/project/gnn_environment/changing_linking_length_huadf1f8ecb3a9b479f02af79a8867c8ec_925841_825f36b36411bb9e43c98cabfaa114ae.webp"
                width="760"
-               height="275"
+               height="270"
                loading="lazy" data-zoomable /></div>
   </div></figure>
 </p>
-<p>To test the models validity, we used simulations from <a href="https://arxiv.org/abs/1806.07893" target="_blank" rel="noopener">UniverseMachine</a> (see the red contours in the figure above), an empirically calibrated tool designed to simulate galaxy formation in the universe. Sure enough, the predicted effects of cosmic variance stood out clearly, showing that it has a major impact on the most massive galaxies we may observe, in exactly the way our simple model predicted!</p>
-<p>Another key finding was that cosmic variance estimators are affected by a &ldquo;variance on the variance&rdquo; in a way that has so far been neglected. The uncertainty in the cosmic variance itself is highly non-Gaussian in the limit where the cosmic variance itself is high, and we both prove it and empirically measure the effect. The proof can be checked out in the paper, but the result is shown in the below figure!</p>
+<p>We now test our GNNs and our EBMs with a summary statistic that summarizes information on the same length scale as that used by the GNN. The summary statistic we choose is the <em>spherically averaged overdensity</em>, in simple terms, the total amount of mass within a ball of radius L, centered on each galaxy. In summary we have two model, trained to predict the <strong>stellar masses</strong> starting from <strong>dark matter</strong>, the GNN using the dark matter halo, and those around it, and the EBM using the halo and the total amount of mass around it. Differences between the two are therefore only due to treatments in environment. The plot below shows our results as a function of linking length. The y-axis shows the reconstruction <strong>error</strong>, so lower is better!</p>
 <p>
 
 
@@ -982,17 +995,18 @@
 
 <figure  >
   <div class="d-flex justify-content-center">
-    <div class="w-100" ><img alt="The errors on cosmic variance are greater than one would think" srcset="
-               /project/most_massive_jwst/demo_sigma_cv_huac8ebcf2b5218e09eb4c8a6de2244082_224715_44897c087cc0d0a1ed10285f3c2dc5a4.webp 400w,
-               /project/most_massive_jwst/demo_sigma_cv_huac8ebcf2b5218e09eb4c8a6de2244082_224715_b8ec5d63d2f5c1f2281584cb483c4960.webp 760w,
-               /project/most_massive_jwst/demo_sigma_cv_huac8ebcf2b5218e09eb4c8a6de2244082_224715_1200x1200_fit_q100_h2_lanczos_3.webp 1200w"
-               src="/project/most_massive_jwst/demo_sigma_cv_huac8ebcf2b5218e09eb4c8a6de2244082_224715_44897c087cc0d0a1ed10285f3c2dc5a4.webp"
+    <div class="w-100" ><img alt="Changing the linking length means better performace" srcset="
+               /project/gnn_environment/error_length_hu174f52277a947edd04d4895efa36d3fe_228913_69763fcf07fe47e617296baec565fdb6.webp 400w,
+               /project/gnn_environment/error_length_hu174f52277a947edd04d4895efa36d3fe_228913_c922fd1d4f7f139f7f1094ed44927a00.webp 760w,
+               /project/gnn_environment/error_length_hu174f52277a947edd04d4895efa36d3fe_228913_1200x1200_fit_q100_h2_lanczos_3.webp 1200w"
+               src="/project/gnn_environment/error_length_hu174f52277a947edd04d4895efa36d3fe_228913_69763fcf07fe47e617296baec565fdb6.webp"
                width="760"
-               height="569"
+               height="669"
                loading="lazy" data-zoomable /></div>
   </div></figure>
 </p>
-<p>Ultimately, the study underscores the importance of properly considering cosmic variance when interpreting the results of galaxy surveys, especially when trying to reconcile the existence of extreme galaxies in the early universe with existing galaxy formation models. Without doing so, we may be misinterpreting the true nature of the early universe. The effects for a few sample cases can be seen below.</p>
+<p>First, we see that the GNN (purple) is way better than anything else, including the EBM (blue)! So once again, summary statistics are not the way to go, and GNNs are really powerful! However, there is also interesting structure in the plot. The GNN keeps getting better with each increase of the linking length <strong>at the same rate</strong> until at 3 Mpc, and then it levels off, but to another fixed rate! There seems to be something special about this length scale, since the behaviour of our model is essentially in one mode below 3 Mpc, and another above!</p>
+<p>If we look at the performance of the EBM, we also see a conspicuous curve with its best performance at a <em><strong>the same length scale!</strong></em>. The 3 Mpc scale is clearly special!</p>
 <p>
 
 
@@ -1011,13 +1025,43 @@
 
 <figure  >
   <div class="d-flex justify-content-center">
-    <div class="w-100" ><img alt="results" srcset="
-               /project/most_massive_jwst/first_hu5e0e863fe3d9840b6ef3d5873d5e6071_611032_4633218795801727b1ea4e80e4981d15.webp 400w,
-               /project/most_massive_jwst/first_hu5e0e863fe3d9840b6ef3d5873d5e6071_611032_791b00077e1e554dddc3f1be9bbe2dce.webp 760w,
-               /project/most_massive_jwst/first_hu5e0e863fe3d9840b6ef3d5873d5e6071_611032_1200x1200_fit_q100_h2_lanczos_3.webp 1200w"
-               src="/project/most_massive_jwst/first_hu5e0e863fe3d9840b6ef3d5873d5e6071_611032_4633218795801727b1ea4e80e4981d15.webp"
-               width="535"
-               height="760"
+    <div class="w-100" ><img alt="There is a special environment length scale" srcset="
+               /project/gnn_environment/error_length_annotate_huffa39afaf9a987e8a2e1ccb1a0c579ba_398601_339c6607a1150b450dd8d63694b4bdaa.webp 400w,
+               /project/gnn_environment/error_length_annotate_huffa39afaf9a987e8a2e1ccb1a0c579ba_398601_2b52248d0e9e1618f75e8d308fa17ebc.webp 760w,
+               /project/gnn_environment/error_length_annotate_huffa39afaf9a987e8a2e1ccb1a0c579ba_398601_1200x1200_fit_q100_h2_lanczos_3.webp 1200w"
+               src="/project/gnn_environment/error_length_annotate_huffa39afaf9a987e8a2e1ccb1a0c579ba_398601_339c6607a1150b450dd8d63694b4bdaa.webp"
+               width="760"
+               height="671"
+               loading="lazy" data-zoomable /></div>
+  </div></figure>
+</p>
+<p>However, it&rsquo;s also worth noting that the GNNs were able to pick up on environmental influences from larger scales—up to 10 Mpc—showing that there’s more to the galaxy–halo connection than just nearby density.</p>
+<p>One thing that we found quite amusing while doing this project was that many people who work with the cosmic web (large-scale positioning of galaxies) were very adamant that we would fail if we did not use this special algorithm called DisPerSE, which is supposed to provide an advanced topological description of the cosmic web, instead of just connecting things within a given length. However, we found that these simple spherical density measures were more useful than more complex cosmic web distance features derived from the DisPerSE algorithm (green line in the above plot).</p>
+<p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<figure  >
+  <div class="d-flex justify-content-center">
+    <div class="w-100" ><img alt="Disperse is not worth much" srcset="
+               /project/gnn_environment/disperse_meme_hubfde6db3e40b49ac8a6369d761899df8_403749_b45d97d6726aad17b8c4359207a55ad7.webp 400w,
+               /project/gnn_environment/disperse_meme_hubfde6db3e40b49ac8a6369d761899df8_403749_b13485bd92caa9bcef1f5293af0c0464.webp 760w,
+               /project/gnn_environment/disperse_meme_hubfde6db3e40b49ac8a6369d761899df8_403749_1200x1200_fit_q100_h2_lanczos_3.webp 1200w"
+               src="/project/gnn_environment/disperse_meme_hubfde6db3e40b49ac8a6369d761899df8_403749_b45d97d6726aad17b8c4359207a55ad7.webp"
+               width="720"
+               height="564"
                loading="lazy" data-zoomable /></div>
   </div></figure>
 </p>
@@ -1032,6 +1076,8 @@
 <div class="article-tags">
   
   <a class="badge badge-light" href="/tag/galaxies/">Galaxies</a>
+  
+  <a class="badge badge-light" href="/tag/machine-learning/">Machine Learning</a>
   
   <a class="badge badge-light" href="/tag/cosmology/">Cosmology</a>
   
@@ -1050,7 +1096,7 @@
       
       
       <li>
-        <a href="https://twitter.com/intent/tweet?url=https://astrockragh.github.io/project/most_massive_jwst-/&amp;text=The%20most%20massive%20galaxy%20we%20will%20find%20with%20JWST%20at%20high%20redshift" target="_blank" rel="noopener" class="share-btn-twitter" aria-label="twitter">
+        <a href="https://twitter.com/intent/tweet?url=https://astrockragh.github.io/project/gnn_environment/&amp;text=The%20galaxy-environment%20connection%20revealed%20by%20Graph%20Neural%20Networks" target="_blank" rel="noopener" class="share-btn-twitter" aria-label="twitter">
           <i class="fab fa-twitter"></i>
         </a>
       </li>
@@ -1063,7 +1109,7 @@
       
       
       <li>
-        <a href="https://www.facebook.com/sharer.php?u=https://astrockragh.github.io/project/most_massive_jwst-/&amp;t=The%20most%20massive%20galaxy%20we%20will%20find%20with%20JWST%20at%20high%20redshift" target="_blank" rel="noopener" class="share-btn-facebook" aria-label="facebook">
+        <a href="https://www.facebook.com/sharer.php?u=https://astrockragh.github.io/project/gnn_environment/&amp;t=The%20galaxy-environment%20connection%20revealed%20by%20Graph%20Neural%20Networks" target="_blank" rel="noopener" class="share-btn-facebook" aria-label="facebook">
           <i class="fab fa-facebook"></i>
         </a>
       </li>
@@ -1076,7 +1122,7 @@
       
       
       <li>
-        <a href="mailto:?subject=The%20most%20massive%20galaxy%20we%20will%20find%20with%20JWST%20at%20high%20redshift&amp;body=https://astrockragh.github.io/project/most_massive_jwst-/" target="_blank" rel="noopener" class="share-btn-email" aria-label="envelope">
+        <a href="mailto:?subject=The%20galaxy-environment%20connection%20revealed%20by%20Graph%20Neural%20Networks&amp;body=https://astrockragh.github.io/project/gnn_environment/" target="_blank" rel="noopener" class="share-btn-email" aria-label="envelope">
           <i class="fas fa-envelope"></i>
         </a>
       </li>
@@ -1089,7 +1135,7 @@
       
       
       <li>
-        <a href="https://www.linkedin.com/shareArticle?url=https://astrockragh.github.io/project/most_massive_jwst-/&amp;title=The%20most%20massive%20galaxy%20we%20will%20find%20with%20JWST%20at%20high%20redshift" target="_blank" rel="noopener" class="share-btn-linkedin" aria-label="linkedin-in">
+        <a href="https://www.linkedin.com/shareArticle?url=https://astrockragh.github.io/project/gnn_environment/&amp;title=The%20galaxy-environment%20connection%20revealed%20by%20Graph%20Neural%20Networks" target="_blank" rel="noopener" class="share-btn-linkedin" aria-label="linkedin-in">
           <i class="fab fa-linkedin-in"></i>
         </a>
       </li>
@@ -1102,7 +1148,7 @@
       
       
       <li>
-        <a href="whatsapp://send?text=The%20most%20massive%20galaxy%20we%20will%20find%20with%20JWST%20at%20high%20redshift%20https://astrockragh.github.io/project/most_massive_jwst-/" target="_blank" rel="noopener" class="share-btn-whatsapp" aria-label="whatsapp">
+        <a href="whatsapp://send?text=The%20galaxy-environment%20connection%20revealed%20by%20Graph%20Neural%20Networks%20https://astrockragh.github.io/project/gnn_environment/" target="_blank" rel="noopener" class="share-btn-whatsapp" aria-label="whatsapp">
           <i class="fab fa-whatsapp"></i>
         </a>
       </li>
@@ -1115,7 +1161,7 @@
       
       
       <li>
-        <a href="https://service.weibo.com/share/share.php?url=https://astrockragh.github.io/project/most_massive_jwst-/&amp;title=The%20most%20massive%20galaxy%20we%20will%20find%20with%20JWST%20at%20high%20redshift" target="_blank" rel="noopener" class="share-btn-weibo" aria-label="weibo">
+        <a href="https://service.weibo.com/share/share.php?url=https://astrockragh.github.io/project/gnn_environment/&amp;title=The%20galaxy-environment%20connection%20revealed%20by%20Graph%20Neural%20Networks" target="_blank" rel="noopener" class="share-btn-weibo" aria-label="weibo">
           <i class="fab fa-weibo"></i>
         </a>
       </li>

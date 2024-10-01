@@ -5,12 +5,140 @@
     <link>https://astrockragh.github.io/tag/machine-learning/</link>
       <atom:link href="https://astrockragh.github.io/tag/machine-learning/index.xml" rel="self" type="application/rss+xml" />
     <description>Machine Learning</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© Christian Kragh Jespersen 2024</copyright><lastBuildDate>Mon, 19 Sep 2022 00:00:00 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© Christian Kragh Jespersen 2024</copyright><lastBuildDate>Fri, 02 Aug 2024 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://astrockragh.github.io/media/logo_hu99cbd5be059c86a221a329805c1c065d_47879_300x300_fit_lanczos_3.png</url>
       <title>Machine Learning</title>
       <link>https://astrockragh.github.io/tag/machine-learning/</link>
     </image>
+    
+    <item>
+      <title>The galaxy-environment connection revealed by Graph Neural Networks</title>
+      <link>https://astrockragh.github.io/project/gnn_environment/</link>
+      <pubDate>Fri, 02 Aug 2024 00:00:00 +0000</pubDate>
+      <guid>https://astrockragh.github.io/project/gnn_environment/</guid>
+      <description>&lt;p&gt;To preface all of this, this work, consisting of two projects, was led by the incomparable &lt;a href=&#34;https://jwuphysics.github.io/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;John F. Wu&lt;/a&gt; at STScI/JHU, and it was a joy to work with him on this! Now on to the research.
+The projects were started during the great &lt;a href=&#34;https://datadrivengalaxyevolution.github.io/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;KITP program on Data-Driven Astronomy&lt;/a&gt;, taking my earlier work on the connection between &lt;a href=&#34;https://astrockragh.github.io/project/mangrove/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;galaxies and their formation histories&lt;/a&gt;. A natural follow-up question is whether we can find similar improvements in our modelling of galaxies by exploiting their &lt;strong&gt;environments&lt;/strong&gt; instead of their &lt;strong&gt;formation histories&lt;/strong&gt;. We therefore dive into the intricate relationship between galaxies, dark matter halos, and their large-scale cosmic environments using data from the Illustris TNG300 hydrodynamic simulation. To better understand these connections, we tested two machine learning (ML) models: Explainable Boosting Machines (EBMs) and E(3)-invariant graph neural networks (GNNs). We use GNNs to make sure that we capture the full information in the cosmic web, instead of realying on summary statistics, an approach which we know did not work for analyzing formation histories! The E(3)-invariance, means that the functions we learned are made explicitly invariant to &lt;a href=&#34;https://en.wikipedia.org/wiki/Euclidean_group&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;strong&gt;E&lt;/strong&gt;uclidean transfomations&lt;/a&gt; in &lt;strong&gt;3&lt;/strong&gt;D, meaning all translations, rotations, and reflections in 3D.&lt;/p&gt;
+&lt;p&gt;One of the main issues with analyzing environments is that the connections between different galaxies are not given &lt;em&gt;a priori&lt;/em&gt;. We therefore must pick a subjective length scale, within which we consider galaxies &amp;ldquo;connected&amp;rdquo;. We must then tune this &lt;strong&gt;linking length&lt;/strong&gt; (L), to give us the best results, and see what we can learn from this tuning. In the below plot, I show how graph structures that result from changing linking lengths.&lt;/p&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;Changing the linking length means more connections&#34; srcset=&#34;
+               /project/gnn_environment/changing_linking_length_huadf1f8ecb3a9b479f02af79a8867c8ec_925841_825f36b36411bb9e43c98cabfaa114ae.webp 400w,
+               /project/gnn_environment/changing_linking_length_huadf1f8ecb3a9b479f02af79a8867c8ec_925841_bc965fb5301a60a2cc29b27d45307001.webp 760w,
+               /project/gnn_environment/changing_linking_length_huadf1f8ecb3a9b479f02af79a8867c8ec_925841_1200x1200_fit_q100_h2_lanczos_3.webp 1200w&#34;
+               src=&#34;https://astrockragh.github.io/project/gnn_environment/changing_linking_length_huadf1f8ecb3a9b479f02af79a8867c8ec_925841_825f36b36411bb9e43c98cabfaa114ae.webp&#34;
+               width=&#34;760&#34;
+               height=&#34;270&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;p&gt;We now test our GNNs and our EBMs with a summary statistic that summarizes information on the same length scale as that used by the GNN. The summary statistic we choose is the &lt;em&gt;spherically averaged overdensity&lt;/em&gt;, in simple terms, the total amount of mass within a ball of radius L, centered on each galaxy. In summary we have two model, trained to predict the &lt;strong&gt;stellar masses&lt;/strong&gt; starting from &lt;strong&gt;dark matter&lt;/strong&gt;, the GNN using the dark matter halo, and those around it, and the EBM using the halo and the total amount of mass around it. Differences between the two are therefore only due to treatments in environment. The plot below shows our results as a function of linking length. The y-axis shows the reconstruction &lt;strong&gt;error&lt;/strong&gt;, so lower is better!&lt;/p&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;Changing the linking length means better performace&#34; srcset=&#34;
+               /project/gnn_environment/error_length_hu174f52277a947edd04d4895efa36d3fe_228913_69763fcf07fe47e617296baec565fdb6.webp 400w,
+               /project/gnn_environment/error_length_hu174f52277a947edd04d4895efa36d3fe_228913_c922fd1d4f7f139f7f1094ed44927a00.webp 760w,
+               /project/gnn_environment/error_length_hu174f52277a947edd04d4895efa36d3fe_228913_1200x1200_fit_q100_h2_lanczos_3.webp 1200w&#34;
+               src=&#34;https://astrockragh.github.io/project/gnn_environment/error_length_hu174f52277a947edd04d4895efa36d3fe_228913_69763fcf07fe47e617296baec565fdb6.webp&#34;
+               width=&#34;760&#34;
+               height=&#34;669&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;p&gt;First, we see that the GNN (purple) is way better than anything else, including the EBM (blue)! So once again, summary statistics are not the way to go, and GNNs are really powerful! However, there is also interesting structure in the plot. The GNN keeps getting better with each increase of the linking length &lt;strong&gt;at the same rate&lt;/strong&gt; until at 3 Mpc, and then it levels off, but to another fixed rate! There seems to be something special about this length scale, since the behaviour of our model is essentially in one mode below 3 Mpc, and another above!&lt;/p&gt;
+&lt;p&gt;If we look at the performance of the EBM, we also see a conspicuous curve with its best performance at a &lt;em&gt;&lt;strong&gt;the same length scale!&lt;/strong&gt;&lt;/em&gt;. The 3 Mpc scale is clearly special!&lt;/p&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;There is a special environment length scale&#34; srcset=&#34;
+               /project/gnn_environment/error_length_annotate_huffa39afaf9a987e8a2e1ccb1a0c579ba_398601_339c6607a1150b450dd8d63694b4bdaa.webp 400w,
+               /project/gnn_environment/error_length_annotate_huffa39afaf9a987e8a2e1ccb1a0c579ba_398601_2b52248d0e9e1618f75e8d308fa17ebc.webp 760w,
+               /project/gnn_environment/error_length_annotate_huffa39afaf9a987e8a2e1ccb1a0c579ba_398601_1200x1200_fit_q100_h2_lanczos_3.webp 1200w&#34;
+               src=&#34;https://astrockragh.github.io/project/gnn_environment/error_length_annotate_huffa39afaf9a987e8a2e1ccb1a0c579ba_398601_339c6607a1150b450dd8d63694b4bdaa.webp&#34;
+               width=&#34;760&#34;
+               height=&#34;671&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;p&gt;However, it&amp;rsquo;s also worth noting that the GNNs were able to pick up on environmental influences from larger scales—up to 10 Mpc—showing that there’s more to the galaxy–halo connection than just nearby density.&lt;/p&gt;
+&lt;p&gt;One thing that we found quite amusing while doing this project was that many people who work with the cosmic web (large-scale positioning of galaxies) were very adamant that we would fail if we did not use this special algorithm called DisPerSE, which is supposed to provide an advanced topological description of the cosmic web, instead of just connecting things within a given length. However, we found that these simple spherical density measures were more useful than more complex cosmic web distance features derived from the DisPerSE algorithm (green line in the above plot).&lt;/p&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;Disperse is not worth much&#34; srcset=&#34;
+               /project/gnn_environment/disperse_meme_hubfde6db3e40b49ac8a6369d761899df8_403749_b45d97d6726aad17b8c4359207a55ad7.webp 400w,
+               /project/gnn_environment/disperse_meme_hubfde6db3e40b49ac8a6369d761899df8_403749_b13485bd92caa9bcef1f5293af0c0464.webp 760w,
+               /project/gnn_environment/disperse_meme_hubfde6db3e40b49ac8a6369d761899df8_403749_1200x1200_fit_q100_h2_lanczos_3.webp 1200w&#34;
+               src=&#34;https://astrockragh.github.io/project/gnn_environment/disperse_meme_hubfde6db3e40b49ac8a6369d761899df8_403749_b45d97d6726aad17b8c4359207a55ad7.webp&#34;
+               width=&#34;720&#34;
+               height=&#34;564&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>Building better galaxies with Mangrove</title>
