@@ -5,12 +5,251 @@
     <link>https://astrockragh.github.io/tag/galaxies/</link>
       <atom:link href="https://astrockragh.github.io/tag/galaxies/index.xml" rel="self" type="application/rss+xml" />
     <description>Galaxies</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© Christian Kragh Jespersen 2024</copyright><lastBuildDate>Tue, 01 Oct 2024 00:00:00 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© Christian Kragh Jespersen 2024</copyright><lastBuildDate>Wed, 02 Oct 2024 00:10:00 +0000</lastBuildDate>
     <image>
       <url>https://astrockragh.github.io/media/logo_hu99cbd5be059c86a221a329805c1c065d_47879_300x300_fit_lanczos_3.png</url>
       <title>Galaxies</title>
       <link>https://astrockragh.github.io/tag/galaxies/</link>
     </image>
+    
+    <item>
+      <title>The sky over Mauna Kea observed with SuNSS</title>
+      <link>https://astrockragh.github.io/project/sunss_airglow/</link>
+      <pubDate>Wed, 02 Oct 2024 00:10:00 +0000</pubDate>
+      <guid>https://astrockragh.github.io/project/sunss_airglow/</guid>
+      <description>&lt;p&gt;As astronomy pushes towards ever fainter targets, at ever greater distances, in ever greater numbers, we are faced with a new series of problems which need solving.&lt;/p&gt;
+&lt;p&gt;The two main focus areas for the next generation for surveys are thus&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Observing many targets at the same time&lt;/li&gt;
+&lt;li&gt;Increasing the sensitivity to faint targets&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;The first issue can be solved by multi-object observations. There are many ways of doing this, for example, if all we are interested is in pictures or photometry, we can take a single, ultra-high-resolution picture, and then analyze subdivisions later. This is the approach taken by the &lt;a href=&#34;https://rubinobservatory.org/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Legacy Survey of Space and Time (LSST)&lt;/a&gt;. However, if we want detailed &lt;strong&gt;spectra&lt;/strong&gt; (light split up wavelength with high resolution), the most information-rich data type in astronomy, we must do things differently.&lt;/p&gt;
+&lt;p&gt;For the &lt;a href=&#34;https://pfs.ipmu.jp/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Prime Focus Spectrograph (PFS)&lt;/a&gt; on the &lt;a href=&#34;https://en.wikipedia.org/wiki/Subaru_Telescope&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Subaru Telescope&lt;/a&gt;, we do &lt;a href=&#34;https://en.wikipedia.org/wiki/Multi-Object_Spectrometer&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;multi-object spectroscopy&lt;/a&gt; using optical fibers. This means that we focus the light from the area we are observing onto 2400 separate points, connected to optical fibers to lead them to our spectrograph. Now we can treat this as 2400 separate spectra, &lt;strong&gt;but we get them all at the same time!&lt;/strong&gt; So if we want to take spectra of 2400 galaxies for half an hour each, a series of observations that would previously have taken 100 nights, we just get all of them in the same half hour! So now we can observe many millions of targets.
+You can see the focal plane (where we focus the light), with our 2400 fibers, in the picture below. One of the cool things about this is that we need to be able to move the fibers a bit to get them to follow the targets we want to observe, and this is done by tiny robots, called cobras. A cool video of them moving can be found by &lt;a href=&#34;https://pfs.ipmu.jp/instrumentation.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;clicking this link&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;Hexagonal PFS focal plane&#34; srcset=&#34;
+               /project/sunss_airglow/focal_plane_hu1d779037c1db25227464f2a6fb02a858_994136_70736ae709bd2cb5da87761e03437c63.webp 400w,
+               /project/sunss_airglow/focal_plane_hu1d779037c1db25227464f2a6fb02a858_994136_ed42351b7e92bde81691054b0cf52590.webp 760w,
+               /project/sunss_airglow/focal_plane_hu1d779037c1db25227464f2a6fb02a858_994136_1200x1200_fit_q100_h2_lanczos_3.webp 1200w&#34;
+               src=&#34;https://astrockragh.github.io/project/sunss_airglow/focal_plane_hu1d779037c1db25227464f2a6fb02a858_994136_70736ae709bd2cb5da87761e03437c63.webp&#34;
+               width=&#34;760&#34;
+               height=&#34;570&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;p&gt;So now we know that we can observe a lot of galaxies. How about 2)?
+The first you want to do is to get a big telescope! With PFS, we are lucky to have access to the very large &lt;a href=&#34;https://en.wikipedia.org/wiki/Subaru_Telescope&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Subaru Telescope&lt;/a&gt;, situated on Mauna Kea at an altitude of 4,139 m (13,579 ft) in Hawai&amp;rsquo;i, USA.&lt;sup id=&#34;fnref:1&#34;&gt;&lt;a href=&#34;#fn:1&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;1&lt;/a&gt;&lt;/sup&gt; When you read very large, it can be hard to understand just how large, so here&amp;rsquo;s a picture of me (~1.8 m/~6ft tall) standing at the bottom of it.&lt;/p&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;Me next to the Subaru Telescope&#34; srcset=&#34;
+               /project/sunss_airglow/me_next_subaru_hubcdb564934d70ed8307657bdb01d7208_2558525_fec3754301b82fc64d708efc75df462d.webp 400w,
+               /project/sunss_airglow/me_next_subaru_hubcdb564934d70ed8307657bdb01d7208_2558525_cfa7bb7169e3268c09632b3ec91e03ed.webp 760w,
+               /project/sunss_airglow/me_next_subaru_hubcdb564934d70ed8307657bdb01d7208_2558525_1200x1200_fit_q100_h2_lanczos.webp 1200w&#34;
+               src=&#34;https://astrockragh.github.io/project/sunss_airglow/me_next_subaru_hubcdb564934d70ed8307657bdb01d7208_2558525_fec3754301b82fc64d708efc75df462d.webp&#34;
+               width=&#34;570&#34;
+               height=&#34;760&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;p&gt;The primary mirror is 8.2 m (320 inches) in diameter, one of the biggest in the world! The area of the mirror is twice that of the &lt;a href=&#34;https://en.wikipedia.org/wiki/James_Webb_Space_Telescope&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;JWST Space Telescope&lt;/a&gt;. Building very large telescopes is one of the great advantages of having them on the ground, compared to in space. However, when we are on the ground, we have to deal with one of the things which scare astronomers the most&amp;hellip;&lt;/p&gt;
+&lt;p&gt;👻 &lt;strong&gt;The atmosphere&lt;/strong&gt; 👻&lt;/p&gt;
+&lt;p&gt;So why is the atmosphere scary? There are three main reasons:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;The atmosphere makes it hard to focus on distant objects. This is because air &lt;em&gt;moves&lt;/em&gt;, which spreads out the light, so that something coming from a single point gets spread out over a large area.&lt;/li&gt;
+&lt;li&gt;The atmosphere absorbs light, making our targets fainter.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;And now, the biggest problem for PFS.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;The atmosphere emits light itself, glowing with light we call &lt;em&gt;airglow&lt;/em&gt;. When we look at anything from the ground, we always observe both the airglow and the target.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;The airglow is a problem because airglow is both &lt;strong&gt;bright&lt;/strong&gt; and &lt;strong&gt;variable&lt;/strong&gt;. Below, you can see an example of a simulated&lt;sup id=&#34;fnref:2&#34;&gt;&lt;a href=&#34;#fn:2&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;2&lt;/a&gt;&lt;/sup&gt; galaxy spectrum, split up into sky and galaxy counterparts. It is clear that the galaxy is dominated by the airglow. The galaxy shown here is actually quite bright, the main PFS targets will be 100 times fainter, so detecting any galaxy component is really hard! Searching for galaxies from the ground is like searching for a tiny firefly behind a giant stadium light!&lt;/p&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;Simulated sky and galaxy spectrum&#34; srcset=&#34;
+               /project/sunss_airglow/sky_sub_spectrum_hu0d48af7b4d388132fdf909cff4f8cf97_434505_14fb70cc84829a335ac746ba5f479c82.webp 400w,
+               /project/sunss_airglow/sky_sub_spectrum_hu0d48af7b4d388132fdf909cff4f8cf97_434505_aa2f5753341ad79ccc86948bc23d2982.webp 760w,
+               /project/sunss_airglow/sky_sub_spectrum_hu0d48af7b4d388132fdf909cff4f8cf97_434505_1200x1200_fit_q100_h2_lanczos_3.webp 1200w&#34;
+               src=&#34;https://astrockragh.github.io/project/sunss_airglow/sky_sub_spectrum_hu0d48af7b4d388132fdf909cff4f8cf97_434505_14fb70cc84829a335ac746ba5f479c82.webp&#34;
+               width=&#34;760&#34;
+               height=&#34;446&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;p&gt;One exciting aspect of the airglow is that it actually is the same thing as aurora. In the above plot, the strong lines at 557 nm and 630 nm are actually the green and red light we see during aurora (look at the top of the article!). They are always there, but when we are not being hit by a solar storm, you cannot quite see them with the naked eye. However, as you may already have noticed, most of the airglow comes out in the infrared (IR), so if our eyes could see in the IR (wavelengths above 700 nm), we would have aurora all the time!&lt;/p&gt;
+&lt;p&gt;While this would definitely be spectacular, it also poses a major problem for ground-based astronomy, as can be seen in the above figure. So in order to observe faint galaxies from the ground, we must get really good at a process known as &lt;em&gt;sky subtraction&lt;/em&gt;. As the name suggests, this is the process with which we subtract the airglow from our spectra. However, this requires &lt;strong&gt;knowing&lt;/strong&gt; how the airglow was at the same time that the observation was taken. This is usually done by taking some of our 2400 fibers and pointing them towards blank pieces of sky. If we let fiber A point at a galaxy, we will observe &lt;code&gt;(galaxy+airglow)&lt;/code&gt;&lt;sub&gt;A&lt;/sub&gt;, and if we let fiber B point at a blank piece of sky, we will observe &lt;code&gt;(airglow)&lt;/code&gt;&lt;sub&gt;B&lt;/sub&gt;.
+Taking &lt;code&gt;(galaxy+airglow)&lt;/code&gt;&lt;sub&gt;A&lt;/sub&gt;-&lt;code&gt;(airglow)&lt;/code&gt;&lt;sub&gt;B&lt;/sub&gt; will then give is the clean galaxy spectrum, &lt;code&gt;galaxy&lt;/code&gt;&lt;sub&gt;A&lt;/sub&gt;.&lt;/p&gt;
+&lt;p&gt;Doing this efficiently requires &lt;em&gt;understanding&lt;/em&gt; the airglow. Luckily, we are not the first ones to worry about this, but in order to understand the airglow well, we must do some observations of our own. For this, we have built a small auxiliary telescope for Subaru, the Subaru Night Sky Spectrograph (SuNSS). As the name indicates, this telescope is dedicated to observing the airglow only. Because the airglow is so bright, we do not need to utilise a giant telescope, and we instead use two small telescopes with diameters of approximately 35mm/1.5in. These small telescopes are then connected to the same spectrograph as PFS, so except for being much smaller, it is exactly the same system. To give a sense of scale, here are some pictures of SuNSS mounted on what we call the &amp;ldquo;spider&amp;rdquo; of Subaru.&lt;sup id=&#34;fnref:3&#34;&gt;&lt;a href=&#34;#fn:3&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;3&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;Subary spider with SuNSS&#34; srcset=&#34;
+               /project/sunss_airglow/sunss_on_subaru_hu0339e39fedfce1e06c99bd1f85d2e350_3463534_e25118446325dab8b624b72045965a1b.webp 400w,
+               /project/sunss_airglow/sunss_on_subaru_hu0339e39fedfce1e06c99bd1f85d2e350_3463534_210ff0b8eaf197c771ee8838d2614ded.webp 760w,
+               /project/sunss_airglow/sunss_on_subaru_hu0339e39fedfce1e06c99bd1f85d2e350_3463534_1200x1200_fit_q100_h2_lanczos_3.webp 1200w&#34;
+               src=&#34;https://astrockragh.github.io/project/sunss_airglow/sunss_on_subaru_hu0339e39fedfce1e06c99bd1f85d2e350_3463534_e25118446325dab8b624b72045965a1b.webp&#34;
+               width=&#34;760&#34;
+               height=&#34;291&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;p&gt;This little telescope has been a close companion of mine since January 2022, thanks to Jim Gunn and Robert Lupton at Princeton who had the idea for the instrument. So let us now summarize some facts about the airglow in the wavelength range we care about (380nm - 1270 nm).&lt;sup id=&#34;fnref:4&#34;&gt;&lt;a href=&#34;#fn:4&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;4&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
+&lt;h4 id=&#34;1-airglow-is-dominated-by-emission-from-oh-molecules-followed-by-emission-from-molecular-oxygen-then-atomic-oxygen-and-sodium&#34;&gt;1) Airglow is dominated by emission from OH molecules, followed by emission from molecular oxygen, then atomic oxygen and sodium.&lt;/h4&gt;
+&lt;p&gt;When we look at the airglow, we can see that most of the airglow comes out in the form of what we call &lt;em&gt;lines&lt;/em&gt;. This means that the light is only at a specific wavelength, and that why we get this line-like appearance. These narrow lines show up because they come from specific atoms or molecules, and within these, quantum mechanics tells us that only certain energy levels and transitions are possible. So when we go from one level to another, we always observe exactly the same wavelength of light being emitted. The really cool thing about these levels is that they are unique for each atom or molecule, and therefore they serve as &lt;em&gt;fingerprints&lt;/em&gt; for molecules and atoms, which lets us identify what exactly is emitting the lines we see. This fingerprint technique is how we pick out that OH, O&lt;sub&gt;2&lt;/sub&gt;, atomic oxygen, and atomic sodium are responsible for the emission. Not only do we get to pick out the species, but we see that they behave differently over time! If we look at two spectra of the airglow, taken a few days apart, we can see that the different emitters change very differently with time! In the bottom panel below you see all the OH emission clearly in orange, and everything else in blue.
+The atomic oxygen is denoted as NaD (D for doublet) and atomic oxygen is written as OI, which is astronomy jargon for a normal oxygen atom with all of its electrons in place.&lt;/p&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;Sky difference&#34; srcset=&#34;
+               /project/sunss_airglow/sky_diff_hu4b9a910c9929c914997a9a759367754f_180296_14527c2db9cfaf65691bab40241ddf9e.webp 400w,
+               /project/sunss_airglow/sky_diff_hu4b9a910c9929c914997a9a759367754f_180296_ce1bbc59204f786a7aa0384429788abd.webp 760w,
+               /project/sunss_airglow/sky_diff_hu4b9a910c9929c914997a9a759367754f_180296_1200x1200_fit_q100_h2_lanczos_3.webp 1200w&#34;
+               src=&#34;https://astrockragh.github.io/project/sunss_airglow/sky_diff_hu4b9a910c9929c914997a9a759367754f_180296_14527c2db9cfaf65691bab40241ddf9e.webp&#34;
+               width=&#34;622&#34;
+               height=&#34;760&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;p&gt;Atoms have only a small number of levels, but molecules have a lot, and that is because molecular energy can store energy in a way that atoms can&amp;rsquo;t: they can &lt;em&gt;vibrate&lt;/em&gt; and &lt;em&gt;rotate&lt;/em&gt;. These rotations/vibrations can only happen at certain frequencies, but it opens up a lot more energy levels. That is why the OH and O&lt;sub&gt;2&lt;/sub&gt; produce &amp;ldquo;forests&amp;rdquo; of lines, whereas the atoms only produce a few. This also means that it is the molecules, and especially the OH, is responsible for &lt;strong&gt;cooling the atmosphere at night!&lt;/strong&gt; Since the atmosphere cools through radiation, and most of the radiation comes from OH, that means that the atmosphere is mainly cooling through OH emission!&lt;/p&gt;
+&lt;p&gt;That means that understanding the airglow is not only very important for astronomy, but also for climatology and climate change. This leads us to the next point!&lt;/p&gt;
+&lt;h4 id=&#34;2-we-can-measure-the-temperature-of-the-atmosphere-using-the-airglow&#34;&gt;2) We can measure the temperature of the atmosphere using the airglow.&lt;/h4&gt;
+&lt;p&gt;There are many things that control the emission of a molecule, but one of the most important things is the local temperature. That is because the local temperature dictates which lines are strong and which lines are weak.  If the local temperature is high, there will be more molecules that rotate or vibrate at higher frequencies, so the lines associated with these energy levels will be stronger, and on the other hand, if it is cold, more molecules will rotate/vibrate at low frequencies, so the lines associated with these lower energy levels will be stronger
+This also means that we can &lt;strong&gt;measure&lt;/strong&gt; this temperature from the relative intensities of the lines. The measurement is only valid for the region that the OH is in, which is between 75-95 km up in the atmosphere, but here, we measure the temperature to be around 190K (-83 C/-117 F). However, this changes throughout the night, usually starting at 200K (-73 C/-99 F), then dropping to around 180K (-93 C/-135 F) right after midnight, before slwoly climbing again. This once again leads us to our next point&amp;hellip;&lt;/p&gt;
+&lt;h4 id=&#34;3-the-airglow-is-very-variable-with-time&#34;&gt;3) The airglow is very variable with time.&lt;/h4&gt;
+&lt;p&gt;As discussed above, the airglow changes over time. It changes on scales of minutes, hours, days, years, and decades. This is because the atoms and molecules which emit the airglow change their densities and temperatures overnight, as a function of the seasons, and as a function of the solar cycle.
+Even over a single night, we observe that most of the components change their intensity by more than 100%, which is why we measure it all the time with SuNSS and PFS. The quick changes are due to changes in the densities and temperature of the atmosphere, which cause the atmospheric layers containing the glowing atoms and molecules to rise and sink overnight. Quick changes can also be due to waves passing through the atmosphere, which compress and heat the atmosphere! We all know this from seeing videos of aurora, where the intensities change quite dramatically over time. All of this is tracked with SuNSS every night, so at the end of its lifetime, we will have a decade of very high-quality data of the upper atmosphere!&lt;/p&gt;
+&lt;h4 id=&#34;4-the-airglow-is-pretty-uniform-on-the-night-sky&#34;&gt;4) The airglow is pretty uniform on the night sky.&lt;/h4&gt;
+&lt;p&gt;Another interesting aspect that we determined from observations with SuNSS, is that most of the time, the airglow is quite uniform on scales of less than 1.5km (around 1 mile), so although it changes quite rapidly in time, it does so in a spatially coherent way. We have determined that the intensities are uniform to around 1% on the scales probed by SuNSS and PFS!&lt;/p&gt;
+&lt;h4 id=&#34;5-we-can-also-use-the-airglow-to-improve-our-telescopes&#34;&gt;5) We can also use the airglow to improve our telescopes.&lt;/h4&gt;
+&lt;p&gt;Although I have mainly focused on the airglow itself, along with the how we get rid of it, we can also &lt;strong&gt;use&lt;/strong&gt; the airglow for calibrating our telescopes better! This will be probably be the subject of another post here, since I&amp;rsquo;m working on a couple of papers on this, but since those are not yet out, I will give a quick description here.&lt;/p&gt;
+&lt;p&gt;There are two things that we can use the airglow for calibrating, the first is our &lt;em&gt;wavelengths&lt;/em&gt;. Whenever we move our telescope, everything shifts a little, and that means that the same point on our instrument does not always correspond to the same wavelength of light. We must thus continously recalibrate the wavelengths. As I mentioned above, every molecule and atom has a set of wavelengths that it can emit at, a sort of quantum mechanical wavelength-fingerprint, but if we have already identified the molecules and atoms producing the lines, we can use that fingerprint to calibrate to! Most of the wavelength calibration is done with OH lines, so they serve a crucial purpose! The really nice thing about using the atmosphere to calibrate after, is that it literally is everywhere you look, so you get a calibration source for free. Airglow really is a blessing and a curse.&lt;/p&gt;
+&lt;p&gt;We can also use the airglow to calibrate the amount of light going through the telescope at different wavelengths, however, this is quite tentative and novel! The idea is that the relative intensities of each line is set by quantum mechanics, so if we can do the quantum mechanics right, we can tune our telescope so that the observed intensity ratios match the theoretical ones. This would solve a lot of problems, so maybe airglow can save us once again!&lt;/p&gt;
+&lt;p&gt;No matter what, I love the airglow, and I hope that we all get to appreciate it more. To finish off, here is a nice 360-degree picture from next to Subaru, where the beautiful red airglow is obvious in the horizon!&lt;/p&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;Subaru all sky with airglow&#34; srcset=&#34;
+               /project/sunss_airglow/subaru_all_sky_hufe09ae191162dd7b9e5daa4b6524f7f2_1310917_ef4bc021a3046d614521e5d1c622b3dc.webp 400w,
+               /project/sunss_airglow/subaru_all_sky_hufe09ae191162dd7b9e5daa4b6524f7f2_1310917_c86b7016dc8d66a2e7a2e9b535444931.webp 760w,
+               /project/sunss_airglow/subaru_all_sky_hufe09ae191162dd7b9e5daa4b6524f7f2_1310917_1200x1200_fit_q100_h2_lanczos_3.webp 1200w&#34;
+               src=&#34;https://astrockragh.github.io/project/sunss_airglow/subaru_all_sky_hufe09ae191162dd7b9e5daa4b6524f7f2_1310917_ef4bc021a3046d614521e5d1c622b3dc.webp&#34;
+               width=&#34;760&#34;
+               height=&#34;760&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;section class=&#34;footnotes&#34; role=&#34;doc-endnotes&#34;&gt;
+&lt;hr&gt;
+&lt;ol&gt;
+&lt;li id=&#34;fn:1&#34; role=&#34;doc-endnote&#34;&gt;
+&lt;p&gt;Subaru made a really nice promotional video for the Prime Focus Spectrograph, which can be found on this link &lt;a href=&#34;https://www.youtube.com/watch?v=usALcInrWVc&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://www.youtube.com/watch?v=usALcInrWVc&lt;/a&gt;.&amp;#160;&lt;a href=&#34;#fnref:1&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li id=&#34;fn:2&#34; role=&#34;doc-endnote&#34;&gt;
+&lt;p&gt;I would love to show some real spectra, but since the full PFS spectra are not yet public, I&amp;rsquo;ll stick with the simulated spectra for now.&amp;#160;&lt;a href=&#34;#fnref:2&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li id=&#34;fn:3&#34; role=&#34;doc-endnote&#34;&gt;
+&lt;p&gt;The spider holds the instrument at the primary focus of Subaru, in the pictures showing the position of SuNSS, the spider is the four-pronged thing holding a big cylinder in the middle of a blue ring.&amp;#160;&lt;a href=&#34;#fnref:3&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li id=&#34;fn:4&#34; role=&#34;doc-endnote&#34;&gt;
+&lt;p&gt;Visible light goes from roughly 380-700 nm.&amp;#160;&lt;a href=&#34;#fnref:4&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/section&gt;
+</description>
+    </item>
     
     <item>
       <title>The most massive galaxy we will find with JWST at high redshift</title>
