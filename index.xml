@@ -5,12 +5,70 @@
     <link>https://astrockragh.github.io/</link>
       <atom:link href="https://astrockragh.github.io/index.xml" rel="self" type="application/rss+xml" />
     <description>Christian Kragh Jespersen</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© Christian Kragh Jespersen 2024</copyright><lastBuildDate>Wed, 02 Oct 2024 00:10:00 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© Christian Kragh Jespersen 2024</copyright><lastBuildDate>Thu, 12 Dec 2024 12:15:00 +0000</lastBuildDate>
     <image>
       <url>https://astrockragh.github.io/media/logo_hu99cbd5be059c86a221a329805c1c065d_47879_300x300_fit_lanczos_3.png</url>
       <title>Christian Kragh Jespersen</title>
       <link>https://astrockragh.github.io/</link>
     </image>
+    
+    <item>
+      <title>Everything is connected: galaxy properties couple internally, environmentally, and historically @DAWN Copenhagen</title>
+      <link>https://astrockragh.github.io/talk/2024_dawn/</link>
+      <pubDate>Thu, 12 Dec 2024 12:15:00 +0000</pubDate>
+      <guid>https://astrockragh.github.io/talk/2024_dawn/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Everything is connected: galaxy properties couple internally, environmentally, and historically @Cambridge</title>
+      <link>https://astrockragh.github.io/talk/2024_cambridge/</link>
+      <pubDate>Wed, 11 Dec 2024 12:15:00 +0000</pubDate>
+      <guid>https://astrockragh.github.io/talk/2024_cambridge/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>The most massive galaxy we will find with JWST @IAP Symposium</title>
+      <link>https://astrockragh.github.io/talk/2024_paris_jswt_symposium/</link>
+      <pubDate>Tue, 03 Dec 2024 12:15:00 +0000</pubDate>
+      <guid>https://astrockragh.github.io/talk/2024_paris_jswt_symposium/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Everything is connected: galaxy properties couple internally, environmentally, and historically @CosmoStat (Paris)</title>
+      <link>https://astrockragh.github.io/talk/2024_paris_saclay/</link>
+      <pubDate>Thu, 28 Nov 2024 12:15:00 +0000</pubDate>
+      <guid>https://astrockragh.github.io/talk/2024_paris_saclay/</guid>
+      <description>&lt;!-- Galaxies’ properties are coupled to each other, as well as to their environments and merger histories. Unfortunately, these couplings are usually ignored in widely used statistical models of galaxies, often due to the difficulties of efficiently expressing them. I will introduce the tools necessary to explicitly introduce detailed descriptions of environments and merger histories into a statistical framework, and prove a surprising connection between the merger histories and environments of galaxies. I will then show how component coupling is implicitly treated in common codes which infer the physical parameters of galaxies, how the correct coupling strength can be empirically proven, and how this implicit treatment impacts the inferred parameters. --&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Galaxies, their dark matter environments, formation histories, and couplings @Institut d&#39;Astrophysique de Paris</title>
+      <link>https://astrockragh.github.io/talk/2024_paris_iap/</link>
+      <pubDate>Tue, 26 Nov 2024 12:15:00 +0000</pubDate>
+      <guid>https://astrockragh.github.io/talk/2024_paris_iap/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Galaxies, their dark matter environments, formation histories, and couplings @Perimeter Institute</title>
+      <link>https://astrockragh.github.io/talk/2024_perimeter/</link>
+      <pubDate>Tue, 05 Nov 2024 12:15:00 +0000</pubDate>
+      <guid>https://astrockragh.github.io/talk/2024_perimeter/</guid>
+      <description>&lt;!-- Galaxies’ properties are coupled to each other, as well as to their environments and merger histories. Unfortunately, these couplings are usually ignored in widely used statistical models of galaxies, often due to the difficulties of efficiently expressing them. I will introduce the tools necessary to explicitly introduce detailed descriptions of environments and merger histories into a statistical framework, and prove a surprising connection between the merger histories and environments of galaxies. I will then show how component coupling is implicitly treated in common codes which infer the physical parameters of galaxies, how the correct coupling strength can be empirically proven, and how this implicit treatment impacts the inferred parameters. --&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Challenging modelling assumptions by connecting the optical and IR @CCA</title>
+      <link>https://astrockragh.github.io/talk/2024_cca_ir/</link>
+      <pubDate>Fri, 18 Oct 2024 12:15:00 +0000</pubDate>
+      <guid>https://astrockragh.github.io/talk/2024_cca_ir/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>The sky over Mauna Kea observed with SuNSS</title>
@@ -253,9 +311,9 @@ Even over a single night, we observe that most of the components change their in
     
     <item>
       <title>The most massive galaxy we will find with JWST at high redshift</title>
-      <link>https://astrockragh.github.io/project/most_massive_jwst-/</link>
+      <link>https://astrockragh.github.io/project/most_massive_jwst/</link>
       <pubDate>Tue, 01 Oct 2024 00:00:00 +0000</pubDate>
-      <guid>https://astrockragh.github.io/project/most_massive_jwst-/</guid>
+      <guid>https://astrockragh.github.io/project/most_massive_jwst/</guid>
       <description>&lt;p&gt;
 
 
@@ -375,6 +433,31 @@ Even over a single night, we observe that most of the components change their in
   &lt;/div&gt;&lt;/figure&gt;
 &lt;/p&gt;
 </description>
+    </item>
+    
+    <item>
+      <title>New perspectives in galaxy formation @CU Boulder</title>
+      <link>https://astrockragh.github.io/talk/2024_boulder/</link>
+      <pubDate>Fri, 27 Sep 2024 12:15:00 +0000</pubDate>
+      <guid>https://astrockragh.github.io/talk/2024_boulder/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Challenging modelling assumptions by connecting the optical and IR @Princeton</title>
+      <link>https://astrockragh.github.io/talk/2024_thunch/</link>
+      <pubDate>Thu, 05 Sep 2024 12:15:00 +0000</pubDate>
+      <guid>https://astrockragh.github.io/talk/2024_thunch/</guid>
+      <description>&lt;!-- Galaxies are conventionally thought of as composites of physically distinct components, making the components separable. One consequence of this assumption is that different wavelength ranges carry little information about each other, since the different components dominate emission at different wavelengths. This common assumption of separability is implicitly embedded in galaxy spectral energy distribution (SED) fitting codes, which are broadly used to derive the physical parameters of galaxies. In this paper, we show that optical spectra can be used to predict near- and mid-infrared photometry to $\chi^2_N \approx 1$, in strong contrast with SED fitting codes. We also demonstrate that derived quantities such as the bolometric luminosity of active galactic nuclei (AGN) can empirically be tightly constrained from the optical, just as dust parameters such as $\mathrm{q_{PAH}}$. We investigate the shortcomings of the separability assumption in SED fitting codes, finding that it leads to biases and imprecision in parameter inference. We construct a tool for determining the most important areas of improvement for SED models.  --&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Challenging modelling assumptions by connecting the optical and IR @UCSC</title>
+      <link>https://astrockragh.github.io/talk/2024_ucsc/</link>
+      <pubDate>Fri, 02 Aug 2024 12:15:00 +0000</pubDate>
+      <guid>https://astrockragh.github.io/talk/2024_ucsc/</guid>
+      <description></description>
     </item>
     
     <item>
@@ -928,7 +1011,7 @@ Further event details, including [page elements](https://wowchemy.com/docs/writi
     </item>
     
     <item>
-      <title>Learning Baryonic Physics from Complete Merger Histories @Universite de Montreal</title>
+      <title>Learning Baryonic Physics from Complete Merger Histories @Université de Montréal</title>
       <link>https://astrockragh.github.io/talk/gnn_graphmerge_montreal/</link>
       <pubDate>Tue, 29 Mar 2022 00:00:00 +0000</pubDate>
       <guid>https://astrockragh.github.io/talk/gnn_graphmerge_montreal/</guid>

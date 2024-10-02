@@ -5,12 +5,36 @@
     <link>https://astrockragh.github.io/tag/contributed/</link>
       <atom:link href="https://astrockragh.github.io/tag/contributed/index.xml" rel="self" type="application/rss+xml" />
     <description>contributed</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© Christian Kragh Jespersen 2024</copyright><lastBuildDate>Sun, 14 Nov 2021 10:30:12 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© Christian Kragh Jespersen 2024</copyright><lastBuildDate>Tue, 03 Dec 2024 12:15:00 +0000</lastBuildDate>
     <image>
       <url>https://astrockragh.github.io/media/logo_hu99cbd5be059c86a221a329805c1c065d_47879_300x300_fit_lanczos_3.png</url>
       <title>contributed</title>
       <link>https://astrockragh.github.io/tag/contributed/</link>
     </image>
+    
+    <item>
+      <title>The most massive galaxy we will find with JWST @IAP Symposium</title>
+      <link>https://astrockragh.github.io/talk/2024_paris_jswt_symposium/</link>
+      <pubDate>Tue, 03 Dec 2024 12:15:00 +0000</pubDate>
+      <guid>https://astrockragh.github.io/talk/2024_paris_jswt_symposium/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Challenging modelling assumptions by connecting the optical and IR @CCA</title>
+      <link>https://astrockragh.github.io/talk/2024_cca_ir/</link>
+      <pubDate>Fri, 18 Oct 2024 12:15:00 +0000</pubDate>
+      <guid>https://astrockragh.github.io/talk/2024_cca_ir/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Challenging modelling assumptions by connecting the optical and IR @UCSC</title>
+      <link>https://astrockragh.github.io/talk/2024_ucsc/</link>
+      <pubDate>Fri, 02 Aug 2024 12:15:00 +0000</pubDate>
+      <guid>https://astrockragh.github.io/talk/2024_ucsc/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Finding High Redshift galaxies with JWST</title>
