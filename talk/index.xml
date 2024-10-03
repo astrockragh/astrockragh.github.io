@@ -96,6 +96,88 @@
     </item>
     
     <item>
+      <title>Graphs Neural Networks, @Montréal Astro x ML Summer School</title>
+      <link>https://astrockragh.github.io/talk/2024_montreal_summer_school/</link>
+      <pubDate>Fri, 28 Jun 2024 12:15:00 +0000</pubDate>
+      <guid>https://astrockragh.github.io/talk/2024_montreal_summer_school/</guid>
+      <description>&lt;p&gt;This summer school lecture included two notebook tutorials, which can be found here:&lt;/p&gt;
+&lt;p&gt;Notebook 1:
+&lt;a href=&#34;https://colab.research.google.com/drive/1K6fvzUP33UWkXWoYxi5nt1ITwjXYHm5t&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://colab.research.google.com/drive/1K6fvzUP33UWkXWoYxi5nt1ITwjXYHm5t&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Notebook 2:
+&lt;a href=&#34;https://colab.research.google.com/drive/1zOxLB5QQAVqfR6FIjQ3YTRnRy0rGGaBO&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://colab.research.google.com/drive/1zOxLB5QQAVqfR6FIjQ3YTRnRy0rGGaBO&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Airglow and the Subaru Night Sky Spectrograph (SuNSS) @Subaru Telescope</title>
+      <link>https://astrockragh.github.io/talk/2024_subaru/</link>
+      <pubDate>Fri, 24 May 2024 12:15:00 +0000</pubDate>
+      <guid>https://astrockragh.github.io/talk/2024_subaru/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Galaxies, their dark matter environments, and formation histories @Montréal, Ciela Institute</title>
+      <link>https://astrockragh.github.io/talk/2024_montreal_ciela/</link>
+      <pubDate>Thu, 04 Apr 2024 12:15:00 +0000</pubDate>
+      <guid>https://astrockragh.github.io/talk/2024_montreal_ciela/</guid>
+      <description>&lt;!-- Galaxies’ properties are coupled to each other, as well as to their environments and merger histories. Unfortunately, these couplings are usually ignored in widely used statistical models of galaxies, often due to the difficulties of efficiently expressing them. I will introduce the tools necessary to explicitly introduce detailed descriptions of environments and merger histories into a statistical framework, and prove a surprising connection between the merger histories and environments of galaxies. I will then show how component coupling is implicitly treated in common codes which infer the physical parameters of galaxies, how the correct coupling strength can be empirically proven, and how this implicit treatment impacts the inferred parameters. --&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>The most massive galaxy in the universe @CCA</title>
+      <link>https://astrockragh.github.io/talk/2024_cca_most_massive/</link>
+      <pubDate>Fri, 29 Mar 2024 12:15:00 +0000</pubDate>
+      <guid>https://astrockragh.github.io/talk/2024_cca_most_massive/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Airglow and the Subaru Night Sky Spectrograph (SuNSS) @AAS 243th</title>
+      <link>https://astrockragh.github.io/talk/2024_aas/</link>
+      <pubDate>Tue, 09 Jan 2024 12:15:00 +0000</pubDate>
+      <guid>https://astrockragh.github.io/talk/2024_aas/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>How to build a galaxy @STScI/JHU</title>
+      <link>https://astrockragh.github.io/talk/2023_jhu_mangrove/</link>
+      <pubDate>Tue, 13 Jun 2023 12:15:00 +0000</pubDate>
+      <guid>https://astrockragh.github.io/talk/2023_jhu_mangrove/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>How to build a galaxy, Galaxy Formation Conference @KITP</title>
+      <link>https://astrockragh.github.io/talk/2023_kitp_mangrove/</link>
+      <pubDate>Fri, 24 Mar 2023 12:15:00 +0000</pubDate>
+      <guid>https://astrockragh.github.io/talk/2023_kitp_mangrove/</guid>
+      <description>&lt;p&gt;Blackboard talk done for the 2023 &amp;ldquo;Building a physical understanding of galaxy evolution with data-driven astronomy&amp;rdquo; KITP workshop &lt;a href=&#34;https://datadrivengalaxyevolution.github.io/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://datadrivengalaxyevolution.github.io/&lt;/a&gt;.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Graphs Neural Networks in Astrophysics, Data-Driven Galaxy Formation Workshop @KITP</title>
+      <link>https://astrockragh.github.io/talk/2023_kitp_gnn2/</link>
+      <pubDate>Tue, 14 Mar 2023 12:15:00 +0000</pubDate>
+      <guid>https://astrockragh.github.io/talk/2023_kitp_gnn2/</guid>
+      <description>&lt;p&gt;Blackboard talk done for the 2023 &amp;ldquo;Building a physical understanding of galaxy evolution with data-driven astronomy&amp;rdquo; KITP workshop &lt;a href=&#34;https://datadrivengalaxyevolution.github.io/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://datadrivengalaxyevolution.github.io/&lt;/a&gt;.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Graphs Neural Networks in Astrophysics, Data-Driven Galaxy Formation Workshop @CCA</title>
+      <link>https://astrockragh.github.io/talk/2023_kitp_gnn1/</link>
+      <pubDate>Fri, 03 Feb 2023 12:15:00 +0000</pubDate>
+      <guid>https://astrockragh.github.io/talk/2023_kitp_gnn1/</guid>
+      <description>&lt;p&gt;Done for the 2023 &amp;ldquo;Building a physical understanding of galaxy evolution with data-driven astronomy&amp;rdquo; KITP workshop &lt;a href=&#34;https://datadrivengalaxyevolution.github.io/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://datadrivengalaxyevolution.github.io/&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Recording can be found by following &lt;a href=&#34;https://www.dropbox.com/scl/fo/tgpwe1ljr4i9go4ajnsq6/h?dl=0&amp;amp;e=1&amp;amp;preview=2023-02-03&amp;#43;&amp;#43;CCA&amp;#43;KITP&amp;#43;-&amp;#43;Tutorial&amp;#43;-&amp;#43;Christian&amp;#43;Kragh&amp;#43;Jespersen&amp;#43;-&amp;#43;Alpha&amp;#43;Beta.mp4&amp;amp;rlkey=mwl1zi14okj5k1pnbflcgnz3l&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;this link&lt;/a&gt;.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Putting Galaxies in Halos Fast and Precisely</title>
       <link>https://astrockragh.github.io/talk/ltu_discussion/</link>
       <pubDate>Wed, 14 Sep 2022 00:00:00 +0000</pubDate>

@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>contributed | Christian Kragh Jespersen</title>
+    <title>Contributed | Christian Kragh Jespersen</title>
     <link>https://astrockragh.github.io/tag/contributed/</link>
       <atom:link href="https://astrockragh.github.io/tag/contributed/index.xml" rel="self" type="application/rss+xml" />
-    <description>contributed</description>
+    <description>Contributed</description>
     <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© Christian Kragh Jespersen 2024</copyright><lastBuildDate>Tue, 03 Dec 2024 12:15:00 +0000</lastBuildDate>
     <image>
       <url>https://astrockragh.github.io/media/logo_hu99cbd5be059c86a221a329805c1c065d_47879_300x300_fit_lanczos_3.png</url>
-      <title>contributed</title>
+      <title>Contributed</title>
       <link>https://astrockragh.github.io/tag/contributed/</link>
     </image>
     
@@ -34,6 +34,23 @@
       <pubDate>Fri, 02 Aug 2024 12:15:00 +0000</pubDate>
       <guid>https://astrockragh.github.io/talk/2024_ucsc/</guid>
       <description></description>
+    </item>
+    
+    <item>
+      <title>Airglow and the Subaru Night Sky Spectrograph (SuNSS) @AAS 243th</title>
+      <link>https://astrockragh.github.io/talk/2024_aas/</link>
+      <pubDate>Tue, 09 Jan 2024 12:15:00 +0000</pubDate>
+      <guid>https://astrockragh.github.io/talk/2024_aas/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Graphs Neural Networks in Astrophysics, Data-Driven Galaxy Formation Workshop @KITP</title>
+      <link>https://astrockragh.github.io/talk/2023_kitp_gnn2/</link>
+      <pubDate>Tue, 14 Mar 2023 12:15:00 +0000</pubDate>
+      <guid>https://astrockragh.github.io/talk/2023_kitp_gnn2/</guid>
+      <description>&lt;p&gt;Blackboard talk done for the 2023 &amp;ldquo;Building a physical understanding of galaxy evolution with data-driven astronomy&amp;rdquo; KITP workshop &lt;a href=&#34;https://datadrivengalaxyevolution.github.io/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://datadrivengalaxyevolution.github.io/&lt;/a&gt;.&lt;/p&gt;
+</description>
     </item>
     
     <item>
