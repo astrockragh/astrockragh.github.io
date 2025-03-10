@@ -1,0 +1,1589 @@
+<!DOCTYPE html><html lang="en-us" >
+
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  
+  
+  
+    <meta name="generator" content="Wowchemy 5.5.0 for Hugo" />
+  
+
+  
+  
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+  
+  
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  
+
+  
+  
+  
+    
+      
+      <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Roboto+Mono&family=Roboto:wght@400;700&display=swap">
+      <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Roboto+Mono&family=Roboto:wght@400;700&display=swap" media="print" onload="this.media='all'">
+    
+  
+
+  
+  
+  
+  
+  
+    
+    
+    
+  
+  
+
+  <meta name="author" content="Christian Kragh Jespersen" />
+
+  
+  
+  
+    
+  
+  <meta name="description" content="Galaxies are often modelled as disjoint composites of distinct spectral components, implying that different wavelength ranges are only weakly correlated. **They are not**. We construct a data-driven model to predict infrared emission from optical spectra, achieving almost lossless predictions. Traditional fitting methods are incapable of making predictions, being biased by model misspecifications." />
+
+  
+  <link rel="alternate" hreflang="en-us" href="https://astrockragh.github.io/project/ir_optical/" />
+
+  
+  
+  
+    <meta name="theme-color" content="#bbdefb" />
+  
+
+  
+  
+
+  
+
+  <link rel="stylesheet" href="/css/vendor-bundle.min.c7b8d9abd591ba2253ea42747e3ac3f5.css" media="print" onload="this.media='all'">
+
+  
+  
+  
+    
+    
+
+    
+    
+    
+    
+      
+      
+    
+    
+    
+
+    
+    
+    
+    
+
+    
+    
+    
+
+    
+
+    
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+        
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+  
+
+  
+  
+  
+  
+  
+  <link rel="stylesheet" href="/css/wowchemy.2215a8106e8600c1296dee0a44c6a5ab.css" />
+
+  
+
+
+
+  
+
+
+  
+
+
+  
+
+
+
+
+  
+  
+  
+
+  
+
+  
+    <link rel="manifest" href="/manifest.webmanifest" />
+  
+
+  <link rel="icon" type="image/png" href="/media/icon_hu99cbd5be059c86a221a329805c1c065d_47879_32x32_fill_lanczos_center_3.png" />
+  <link rel="apple-touch-icon" type="image/png" href="/media/icon_hu99cbd5be059c86a221a329805c1c065d_47879_180x180_fill_lanczos_center_3.png" />
+
+  <link rel="canonical" href="https://astrockragh.github.io/project/ir_optical/" />
+
+  
+  
+  
+  
+  
+  
+  
+  
+    
+  
+  
+
+  
+  
+    
+    
+  
+  <meta property="twitter:card" content="summary_large_image" />
+  
+  <meta property="og:site_name" content="Christian Kragh Jespersen" />
+  <meta property="og:url" content="https://astrockragh.github.io/project/ir_optical/" />
+  <meta property="og:title" content="The optical and infrared are connected | Christian Kragh Jespersen" />
+  <meta property="og:description" content="Galaxies are often modelled as disjoint composites of distinct spectral components, implying that different wavelength ranges are only weakly correlated. **They are not**. We construct a data-driven model to predict infrared emission from optical spectra, achieving almost lossless predictions. Traditional fitting methods are incapable of making predictions, being biased by model misspecifications." /><meta property="og:image" content="https://astrockragh.github.io/project/ir_optical/featured.jpg" />
+    <meta property="twitter:image" content="https://astrockragh.github.io/project/ir_optical/featured.jpg" /><meta property="og:locale" content="en-us" />
+  
+    
+      <meta
+        property="article:published_time"
+        content="2025-01-14T00:00:00&#43;00:00"
+      />
+    
+    <meta property="article:modified_time" content="2025-01-14T00:00:00&#43;00:00">
+  
+
+  
+
+
+    
+
+
+
+
+
+
+
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://astrockragh.github.io/project/ir_optical/"
+  },
+  "headline": "The optical and infrared are connected",
+  
+  "image": [
+    "https://astrockragh.github.io/project/ir_optical/featured.jpg"
+  ],
+  
+  "datePublished": "2025-01-14T00:00:00Z",
+  "dateModified": "2025-01-14T00:00:00Z",
+  
+  "author": {
+    "@type": "Person",
+    "name": "Christian Kragh Jespersen"
+  },
+  
+  "publisher": {
+    "@type": "Organization",
+    "name": "Christian Kragh Jespersen",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://astrockragh.github.io/media/logo_hu99cbd5be059c86a221a329805c1c065d_47879_192x192_fit_lanczos_3.png"
+    }
+  },
+  "description": "Galaxies are often modelled as disjoint composites of distinct spectral components, implying that different wavelength ranges are only weakly correlated. **They are not**. We construct a data-driven model to predict infrared emission from optical spectra, achieving almost lossless predictions. Traditional fitting methods are incapable of making predictions, being biased by model misspecifications."
+}
+</script>
+
+  
+
+  
+
+  
+
+  
+
+
+
+
+
+  <title>The optical and infrared are connected | Christian Kragh Jespersen</title>
+</head>
+
+
+<body id="top" data-spy="scroll" data-offset="70" data-target="#TableOfContents" class="page-wrapper  dark " data-wc-page-id="f40849276f06ee09dbfe3ee505fa9e11" >
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  <script src="/js/wowchemy-init.min.7139d4fb8f74c01b97e65e19c846e5cc.js"></script>
+
+  
+
+
+
+
+  <div class="page-header">
+    
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+<header class="header--fixed">
+  <nav class="navbar navbar-expand-lg navbar-light compensate-for-scrollbar" id="navbar-main">
+    <div class="container-xl">
+
+      
+      <div class="d-none d-lg-inline-flex">
+        <a class="navbar-brand" href="/"><img src="/media/logo_hu99cbd5be059c86a221a329805c1c065d_47879_0x70_resize_lanczos_3.png" alt="Christian Kragh Jespersen"
+            
+            ></a>
+      </div>
+      
+
+      
+      <button type="button" class="navbar-toggler" data-toggle="collapse"
+              data-target="#navbar-content" aria-controls="navbar-content" aria-expanded="false" aria-label="Toggle navigation">
+      <span><i class="fas fa-bars"></i></span>
+      </button>
+      
+
+      
+      <div class="navbar-brand-mobile-wrapper d-inline-flex d-lg-none">
+        <a class="navbar-brand" href="/"><img src="/media/logo_hu99cbd5be059c86a221a329805c1c065d_47879_0x70_resize_lanczos_3.png" alt="Christian Kragh Jespersen"
+          
+          ></a>
+      </div>
+      
+
+      
+      
+      <div class="navbar-collapse main-menu-item collapse justify-content-start" id="navbar-content">
+
+        
+        <ul class="navbar-nav d-md-inline-flex">
+          
+
+          
+
+          
+          
+          
+            
+          
+
+          
+
+          
+          
+          
+          
+
+          
+            
+              
+              
+            
+            
+              
+              
+              
+                
+              
+              
+            
+          
+
+          <li class="nav-item">
+            <a class="nav-link " href="/#about"><span>Home</span></a>
+          </li>
+
+          
+          
+
+          
+
+          
+          
+          
+            
+          
+
+          
+
+          
+          
+          
+          
+
+          
+            
+              
+              
+            
+            
+              
+              
+              
+                
+              
+              
+            
+          
+
+          <li class="nav-item">
+            <a class="nav-link " href="/#research"><span>Research</span></a>
+          </li>
+
+          
+          
+
+          
+
+          
+          
+          
+            
+          
+
+          
+
+          
+          
+          
+          
+
+          
+            
+              
+              
+            
+            
+              
+              
+              
+                
+              
+              
+            
+          
+
+          <li class="nav-item">
+            <a class="nav-link " href="/#talks"><span>Talks</span></a>
+          </li>
+
+          
+          
+
+          
+
+          
+          
+          
+            
+          
+
+          
+
+          
+          
+          
+          
+
+          
+            
+              
+              
+            
+            
+              
+              
+              
+                
+              
+              
+            
+          
+
+          <li class="nav-item">
+            <a class="nav-link " href="/#posts"><span>Blog posts</span></a>
+          </li>
+
+          
+          
+
+          
+
+          
+          
+          
+            
+          
+
+          
+
+          
+          
+          
+          
+
+          
+            
+              
+              
+            
+            
+              
+              
+              
+                
+              
+              
+            
+          
+
+          <li class="nav-item">
+            <a class="nav-link " href="/#publications"><span>Publications</span></a>
+          </li>
+
+          
+          
+
+          
+
+          
+          
+          
+            
+          
+
+          
+
+          
+          
+          
+          
+
+          
+            
+              
+              
+            
+            
+              
+              
+              
+                
+              
+              
+            
+          
+
+          <li class="nav-item">
+            <a class="nav-link " href="/#press"><span>Press and Public Talks</span></a>
+          </li>
+
+          
+          
+
+          
+
+          
+          
+          
+            
+          
+
+          
+
+          
+          
+          
+          
+
+          
+            
+              
+              
+            
+            
+              
+              
+              
+                
+              
+              
+            
+          
+
+          <li class="nav-item">
+            <a class="nav-link " href="/#contact"><span>Contact</span></a>
+          </li>
+
+          
+          
+
+          
+
+          
+          
+          
+            
+          
+
+          
+
+          
+          
+          
+          
+
+          
+            
+              
+              
+            
+            
+          
+
+          <li class="nav-item">
+            <a class="nav-link " href="/uploads/CV_Jan2025.pdf"><span>CV</span></a>
+          </li>
+
+          
+          
+
+        
+
+          
+        </ul>
+      </div>
+
+      <ul class="nav-icons navbar-nav flex-row ml-auto d-flex pl-md-2">
+
+        
+        
+          
+        
+
+        
+        
+
+        
+        
+        
+
+        
+        
+
+      </ul>
+
+    </div>
+  </nav>
+</header>
+
+
+  </div>
+
+  <div class="page-body">
+    
+    
+    
+
+    <article class="article article-project">
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+
+
+<div class="article-container pt-3">
+  <h1>The optical and infrared are connected</h1>
+
+  
+
+  
+
+
+<div class="article-metadata">
+
+  
+  
+
+  
+  <span class="article-date">
+    
+    
+      
+    
+    Jan 14, 2025
+  </span>
+  
+
+  
+
+  
+
+  
+  
+  
+  
+
+  
+  
+
+</div>
+
+  
+
+
+
+
+<div class="btn-links mb-3">
+  
+  
+
+
+
+
+
+
+
+
+  
+    
+  
+
+
+
+<a class="btn btn-outline-primary btn-page-header" href="https://arxiv.org/pdf/2503.03816" target="_blank" rel="noopener">
+  PDF
+</a>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+  
+    
+  
+  
+  
+  
+  
+    
+  
+  <a class="btn btn-outline-primary btn-page-header" href="https://github.com/astrockragh/IR_optical_demo/tree/main" target="_blank" rel="noopener">
+    <i class="fas fa-github mr-1"></i>GitHub</a>
+
+  
+  
+  
+    
+  
+  
+  
+  
+  
+    
+  
+  <a class="btn btn-outline-primary btn-page-header" href="https://ui.adsabs.harvard.edu/abs/2025arXiv250303816J/abstract" target="_blank" rel="noopener">
+    <i class="fas fa-book mr-1"></i>NASA/ADS</a>
+
+  
+  
+  
+    
+  
+  
+  
+  
+  
+    
+  
+  <a class="btn btn-outline-primary btn-page-header" href="https://ui.adsabs.harvard.edu/abs/2025arXiv250303816J/exportcitation" target="_blank" rel="noopener">
+    <i class="fas fa-quote-left mr-1"></i>Cite</a>
+
+
+</div>
+
+
+</div>
+
+
+<div class="article-header article-container featured-image-wrapper mt-4 mb-4" style="max-width: 640px; max-height: 480px;">
+  <div style="position: relative">
+    <img src="/project/ir_optical/featured_hu28841954bfe6eced64124d9cd2dc246b_53583_720x2500_fit_q100_h2_lanczos.webp" width="640" height="480" alt="" class="featured-image">
+    <span class="article-header-caption">The Milky Way seen across different wavelengths</span>
+  </div>
+</div>
+
+
+
+  <div class="article-container">
+
+    <div class="article-style">
+      <!-- 
+List of points to make:
+
+- Start with the current paradigm, and pretty pictures
+
+- Show the crazy predictions of the SED fitting codes - highlight that they are also overconfident. Model misspecification.
+
+- Show our predictions, and discuss why we are doing so much better. Discuss the stability coming from the auto-encoding step. Include notebook here
+
+- Discuss the fundamental galaxy hyper-plane (with pictures of fundamental plane/SFMS).
+
+- Discuss how this means that a well-made model could do amazingly well!
+
+-------- -->
+<!-- # **Galaxy formation unveiled through the connection between the optical and infrared** -->
+<p>Galaxies are amazing objects! One of the most exciting aspects of galaxy formation is just how many different physical processes work together to make these breathtaking displays of beauty.
+These different components also emit light in different wavelength ranges, meaning that any one galaxy will look very different depending on the kind of light we choose to look at it with. Just look at the galaxy below!</p>
+<p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<figure  >
+  <div class="d-flex justify-content-center">
+    <div class="w-100" ><img alt="A galaxy in many different wavelengths" srcset="
+               /project/ir_optical/another_gal_diff_wavelengths_hufc726e928bc7708edd7f5f3c58206110_43120_bed11cfa9e4bddf52e3b60d91c4b4f4a.webp 400w,
+               /project/ir_optical/another_gal_diff_wavelengths_hufc726e928bc7708edd7f5f3c58206110_43120_446c5cb59cf247bfff99d328a8a44a19.webp 760w,
+               /project/ir_optical/another_gal_diff_wavelengths_hufc726e928bc7708edd7f5f3c58206110_43120_1200x1200_fit_q100_h2_lanczos.webp 1200w"
+               src="/project/ir_optical/another_gal_diff_wavelengths_hufc726e928bc7708edd7f5f3c58206110_43120_bed11cfa9e4bddf52e3b60d91c4b4f4a.webp"
+               width="760"
+               height="331"
+               loading="lazy" data-zoomable /></div>
+  </div></figure>
+</p>
+<p>This makes galaxies even more interesting, but unfortunately for the people who model them, it also makes them <strong>even more complicated</strong>.
+That is why studying each wavelength ranges (and the different components which dominate them) has traditionally been considered <strong>separate subfields</strong> of studying galaxies.</p>
+<p><strong>Each wavelength range is complex enough to be its own subfield!</strong></p>
+<p>One can thus only imagine the complexity facing those who spend their lives modelling the <strong>multi-wavelength</strong> emission of galaxies!
+It is their (un)happy task to stitch together all the knowledge from these separate subfields. However, the historical separation of the subfields makes its way into their models, which causes <strong>all kinds of problems</strong>!</p>
+<p>Because of this separation, many of the components of these models are modelled as completely independent. However, <strong>that is not how real galaxies work</strong>. In reality, the different components of galaxies are all <strong>coupled</strong> to each other.</p>
+<p>The reason for why these couplings are not in our best models is because it is not clear just how coupled these components actually are?<br>
+Just a little? A lot?<br>
+Who knows?</p>
+<p>Well, keep reading, because now <strong>we</strong> know!</p>
+<h2 id="how-coupled-are-galaxy-components">How coupled are galaxy components?</h2>
+<p>How can we tell how strongly coupled different galaxy components are? We can exploit the very fact that different galaxy components emit at different wavelengths, and then investigate the <strong>correlations between emission those wavelengths</strong>.
+Others have already tried this before, but they were lacking the tools that we used, and therefore ended up simply confirming the old separability paradigm.</p>
+<!-- Our latest research SHATTERS this paradigm, unveiling a revolutionary way to predict infrared (IR) emission from optical spectra with jaw-dropping accuracy! 😲✨
+
+SED-fitting models have long struggled to make sense of IR emission using only optical data, often producing absurdly overconfident predictions.
+ Our study exposes the truth: these models aren't capturing the real physics at play. Instead, they rely on flawed assumptions that lead to massive errors 
+ [Boquien et al., 2019][1]; [Leja et al., 2017][2]. 🔍💡 -->
+<h3 id="a-bold-new-approach-that-changes-everything-">A Bold New Approach That Changes Everything 🔥</h3>
+<p>We decided to do things differently. We built a <strong>data-driven mmodel</strong> that delivers astonishing results, by connecting optical spectra from the <a href="https://www.sdss.org/" target="_blank" rel="noopener">Sloan Digital Sky Survey (SDSS)</a> to IR photometry from the <a href="https://wise2.ipac.caltech.edu/" target="_blank" rel="noopener">WISE satellite</a>.
+We train our model to predict the WISE photometry from the optical SDSS spectra, and achieve an unprecedented <strong>χ² ≈ 1</strong> (this means perfect predictions) across all WISE photometric bands—leaving, which leaves all of the traditional methods <strong>in the dust</strong>! 🚗💨
+The χ² results are great, but that is not all. We spent 6 months throwing every possibly test at the model, trying to poke holes in our results, but it just kept on working flawlessly.</p>
+<p>The conclusion is simple; the parts of the galaxy which dominate the optical are <strong>extremely tightly coupled</strong> to those which dominate the IR.</p>
+<p>So what’s the secret sauce? Before training a small neural network to do the predictions, we introduce an <strong>auto-encoding step</strong>, which stabilizes predictions and ensures an efficient, low-dimensional representation of galaxy spectra.<sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup>
+This is what allows our model to make ultra-precise predictions that were previously thought impossible!</p>
+<p>🚀 Want to see the magic in action? We’ve made our code and dataset <strong>publicly available</strong> on GitHub: <a href="https://github.com/astrockragh/IR_optical_demo" target="_blank" rel="noopener">IR_optical_demo</a>. <strong>Check it out, experiment, and prepare to be surprised!</strong></p>
+<h3 id="shattering-the-old-paradigm">Shattering the old paradigm</h3>
+<p>To contrast our results with the existing state of the art, we compare our results with those from two spectrum (SED) fitting codes, <code>CIGALE</code> and <code>prospector</code>.<sup id="fnref:2"><a href="#fn:2" class="footnote-ref" role="doc-noteref">2</a></sup>
+These models comprise 30 years of development, so they really are the best that astrophysics has to offer!</p>
+<p>The task here is the same. Fit the optical and predict what is going on in the infrared. Below you can see how these SED models do (left) versus our data-driven model (right).</p>
+<p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<figure  >
+  <div class="d-flex justify-content-center">
+    <div class="w-100" ><img alt="A performance comparison of different models. The empirical model is infinitely better." srcset="
+               /project/ir_optical/featured_small_hu4863e048a5cc330c903887e7893f1458_306697_e551f89703fe47c14df6495fd2a2f5b7.webp 400w,
+               /project/ir_optical/featured_small_hu4863e048a5cc330c903887e7893f1458_306697_c30c4f96f69b0f09abea27420eef0970.webp 760w,
+               /project/ir_optical/featured_small_hu4863e048a5cc330c903887e7893f1458_306697_1200x1200_fit_q100_h2_lanczos_3.webp 1200w"
+               src="/project/ir_optical/featured_small_hu4863e048a5cc330c903887e7893f1458_306697_e551f89703fe47c14df6495fd2a2f5b7.webp"
+               width="760"
+               height="384"
+               loading="lazy" data-zoomable /></div>
+  </div></figure>
+</p>
+<p>It is obvious that the predictions of the SED models are absolute junk, while the empirical model is basically perfect.<br>
+You might be a little confused about all the blue lines. These come from what we call the <em>posterior</em> of the model. The posterior encodes the distribution of possible outcomes given the optical data.</p>
+<p>From looking at the samples from the posterior, we see that the SED models are not only incorrect in their central estimates, they are <strong>overconfidently incorrect</strong>. None of the samples are even close to the data.</p>
+<p>This reflects the worst possible posterior that we encounter in statistics - something my esteemed colleague <a href="https://www.astro.umontreal.ca/~hezaveh/hezaveh/Home.html" target="_blank" rel="noopener">Yashar Hezaveh</a> affectionaly calls an <strong>asshole posterior</strong>.</p>
+<p>The <strong>asshole posterior</strong> is a result of what we call <strong>model misspecification</strong>. Model misspecification is exactly what it sounds like - using a model of some data which does not actually correspond to the mechanism which generated that data. Here, a big part of the model misspecification is <strong>allowing each component to vary independently</strong>. This assumption is understandable from the point of view that it makes modelling much easier, it just has the <em>minor</em> drawback that <strong>it&rsquo;s wrong</strong>.</p>
+<h3 id="constraining-the-individual-components">Constraining the individual components</h3>
+<p>So what are the components that we keep on talking about? Well, most of the emission that WISE sees comes a special kind of dust that we call Polycyclic Aromatic Hydrocarbons (PAHs) and from Active Galactic Nuclei (AGN), black holes at the center of galaxies which superheat their surroundings as they swallow everything! On the other hand, SDSS mostly sees the light from stars and gas heated by stars. The below figure how these components dominate completely different areas of the spectrum.</p>
+<p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<figure  >
+  <div class="d-flex justify-content-center">
+    <div class="w-100" ><img alt="The wavelength/component separation." srcset="
+               /project/ir_optical/wavelength_separation_demo_hu65ce0847f96af0441efd199ba4cac83e_270551_0ba5a8a6c566cd4fa6d782133fe20921.webp 400w,
+               /project/ir_optical/wavelength_separation_demo_hu65ce0847f96af0441efd199ba4cac83e_270551_683cbee3c4eb38ad3e1eafa7e95cf90f.webp 760w,
+               /project/ir_optical/wavelength_separation_demo_hu65ce0847f96af0441efd199ba4cac83e_270551_1200x1200_fit_q100_h2_lanczos_3.webp 1200w"
+               src="/project/ir_optical/wavelength_separation_demo_hu65ce0847f96af0441efd199ba4cac83e_270551_0ba5a8a6c566cd4fa6d782133fe20921.webp"
+               width="576"
+               height="760"
+               loading="lazy" data-zoomable /></div>
+  </div></figure>
+</p>
+<p>Our hypothesis is that we can constrain them starting from the optical, <strong>even though we don&rsquo;t directly see them</strong>. This is implied by the fact that we predict the photometry, but let&rsquo;s show it directly! When we try going directly to the PAH fraction ($q_{PAH}$) we can constrain it to a breathtaking precision of 7%, <strong>without ever seeing their emission</strong>. Again, this is because the components are <strong>coupled</strong>.</p>
+<p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<figure  >
+  <div class="d-flex justify-content-center">
+    <div class="w-100" ><img alt="Predicting qPAHs" srcset="
+               /project/ir_optical/qpah_pred_data_hub446d20bb8dafa904ad094315355ed2d_381729_03557b5bafe848e32a3a0faef8c80fdf.webp 400w,
+               /project/ir_optical/qpah_pred_data_hub446d20bb8dafa904ad094315355ed2d_381729_071f011db8942a2c775fdea14110617a.webp 760w,
+               /project/ir_optical/qpah_pred_data_hub446d20bb8dafa904ad094315355ed2d_381729_1200x1200_fit_q100_h2_lanczos_3.webp 1200w"
+               src="/project/ir_optical/qpah_pred_data_hub446d20bb8dafa904ad094315355ed2d_381729_03557b5bafe848e32a3a0faef8c80fdf.webp"
+               width="699"
+               height="760"
+               loading="lazy" data-zoomable /></div>
+  </div></figure>
+</p>
+<p>We can do a similar task for the AGNs. Here we need to do a little pre-selections to make sure that we know that a given object is an AGN. The way to do so is by selecting objects which also emit strongly in X-rays. For this X-ray selected sample, we can then learn to predict the <em>bolometric luminosity</em> (bolometric means integrated over all wavelengths). The golden target is an accuracy of 0.3 dex (dex is astronomy for unit in logarithmic base 10, so 0.3 dex is about a factor of 2). The results are shown below.</p>
+<p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<figure  >
+  <div class="d-flex justify-content-center">
+    <div class="w-100" ><img alt="Predicting AGNs" srcset="
+               /project/ir_optical/AGN_bolometric_update_extra_velocity_hu7472d07f7216638a23d9883276ae7eba_165543_957f8830a7213fac6acba08ddedebf00.webp 400w,
+               /project/ir_optical/AGN_bolometric_update_extra_velocity_hu7472d07f7216638a23d9883276ae7eba_165543_006cc06625a10e9b56f2c6f1925c9c70.webp 760w,
+               /project/ir_optical/AGN_bolometric_update_extra_velocity_hu7472d07f7216638a23d9883276ae7eba_165543_1200x1200_fit_q100_h2_lanczos_3.webp 1200w"
+               src="/project/ir_optical/AGN_bolometric_update_extra_velocity_hu7472d07f7216638a23d9883276ae7eba_165543_957f8830a7213fac6acba08ddedebf00.webp"
+               width="760"
+               height="287"
+               loading="lazy" data-zoomable /></div>
+  </div></figure>
+</p>
+<p>We don&rsquo;t quite make it, but we&rsquo;re very close! Some of these objects have broad lines (class B) or very broad lines (class vB), meaning that we can directly see some emission from the black hole. For these, we can easily predict the luminosities!</p>
+<p>This represents a massive leap forward in understanding galaxy evolution and the interplay between stars, dust, and active galactic nuclei (AGN).</p>
+<h3 id="the-universes-hidden-blueprint-a-fundamental-galaxy-hyper-plane-">The Universe&rsquo;s Hidden Blueprint: A Fundamental Galaxy Hyper-Plane 🌌📈</h3>
+<p>These discoveries aren&rsquo;t just exciting—it’s <strong>groundbreaking</strong>. They suggest that galaxies don’t sprawl across an infinite parameter space as previously assumed. Instead, galaxies must adhere to a precise, <strong>well-defined fundamental hyper-plane</strong>, echoing well-known astrophysical relations like the <strong>fundamental plane of elliptical galaxies</strong><sup id="fnref:3"><a href="#fn:3" class="footnote-ref" role="doc-noteref">3</a></sup> and the <strong>Star-Forming Main Sequence (SFMS)</strong><sup id="fnref:4"><a href="#fn:4" class="footnote-ref" role="doc-noteref">4</a></sup>, where galaxies globally exhibit tight relations.</p>
+<p>What does this mean? It means we’re closer than ever to cracking the <strong>code of galaxy evolution!</strong> By accurately predicting IR properties from optical spectra, we’ve proven that key galaxy traits are <strong>deeply interconnected</strong> across wavelengths. This insight <strong>paves the way</strong> for an era of <strong>unprecedented precision</strong> in astrophysical modeling.
+This means that the future is bright for making new models.</p>
+<p>With <strong>JWST</strong> and future spectroscopic surveys like <strong>PFS</strong> and <strong>DESI</strong> offering even richer datasets, the time has come to <strong>improve our outdated models</strong> and <strong>embrace cutting-edge, data-driven techniques</strong>.</p>
+<h3 id="the-secret-to-galaxy-evolution-was-hidden-in-plain-sight-">The secret to galaxy evolution was hidden in plain sight 🔭✨</h3>
+<p>All of the data that we used has been public for more than a decade, but yet, nobody had uncovered this important truth. The universe has been hiding its secrets in plain sight, and we’re finally uncovering them. By rethinking how we model galaxies, we are not just improving predictions — <strong>we’re reshaping our understanding of galaxies.</strong> The future of galaxy evolution studies has never been more <strong>exciting</strong>, and I can&rsquo;t wait to continue working on it!</p>
+<h3 id="stay-tuned-this-is-only-the-beginning-">Stay tuned, this is only the beginning! 🎉🌠</h3>
+<hr>
+<p>I cannot overstate the importance of my advisors and collaborators for the success of this project. Especially <a href="https://pmelchior.net/" target="_blank" rel="noopener">Peter Melchior</a>, <a href="https://en.wikipedia.org/wiki/David_Spergel" target="_blank" rel="noopener">David Spergel</a>, and <a href="https://www.astro.princeton.edu/~goulding/" target="_blank" rel="noopener">Andy Goulding</a> made fundamental contributions.</p>
+<h3 id="references">References</h3>
+<section class="footnotes" role="doc-endnotes">
+<hr>
+<ol>
+<li id="fn:1" role="doc-endnote">
+<p>See <a href="https://ui.adsabs.harvard.edu/abs/2023AJ....166...74M/abstract" target="_blank" rel="noopener">Melchior et al., 2023</a> and <a href="https://ui.adsabs.harvard.edu/abs/2023AJ....166...75L/abstract" target="_blank" rel="noopener">Liang et al., 2023</a>.&#160;<a href="#fnref:1" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:2" role="doc-endnote">
+<p>See more details about <code>CIGALE</code> in <a href="https://cigale.lam.fr" target="_blank" rel="noopener">Boquien et al., 2019</a> and <code>prospector</code> in <a href="https://prospectorexplorer.github.io" target="_blank" rel="noopener">Leja et al., 2017</a>.&#160;<a href="#fnref:2" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:3" role="doc-endnote">
+<p><a href="https://arxiv.org/abs/astro-ph/9603025" target="_blank" rel="noopener">Djorgovski &amp; Davis, 1987</a>&#160;<a href="#fnref:3" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:4" role="doc-endnote">
+<p><a href="https://arxiv.org/abs/1405.2041" target="_blank" rel="noopener">Speagle et al., 2014</a>&#160;<a href="#fnref:4" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+</ol>
+</section>
+
+    </div>
+
+    
+
+
+
+
+<div class="article-tags">
+  
+  <a class="badge badge-light" href="/tag/machine-learning/">Machine Learning</a>
+  
+  <a class="badge badge-light" href="/tag/galaxies/">Galaxies</a>
+  
+  <a class="badge badge-light" href="/tag/observations/">Observations</a>
+  
+</div>
+
+
+
+<div class="share-box">
+  <ul class="share">
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="https://twitter.com/intent/tweet?url=https://astrockragh.github.io/project/ir_optical/&amp;text=The%20optical%20and%20infrared%20are%20connected" target="_blank" rel="noopener" class="share-btn-twitter" aria-label="twitter">
+          <i class="fab fa-twitter"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="https://www.facebook.com/sharer.php?u=https://astrockragh.github.io/project/ir_optical/&amp;t=The%20optical%20and%20infrared%20are%20connected" target="_blank" rel="noopener" class="share-btn-facebook" aria-label="facebook">
+          <i class="fab fa-facebook"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="mailto:?subject=The%20optical%20and%20infrared%20are%20connected&amp;body=https://astrockragh.github.io/project/ir_optical/" target="_blank" rel="noopener" class="share-btn-email" aria-label="envelope">
+          <i class="fas fa-envelope"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="https://www.linkedin.com/shareArticle?url=https://astrockragh.github.io/project/ir_optical/&amp;title=The%20optical%20and%20infrared%20are%20connected" target="_blank" rel="noopener" class="share-btn-linkedin" aria-label="linkedin-in">
+          <i class="fab fa-linkedin-in"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="whatsapp://send?text=The%20optical%20and%20infrared%20are%20connected%20https://astrockragh.github.io/project/ir_optical/" target="_blank" rel="noopener" class="share-btn-whatsapp" aria-label="whatsapp">
+          <i class="fab fa-whatsapp"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="https://service.weibo.com/share/share.php?url=https://astrockragh.github.io/project/ir_optical/&amp;title=The%20optical%20and%20infrared%20are%20connected" target="_blank" rel="noopener" class="share-btn-weibo" aria-label="weibo">
+          <i class="fab fa-weibo"></i>
+        </a>
+      </li>
+    
+  </ul>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+
+
+
+  
+  
+  
+    
+  
+  
+  
+  <div class="media author-card content-widget-hr">
+    
+      
+      <a href="https://astrockragh.github.io"><img class="avatar mr-3 avatar-circle" src="/authors/admin/avatar_hudb95a7a789097a064a8a70b64bc03c45_1346388_270x270_fill_q100_lanczos_center.jpg" alt="Christian Kragh Jespersen"></a>
+    
+
+    <div class="media-body">
+      <h5 class="card-title"><a href="https://astrockragh.github.io">Christian Kragh Jespersen</a></h5>
+      <h6 class="card-subtitle">PhD Candidate in Astrophysical Sciences</h6>
+      <p class="card-text">My research interests are at the intersection between Machine Learning, galaxy formation and evolution, big surveys, and cosmology</p>
+      <ul class="network-icon" aria-hidden="true">
+  
+    
+    
+    
+      
+    
+    
+    
+    
+    
+    <li>
+      <a href="mailto:ckragh@princeton.edu" >
+        <i class="fas fa-envelope"></i>
+      </a>
+    </li>
+  
+    
+    
+    
+      
+    
+    
+    
+    
+    
+      
+    
+    <li>
+      <a href="https://scholar.google.com/citations?view_op=list_works&amp;hl=en&amp;user=0FjNowwAAAAJ" target="_blank" rel="noopener">
+        <i class="fas fa-scroll"></i>
+      </a>
+    </li>
+  
+    
+    
+    
+      
+    
+    
+    
+    
+    
+      
+    
+    <li>
+      <a href="https://ui.adsabs.harvard.edu/search/fq=%7B!type%3Daqp%20v%3D%24fq_database%7D&amp;fq_database=%28database%3Aastronomy%20OR%20database%3Aphysics%29&amp;q=%28%28author%3A%22Jespersen%2C%20Christian%20K.%22%20or%20author%3A%22Kragh%20Jespersen%2C%20Christian%22%29%20AND%20year%3A2020-%29&amp;sort=date%20desc%2C%20bibcode%20desc&amp;p_=0" target="_blank" rel="noopener">
+        <i class="fas fa-book"></i>
+      </a>
+    </li>
+  
+    
+    
+    
+      
+    
+    
+    
+    
+    
+      
+    
+    <li>
+      <a href="https://github.com/astrockragh" target="_blank" rel="noopener">
+        <i class="fab fa-github"></i>
+      </a>
+    </li>
+  
+    
+    
+    
+      
+    
+    
+    
+    
+    
+      
+    
+    <li>
+      <a href="https://twitter.com/AstroCKragh" target="_blank" rel="noopener">
+        <i class="fab fa-twitter"></i>
+      </a>
+    </li>
+  
+    
+    
+    
+      
+    
+    
+    
+    
+    
+      
+    
+    <li>
+      <a href="https://www.linkedin.com/in/christian-kragh-j-24556a12a/" target="_blank" rel="noopener">
+        <i class="fab fa-linkedin"></i>
+      </a>
+    </li>
+  
+</ul>
+
+    </div>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <div class="project-related-pages content-widget-hr">
+      
+      
+
+      
+      
+      
+
+      
+      
+      
+
+      
+      
+      
+    </div>
+  </div>
+</article>
+  </div>
+
+  <div class="page-footer">
+    
+    
+    <div class="container">
+      <footer class="site-footer">
+
+  
+
+
+
+  
+
+  
+
+  
+
+  
+  
+
+
+
+
+
+
+  
+
+
+
+
+  <p class="powered-by">
+    
+    
+    
+      
+      
+      
+      
+      
+      
+      Published with <a href="https://wowchemy.com/?utm_campaign=poweredby" target="_blank" rel="noopener">Wowchemy</a> — the free, <a href="https://github.com/wowchemy/wowchemy-hugo-themes" target="_blank" rel="noopener">open source</a> website builder that empowers creators.
+    
+  </p>
+</footer>
+
+    </div>
+    
+  </div>
+
+      
+
+    
+    <script src="/js/vendor-bundle.min.92d2024afaa4dce0cad42ba360879ce9.js"></script>
+
+    
+    
+    
+      
+
+      
+      
+
+      
+
+      
+
+    
+
+    
+    
+    
+
+    
+    
+
+    
+    
+    
+
+    
+    
+
+    
+    
+    
+    
+
+    
+    
+
+    
+
+    
+    
+    
+    <script id="page-data" type="application/json">{"use_headroom":true}</script>
+
+    
+    
+      <script src="/js/wowchemy-headroom.e8fd2d733eef6a8bbbe0539398fc0547.js" type="module"></script>
+    
+    
+    
+    
+    
+    
+    
+    
+    <script src="/en/js/wowchemy.min.b3b95b2ec614292e1913846b81375a58.js"></script>
+
+    
+    
+    
+    
+    
+    
+      
+<div id="modal" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">Cite</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <pre><code class="tex hljs"></code></pre>
+      </div>
+      <div class="modal-footer">
+        <a class="btn btn-outline-primary my-1 js-copy-cite" href="#" target="_blank">
+          <i class="fas fa-copy"></i> Copy
+        </a>
+        <a class="btn btn-outline-primary my-1 js-download-cite" href="#" target="_blank">
+          <i class="fas fa-download"></i> Download
+        </a>
+        <div id="modal-error"></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+      <script src="/js/wowchemy-publication.68f8d7090562ca65fc6d3cb3f8f2d2cb.js" type="module"></script>
+
+
+
+
+
+
+</body>
+</html>

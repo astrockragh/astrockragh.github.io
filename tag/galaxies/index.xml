@@ -5,12 +5,246 @@
     <link>https://astrockragh.github.io/tag/galaxies/</link>
       <atom:link href="https://astrockragh.github.io/tag/galaxies/index.xml" rel="self" type="application/rss+xml" />
     <description>Galaxies</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© Christian Kragh Jespersen 2024</copyright><lastBuildDate>Wed, 02 Oct 2024 00:10:00 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© Christian Kragh Jespersen 2024</copyright><lastBuildDate>Tue, 14 Jan 2025 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://astrockragh.github.io/media/logo_hu99cbd5be059c86a221a329805c1c065d_47879_300x300_fit_lanczos_3.png</url>
       <title>Galaxies</title>
       <link>https://astrockragh.github.io/tag/galaxies/</link>
     </image>
+    
+    <item>
+      <title>The optical and infrared are connected</title>
+      <link>https://astrockragh.github.io/project/ir_optical/</link>
+      <pubDate>Tue, 14 Jan 2025 00:00:00 +0000</pubDate>
+      <guid>https://astrockragh.github.io/project/ir_optical/</guid>
+      <description>&lt;!-- 
+List of points to make:
+
+- Start with the current paradigm, and pretty pictures
+
+- Show the crazy predictions of the SED fitting codes - highlight that they are also overconfident. Model misspecification.
+
+- Show our predictions, and discuss why we are doing so much better. Discuss the stability coming from the auto-encoding step. Include notebook here
+
+- Discuss the fundamental galaxy hyper-plane (with pictures of fundamental plane/SFMS).
+
+- Discuss how this means that a well-made model could do amazingly well!
+
+-------- --&gt;
+&lt;!-- # **Galaxy formation unveiled through the connection between the optical and infrared** --&gt;
+&lt;p&gt;Galaxies are amazing objects! One of the most exciting aspects of galaxy formation is just how many different physical processes work together to make these breathtaking displays of beauty.
+These different components also emit light in different wavelength ranges, meaning that any one galaxy will look very different depending on the kind of light we choose to look at it with. Just look at the galaxy below!&lt;/p&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;A galaxy in many different wavelengths&#34; srcset=&#34;
+               /project/ir_optical/another_gal_diff_wavelengths_hufc726e928bc7708edd7f5f3c58206110_43120_bed11cfa9e4bddf52e3b60d91c4b4f4a.webp 400w,
+               /project/ir_optical/another_gal_diff_wavelengths_hufc726e928bc7708edd7f5f3c58206110_43120_446c5cb59cf247bfff99d328a8a44a19.webp 760w,
+               /project/ir_optical/another_gal_diff_wavelengths_hufc726e928bc7708edd7f5f3c58206110_43120_1200x1200_fit_q100_h2_lanczos.webp 1200w&#34;
+               src=&#34;https://astrockragh.github.io/project/ir_optical/another_gal_diff_wavelengths_hufc726e928bc7708edd7f5f3c58206110_43120_bed11cfa9e4bddf52e3b60d91c4b4f4a.webp&#34;
+               width=&#34;760&#34;
+               height=&#34;331&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;p&gt;This makes galaxies even more interesting, but unfortunately for the people who model them, it also makes them &lt;strong&gt;even more complicated&lt;/strong&gt;.
+That is why studying each wavelength ranges (and the different components which dominate them) has traditionally been considered &lt;strong&gt;separate subfields&lt;/strong&gt; of studying galaxies.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Each wavelength range is complex enough to be its own subfield!&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;One can thus only imagine the complexity facing those who spend their lives modelling the &lt;strong&gt;multi-wavelength&lt;/strong&gt; emission of galaxies!
+It is their (un)happy task to stitch together all the knowledge from these separate subfields. However, the historical separation of the subfields makes its way into their models, which causes &lt;strong&gt;all kinds of problems&lt;/strong&gt;!&lt;/p&gt;
+&lt;p&gt;Because of this separation, many of the components of these models are modelled as completely independent. However, &lt;strong&gt;that is not how real galaxies work&lt;/strong&gt;. In reality, the different components of galaxies are all &lt;strong&gt;coupled&lt;/strong&gt; to each other.&lt;/p&gt;
+&lt;p&gt;The reason for why these couplings are not in our best models is because it is not clear just how coupled these components actually are?&lt;br&gt;
+Just a little? A lot?&lt;br&gt;
+Who knows?&lt;/p&gt;
+&lt;p&gt;Well, keep reading, because now &lt;strong&gt;we&lt;/strong&gt; know!&lt;/p&gt;
+&lt;h2 id=&#34;how-coupled-are-galaxy-components&#34;&gt;How coupled are galaxy components?&lt;/h2&gt;
+&lt;p&gt;How can we tell how strongly coupled different galaxy components are? We can exploit the very fact that different galaxy components emit at different wavelengths, and then investigate the &lt;strong&gt;correlations between emission those wavelengths&lt;/strong&gt;.
+Others have already tried this before, but they were lacking the tools that we used, and therefore ended up simply confirming the old separability paradigm.&lt;/p&gt;
+&lt;!-- Our latest research SHATTERS this paradigm, unveiling a revolutionary way to predict infrared (IR) emission from optical spectra with jaw-dropping accuracy! 😲✨
+
+SED-fitting models have long struggled to make sense of IR emission using only optical data, often producing absurdly overconfident predictions.
+ Our study exposes the truth: these models aren&#39;t capturing the real physics at play. Instead, they rely on flawed assumptions that lead to massive errors 
+ [Boquien et al., 2019][1]; [Leja et al., 2017][2]. 🔍💡 --&gt;
+&lt;h3 id=&#34;a-bold-new-approach-that-changes-everything-&#34;&gt;A Bold New Approach That Changes Everything 🔥&lt;/h3&gt;
+&lt;p&gt;We decided to do things differently. We built a &lt;strong&gt;data-driven mmodel&lt;/strong&gt; that delivers astonishing results, by connecting optical spectra from the &lt;a href=&#34;https://www.sdss.org/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Sloan Digital Sky Survey (SDSS)&lt;/a&gt; to IR photometry from the &lt;a href=&#34;https://wise2.ipac.caltech.edu/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;WISE satellite&lt;/a&gt;.
+We train our model to predict the WISE photometry from the optical SDSS spectra, and achieve an unprecedented &lt;strong&gt;χ² ≈ 1&lt;/strong&gt; (this means perfect predictions) across all WISE photometric bands—leaving, which leaves all of the traditional methods &lt;strong&gt;in the dust&lt;/strong&gt;! 🚗💨
+The χ² results are great, but that is not all. We spent 6 months throwing every possibly test at the model, trying to poke holes in our results, but it just kept on working flawlessly.&lt;/p&gt;
+&lt;p&gt;The conclusion is simple; the parts of the galaxy which dominate the optical are &lt;strong&gt;extremely tightly coupled&lt;/strong&gt; to those which dominate the IR.&lt;/p&gt;
+&lt;p&gt;So what’s the secret sauce? Before training a small neural network to do the predictions, we introduce an &lt;strong&gt;auto-encoding step&lt;/strong&gt;, which stabilizes predictions and ensures an efficient, low-dimensional representation of galaxy spectra.&lt;sup id=&#34;fnref:1&#34;&gt;&lt;a href=&#34;#fn:1&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;1&lt;/a&gt;&lt;/sup&gt;
+This is what allows our model to make ultra-precise predictions that were previously thought impossible!&lt;/p&gt;
+&lt;p&gt;🚀 Want to see the magic in action? We’ve made our code and dataset &lt;strong&gt;publicly available&lt;/strong&gt; on GitHub: &lt;a href=&#34;https://github.com/astrockragh/IR_optical_demo&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;IR_optical_demo&lt;/a&gt;. &lt;strong&gt;Check it out, experiment, and prepare to be surprised!&lt;/strong&gt;&lt;/p&gt;
+&lt;h3 id=&#34;shattering-the-old-paradigm&#34;&gt;Shattering the old paradigm&lt;/h3&gt;
+&lt;p&gt;To contrast our results with the existing state of the art, we compare our results with those from two spectrum (SED) fitting codes, &lt;code&gt;CIGALE&lt;/code&gt; and &lt;code&gt;prospector&lt;/code&gt;.&lt;sup id=&#34;fnref:2&#34;&gt;&lt;a href=&#34;#fn:2&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;2&lt;/a&gt;&lt;/sup&gt;
+These models comprise 30 years of development, so they really are the best that astrophysics has to offer!&lt;/p&gt;
+&lt;p&gt;The task here is the same. Fit the optical and predict what is going on in the infrared. Below you can see how these SED models do (left) versus our data-driven model (right).&lt;/p&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;A performance comparison of different models. The empirical model is infinitely better.&#34; srcset=&#34;
+               /project/ir_optical/featured_small_hu4863e048a5cc330c903887e7893f1458_306697_e551f89703fe47c14df6495fd2a2f5b7.webp 400w,
+               /project/ir_optical/featured_small_hu4863e048a5cc330c903887e7893f1458_306697_c30c4f96f69b0f09abea27420eef0970.webp 760w,
+               /project/ir_optical/featured_small_hu4863e048a5cc330c903887e7893f1458_306697_1200x1200_fit_q100_h2_lanczos_3.webp 1200w&#34;
+               src=&#34;https://astrockragh.github.io/project/ir_optical/featured_small_hu4863e048a5cc330c903887e7893f1458_306697_e551f89703fe47c14df6495fd2a2f5b7.webp&#34;
+               width=&#34;760&#34;
+               height=&#34;384&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;p&gt;It is obvious that the predictions of the SED models are absolute junk, while the empirical model is basically perfect.&lt;br&gt;
+You might be a little confused about all the blue lines. These come from what we call the &lt;em&gt;posterior&lt;/em&gt; of the model. The posterior encodes the distribution of possible outcomes given the optical data.&lt;/p&gt;
+&lt;p&gt;From looking at the samples from the posterior, we see that the SED models are not only incorrect in their central estimates, they are &lt;strong&gt;overconfidently incorrect&lt;/strong&gt;. None of the samples are even close to the data.&lt;/p&gt;
+&lt;p&gt;This reflects the worst possible posterior that we encounter in statistics - something my esteemed colleague &lt;a href=&#34;https://www.astro.umontreal.ca/~hezaveh/hezaveh/Home.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Yashar Hezaveh&lt;/a&gt; affectionaly calls an &lt;strong&gt;asshole posterior&lt;/strong&gt;.&lt;/p&gt;
+&lt;p&gt;The &lt;strong&gt;asshole posterior&lt;/strong&gt; is a result of what we call &lt;strong&gt;model misspecification&lt;/strong&gt;. Model misspecification is exactly what it sounds like - using a model of some data which does not actually correspond to the mechanism which generated that data. Here, a big part of the model misspecification is &lt;strong&gt;allowing each component to vary independently&lt;/strong&gt;. This assumption is understandable from the point of view that it makes modelling much easier, it just has the &lt;em&gt;minor&lt;/em&gt; drawback that &lt;strong&gt;it&amp;rsquo;s wrong&lt;/strong&gt;.&lt;/p&gt;
+&lt;h3 id=&#34;constraining-the-individual-components&#34;&gt;Constraining the individual components&lt;/h3&gt;
+&lt;p&gt;So what are the components that we keep on talking about? Well, most of the emission that WISE sees comes a special kind of dust that we call Polycyclic Aromatic Hydrocarbons (PAHs) and from Active Galactic Nuclei (AGN), black holes at the center of galaxies which superheat their surroundings as they swallow everything! On the other hand, SDSS mostly sees the light from stars and gas heated by stars. The below figure how these components dominate completely different areas of the spectrum.&lt;/p&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;The wavelength/component separation.&#34; srcset=&#34;
+               /project/ir_optical/wavelength_separation_demo_hu65ce0847f96af0441efd199ba4cac83e_270551_0ba5a8a6c566cd4fa6d782133fe20921.webp 400w,
+               /project/ir_optical/wavelength_separation_demo_hu65ce0847f96af0441efd199ba4cac83e_270551_683cbee3c4eb38ad3e1eafa7e95cf90f.webp 760w,
+               /project/ir_optical/wavelength_separation_demo_hu65ce0847f96af0441efd199ba4cac83e_270551_1200x1200_fit_q100_h2_lanczos_3.webp 1200w&#34;
+               src=&#34;https://astrockragh.github.io/project/ir_optical/wavelength_separation_demo_hu65ce0847f96af0441efd199ba4cac83e_270551_0ba5a8a6c566cd4fa6d782133fe20921.webp&#34;
+               width=&#34;576&#34;
+               height=&#34;760&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;p&gt;Our hypothesis is that we can constrain them starting from the optical, &lt;strong&gt;even though we don&amp;rsquo;t directly see them&lt;/strong&gt;. This is implied by the fact that we predict the photometry, but let&amp;rsquo;s show it directly! When we try going directly to the PAH fraction ($q_{PAH}$) we can constrain it to a breathtaking precision of 7%, &lt;strong&gt;without ever seeing their emission&lt;/strong&gt;. Again, this is because the components are &lt;strong&gt;coupled&lt;/strong&gt;.&lt;/p&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;Predicting qPAHs&#34; srcset=&#34;
+               /project/ir_optical/qpah_pred_data_hub446d20bb8dafa904ad094315355ed2d_381729_03557b5bafe848e32a3a0faef8c80fdf.webp 400w,
+               /project/ir_optical/qpah_pred_data_hub446d20bb8dafa904ad094315355ed2d_381729_071f011db8942a2c775fdea14110617a.webp 760w,
+               /project/ir_optical/qpah_pred_data_hub446d20bb8dafa904ad094315355ed2d_381729_1200x1200_fit_q100_h2_lanczos_3.webp 1200w&#34;
+               src=&#34;https://astrockragh.github.io/project/ir_optical/qpah_pred_data_hub446d20bb8dafa904ad094315355ed2d_381729_03557b5bafe848e32a3a0faef8c80fdf.webp&#34;
+               width=&#34;699&#34;
+               height=&#34;760&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;p&gt;We can do a similar task for the AGNs. Here we need to do a little pre-selections to make sure that we know that a given object is an AGN. The way to do so is by selecting objects which also emit strongly in X-rays. For this X-ray selected sample, we can then learn to predict the &lt;em&gt;bolometric luminosity&lt;/em&gt; (bolometric means integrated over all wavelengths). The golden target is an accuracy of 0.3 dex (dex is astronomy for unit in logarithmic base 10, so 0.3 dex is about a factor of 2). The results are shown below.&lt;/p&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;Predicting AGNs&#34; srcset=&#34;
+               /project/ir_optical/AGN_bolometric_update_extra_velocity_hu7472d07f7216638a23d9883276ae7eba_165543_957f8830a7213fac6acba08ddedebf00.webp 400w,
+               /project/ir_optical/AGN_bolometric_update_extra_velocity_hu7472d07f7216638a23d9883276ae7eba_165543_006cc06625a10e9b56f2c6f1925c9c70.webp 760w,
+               /project/ir_optical/AGN_bolometric_update_extra_velocity_hu7472d07f7216638a23d9883276ae7eba_165543_1200x1200_fit_q100_h2_lanczos_3.webp 1200w&#34;
+               src=&#34;https://astrockragh.github.io/project/ir_optical/AGN_bolometric_update_extra_velocity_hu7472d07f7216638a23d9883276ae7eba_165543_957f8830a7213fac6acba08ddedebf00.webp&#34;
+               width=&#34;760&#34;
+               height=&#34;287&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;p&gt;We don&amp;rsquo;t quite make it, but we&amp;rsquo;re very close! Some of these objects have broad lines (class B) or very broad lines (class vB), meaning that we can directly see some emission from the black hole. For these, we can easily predict the luminosities!&lt;/p&gt;
+&lt;p&gt;This represents a massive leap forward in understanding galaxy evolution and the interplay between stars, dust, and active galactic nuclei (AGN).&lt;/p&gt;
+&lt;h3 id=&#34;the-universes-hidden-blueprint-a-fundamental-galaxy-hyper-plane-&#34;&gt;The Universe&amp;rsquo;s Hidden Blueprint: A Fundamental Galaxy Hyper-Plane 🌌📈&lt;/h3&gt;
+&lt;p&gt;These discoveries aren&amp;rsquo;t just exciting—it’s &lt;strong&gt;groundbreaking&lt;/strong&gt;. They suggest that galaxies don’t sprawl across an infinite parameter space as previously assumed. Instead, galaxies must adhere to a precise, &lt;strong&gt;well-defined fundamental hyper-plane&lt;/strong&gt;, echoing well-known astrophysical relations like the &lt;strong&gt;fundamental plane of elliptical galaxies&lt;/strong&gt;&lt;sup id=&#34;fnref:3&#34;&gt;&lt;a href=&#34;#fn:3&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;3&lt;/a&gt;&lt;/sup&gt; and the &lt;strong&gt;Star-Forming Main Sequence (SFMS)&lt;/strong&gt;&lt;sup id=&#34;fnref:4&#34;&gt;&lt;a href=&#34;#fn:4&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;4&lt;/a&gt;&lt;/sup&gt;, where galaxies globally exhibit tight relations.&lt;/p&gt;
+&lt;p&gt;What does this mean? It means we’re closer than ever to cracking the &lt;strong&gt;code of galaxy evolution!&lt;/strong&gt; By accurately predicting IR properties from optical spectra, we’ve proven that key galaxy traits are &lt;strong&gt;deeply interconnected&lt;/strong&gt; across wavelengths. This insight &lt;strong&gt;paves the way&lt;/strong&gt; for an era of &lt;strong&gt;unprecedented precision&lt;/strong&gt; in astrophysical modeling.
+This means that the future is bright for making new models.&lt;/p&gt;
+&lt;p&gt;With &lt;strong&gt;JWST&lt;/strong&gt; and future spectroscopic surveys like &lt;strong&gt;PFS&lt;/strong&gt; and &lt;strong&gt;DESI&lt;/strong&gt; offering even richer datasets, the time has come to &lt;strong&gt;improve our outdated models&lt;/strong&gt; and &lt;strong&gt;embrace cutting-edge, data-driven techniques&lt;/strong&gt;.&lt;/p&gt;
+&lt;h3 id=&#34;the-secret-to-galaxy-evolution-was-hidden-in-plain-sight-&#34;&gt;The secret to galaxy evolution was hidden in plain sight 🔭✨&lt;/h3&gt;
+&lt;p&gt;All of the data that we used has been public for more than a decade, but yet, nobody had uncovered this important truth. The universe has been hiding its secrets in plain sight, and we’re finally uncovering them. By rethinking how we model galaxies, we are not just improving predictions — &lt;strong&gt;we’re reshaping our understanding of galaxies.&lt;/strong&gt; The future of galaxy evolution studies has never been more &lt;strong&gt;exciting&lt;/strong&gt;, and I can&amp;rsquo;t wait to continue working on it!&lt;/p&gt;
+&lt;h3 id=&#34;stay-tuned-this-is-only-the-beginning-&#34;&gt;Stay tuned, this is only the beginning! 🎉🌠&lt;/h3&gt;
+&lt;hr&gt;
+&lt;p&gt;I cannot overstate the importance of my advisors and collaborators for the success of this project. Especially &lt;a href=&#34;https://pmelchior.net/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Peter Melchior&lt;/a&gt;, &lt;a href=&#34;https://en.wikipedia.org/wiki/David_Spergel&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;David Spergel&lt;/a&gt;, and &lt;a href=&#34;https://www.astro.princeton.edu/~goulding/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Andy Goulding&lt;/a&gt; made fundamental contributions.&lt;/p&gt;
+&lt;h3 id=&#34;references&#34;&gt;References&lt;/h3&gt;
+&lt;section class=&#34;footnotes&#34; role=&#34;doc-endnotes&#34;&gt;
+&lt;hr&gt;
+&lt;ol&gt;
+&lt;li id=&#34;fn:1&#34; role=&#34;doc-endnote&#34;&gt;
+&lt;p&gt;See &lt;a href=&#34;https://ui.adsabs.harvard.edu/abs/2023AJ....166...74M/abstract&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Melchior et al., 2023&lt;/a&gt; and &lt;a href=&#34;https://ui.adsabs.harvard.edu/abs/2023AJ....166...75L/abstract&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Liang et al., 2023&lt;/a&gt;.&amp;#160;&lt;a href=&#34;#fnref:1&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li id=&#34;fn:2&#34; role=&#34;doc-endnote&#34;&gt;
+&lt;p&gt;See more details about &lt;code&gt;CIGALE&lt;/code&gt; in &lt;a href=&#34;https://cigale.lam.fr&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Boquien et al., 2019&lt;/a&gt; and &lt;code&gt;prospector&lt;/code&gt; in &lt;a href=&#34;https://prospectorexplorer.github.io&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Leja et al., 2017&lt;/a&gt;.&amp;#160;&lt;a href=&#34;#fnref:2&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li id=&#34;fn:3&#34; role=&#34;doc-endnote&#34;&gt;
+&lt;p&gt;&lt;a href=&#34;https://arxiv.org/abs/astro-ph/9603025&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Djorgovski &amp;amp; Davis, 1987&lt;/a&gt;&amp;#160;&lt;a href=&#34;#fnref:3&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li id=&#34;fn:4&#34; role=&#34;doc-endnote&#34;&gt;
+&lt;p&gt;&lt;a href=&#34;https://arxiv.org/abs/1405.2041&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Speagle et al., 2014&lt;/a&gt;&amp;#160;&lt;a href=&#34;#fnref:4&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/section&gt;
+</description>
+    </item>
     
     <item>
       <title>The sky over Mauna Kea observed with SuNSS</title>
