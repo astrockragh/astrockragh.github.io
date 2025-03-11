@@ -5,12 +5,35 @@
     <link>https://astrockragh.github.io/press_public/</link>
       <atom:link href="https://astrockragh.github.io/press_public/index.xml" rel="self" type="application/rss+xml" />
     <description>Press and Public Talks</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© Christian Kragh Jespersen 2024</copyright><lastBuildDate>Fri, 21 Aug 2020 00:00:00 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© Christian Kragh Jespersen 2024</copyright><lastBuildDate>Mon, 03 Feb 2025 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://astrockragh.github.io/media/logo_hu99cbd5be059c86a221a329805c1c065d_47879_300x300_fit_lanczos_3.png</url>
       <title>Press and Public Talks</title>
       <link>https://astrockragh.github.io/press_public/</link>
     </image>
+    
+    <item>
+      <title>Talking about airglow with Québec Science magazine</title>
+      <link>https://astrockragh.github.io/press_public/airglow_quebec_science/</link>
+      <pubDate>Mon, 03 Feb 2025 00:00:00 +0000</pubDate>
+      <guid>https://astrockragh.github.io/press_public/airglow_quebec_science/</guid>
+      <description>&lt;!-- 
+&lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;div&gt;
+    Click on the &lt;strong&gt;Slides&lt;/strong&gt; button above to view the built-in slides feature.
+  &lt;/div&gt;
+&lt;/div&gt;
+
+
+Slides can be added in a few ways:
+
+- **Create** slides using Wowchemy&#39;s [*Slides*](https://wowchemy.com/docs/managing-content/#create-slides) feature and link using `slides` parameter in the front matter of the talk file
+- **Upload** an existing slide deck to `static/` and link using `url_slides` parameter in the front matter of the talk file
+- **Embed** your slides (e.g. Google Slides) or presentation video on this page using [shortcodes](https://wowchemy.com/docs/writing-markdown-latex/).
+
+Further event details, including [page elements](https://wowchemy.com/docs/writing-markdown-latex/) such as image galleries, can be added to the body of this page. --&gt;
+</description>
+    </item>
     
     <item>
       <title>Danish Morning National Television - TV2 News</title>
