@@ -5,12 +5,122 @@
     <link>https://astrockragh.github.io/project/</link>
       <atom:link href="https://astrockragh.github.io/project/index.xml" rel="self" type="application/rss+xml" />
     <description>Projects</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© Christian Kragh Jespersen 2024</copyright><lastBuildDate>Tue, 14 Jan 2025 00:00:00 +0000</lastBuildDate>
+    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><copyright>© Christian Kragh Jespersen 2025</copyright><lastBuildDate>Fri, 10 Oct 2025 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>https://astrockragh.github.io/media/logo_hu99cbd5be059c86a221a329805c1c065d_47879_300x300_fit_lanczos_3.png</url>
+      <url>https://astrockragh.github.io/media/logo_hu_1c9055000151fecf.png</url>
       <title>Projects</title>
       <link>https://astrockragh.github.io/project/</link>
     </image>
+    
+    <item>
+      <title>Explaining Ultramassive Quiescent Galaxies at 3 &lt; z &lt; 5 in the Context of Their Environments</title>
+      <link>https://astrockragh.github.io/project/most_massive_environment/</link>
+      <pubDate>Fri, 10 Oct 2025 00:00:00 +0000</pubDate>
+      <guid>https://astrockragh.github.io/project/most_massive_environment/</guid>
+      <description>&lt;h1 id=&#34;explaining-the-masses-of-ultra-massive-universe-breaking-galaxies&#34;&gt;Explaining the masses of ultra-massive &amp;ldquo;universe-breaking&amp;rdquo; galaxies&lt;/h1&gt;
+&lt;p&gt;What do you do when observations break your theory?&lt;/p&gt;
+&lt;p&gt;That’s the situation galaxy physics has faced since the JWST started discovering both extremely distant galaxies, along with &lt;strong&gt;ultra-massive, quiescent galaxies&lt;/strong&gt; at redshifts 3–5 — galaxies more massive than our Milky Way, already completely dead quenched just 1 billion years after the Big Bang. We see this in &lt;strong&gt;spectra&lt;/strong&gt; from JWST, like the ones below from the EXCELS survey (blue lines), where we can fit models (black lines) to infer the star formation history. On a sidenote, one of the reasons that I like working with quiescent galaxies is that we have much better models for them than other galaxies, just admire how well the models fit the data! That&amp;rsquo;s not always a given, which you can read about &lt;a href=&#34;https://astrockragh.github.io/project/ir_optical/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;in this other project&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;https://astrockragh.github.io/project/most_massive_environment/spectra.png&#34; alt=&#34;The spectra of our galaxies from Carnall&amp;#43;2024&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;p&gt;We have struggled to explain how these galaxies could form stars so rapidly and shut off star formation this early. Theories have invoked extreme star formation efficiencies (close to 100%!), very exotic feedback mechanisms, or even modifications to our well-tested ΛCDM-cosmology. This has all come from statistical analyses of an idealized distribution of galaxies by total mass, the stellar mass function (SMF), using a technique called &lt;strong&gt;Extreme Value Statistics (EVS)&lt;/strong&gt;, which is designed to ask the question:&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;What is the probability distribution for the mass of the most massive galaxy I will observe in a certain volume of the Universe&lt;/code&gt;&lt;/p&gt;
+&lt;h4 id=&#34;but-what-if-weve-just-been-asking-the-wrong-question&#34;&gt;But what if we’ve just been asking the wrong question?&lt;/h4&gt;
+&lt;p&gt;Normal EVS makes the assumption that all galaxies are independent from each other &amp;mdash; but this just is not true!&lt;/p&gt;
+&lt;h2 id=&#34;the-real-question-where-are-these-galaxies-found&#34;&gt;The Real Question: Where Are These Galaxies Found?&lt;/h2&gt;
+&lt;p&gt;Every single one of these beautiful, ultra-massive, quiescent galaxies lives in an &lt;strong&gt;overdensity&lt;/strong&gt;, regions with significantly more galaxies than average. The overdensities reflect the fact that galaxies &lt;strong&gt;cluster&lt;/strong&gt;, i.e., they are not randomly distributed on the sky. However, until now,theoretical predictions have treated these galaxies as if they live in average, unclustered, environments.&lt;/p&gt;
+&lt;p&gt;That’s like estimating the wealth of the richest person &lt;em&gt;in the world&lt;/em&gt; by starting from the mean and spread in a random city. You&amp;rsquo;re going to be surprised, because wealth, just like galaxies, clusters quite strongly, with clustered environments producing both extreme wealth and galaxies. You can see that either in the Figure at the top of this post or in the below video&lt;/p&gt;
+&lt;video controls width=&#34;100%&#34;&gt;
+  &lt;source src=&#34;https://astrockragh.github.io/project/most_massive_environment/zoom_tour.mp4&#34; type=&#34;video/mp4&#34;&gt;
+&lt;/video&gt;
+&lt;h4 id=&#34;it-is-clear-that-our-galaxy-is-in-the-middle-of-a-very-dense-part-of-the-universe&#34;&gt;It is clear that our galaxy is in the middle of a very dense part of the Universe!&lt;/h4&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;the-insight-that-changes-everything&#34;&gt;The Insight That Changes Everything&lt;/h2&gt;
+&lt;p&gt;This paper introduces an extended version of EVS that includes a galaxy’s &lt;strong&gt;environment&lt;/strong&gt; — specifically, the overdensity it lives in — when estimating the expected maximum stellar mass. Instead of marginalizing over environments (which dilutes everything), we condition on the known fact that the galaxy is in an extreme region.&lt;/p&gt;
+&lt;p&gt;How?&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;strong&gt;Estimate the volume&lt;/strong&gt; of the overdensity using 3D redshift-space distributions.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Compute how overdense&lt;/strong&gt; such a volume could reasonably be expected to in the full survey — i.e., the distribution of &lt;strong&gt;density percentile&lt;/strong&gt; &lt;code&gt;u_δ&lt;/code&gt; given that we can fit N subvolumes of the same size as the overdensity into our survey.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Construct stellar mass functions (SMF)&lt;/strong&gt; that depends on &lt;code&gt;u_δ&lt;/code&gt;. More overdense = more galaxies, especially at high masses.&lt;/li&gt;
+&lt;li&gt;Convolve the normal EVS estimates for each &lt;strong&gt;overdensity-dependent SMF&lt;/strong&gt; with the distribution of possible overdensities given a certain volume to compute the distribution of the most massive galaxy &lt;strong&gt;given that it exists in the most extreme overdensity in that survey&lt;/strong&gt; with a given volume.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;You can see how our &lt;code&gt;P(Maximum mass)&lt;/code&gt; estimates change as a function on the number of total overdensities of a given volume we sample below&lt;/p&gt;
+&lt;video controls width=&#34;100%&#34;&gt;
+  &lt;source src=&#34;https://astrockragh.github.io/project/most_massive_environment/0_phimax.mp4&#34; type=&#34;video/mp4&#34;&gt;
+&lt;/video&gt;
+&lt;p&gt;In a way this is the compliment to &lt;a href=&#34;https://astrockragh.github.io/project/most_massive_jwst/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;another one of my papers on massive galaxies in a clustered Universe&lt;/a&gt;, where we instead of &lt;strong&gt;conditioning&lt;/strong&gt; on environment like here, marginalize out our lack of knowledge of the environment. For many galaxies, especially at ultra-high redshift, &lt;em&gt;we do not know their environments&lt;/em&gt;, so there, the above conditioning steps would be inappropriate!&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;the-result-theyre-not-so-impossible-after-all&#34;&gt;The Result: They&amp;rsquo;re Not So Impossible After All&lt;/h2&gt;
+&lt;p&gt;When we apply this method to the three most extreme galaxies in the &lt;a href=&#34;https://ui.adsabs.harvard.edu/abs/2024MNRAS.534..325C/abstract&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;EXCELS survey&lt;/a&gt; — including the infamous ZF-UDS-7329 galaxy — the tension with theoretical models &lt;em&gt;drops dramatically&lt;/em&gt;.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Under the standard EVS (ignoring environment and using normal star formation efficiencies), some galaxies were at a model tension of almost &lt;strong&gt;6σ&lt;/strong&gt;, and combining all three, we get a total of &lt;strong&gt;9σ&lt;/strong&gt;!! Alarming!&lt;/li&gt;
+&lt;li&gt;When we &lt;strong&gt;condition on overdensity&lt;/strong&gt;, this drops to &lt;strong&gt;~3σ&lt;/strong&gt; for the most extreme galaxy. So the galaxy is still extreme, but within acceptable limits. Remember that we could invoke higher star formation efficiency, but it is not that necessary now.&lt;/li&gt;
+&lt;li&gt;You don’t need 100% star formation efficiency anymore. The pre-JWST ~10-20% values works just fine!&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;This is all summarized in the below Figure, where you can see the mass histories of the galaxies in dotted blue. The alleviated tension is immediately obvious!&lt;/p&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;Main Figure from the paper&#34; srcset=&#34;
+               /project/most_massive_environment/combined_updated_SBF_Finkelstein_fiducial_legend_reverse_order_referee_v2_hu_f73a9ceeaa6dfdd0.webp 400w,
+               /project/most_massive_environment/combined_updated_SBF_Finkelstein_fiducial_legend_reverse_order_referee_v2_hu_82426cc85b65d4d3.webp 760w,
+               /project/most_massive_environment/combined_updated_SBF_Finkelstein_fiducial_legend_reverse_order_referee_v2_hu_d8c2e1ff5b1c6f62.webp 1200w&#34;
+               src=&#34;https://astrockragh.github.io/project/most_massive_environment/combined_updated_SBF_Finkelstein_fiducial_legend_reverse_order_referee_v2_hu_f73a9ceeaa6dfdd0.webp&#34;
+               width=&#34;656&#34;
+               height=&#34;760&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;so-was-this-really-a-crisis-or-a-misunderstanding&#34;&gt;So… Was This Really a Crisis? Or a Misunderstanding?&lt;/h2&gt;
+&lt;p&gt;Let’s be blunt. Much of the tension arose not because the models were fundamentally wrong, but because we were comparing the rarest galaxies in the universe to average expectations. By conditioning on where these galaxies actually live — &lt;strong&gt;the most overdense regions of the sky&lt;/strong&gt; — we reconcile theory and observation without invoking extreme physics.&lt;/p&gt;
+&lt;p&gt;It’s a small shift in logic, but a sizable step in understanding.&lt;/p&gt;
+&lt;p&gt;In a way, &lt;a href=&#34;https://ui.adsabs.harvard.edu/abs/2024Natur.628..277G/abstract&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;this reflects the thoughts of the original discover of the extreme ZF-UDS-7329, Karl Glazebrook&lt;/a&gt;, who suggested that we may be missing something about halo physics that makes dark matter collapse faster early on &amp;mdash; a seemingly radical idea. However, this is actually exactly what happens in extreme overdensities, halos collapse earlier and grow faster than in average areas, so in a way, Prof. Glazebrook was right!&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;-want-to-try-this-yourself&#34;&gt;🛠 Want to Try This Yourself?&lt;/h2&gt;
+&lt;p&gt;We&amp;rsquo;ve released the full code for environment-conditioned EVS on &lt;a href=&#34;https://github.com/astrockragh/evs_clustering&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;GitHub&lt;/a&gt;, including a demo notebook!&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;-why-this-matters-for-galaxy-evolution&#34;&gt;🚀 Why This Matters for Galaxy Evolution&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;We now have a &lt;strong&gt;physically-motivated way&lt;/strong&gt; to model massive galaxy formation without stretching SFE or tweaking dark matter in new ways.&lt;/li&gt;
+&lt;li&gt;We &lt;strong&gt;connect large-scale structure and galaxy masses&lt;/strong&gt; in a statistical framework. Clustering is &lt;strong&gt;always&lt;/strong&gt; important. One of the important next steps is measuring the amplitude of clustering at these redshifts, but this is something that I am currently working on!&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;This is not the end of the mystery — but it’s the &lt;strong&gt;beginning of the asking right question&lt;/strong&gt;.&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>The optical and infrared are connected</title>
@@ -53,10 +163,10 @@ These different components also emit light in different wavelength ranges, meani
 &lt;figure  &gt;
   &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
     &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;A galaxy in many different wavelengths&#34; srcset=&#34;
-               /project/ir_optical/another_gal_diff_wavelengths_hufc726e928bc7708edd7f5f3c58206110_43120_bed11cfa9e4bddf52e3b60d91c4b4f4a.webp 400w,
-               /project/ir_optical/another_gal_diff_wavelengths_hufc726e928bc7708edd7f5f3c58206110_43120_446c5cb59cf247bfff99d328a8a44a19.webp 760w,
-               /project/ir_optical/another_gal_diff_wavelengths_hufc726e928bc7708edd7f5f3c58206110_43120_1200x1200_fit_q100_h2_lanczos.webp 1200w&#34;
-               src=&#34;https://astrockragh.github.io/project/ir_optical/another_gal_diff_wavelengths_hufc726e928bc7708edd7f5f3c58206110_43120_bed11cfa9e4bddf52e3b60d91c4b4f4a.webp&#34;
+               /project/ir_optical/another_gal_diff_wavelengths_hu_39105af87b3d1c8f.webp 400w,
+               /project/ir_optical/another_gal_diff_wavelengths_hu_81c7d908f5637976.webp 760w,
+               /project/ir_optical/another_gal_diff_wavelengths_hu_4f253724e4d75e38.webp 1200w&#34;
+               src=&#34;https://astrockragh.github.io/project/ir_optical/another_gal_diff_wavelengths_hu_39105af87b3d1c8f.webp&#34;
                width=&#34;760&#34;
                height=&#34;331&#34;
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
@@ -111,10 +221,10 @@ These models comprise 30 years of development, so they really are the best that 
 &lt;figure  &gt;
   &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
     &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;A performance comparison of different models. The empirical model is infinitely better.&#34; srcset=&#34;
-               /project/ir_optical/featured_small_hu4863e048a5cc330c903887e7893f1458_306697_e551f89703fe47c14df6495fd2a2f5b7.webp 400w,
-               /project/ir_optical/featured_small_hu4863e048a5cc330c903887e7893f1458_306697_c30c4f96f69b0f09abea27420eef0970.webp 760w,
-               /project/ir_optical/featured_small_hu4863e048a5cc330c903887e7893f1458_306697_1200x1200_fit_q100_h2_lanczos_3.webp 1200w&#34;
-               src=&#34;https://astrockragh.github.io/project/ir_optical/featured_small_hu4863e048a5cc330c903887e7893f1458_306697_e551f89703fe47c14df6495fd2a2f5b7.webp&#34;
+               /project/ir_optical/featured_small_hu_3236bcb824e37487.webp 400w,
+               /project/ir_optical/featured_small_hu_8f16deae86ab5ef3.webp 760w,
+               /project/ir_optical/featured_small_hu_f5fc97cb38d16078.webp 1200w&#34;
+               src=&#34;https://astrockragh.github.io/project/ir_optical/featured_small_hu_3236bcb824e37487.webp&#34;
                width=&#34;760&#34;
                height=&#34;384&#34;
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
@@ -146,10 +256,10 @@ You might be a little confused about all the blue lines. These come from what we
 &lt;figure  &gt;
   &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
     &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;The wavelength/component separation.&#34; srcset=&#34;
-               /project/ir_optical/wavelength_separation_demo_hu65ce0847f96af0441efd199ba4cac83e_270551_0ba5a8a6c566cd4fa6d782133fe20921.webp 400w,
-               /project/ir_optical/wavelength_separation_demo_hu65ce0847f96af0441efd199ba4cac83e_270551_683cbee3c4eb38ad3e1eafa7e95cf90f.webp 760w,
-               /project/ir_optical/wavelength_separation_demo_hu65ce0847f96af0441efd199ba4cac83e_270551_1200x1200_fit_q100_h2_lanczos_3.webp 1200w&#34;
-               src=&#34;https://astrockragh.github.io/project/ir_optical/wavelength_separation_demo_hu65ce0847f96af0441efd199ba4cac83e_270551_0ba5a8a6c566cd4fa6d782133fe20921.webp&#34;
+               /project/ir_optical/wavelength_separation_demo_hu_b93c82a44c016d9e.webp 400w,
+               /project/ir_optical/wavelength_separation_demo_hu_abb5e7fa4a1c178f.webp 760w,
+               /project/ir_optical/wavelength_separation_demo_hu_fc5094320628a392.webp 1200w&#34;
+               src=&#34;https://astrockragh.github.io/project/ir_optical/wavelength_separation_demo_hu_b93c82a44c016d9e.webp&#34;
                width=&#34;576&#34;
                height=&#34;760&#34;
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
@@ -175,10 +285,10 @@ You might be a little confused about all the blue lines. These come from what we
 &lt;figure  &gt;
   &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
     &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;Predicting qPAHs&#34; srcset=&#34;
-               /project/ir_optical/qpah_pred_data_hub446d20bb8dafa904ad094315355ed2d_381729_03557b5bafe848e32a3a0faef8c80fdf.webp 400w,
-               /project/ir_optical/qpah_pred_data_hub446d20bb8dafa904ad094315355ed2d_381729_071f011db8942a2c775fdea14110617a.webp 760w,
-               /project/ir_optical/qpah_pred_data_hub446d20bb8dafa904ad094315355ed2d_381729_1200x1200_fit_q100_h2_lanczos_3.webp 1200w&#34;
-               src=&#34;https://astrockragh.github.io/project/ir_optical/qpah_pred_data_hub446d20bb8dafa904ad094315355ed2d_381729_03557b5bafe848e32a3a0faef8c80fdf.webp&#34;
+               /project/ir_optical/qpah_pred_data_hu_d7b4a2a2edb35eea.webp 400w,
+               /project/ir_optical/qpah_pred_data_hu_22b03fe89e845841.webp 760w,
+               /project/ir_optical/qpah_pred_data_hu_50dbfe6c3cdaf1dd.webp 1200w&#34;
+               src=&#34;https://astrockragh.github.io/project/ir_optical/qpah_pred_data_hu_d7b4a2a2edb35eea.webp&#34;
                width=&#34;699&#34;
                height=&#34;760&#34;
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
@@ -204,10 +314,10 @@ You might be a little confused about all the blue lines. These come from what we
 &lt;figure  &gt;
   &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
     &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;Predicting AGNs&#34; srcset=&#34;
-               /project/ir_optical/AGN_bolometric_update_extra_velocity_hu7472d07f7216638a23d9883276ae7eba_165543_957f8830a7213fac6acba08ddedebf00.webp 400w,
-               /project/ir_optical/AGN_bolometric_update_extra_velocity_hu7472d07f7216638a23d9883276ae7eba_165543_006cc06625a10e9b56f2c6f1925c9c70.webp 760w,
-               /project/ir_optical/AGN_bolometric_update_extra_velocity_hu7472d07f7216638a23d9883276ae7eba_165543_1200x1200_fit_q100_h2_lanczos_3.webp 1200w&#34;
-               src=&#34;https://astrockragh.github.io/project/ir_optical/AGN_bolometric_update_extra_velocity_hu7472d07f7216638a23d9883276ae7eba_165543_957f8830a7213fac6acba08ddedebf00.webp&#34;
+               /project/ir_optical/AGN_bolometric_update_extra_velocity_hu_947bd39056d13bc1.webp 400w,
+               /project/ir_optical/AGN_bolometric_update_extra_velocity_hu_41e9ffd29066bd1a.webp 760w,
+               /project/ir_optical/AGN_bolometric_update_extra_velocity_hu_fdeee69c3e69e859.webp 1200w&#34;
+               src=&#34;https://astrockragh.github.io/project/ir_optical/AGN_bolometric_update_extra_velocity_hu_947bd39056d13bc1.webp&#34;
                width=&#34;760&#34;
                height=&#34;287&#34;
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
@@ -226,23 +336,23 @@ This means that the future is bright for making new models.&lt;/p&gt;
 &lt;hr&gt;
 &lt;p&gt;I cannot overstate the importance of my advisors and collaborators for the success of this project. Especially &lt;a href=&#34;https://pmelchior.net/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Peter Melchior&lt;/a&gt;, &lt;a href=&#34;https://en.wikipedia.org/wiki/David_Spergel&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;David Spergel&lt;/a&gt;, and &lt;a href=&#34;https://www.astro.princeton.edu/~goulding/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Andy Goulding&lt;/a&gt; made fundamental contributions.&lt;/p&gt;
 &lt;h3 id=&#34;references&#34;&gt;References&lt;/h3&gt;
-&lt;section class=&#34;footnotes&#34; role=&#34;doc-endnotes&#34;&gt;
+&lt;div class=&#34;footnotes&#34; role=&#34;doc-endnotes&#34;&gt;
 &lt;hr&gt;
 &lt;ol&gt;
-&lt;li id=&#34;fn:1&#34; role=&#34;doc-endnote&#34;&gt;
+&lt;li id=&#34;fn:1&#34;&gt;
 &lt;p&gt;See &lt;a href=&#34;https://ui.adsabs.harvard.edu/abs/2023AJ....166...74M/abstract&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Melchior et al., 2023&lt;/a&gt; and &lt;a href=&#34;https://ui.adsabs.harvard.edu/abs/2023AJ....166...75L/abstract&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Liang et al., 2023&lt;/a&gt;.&amp;#160;&lt;a href=&#34;#fnref:1&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
 &lt;/li&gt;
-&lt;li id=&#34;fn:2&#34; role=&#34;doc-endnote&#34;&gt;
+&lt;li id=&#34;fn:2&#34;&gt;
 &lt;p&gt;See more details about &lt;code&gt;CIGALE&lt;/code&gt; in &lt;a href=&#34;https://cigale.lam.fr&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Boquien et al., 2019&lt;/a&gt; and &lt;code&gt;prospector&lt;/code&gt; in &lt;a href=&#34;https://prospectorexplorer.github.io&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Leja et al., 2017&lt;/a&gt;.&amp;#160;&lt;a href=&#34;#fnref:2&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
 &lt;/li&gt;
-&lt;li id=&#34;fn:3&#34; role=&#34;doc-endnote&#34;&gt;
+&lt;li id=&#34;fn:3&#34;&gt;
 &lt;p&gt;&lt;a href=&#34;https://arxiv.org/abs/astro-ph/9603025&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Djorgovski &amp;amp; Davis, 1987&lt;/a&gt;&amp;#160;&lt;a href=&#34;#fnref:3&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
 &lt;/li&gt;
-&lt;li id=&#34;fn:4&#34; role=&#34;doc-endnote&#34;&gt;
+&lt;li id=&#34;fn:4&#34;&gt;
 &lt;p&gt;&lt;a href=&#34;https://arxiv.org/abs/1405.2041&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Speagle et al., 2014&lt;/a&gt;&amp;#160;&lt;a href=&#34;#fnref:4&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ol&gt;
-&lt;/section&gt;
+&lt;/div&gt;
 </description>
     </item>
     
@@ -279,10 +389,10 @@ You can see the focal plane (where we focus the light), with our 2400 fibers, in
 &lt;figure  &gt;
   &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
     &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;Hexagonal PFS focal plane&#34; srcset=&#34;
-               /project/sunss_airglow/focal_plane_hu1d779037c1db25227464f2a6fb02a858_994136_70736ae709bd2cb5da87761e03437c63.webp 400w,
-               /project/sunss_airglow/focal_plane_hu1d779037c1db25227464f2a6fb02a858_994136_ed42351b7e92bde81691054b0cf52590.webp 760w,
-               /project/sunss_airglow/focal_plane_hu1d779037c1db25227464f2a6fb02a858_994136_1200x1200_fit_q100_h2_lanczos_3.webp 1200w&#34;
-               src=&#34;https://astrockragh.github.io/project/sunss_airglow/focal_plane_hu1d779037c1db25227464f2a6fb02a858_994136_70736ae709bd2cb5da87761e03437c63.webp&#34;
+               /project/sunss_airglow/focal_plane_hu_15642249b700d8aa.webp 400w,
+               /project/sunss_airglow/focal_plane_hu_f2283e2017f5eee3.webp 760w,
+               /project/sunss_airglow/focal_plane_hu_d468dbfda65239fc.webp 1200w&#34;
+               src=&#34;https://astrockragh.github.io/project/sunss_airglow/focal_plane_hu_15642249b700d8aa.webp&#34;
                width=&#34;760&#34;
                height=&#34;570&#34;
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
@@ -309,17 +419,17 @@ The first you want to do is to get a big telescope! With PFS, we are lucky to ha
 &lt;figure  &gt;
   &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
     &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;Me next to the Subaru Telescope&#34; srcset=&#34;
-               /project/sunss_airglow/me_next_subaru_hubcdb564934d70ed8307657bdb01d7208_2558525_fec3754301b82fc64d708efc75df462d.webp 400w,
-               /project/sunss_airglow/me_next_subaru_hubcdb564934d70ed8307657bdb01d7208_2558525_cfa7bb7169e3268c09632b3ec91e03ed.webp 760w,
-               /project/sunss_airglow/me_next_subaru_hubcdb564934d70ed8307657bdb01d7208_2558525_1200x1200_fit_q100_h2_lanczos.webp 1200w&#34;
-               src=&#34;https://astrockragh.github.io/project/sunss_airglow/me_next_subaru_hubcdb564934d70ed8307657bdb01d7208_2558525_fec3754301b82fc64d708efc75df462d.webp&#34;
+               /project/sunss_airglow/me_next_subaru_hu_106352b02b6f19f1.webp 400w,
+               /project/sunss_airglow/me_next_subaru_hu_ba1fd0cd1b0a8cb.webp 760w,
+               /project/sunss_airglow/me_next_subaru_hu_24bc64404e8353f9.webp 1200w&#34;
+               src=&#34;https://astrockragh.github.io/project/sunss_airglow/me_next_subaru_hu_106352b02b6f19f1.webp&#34;
                width=&#34;570&#34;
                height=&#34;760&#34;
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
   &lt;/div&gt;&lt;/figure&gt;
 &lt;/p&gt;
 &lt;p&gt;The primary mirror is 8.2 m (320 inches) in diameter, one of the biggest in the world! The area of the mirror is twice that of the &lt;a href=&#34;https://en.wikipedia.org/wiki/James_Webb_Space_Telescope&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;JWST Space Telescope&lt;/a&gt;. Building very large telescopes is one of the great advantages of having them on the ground, compared to in space. However, when we are on the ground, we have to deal with one of the things which scare astronomers the most&amp;hellip;&lt;/p&gt;
-&lt;p&gt;👻 &lt;strong&gt;The atmosphere&lt;/strong&gt; 👻&lt;/p&gt;
+&lt;p&gt;&amp;#x1f47b; &lt;strong&gt;The atmosphere&lt;/strong&gt; &amp;#x1f47b;&lt;/p&gt;
 &lt;p&gt;So why is the atmosphere scary? There are three main reasons:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;The atmosphere makes it hard to focus on distant objects. This is because air &lt;em&gt;moves&lt;/em&gt;, which spreads out the light, so that something coming from a single point gets spread out over a large area.&lt;/li&gt;
@@ -349,10 +459,10 @@ The first you want to do is to get a big telescope! With PFS, we are lucky to ha
 &lt;figure  &gt;
   &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
     &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;Simulated sky and galaxy spectrum&#34; srcset=&#34;
-               /project/sunss_airglow/sky_sub_spectrum_hu0d48af7b4d388132fdf909cff4f8cf97_434505_14fb70cc84829a335ac746ba5f479c82.webp 400w,
-               /project/sunss_airglow/sky_sub_spectrum_hu0d48af7b4d388132fdf909cff4f8cf97_434505_aa2f5753341ad79ccc86948bc23d2982.webp 760w,
-               /project/sunss_airglow/sky_sub_spectrum_hu0d48af7b4d388132fdf909cff4f8cf97_434505_1200x1200_fit_q100_h2_lanczos_3.webp 1200w&#34;
-               src=&#34;https://astrockragh.github.io/project/sunss_airglow/sky_sub_spectrum_hu0d48af7b4d388132fdf909cff4f8cf97_434505_14fb70cc84829a335ac746ba5f479c82.webp&#34;
+               /project/sunss_airglow/sky_sub_spectrum_hu_fb4cbc50aa9d8926.webp 400w,
+               /project/sunss_airglow/sky_sub_spectrum_hu_1a34491c7f57db6a.webp 760w,
+               /project/sunss_airglow/sky_sub_spectrum_hu_afd0769f71f59f93.webp 1200w&#34;
+               src=&#34;https://astrockragh.github.io/project/sunss_airglow/sky_sub_spectrum_hu_fb4cbc50aa9d8926.webp&#34;
                width=&#34;760&#34;
                height=&#34;446&#34;
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
@@ -381,10 +491,10 @@ Taking &lt;code&gt;(galaxy+airglow)&lt;/code&gt;&lt;sub&gt;A&lt;/sub&gt;-&lt;cod
 &lt;figure  &gt;
   &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
     &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;Subary spider with SuNSS&#34; srcset=&#34;
-               /project/sunss_airglow/sunss_on_subaru_hu0339e39fedfce1e06c99bd1f85d2e350_3463534_e25118446325dab8b624b72045965a1b.webp 400w,
-               /project/sunss_airglow/sunss_on_subaru_hu0339e39fedfce1e06c99bd1f85d2e350_3463534_210ff0b8eaf197c771ee8838d2614ded.webp 760w,
-               /project/sunss_airglow/sunss_on_subaru_hu0339e39fedfce1e06c99bd1f85d2e350_3463534_1200x1200_fit_q100_h2_lanczos_3.webp 1200w&#34;
-               src=&#34;https://astrockragh.github.io/project/sunss_airglow/sunss_on_subaru_hu0339e39fedfce1e06c99bd1f85d2e350_3463534_e25118446325dab8b624b72045965a1b.webp&#34;
+               /project/sunss_airglow/sunss_on_subaru_hu_4c76ed470e321fa2.webp 400w,
+               /project/sunss_airglow/sunss_on_subaru_hu_b29e4d33db9e3de7.webp 760w,
+               /project/sunss_airglow/sunss_on_subaru_hu_2388758a43b6b721.webp 1200w&#34;
+               src=&#34;https://astrockragh.github.io/project/sunss_airglow/sunss_on_subaru_hu_4c76ed470e321fa2.webp&#34;
                width=&#34;760&#34;
                height=&#34;291&#34;
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
@@ -413,10 +523,10 @@ The atomic oxygen is denoted as NaD (D for doublet) and atomic oxygen is written
 &lt;figure  &gt;
   &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
     &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;Sky difference&#34; srcset=&#34;
-               /project/sunss_airglow/sky_diff_hu4b9a910c9929c914997a9a759367754f_180296_14527c2db9cfaf65691bab40241ddf9e.webp 400w,
-               /project/sunss_airglow/sky_diff_hu4b9a910c9929c914997a9a759367754f_180296_ce1bbc59204f786a7aa0384429788abd.webp 760w,
-               /project/sunss_airglow/sky_diff_hu4b9a910c9929c914997a9a759367754f_180296_1200x1200_fit_q100_h2_lanczos_3.webp 1200w&#34;
-               src=&#34;https://astrockragh.github.io/project/sunss_airglow/sky_diff_hu4b9a910c9929c914997a9a759367754f_180296_14527c2db9cfaf65691bab40241ddf9e.webp&#34;
+               /project/sunss_airglow/sky_diff_hu_bf994920c61c2c0e.webp 400w,
+               /project/sunss_airglow/sky_diff_hu_325c43172c037cd.webp 760w,
+               /project/sunss_airglow/sky_diff_hu_7a6c93bc7cfed45e.webp 1200w&#34;
+               src=&#34;https://astrockragh.github.io/project/sunss_airglow/sky_diff_hu_bf994920c61c2c0e.webp&#34;
                width=&#34;622&#34;
                height=&#34;760&#34;
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
@@ -456,32 +566,32 @@ Even over a single night, we observe that most of the components change their in
 &lt;figure  &gt;
   &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
     &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;Subaru all sky with airglow&#34; srcset=&#34;
-               /project/sunss_airglow/subaru_all_sky_hufe09ae191162dd7b9e5daa4b6524f7f2_1310917_ef4bc021a3046d614521e5d1c622b3dc.webp 400w,
-               /project/sunss_airglow/subaru_all_sky_hufe09ae191162dd7b9e5daa4b6524f7f2_1310917_c86b7016dc8d66a2e7a2e9b535444931.webp 760w,
-               /project/sunss_airglow/subaru_all_sky_hufe09ae191162dd7b9e5daa4b6524f7f2_1310917_1200x1200_fit_q100_h2_lanczos_3.webp 1200w&#34;
-               src=&#34;https://astrockragh.github.io/project/sunss_airglow/subaru_all_sky_hufe09ae191162dd7b9e5daa4b6524f7f2_1310917_ef4bc021a3046d614521e5d1c622b3dc.webp&#34;
+               /project/sunss_airglow/subaru_all_sky_hu_571697413013cb80.webp 400w,
+               /project/sunss_airglow/subaru_all_sky_hu_bdaef8162acafa0c.webp 760w,
+               /project/sunss_airglow/subaru_all_sky_hu_81120530dd62a50.webp 1200w&#34;
+               src=&#34;https://astrockragh.github.io/project/sunss_airglow/subaru_all_sky_hu_571697413013cb80.webp&#34;
                width=&#34;760&#34;
                height=&#34;760&#34;
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
   &lt;/div&gt;&lt;/figure&gt;
 &lt;/p&gt;
-&lt;section class=&#34;footnotes&#34; role=&#34;doc-endnotes&#34;&gt;
+&lt;div class=&#34;footnotes&#34; role=&#34;doc-endnotes&#34;&gt;
 &lt;hr&gt;
 &lt;ol&gt;
-&lt;li id=&#34;fn:1&#34; role=&#34;doc-endnote&#34;&gt;
+&lt;li id=&#34;fn:1&#34;&gt;
 &lt;p&gt;Subaru made a really nice promotional video for the Prime Focus Spectrograph, which can be found on this link &lt;a href=&#34;https://www.youtube.com/watch?v=usALcInrWVc&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://www.youtube.com/watch?v=usALcInrWVc&lt;/a&gt;.&amp;#160;&lt;a href=&#34;#fnref:1&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
 &lt;/li&gt;
-&lt;li id=&#34;fn:2&#34; role=&#34;doc-endnote&#34;&gt;
+&lt;li id=&#34;fn:2&#34;&gt;
 &lt;p&gt;I would love to show some real spectra, but since the full PFS spectra are not yet public, I&amp;rsquo;ll stick with the simulated spectra for now.&amp;#160;&lt;a href=&#34;#fnref:2&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
 &lt;/li&gt;
-&lt;li id=&#34;fn:3&#34; role=&#34;doc-endnote&#34;&gt;
+&lt;li id=&#34;fn:3&#34;&gt;
 &lt;p&gt;The spider holds the instrument at the primary focus of Subaru, in the pictures showing the position of SuNSS, the spider is the four-pronged thing holding a big cylinder in the middle of a blue ring.&amp;#160;&lt;a href=&#34;#fnref:3&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
 &lt;/li&gt;
-&lt;li id=&#34;fn:4&#34; role=&#34;doc-endnote&#34;&gt;
+&lt;li id=&#34;fn:4&#34;&gt;
 &lt;p&gt;Visible light goes from roughly 380-700 nm.&amp;#160;&lt;a href=&#34;#fnref:4&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ol&gt;
-&lt;/section&gt;
+&lt;/div&gt;
 </description>
     </item>
     
@@ -509,10 +619,10 @@ Even over a single night, we observe that most of the components change their in
 &lt;figure  &gt;
   &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
     &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;Clustering, or cosmic variance, greatly impacts the observed distribution of massive galaxies at high redshift!&#34; srcset=&#34;
-               /project/most_massive_jwst/demo_hu9e98fe34cccdd82f5fa4dbcef6e68fba_1432983_f9951a38b1833ee2e30f6bb8dd1eecb4.webp 400w,
-               /project/most_massive_jwst/demo_hu9e98fe34cccdd82f5fa4dbcef6e68fba_1432983_7e2b67f3f8fefe283e458c3d93e37c27.webp 760w,
-               /project/most_massive_jwst/demo_hu9e98fe34cccdd82f5fa4dbcef6e68fba_1432983_1200x1200_fit_q100_h2_lanczos_3.webp 1200w&#34;
-               src=&#34;https://astrockragh.github.io/project/most_massive_jwst/demo_hu9e98fe34cccdd82f5fa4dbcef6e68fba_1432983_f9951a38b1833ee2e30f6bb8dd1eecb4.webp&#34;
+               /project/most_massive_jwst/demo_hu_7a00c519a8520f67.webp 400w,
+               /project/most_massive_jwst/demo_hu_475954daaf8d93ca.webp 760w,
+               /project/most_massive_jwst/demo_hu_137026f41a7d965c.webp 1200w&#34;
+               src=&#34;https://astrockragh.github.io/project/most_massive_jwst/demo_hu_7a00c519a8520f67.webp&#34;
                width=&#34;760&#34;
                height=&#34;592&#34;
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
@@ -540,10 +650,10 @@ Even over a single night, we observe that most of the components change their in
 &lt;figure  &gt;
   &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
     &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;The introduction of cosmic variance greatly impact the probability of finding a single massive galaxy, which makes the results much more realistic.&#34; srcset=&#34;
-               /project/most_massive_jwst/um_comparison_hucb2ce46c9fcd92de04b91bd04f14d71e_288393_e18e940bc8265bc1673493d1f0498c21.webp 400w,
-               /project/most_massive_jwst/um_comparison_hucb2ce46c9fcd92de04b91bd04f14d71e_288393_20ab7d5fc346626f105630db5a278cd0.webp 760w,
-               /project/most_massive_jwst/um_comparison_hucb2ce46c9fcd92de04b91bd04f14d71e_288393_1200x1200_fit_q100_h2_lanczos_3.webp 1200w&#34;
-               src=&#34;https://astrockragh.github.io/project/most_massive_jwst/um_comparison_hucb2ce46c9fcd92de04b91bd04f14d71e_288393_e18e940bc8265bc1673493d1f0498c21.webp&#34;
+               /project/most_massive_jwst/um_comparison_hu_2808a45c7d96e186.webp 400w,
+               /project/most_massive_jwst/um_comparison_hu_c7c776ca975c4d25.webp 760w,
+               /project/most_massive_jwst/um_comparison_hu_1e9ade8998985adf.webp 1200w&#34;
+               src=&#34;https://astrockragh.github.io/project/most_massive_jwst/um_comparison_hu_2808a45c7d96e186.webp&#34;
                width=&#34;760&#34;
                height=&#34;275&#34;
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
@@ -570,10 +680,10 @@ Even over a single night, we observe that most of the components change their in
 &lt;figure  &gt;
   &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
     &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;The errors on cosmic variance are greater than one would think&#34; srcset=&#34;
-               /project/most_massive_jwst/demo_sigma_cv_huac8ebcf2b5218e09eb4c8a6de2244082_224715_44897c087cc0d0a1ed10285f3c2dc5a4.webp 400w,
-               /project/most_massive_jwst/demo_sigma_cv_huac8ebcf2b5218e09eb4c8a6de2244082_224715_b8ec5d63d2f5c1f2281584cb483c4960.webp 760w,
-               /project/most_massive_jwst/demo_sigma_cv_huac8ebcf2b5218e09eb4c8a6de2244082_224715_1200x1200_fit_q100_h2_lanczos_3.webp 1200w&#34;
-               src=&#34;https://astrockragh.github.io/project/most_massive_jwst/demo_sigma_cv_huac8ebcf2b5218e09eb4c8a6de2244082_224715_44897c087cc0d0a1ed10285f3c2dc5a4.webp&#34;
+               /project/most_massive_jwst/demo_sigma_cv_hu_b21822dc428f1589.webp 400w,
+               /project/most_massive_jwst/demo_sigma_cv_hu_e7a7b0c209352d48.webp 760w,
+               /project/most_massive_jwst/demo_sigma_cv_hu_c19960fd611fa2.webp 1200w&#34;
+               src=&#34;https://astrockragh.github.io/project/most_massive_jwst/demo_sigma_cv_hu_b21822dc428f1589.webp&#34;
                width=&#34;760&#34;
                height=&#34;569&#34;
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
@@ -599,10 +709,10 @@ Even over a single night, we observe that most of the components change their in
 &lt;figure  &gt;
   &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
     &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;results&#34; srcset=&#34;
-               /project/most_massive_jwst/first_hu5e0e863fe3d9840b6ef3d5873d5e6071_611032_4633218795801727b1ea4e80e4981d15.webp 400w,
-               /project/most_massive_jwst/first_hu5e0e863fe3d9840b6ef3d5873d5e6071_611032_791b00077e1e554dddc3f1be9bbe2dce.webp 760w,
-               /project/most_massive_jwst/first_hu5e0e863fe3d9840b6ef3d5873d5e6071_611032_1200x1200_fit_q100_h2_lanczos_3.webp 1200w&#34;
-               src=&#34;https://astrockragh.github.io/project/most_massive_jwst/first_hu5e0e863fe3d9840b6ef3d5873d5e6071_611032_4633218795801727b1ea4e80e4981d15.webp&#34;
+               /project/most_massive_jwst/first_hu_4707f7b29726e62d.webp 400w,
+               /project/most_massive_jwst/first_hu_b8d48695307c3b3f.webp 760w,
+               /project/most_massive_jwst/first_hu_84746fe21422efba.webp 1200w&#34;
+               src=&#34;https://astrockragh.github.io/project/most_massive_jwst/first_hu_4707f7b29726e62d.webp&#34;
                width=&#34;535&#34;
                height=&#34;760&#34;
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
@@ -638,10 +748,10 @@ The projects were started during the great &lt;a href=&#34;https://datadrivengal
 &lt;figure  &gt;
   &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
     &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;Changing the linking length means more connections&#34; srcset=&#34;
-               /project/gnn_environment/changing_linking_length_huadf1f8ecb3a9b479f02af79a8867c8ec_925841_825f36b36411bb9e43c98cabfaa114ae.webp 400w,
-               /project/gnn_environment/changing_linking_length_huadf1f8ecb3a9b479f02af79a8867c8ec_925841_bc965fb5301a60a2cc29b27d45307001.webp 760w,
-               /project/gnn_environment/changing_linking_length_huadf1f8ecb3a9b479f02af79a8867c8ec_925841_1200x1200_fit_q100_h2_lanczos_3.webp 1200w&#34;
-               src=&#34;https://astrockragh.github.io/project/gnn_environment/changing_linking_length_huadf1f8ecb3a9b479f02af79a8867c8ec_925841_825f36b36411bb9e43c98cabfaa114ae.webp&#34;
+               /project/gnn_environment/changing_linking_length_hu_eb44a3a693fb46ae.webp 400w,
+               /project/gnn_environment/changing_linking_length_hu_2a88fa541a9adb53.webp 760w,
+               /project/gnn_environment/changing_linking_length_hu_28ac692f2d6158d4.webp 1200w&#34;
+               src=&#34;https://astrockragh.github.io/project/gnn_environment/changing_linking_length_hu_eb44a3a693fb46ae.webp&#34;
                width=&#34;760&#34;
                height=&#34;270&#34;
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
@@ -667,10 +777,10 @@ The projects were started during the great &lt;a href=&#34;https://datadrivengal
 &lt;figure  &gt;
   &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
     &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;Changing the linking length means better performace&#34; srcset=&#34;
-               /project/gnn_environment/error_length_hu174f52277a947edd04d4895efa36d3fe_228913_69763fcf07fe47e617296baec565fdb6.webp 400w,
-               /project/gnn_environment/error_length_hu174f52277a947edd04d4895efa36d3fe_228913_c922fd1d4f7f139f7f1094ed44927a00.webp 760w,
-               /project/gnn_environment/error_length_hu174f52277a947edd04d4895efa36d3fe_228913_1200x1200_fit_q100_h2_lanczos_3.webp 1200w&#34;
-               src=&#34;https://astrockragh.github.io/project/gnn_environment/error_length_hu174f52277a947edd04d4895efa36d3fe_228913_69763fcf07fe47e617296baec565fdb6.webp&#34;
+               /project/gnn_environment/error_length_hu_80be36a8e4ebeca3.webp 400w,
+               /project/gnn_environment/error_length_hu_1640d095516b640f.webp 760w,
+               /project/gnn_environment/error_length_hu_a4d64ebbf548afa6.webp 1200w&#34;
+               src=&#34;https://astrockragh.github.io/project/gnn_environment/error_length_hu_80be36a8e4ebeca3.webp&#34;
                width=&#34;760&#34;
                height=&#34;669&#34;
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
@@ -697,10 +807,10 @@ The projects were started during the great &lt;a href=&#34;https://datadrivengal
 &lt;figure  &gt;
   &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
     &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;There is a special environment length scale&#34; srcset=&#34;
-               /project/gnn_environment/error_length_annotate_huffa39afaf9a987e8a2e1ccb1a0c579ba_398601_339c6607a1150b450dd8d63694b4bdaa.webp 400w,
-               /project/gnn_environment/error_length_annotate_huffa39afaf9a987e8a2e1ccb1a0c579ba_398601_2b52248d0e9e1618f75e8d308fa17ebc.webp 760w,
-               /project/gnn_environment/error_length_annotate_huffa39afaf9a987e8a2e1ccb1a0c579ba_398601_1200x1200_fit_q100_h2_lanczos_3.webp 1200w&#34;
-               src=&#34;https://astrockragh.github.io/project/gnn_environment/error_length_annotate_huffa39afaf9a987e8a2e1ccb1a0c579ba_398601_339c6607a1150b450dd8d63694b4bdaa.webp&#34;
+               /project/gnn_environment/error_length_annotate_hu_c0df7b7134c38509.webp 400w,
+               /project/gnn_environment/error_length_annotate_hu_a5876027657329b4.webp 760w,
+               /project/gnn_environment/error_length_annotate_hu_d81c06a868a9dcb1.webp 1200w&#34;
+               src=&#34;https://astrockragh.github.io/project/gnn_environment/error_length_annotate_hu_c0df7b7134c38509.webp&#34;
                width=&#34;760&#34;
                height=&#34;671&#34;
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
@@ -727,10 +837,10 @@ The projects were started during the great &lt;a href=&#34;https://datadrivengal
 &lt;figure  &gt;
   &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
     &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;Disperse is not worth much&#34; srcset=&#34;
-               /project/gnn_environment/disperse_meme_hubfde6db3e40b49ac8a6369d761899df8_403749_b45d97d6726aad17b8c4359207a55ad7.webp 400w,
-               /project/gnn_environment/disperse_meme_hubfde6db3e40b49ac8a6369d761899df8_403749_b13485bd92caa9bcef1f5293af0c0464.webp 760w,
-               /project/gnn_environment/disperse_meme_hubfde6db3e40b49ac8a6369d761899df8_403749_1200x1200_fit_q100_h2_lanczos_3.webp 1200w&#34;
-               src=&#34;https://astrockragh.github.io/project/gnn_environment/disperse_meme_hubfde6db3e40b49ac8a6369d761899df8_403749_b45d97d6726aad17b8c4359207a55ad7.webp&#34;
+               /project/gnn_environment/disperse_meme_hu_105826848a5c0f97.webp 400w,
+               /project/gnn_environment/disperse_meme_hu_8dd1c479ef1b28b1.webp 760w,
+               /project/gnn_environment/disperse_meme_hu_a9a8bbeabe96a76d.webp 1200w&#34;
+               src=&#34;https://astrockragh.github.io/project/gnn_environment/disperse_meme_hu_105826848a5c0f97.webp&#34;
                width=&#34;720&#34;
                height=&#34;564&#34;
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
@@ -771,11 +881,11 @@ The projects were started during the great &lt;a href=&#34;https://datadrivengal
 
 &lt;figure  &gt;
   &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
-    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;Mangrove&amp;amp;rsquo;s Logo&#34; srcset=&#34;
-               /project/mangrove/featured_old_hu7a91daf6b1a6feed761a05f58cec4d84_279687_0ed301d449071dd9ae425fdc4e9d0a3f.webp 400w,
-               /project/mangrove/featured_old_hu7a91daf6b1a6feed761a05f58cec4d84_279687_1278bdb7b01b11e886e8712c7da4ae56.webp 760w,
-               /project/mangrove/featured_old_hu7a91daf6b1a6feed761a05f58cec4d84_279687_1200x1200_fit_q100_h2_lanczos_3.webp 1200w&#34;
-               src=&#34;https://astrockragh.github.io/project/mangrove/featured_old_hu7a91daf6b1a6feed761a05f58cec4d84_279687_0ed301d449071dd9ae425fdc4e9d0a3f.webp&#34;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;Mangrove&amp;rsquo;s Logo&#34; srcset=&#34;
+               /project/mangrove/featured_old_hu_6912712c5b1585f8.webp 400w,
+               /project/mangrove/featured_old_hu_500a636672079076.webp 760w,
+               /project/mangrove/featured_old_hu_b754a66bd2327b9b.webp 1200w&#34;
+               src=&#34;https://astrockragh.github.io/project/mangrove/featured_old_hu_6912712c5b1585f8.webp&#34;
                width=&#34;760&#34;
                height=&#34;480&#34;
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
@@ -807,10 +917,10 @@ Although semi-analytic models (SAMs)&lt;sup id=&#34;fnref:1&#34;&gt;&lt;a href=&
 &lt;figure  &gt;
   &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
     &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;Illustris&#34; srcset=&#34;
-               /project/mangrove/speed_hueba3f1d752cddd088ef83ef6f6b329ab_671846_93f34f88f82f45456778f127f323df8a.webp 400w,
-               /project/mangrove/speed_hueba3f1d752cddd088ef83ef6f6b329ab_671846_bca160bd2a61d5c41f010841e0e6c868.webp 760w,
-               /project/mangrove/speed_hueba3f1d752cddd088ef83ef6f6b329ab_671846_1200x1200_fit_q100_h2_lanczos_3.webp 1200w&#34;
-               src=&#34;https://astrockragh.github.io/project/mangrove/speed_hueba3f1d752cddd088ef83ef6f6b329ab_671846_93f34f88f82f45456778f127f323df8a.webp&#34;
+               /project/mangrove/speed_hu_4bf8d09492684a38.webp 400w,
+               /project/mangrove/speed_hu_90ea3d402d1346d0.webp 760w,
+               /project/mangrove/speed_hu_dd20682eada2b8c9.webp 1200w&#34;
+               src=&#34;https://astrockragh.github.io/project/mangrove/speed_hu_4bf8d09492684a38.webp&#34;
                width=&#34;681&#34;
                height=&#34;414&#34;
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
@@ -826,9 +936,9 @@ Although semi-analytic models (SAMs)&lt;sup id=&#34;fnref:1&#34;&gt;&lt;a href=&
 &lt;figcaption align = &#34;center&#34;&gt;&lt;b&gt;Fig.1 - Running a simulation and identifying halos at different time steps allows us to build the merger tree, which can then easily be encoded as a graph. &lt;/b&gt;&lt;/figcaption&gt;
 &lt;/figure&gt;
 &lt;p&gt;We can then encode the merger tree as a mathematical &lt;strong&gt;graph&lt;/strong&gt;, which in this context simply means a collection of nodes and edges, where each node represents a halo, and the edges determine how they have interacted with each other over time. When we have the graphs we can use a &lt;a href=&#34;https://en.wikipedia.org/wiki/Graph_neural_network&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Graph Neural Network (GNN)&lt;/a&gt;, to learn how the galaxies pertaining to those merger trees should be.&lt;/p&gt;
-&lt;p&gt;In order to build an emulator, we also have to find something to emulate. In this post I discuss results from emulating the outputs from a Semi-Analytic Model&lt;sup id=&#34;fnref:1&#34;&gt;&lt;a href=&#34;#fn:1&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;1&lt;/a&gt;&lt;/sup&gt; but it works just as well for other kinds of simulations, like magneto-hydrodynamical simulations like &lt;a href=&#34;https://www.tng-project.org/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;IllustrisTNG&lt;/a&gt;!&lt;/p&gt;
+&lt;p&gt;In order to build an emulator, we also have to find something to emulate. In this post I discuss results from emulating the outputs from a Semi-Analytic Model&lt;sup id=&#34;fnref1:1&#34;&gt;&lt;a href=&#34;#fn:1&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;1&lt;/a&gt;&lt;/sup&gt; but it works just as well for other kinds of simulations, like magneto-hydrodynamical simulations like &lt;a href=&#34;https://www.tng-project.org/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;IllustrisTNG&lt;/a&gt;!&lt;/p&gt;
 &lt;p&gt;Mangrove is a Graph Neural Network (GNN). GNNs work by acting on both nodes, and the &lt;strong&gt;neighbourhood&lt;/strong&gt; of that node, meaning all the nodes that is connected to it by an edge.
-The way we learn from both nodes and neighbourhoods is through &lt;em&gt;Message Passing&lt;/em&gt;. Message passing means that each node sends information about its current state along the edges of the graph, and is then updated by a learnable&lt;sup id=&#34;fnref:2&#34;&gt;&lt;a href=&#34;#fn:2&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;2&lt;/a&gt;&lt;/sup&gt; function &lt;em&gt;f&lt;/em&gt;. This information passed along the edges is then used to update the state of the node through another learnable&lt;sup id=&#34;fnref:2&#34;&gt;&lt;a href=&#34;#fn:2&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;2&lt;/a&gt;&lt;/sup&gt; function &lt;em&gt;g&lt;/em&gt;.&lt;/p&gt;
+The way we learn from both nodes and neighbourhoods is through &lt;em&gt;Message Passing&lt;/em&gt;. Message passing means that each node sends information about its current state along the edges of the graph, and is then updated by a learnable&lt;sup id=&#34;fnref:2&#34;&gt;&lt;a href=&#34;#fn:2&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;2&lt;/a&gt;&lt;/sup&gt; function &lt;em&gt;f&lt;/em&gt;. This information passed along the edges is then used to update the state of the node through another learnable&lt;sup id=&#34;fnref1:2&#34;&gt;&lt;a href=&#34;#fn:2&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;2&lt;/a&gt;&lt;/sup&gt; function &lt;em&gt;g&lt;/em&gt;.&lt;/p&gt;
 &lt;figure&gt;
 &lt;img src=&#34;graphic2.png&#34; alt=&#34;Second graphic&#34; style=&#34;width:100%&#34;&gt;
 &lt;/figure&gt;
@@ -875,17 +985,17 @@ The way we learn from both nodes and neighbourhoods is through &lt;em&gt;Message
 &lt;p&gt;&lt;strong&gt;It matters &lt;em&gt;how&lt;/em&gt; we build our galaxies!&lt;/strong&gt;&lt;/p&gt;
 &lt;h2 id=&#34;code&#34;&gt;Code&lt;/h2&gt;
 &lt;p&gt;Anyone who wishes to do anything similar to this project is encouraged &lt;a href=&#34;https://ui.adsabs.harvard.edu/search/p_=0&amp;amp;q=author%3A%22Jespersen%2C%20Christian%20K.%22&amp;amp;sort=date%20desc%2C%20bibcode%20desc&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;read the paper&lt;/a&gt; and check out the &lt;a href=&#34;https://github.com/astrockragh/Mangrove&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Github&lt;/a&gt;. All the code used for the projects is free to use, although I do not guarantee that it will be easy to find your way around in it!&lt;/p&gt;
-&lt;section class=&#34;footnotes&#34; role=&#34;doc-endnotes&#34;&gt;
+&lt;div class=&#34;footnotes&#34; role=&#34;doc-endnotes&#34;&gt;
 &lt;hr&gt;
 &lt;ol&gt;
-&lt;li id=&#34;fn:1&#34; role=&#34;doc-endnote&#34;&gt;
-&lt;p&gt;Semi Analytic Models are a kind of simulation that is run after running a simulation of only the dark matter in the universe. A good early reference is &lt;a href=&#34;https://arxiv.org/pdf/astro-ph/9802268.pdf&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://arxiv.org/pdf/astro-ph/9802268.pdf&lt;/a&gt;&amp;#160;&lt;a href=&#34;#fnref:1&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
+&lt;li id=&#34;fn:1&#34;&gt;
+&lt;p&gt;Semi Analytic Models are a kind of simulation that is run after running a simulation of only the dark matter in the universe. A good early reference is &lt;a href=&#34;https://arxiv.org/pdf/astro-ph/9802268.pdf&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://arxiv.org/pdf/astro-ph/9802268.pdf&lt;/a&gt;&amp;#160;&lt;a href=&#34;#fnref:1&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&amp;#160;&lt;a href=&#34;#fnref1:1&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
 &lt;/li&gt;
-&lt;li id=&#34;fn:2&#34; role=&#34;doc-endnote&#34;&gt;
-&lt;p&gt;Any time I mention a &amp;ldquo;learnable function&amp;rdquo;, think about it as a very basic neural network, what we call a Multi-Layer Perceptron (MLP). An illustration of an MLP can be found at &lt;a href=&#34;https://en.wikipedia.org/wiki/Neural_network#/media/File:Neural_network_example.svg&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://en.wikipedia.org/wiki/Neural_network#/media/File:Neural_network_example.svg&lt;/a&gt;&amp;#160;&lt;a href=&#34;#fnref:2&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
+&lt;li id=&#34;fn:2&#34;&gt;
+&lt;p&gt;Any time I mention a &amp;ldquo;learnable function&amp;rdquo;, think about it as a very basic neural network, what we call a Multi-Layer Perceptron (MLP). An illustration of an MLP can be found at &lt;a href=&#34;https://en.wikipedia.org/wiki/Neural_network#/media/File:Neural_network_example.svg&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://en.wikipedia.org/wiki/Neural_network#/media/File:Neural_network_example.svg&lt;/a&gt;&amp;#160;&lt;a href=&#34;#fnref:2&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&amp;#160;&lt;a href=&#34;#fnref1:2&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ol&gt;
-&lt;/section&gt;
+&lt;/div&gt;
 </description>
     </item>
     
@@ -955,7 +1065,7 @@ However, trying to categorize these events from the burst itself is very trouble
       <link>https://astrockragh.github.io/project/cosmos/</link>
       <pubDate>Thu, 20 Jan 2022 00:00:00 +0000</pubDate>
       <guid>https://astrockragh.github.io/project/cosmos/</guid>
-      <description>&lt;h2 id=&#34;the-two-catalogs-httpscosmos2020caletorg&#34;&gt;The two CATALOGS: &lt;a href=&#34;https://cosmos2020.calet.org/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://cosmos2020.calet.org/&lt;/a&gt;&lt;/h2&gt;
+      <description>&lt;h2 id=&#34;the-two-catalogs&#34;&gt;The two CATALOGS: &lt;a href=&#34;https://cosmos2020.calet.org/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://cosmos2020.calet.org/&lt;/a&gt;&lt;/h2&gt;
 &lt;p&gt;The COSMOS survey is one the longest-running galaxy surveys. Over two decades, we have collected observations of x-ray, optical, infrared, and radio light to obtain galaxy distances and understand their evolution over 13.7 billion years of cosmic history. &lt;a href=&#34;https://astroweaver.github.io/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;John R. Weaver&lt;/a&gt; at the &lt;a href=&#34;https://cosmicdawn.dk/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Cosmic Dawn Center&lt;/a&gt; lead the 2020 edition of the master galaxy catalog, using bleeding-edge galaxy model-fitting techniques.&lt;/p&gt;
 &lt;p&gt;I worked with John to improve what astronomers call a Point Spread Function, or PSF for short, which essentially details how light becomes spread out and noisy as it moves through the atmosphere. As one might imagine, this isn&amp;rsquo;t the same across the night sky, due to the atmosphere being quite different when looking in different directions. As can be seen in the below figure, if one separates the night-sky into many smaller patches, giving each patch its own PSF, things are a lot better!&lt;/p&gt;
 &lt;p&gt;

@@ -5,12 +5,122 @@
     <link>https://astrockragh.github.io/tag/observations/</link>
       <atom:link href="https://astrockragh.github.io/tag/observations/index.xml" rel="self" type="application/rss+xml" />
     <description>Observations</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© Christian Kragh Jespersen 2024</copyright><lastBuildDate>Tue, 14 Jan 2025 00:00:00 +0000</lastBuildDate>
+    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><copyright>© Christian Kragh Jespersen 2025</copyright><lastBuildDate>Fri, 10 Oct 2025 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>https://astrockragh.github.io/media/logo_hu99cbd5be059c86a221a329805c1c065d_47879_300x300_fit_lanczos_3.png</url>
+      <url>https://astrockragh.github.io/media/logo_hu_1c9055000151fecf.png</url>
       <title>Observations</title>
       <link>https://astrockragh.github.io/tag/observations/</link>
     </image>
+    
+    <item>
+      <title>Explaining Ultramassive Quiescent Galaxies at 3 &lt; z &lt; 5 in the Context of Their Environments</title>
+      <link>https://astrockragh.github.io/project/most_massive_environment/</link>
+      <pubDate>Fri, 10 Oct 2025 00:00:00 +0000</pubDate>
+      <guid>https://astrockragh.github.io/project/most_massive_environment/</guid>
+      <description>&lt;h1 id=&#34;explaining-the-masses-of-ultra-massive-universe-breaking-galaxies&#34;&gt;Explaining the masses of ultra-massive &amp;ldquo;universe-breaking&amp;rdquo; galaxies&lt;/h1&gt;
+&lt;p&gt;What do you do when observations break your theory?&lt;/p&gt;
+&lt;p&gt;That’s the situation galaxy physics has faced since the JWST started discovering both extremely distant galaxies, along with &lt;strong&gt;ultra-massive, quiescent galaxies&lt;/strong&gt; at redshifts 3–5 — galaxies more massive than our Milky Way, already completely dead quenched just 1 billion years after the Big Bang. We see this in &lt;strong&gt;spectra&lt;/strong&gt; from JWST, like the ones below from the EXCELS survey (blue lines), where we can fit models (black lines) to infer the star formation history. On a sidenote, one of the reasons that I like working with quiescent galaxies is that we have much better models for them than other galaxies, just admire how well the models fit the data! That&amp;rsquo;s not always a given, which you can read about &lt;a href=&#34;https://astrockragh.github.io/project/ir_optical/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;in this other project&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;https://astrockragh.github.io/project/most_massive_environment/spectra.png&#34; alt=&#34;The spectra of our galaxies from Carnall&amp;#43;2024&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;p&gt;We have struggled to explain how these galaxies could form stars so rapidly and shut off star formation this early. Theories have invoked extreme star formation efficiencies (close to 100%!), very exotic feedback mechanisms, or even modifications to our well-tested ΛCDM-cosmology. This has all come from statistical analyses of an idealized distribution of galaxies by total mass, the stellar mass function (SMF), using a technique called &lt;strong&gt;Extreme Value Statistics (EVS)&lt;/strong&gt;, which is designed to ask the question:&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;What is the probability distribution for the mass of the most massive galaxy I will observe in a certain volume of the Universe&lt;/code&gt;&lt;/p&gt;
+&lt;h4 id=&#34;but-what-if-weve-just-been-asking-the-wrong-question&#34;&gt;But what if we’ve just been asking the wrong question?&lt;/h4&gt;
+&lt;p&gt;Normal EVS makes the assumption that all galaxies are independent from each other &amp;mdash; but this just is not true!&lt;/p&gt;
+&lt;h2 id=&#34;the-real-question-where-are-these-galaxies-found&#34;&gt;The Real Question: Where Are These Galaxies Found?&lt;/h2&gt;
+&lt;p&gt;Every single one of these beautiful, ultra-massive, quiescent galaxies lives in an &lt;strong&gt;overdensity&lt;/strong&gt;, regions with significantly more galaxies than average. The overdensities reflect the fact that galaxies &lt;strong&gt;cluster&lt;/strong&gt;, i.e., they are not randomly distributed on the sky. However, until now,theoretical predictions have treated these galaxies as if they live in average, unclustered, environments.&lt;/p&gt;
+&lt;p&gt;That’s like estimating the wealth of the richest person &lt;em&gt;in the world&lt;/em&gt; by starting from the mean and spread in a random city. You&amp;rsquo;re going to be surprised, because wealth, just like galaxies, clusters quite strongly, with clustered environments producing both extreme wealth and galaxies. You can see that either in the Figure at the top of this post or in the below video&lt;/p&gt;
+&lt;video controls width=&#34;100%&#34;&gt;
+  &lt;source src=&#34;https://astrockragh.github.io/project/most_massive_environment/zoom_tour.mp4&#34; type=&#34;video/mp4&#34;&gt;
+&lt;/video&gt;
+&lt;h4 id=&#34;it-is-clear-that-our-galaxy-is-in-the-middle-of-a-very-dense-part-of-the-universe&#34;&gt;It is clear that our galaxy is in the middle of a very dense part of the Universe!&lt;/h4&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;the-insight-that-changes-everything&#34;&gt;The Insight That Changes Everything&lt;/h2&gt;
+&lt;p&gt;This paper introduces an extended version of EVS that includes a galaxy’s &lt;strong&gt;environment&lt;/strong&gt; — specifically, the overdensity it lives in — when estimating the expected maximum stellar mass. Instead of marginalizing over environments (which dilutes everything), we condition on the known fact that the galaxy is in an extreme region.&lt;/p&gt;
+&lt;p&gt;How?&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;strong&gt;Estimate the volume&lt;/strong&gt; of the overdensity using 3D redshift-space distributions.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Compute how overdense&lt;/strong&gt; such a volume could reasonably be expected to in the full survey — i.e., the distribution of &lt;strong&gt;density percentile&lt;/strong&gt; &lt;code&gt;u_δ&lt;/code&gt; given that we can fit N subvolumes of the same size as the overdensity into our survey.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Construct stellar mass functions (SMF)&lt;/strong&gt; that depends on &lt;code&gt;u_δ&lt;/code&gt;. More overdense = more galaxies, especially at high masses.&lt;/li&gt;
+&lt;li&gt;Convolve the normal EVS estimates for each &lt;strong&gt;overdensity-dependent SMF&lt;/strong&gt; with the distribution of possible overdensities given a certain volume to compute the distribution of the most massive galaxy &lt;strong&gt;given that it exists in the most extreme overdensity in that survey&lt;/strong&gt; with a given volume.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;You can see how our &lt;code&gt;P(Maximum mass)&lt;/code&gt; estimates change as a function on the number of total overdensities of a given volume we sample below&lt;/p&gt;
+&lt;video controls width=&#34;100%&#34;&gt;
+  &lt;source src=&#34;https://astrockragh.github.io/project/most_massive_environment/0_phimax.mp4&#34; type=&#34;video/mp4&#34;&gt;
+&lt;/video&gt;
+&lt;p&gt;In a way this is the compliment to &lt;a href=&#34;https://astrockragh.github.io/project/most_massive_jwst/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;another one of my papers on massive galaxies in a clustered Universe&lt;/a&gt;, where we instead of &lt;strong&gt;conditioning&lt;/strong&gt; on environment like here, marginalize out our lack of knowledge of the environment. For many galaxies, especially at ultra-high redshift, &lt;em&gt;we do not know their environments&lt;/em&gt;, so there, the above conditioning steps would be inappropriate!&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;the-result-theyre-not-so-impossible-after-all&#34;&gt;The Result: They&amp;rsquo;re Not So Impossible After All&lt;/h2&gt;
+&lt;p&gt;When we apply this method to the three most extreme galaxies in the &lt;a href=&#34;https://ui.adsabs.harvard.edu/abs/2024MNRAS.534..325C/abstract&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;EXCELS survey&lt;/a&gt; — including the infamous ZF-UDS-7329 galaxy — the tension with theoretical models &lt;em&gt;drops dramatically&lt;/em&gt;.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Under the standard EVS (ignoring environment and using normal star formation efficiencies), some galaxies were at a model tension of almost &lt;strong&gt;6σ&lt;/strong&gt;, and combining all three, we get a total of &lt;strong&gt;9σ&lt;/strong&gt;!! Alarming!&lt;/li&gt;
+&lt;li&gt;When we &lt;strong&gt;condition on overdensity&lt;/strong&gt;, this drops to &lt;strong&gt;~3σ&lt;/strong&gt; for the most extreme galaxy. So the galaxy is still extreme, but within acceptable limits. Remember that we could invoke higher star formation efficiency, but it is not that necessary now.&lt;/li&gt;
+&lt;li&gt;You don’t need 100% star formation efficiency anymore. The pre-JWST ~10-20% values works just fine!&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;This is all summarized in the below Figure, where you can see the mass histories of the galaxies in dotted blue. The alleviated tension is immediately obvious!&lt;/p&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;Main Figure from the paper&#34; srcset=&#34;
+               /project/most_massive_environment/combined_updated_SBF_Finkelstein_fiducial_legend_reverse_order_referee_v2_hu_f73a9ceeaa6dfdd0.webp 400w,
+               /project/most_massive_environment/combined_updated_SBF_Finkelstein_fiducial_legend_reverse_order_referee_v2_hu_82426cc85b65d4d3.webp 760w,
+               /project/most_massive_environment/combined_updated_SBF_Finkelstein_fiducial_legend_reverse_order_referee_v2_hu_d8c2e1ff5b1c6f62.webp 1200w&#34;
+               src=&#34;https://astrockragh.github.io/project/most_massive_environment/combined_updated_SBF_Finkelstein_fiducial_legend_reverse_order_referee_v2_hu_f73a9ceeaa6dfdd0.webp&#34;
+               width=&#34;656&#34;
+               height=&#34;760&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;so-was-this-really-a-crisis-or-a-misunderstanding&#34;&gt;So… Was This Really a Crisis? Or a Misunderstanding?&lt;/h2&gt;
+&lt;p&gt;Let’s be blunt. Much of the tension arose not because the models were fundamentally wrong, but because we were comparing the rarest galaxies in the universe to average expectations. By conditioning on where these galaxies actually live — &lt;strong&gt;the most overdense regions of the sky&lt;/strong&gt; — we reconcile theory and observation without invoking extreme physics.&lt;/p&gt;
+&lt;p&gt;It’s a small shift in logic, but a sizable step in understanding.&lt;/p&gt;
+&lt;p&gt;In a way, &lt;a href=&#34;https://ui.adsabs.harvard.edu/abs/2024Natur.628..277G/abstract&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;this reflects the thoughts of the original discover of the extreme ZF-UDS-7329, Karl Glazebrook&lt;/a&gt;, who suggested that we may be missing something about halo physics that makes dark matter collapse faster early on &amp;mdash; a seemingly radical idea. However, this is actually exactly what happens in extreme overdensities, halos collapse earlier and grow faster than in average areas, so in a way, Prof. Glazebrook was right!&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;-want-to-try-this-yourself&#34;&gt;🛠 Want to Try This Yourself?&lt;/h2&gt;
+&lt;p&gt;We&amp;rsquo;ve released the full code for environment-conditioned EVS on &lt;a href=&#34;https://github.com/astrockragh/evs_clustering&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;GitHub&lt;/a&gt;, including a demo notebook!&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;-why-this-matters-for-galaxy-evolution&#34;&gt;🚀 Why This Matters for Galaxy Evolution&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;We now have a &lt;strong&gt;physically-motivated way&lt;/strong&gt; to model massive galaxy formation without stretching SFE or tweaking dark matter in new ways.&lt;/li&gt;
+&lt;li&gt;We &lt;strong&gt;connect large-scale structure and galaxy masses&lt;/strong&gt; in a statistical framework. Clustering is &lt;strong&gt;always&lt;/strong&gt; important. One of the important next steps is measuring the amplitude of clustering at these redshifts, but this is something that I am currently working on!&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;This is not the end of the mystery — but it’s the &lt;strong&gt;beginning of the asking right question&lt;/strong&gt;.&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>The optical and infrared are connected</title>
@@ -53,10 +163,10 @@ These different components also emit light in different wavelength ranges, meani
 &lt;figure  &gt;
   &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
     &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;A galaxy in many different wavelengths&#34; srcset=&#34;
-               /project/ir_optical/another_gal_diff_wavelengths_hufc726e928bc7708edd7f5f3c58206110_43120_bed11cfa9e4bddf52e3b60d91c4b4f4a.webp 400w,
-               /project/ir_optical/another_gal_diff_wavelengths_hufc726e928bc7708edd7f5f3c58206110_43120_446c5cb59cf247bfff99d328a8a44a19.webp 760w,
-               /project/ir_optical/another_gal_diff_wavelengths_hufc726e928bc7708edd7f5f3c58206110_43120_1200x1200_fit_q100_h2_lanczos.webp 1200w&#34;
-               src=&#34;https://astrockragh.github.io/project/ir_optical/another_gal_diff_wavelengths_hufc726e928bc7708edd7f5f3c58206110_43120_bed11cfa9e4bddf52e3b60d91c4b4f4a.webp&#34;
+               /project/ir_optical/another_gal_diff_wavelengths_hu_39105af87b3d1c8f.webp 400w,
+               /project/ir_optical/another_gal_diff_wavelengths_hu_81c7d908f5637976.webp 760w,
+               /project/ir_optical/another_gal_diff_wavelengths_hu_4f253724e4d75e38.webp 1200w&#34;
+               src=&#34;https://astrockragh.github.io/project/ir_optical/another_gal_diff_wavelengths_hu_39105af87b3d1c8f.webp&#34;
                width=&#34;760&#34;
                height=&#34;331&#34;
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
@@ -111,10 +221,10 @@ These models comprise 30 years of development, so they really are the best that 
 &lt;figure  &gt;
   &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
     &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;A performance comparison of different models. The empirical model is infinitely better.&#34; srcset=&#34;
-               /project/ir_optical/featured_small_hu4863e048a5cc330c903887e7893f1458_306697_e551f89703fe47c14df6495fd2a2f5b7.webp 400w,
-               /project/ir_optical/featured_small_hu4863e048a5cc330c903887e7893f1458_306697_c30c4f96f69b0f09abea27420eef0970.webp 760w,
-               /project/ir_optical/featured_small_hu4863e048a5cc330c903887e7893f1458_306697_1200x1200_fit_q100_h2_lanczos_3.webp 1200w&#34;
-               src=&#34;https://astrockragh.github.io/project/ir_optical/featured_small_hu4863e048a5cc330c903887e7893f1458_306697_e551f89703fe47c14df6495fd2a2f5b7.webp&#34;
+               /project/ir_optical/featured_small_hu_3236bcb824e37487.webp 400w,
+               /project/ir_optical/featured_small_hu_8f16deae86ab5ef3.webp 760w,
+               /project/ir_optical/featured_small_hu_f5fc97cb38d16078.webp 1200w&#34;
+               src=&#34;https://astrockragh.github.io/project/ir_optical/featured_small_hu_3236bcb824e37487.webp&#34;
                width=&#34;760&#34;
                height=&#34;384&#34;
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
@@ -146,10 +256,10 @@ You might be a little confused about all the blue lines. These come from what we
 &lt;figure  &gt;
   &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
     &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;The wavelength/component separation.&#34; srcset=&#34;
-               /project/ir_optical/wavelength_separation_demo_hu65ce0847f96af0441efd199ba4cac83e_270551_0ba5a8a6c566cd4fa6d782133fe20921.webp 400w,
-               /project/ir_optical/wavelength_separation_demo_hu65ce0847f96af0441efd199ba4cac83e_270551_683cbee3c4eb38ad3e1eafa7e95cf90f.webp 760w,
-               /project/ir_optical/wavelength_separation_demo_hu65ce0847f96af0441efd199ba4cac83e_270551_1200x1200_fit_q100_h2_lanczos_3.webp 1200w&#34;
-               src=&#34;https://astrockragh.github.io/project/ir_optical/wavelength_separation_demo_hu65ce0847f96af0441efd199ba4cac83e_270551_0ba5a8a6c566cd4fa6d782133fe20921.webp&#34;
+               /project/ir_optical/wavelength_separation_demo_hu_b93c82a44c016d9e.webp 400w,
+               /project/ir_optical/wavelength_separation_demo_hu_abb5e7fa4a1c178f.webp 760w,
+               /project/ir_optical/wavelength_separation_demo_hu_fc5094320628a392.webp 1200w&#34;
+               src=&#34;https://astrockragh.github.io/project/ir_optical/wavelength_separation_demo_hu_b93c82a44c016d9e.webp&#34;
                width=&#34;576&#34;
                height=&#34;760&#34;
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
@@ -175,10 +285,10 @@ You might be a little confused about all the blue lines. These come from what we
 &lt;figure  &gt;
   &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
     &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;Predicting qPAHs&#34; srcset=&#34;
-               /project/ir_optical/qpah_pred_data_hub446d20bb8dafa904ad094315355ed2d_381729_03557b5bafe848e32a3a0faef8c80fdf.webp 400w,
-               /project/ir_optical/qpah_pred_data_hub446d20bb8dafa904ad094315355ed2d_381729_071f011db8942a2c775fdea14110617a.webp 760w,
-               /project/ir_optical/qpah_pred_data_hub446d20bb8dafa904ad094315355ed2d_381729_1200x1200_fit_q100_h2_lanczos_3.webp 1200w&#34;
-               src=&#34;https://astrockragh.github.io/project/ir_optical/qpah_pred_data_hub446d20bb8dafa904ad094315355ed2d_381729_03557b5bafe848e32a3a0faef8c80fdf.webp&#34;
+               /project/ir_optical/qpah_pred_data_hu_d7b4a2a2edb35eea.webp 400w,
+               /project/ir_optical/qpah_pred_data_hu_22b03fe89e845841.webp 760w,
+               /project/ir_optical/qpah_pred_data_hu_50dbfe6c3cdaf1dd.webp 1200w&#34;
+               src=&#34;https://astrockragh.github.io/project/ir_optical/qpah_pred_data_hu_d7b4a2a2edb35eea.webp&#34;
                width=&#34;699&#34;
                height=&#34;760&#34;
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
@@ -204,10 +314,10 @@ You might be a little confused about all the blue lines. These come from what we
 &lt;figure  &gt;
   &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
     &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;Predicting AGNs&#34; srcset=&#34;
-               /project/ir_optical/AGN_bolometric_update_extra_velocity_hu7472d07f7216638a23d9883276ae7eba_165543_957f8830a7213fac6acba08ddedebf00.webp 400w,
-               /project/ir_optical/AGN_bolometric_update_extra_velocity_hu7472d07f7216638a23d9883276ae7eba_165543_006cc06625a10e9b56f2c6f1925c9c70.webp 760w,
-               /project/ir_optical/AGN_bolometric_update_extra_velocity_hu7472d07f7216638a23d9883276ae7eba_165543_1200x1200_fit_q100_h2_lanczos_3.webp 1200w&#34;
-               src=&#34;https://astrockragh.github.io/project/ir_optical/AGN_bolometric_update_extra_velocity_hu7472d07f7216638a23d9883276ae7eba_165543_957f8830a7213fac6acba08ddedebf00.webp&#34;
+               /project/ir_optical/AGN_bolometric_update_extra_velocity_hu_947bd39056d13bc1.webp 400w,
+               /project/ir_optical/AGN_bolometric_update_extra_velocity_hu_41e9ffd29066bd1a.webp 760w,
+               /project/ir_optical/AGN_bolometric_update_extra_velocity_hu_fdeee69c3e69e859.webp 1200w&#34;
+               src=&#34;https://astrockragh.github.io/project/ir_optical/AGN_bolometric_update_extra_velocity_hu_947bd39056d13bc1.webp&#34;
                width=&#34;760&#34;
                height=&#34;287&#34;
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
@@ -226,23 +336,23 @@ This means that the future is bright for making new models.&lt;/p&gt;
 &lt;hr&gt;
 &lt;p&gt;I cannot overstate the importance of my advisors and collaborators for the success of this project. Especially &lt;a href=&#34;https://pmelchior.net/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Peter Melchior&lt;/a&gt;, &lt;a href=&#34;https://en.wikipedia.org/wiki/David_Spergel&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;David Spergel&lt;/a&gt;, and &lt;a href=&#34;https://www.astro.princeton.edu/~goulding/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Andy Goulding&lt;/a&gt; made fundamental contributions.&lt;/p&gt;
 &lt;h3 id=&#34;references&#34;&gt;References&lt;/h3&gt;
-&lt;section class=&#34;footnotes&#34; role=&#34;doc-endnotes&#34;&gt;
+&lt;div class=&#34;footnotes&#34; role=&#34;doc-endnotes&#34;&gt;
 &lt;hr&gt;
 &lt;ol&gt;
-&lt;li id=&#34;fn:1&#34; role=&#34;doc-endnote&#34;&gt;
+&lt;li id=&#34;fn:1&#34;&gt;
 &lt;p&gt;See &lt;a href=&#34;https://ui.adsabs.harvard.edu/abs/2023AJ....166...74M/abstract&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Melchior et al., 2023&lt;/a&gt; and &lt;a href=&#34;https://ui.adsabs.harvard.edu/abs/2023AJ....166...75L/abstract&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Liang et al., 2023&lt;/a&gt;.&amp;#160;&lt;a href=&#34;#fnref:1&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
 &lt;/li&gt;
-&lt;li id=&#34;fn:2&#34; role=&#34;doc-endnote&#34;&gt;
+&lt;li id=&#34;fn:2&#34;&gt;
 &lt;p&gt;See more details about &lt;code&gt;CIGALE&lt;/code&gt; in &lt;a href=&#34;https://cigale.lam.fr&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Boquien et al., 2019&lt;/a&gt; and &lt;code&gt;prospector&lt;/code&gt; in &lt;a href=&#34;https://prospectorexplorer.github.io&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Leja et al., 2017&lt;/a&gt;.&amp;#160;&lt;a href=&#34;#fnref:2&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
 &lt;/li&gt;
-&lt;li id=&#34;fn:3&#34; role=&#34;doc-endnote&#34;&gt;
+&lt;li id=&#34;fn:3&#34;&gt;
 &lt;p&gt;&lt;a href=&#34;https://arxiv.org/abs/astro-ph/9603025&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Djorgovski &amp;amp; Davis, 1987&lt;/a&gt;&amp;#160;&lt;a href=&#34;#fnref:3&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
 &lt;/li&gt;
-&lt;li id=&#34;fn:4&#34; role=&#34;doc-endnote&#34;&gt;
+&lt;li id=&#34;fn:4&#34;&gt;
 &lt;p&gt;&lt;a href=&#34;https://arxiv.org/abs/1405.2041&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Speagle et al., 2014&lt;/a&gt;&amp;#160;&lt;a href=&#34;#fnref:4&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ol&gt;
-&lt;/section&gt;
+&lt;/div&gt;
 </description>
     </item>
     
@@ -251,7 +361,7 @@ This means that the future is bright for making new models.&lt;/p&gt;
       <link>https://astrockragh.github.io/project/cosmos/</link>
       <pubDate>Thu, 20 Jan 2022 00:00:00 +0000</pubDate>
       <guid>https://astrockragh.github.io/project/cosmos/</guid>
-      <description>&lt;h2 id=&#34;the-two-catalogs-httpscosmos2020caletorg&#34;&gt;The two CATALOGS: &lt;a href=&#34;https://cosmos2020.calet.org/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://cosmos2020.calet.org/&lt;/a&gt;&lt;/h2&gt;
+      <description>&lt;h2 id=&#34;the-two-catalogs&#34;&gt;The two CATALOGS: &lt;a href=&#34;https://cosmos2020.calet.org/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://cosmos2020.calet.org/&lt;/a&gt;&lt;/h2&gt;
 &lt;p&gt;The COSMOS survey is one the longest-running galaxy surveys. Over two decades, we have collected observations of x-ray, optical, infrared, and radio light to obtain galaxy distances and understand their evolution over 13.7 billion years of cosmic history. &lt;a href=&#34;https://astroweaver.github.io/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;John R. Weaver&lt;/a&gt; at the &lt;a href=&#34;https://cosmicdawn.dk/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Cosmic Dawn Center&lt;/a&gt; lead the 2020 edition of the master galaxy catalog, using bleeding-edge galaxy model-fitting techniques.&lt;/p&gt;
 &lt;p&gt;I worked with John to improve what astronomers call a Point Spread Function, or PSF for short, which essentially details how light becomes spread out and noisy as it moves through the atmosphere. As one might imagine, this isn&amp;rsquo;t the same across the night sky, due to the atmosphere being quite different when looking in different directions. As can be seen in the below figure, if one separates the night-sky into many smaller patches, giving each patch its own PSF, things are a lot better!&lt;/p&gt;
 &lt;p&gt;

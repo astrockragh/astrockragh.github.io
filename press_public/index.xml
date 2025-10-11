@@ -5,9 +5,9 @@
     <link>https://astrockragh.github.io/press_public/</link>
       <atom:link href="https://astrockragh.github.io/press_public/index.xml" rel="self" type="application/rss+xml" />
     <description>Press and Public Talks</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© Christian Kragh Jespersen 2024</copyright><lastBuildDate>Mon, 03 Feb 2025 00:00:00 +0000</lastBuildDate>
+    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><copyright>© Christian Kragh Jespersen 2025</copyright><lastBuildDate>Mon, 03 Feb 2025 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>https://astrockragh.github.io/media/logo_hu99cbd5be059c86a221a329805c1c065d_47879_300x300_fit_lanczos_3.png</url>
+      <url>https://astrockragh.github.io/media/logo_hu_1c9055000151fecf.png</url>
       <title>Press and Public Talks</title>
       <link>https://astrockragh.github.io/press_public/</link>
     </image>
@@ -18,6 +18,8 @@
       <pubDate>Mon, 03 Feb 2025 00:00:00 +0000</pubDate>
       <guid>https://astrockragh.github.io/press_public/airglow_quebec_science/</guid>
       <description>&lt;!-- 
+
+
 &lt;div class=&#34;alert alert-note&#34;&gt;
   &lt;div&gt;
     Click on the &lt;strong&gt;Slides&lt;/strong&gt; button above to view the built-in slides feature.
@@ -41,6 +43,8 @@ Further event details, including [page elements](https://wowchemy.com/docs/writi
       <pubDate>Fri, 21 Aug 2020 00:00:00 +0000</pubDate>
       <guid>https://astrockragh.github.io/press_public/tv2_news/</guid>
       <description>&lt;!-- 
+
+
 &lt;div class=&#34;alert alert-note&#34;&gt;
   &lt;div&gt;
     Click on the &lt;strong&gt;Slides&lt;/strong&gt; button above to view the built-in slides feature.
@@ -64,6 +68,8 @@ Further event details, including [page elements](https://wowchemy.com/docs/writi
       <pubDate>Fri, 14 Aug 2020 00:00:00 +0000</pubDate>
       <guid>https://astrockragh.github.io/press_public/uniavisen/</guid>
       <description>&lt;!-- 
+
+
 &lt;div class=&#34;alert alert-note&#34;&gt;
   &lt;div&gt;
     Click on the &lt;strong&gt;Slides&lt;/strong&gt; button above to view the built-in slides feature.
