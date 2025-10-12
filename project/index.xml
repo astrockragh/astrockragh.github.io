@@ -47,15 +47,14 @@
 &lt;p&gt;Normal EVS makes the assumption that all galaxies are independent from each other &amp;mdash; but this just is not true!&lt;/p&gt;
 &lt;h2 id=&#34;the-real-question-where-are-these-galaxies-found&#34;&gt;The Real Question: Where Are These Galaxies Found?&lt;/h2&gt;
 &lt;p&gt;Every single one of these beautiful, ultra-massive, quiescent galaxies lives in an &lt;strong&gt;overdensity&lt;/strong&gt;, regions with significantly more galaxies than average. The overdensities reflect the fact that galaxies &lt;strong&gt;cluster&lt;/strong&gt;, i.e., they are not randomly distributed on the sky. However, until now,theoretical predictions have treated these galaxies as if they live in average, unclustered, environments.&lt;/p&gt;
-&lt;p&gt;That’s like estimating the wealth of the richest person &lt;em&gt;in the world&lt;/em&gt; by starting from the mean and spread in a random city. You&amp;rsquo;re going to be surprised, because wealth, just like galaxies, clusters quite strongly, with clustered environments producing both extreme wealth and galaxies. You can see that either in the Figure at the top of this post or in the below video&lt;/p&gt;
+&lt;p&gt;That’s like estimating the wealth of the richest person &lt;em&gt;in the world&lt;/em&gt; by starting from the mean and spread in a random city. You&amp;rsquo;re going to be surprised, because wealth, just like galaxies, clusters quite strongly, with clustered environments producing both extreme wealth and galaxies. You can see that either in the Figure at the top of this post or in the video below, where on of our galaxies of interest is marked in blue&lt;/p&gt;
 &lt;video controls width=&#34;100%&#34;&gt;
   &lt;source src=&#34;https://astrockragh.github.io/project/most_massive_environment/zoom_tour.mp4&#34; type=&#34;video/mp4&#34;&gt;
 &lt;/video&gt;
 &lt;h4 id=&#34;it-is-clear-that-our-galaxy-is-in-the-middle-of-a-very-dense-part-of-the-universe&#34;&gt;It is clear that our galaxy is in the middle of a very dense part of the Universe!&lt;/h4&gt;
 &lt;hr&gt;
 &lt;h2 id=&#34;the-insight-that-changes-everything&#34;&gt;The Insight That Changes Everything&lt;/h2&gt;
-&lt;p&gt;This paper introduces an extended version of EVS that includes a galaxy’s &lt;strong&gt;environment&lt;/strong&gt; — specifically, the overdensity it lives in — when estimating the expected maximum stellar mass. Instead of marginalizing over environments (which dilutes everything), we condition on the known fact that the galaxy is in an extreme region.&lt;/p&gt;
-&lt;p&gt;How?&lt;/p&gt;
+&lt;p&gt;This paper introduces an extended version of EVS that includes a galaxy’s &lt;strong&gt;environment&lt;/strong&gt; — specifically, the overdensity it lives in — when estimating the expected maximum stellar mass. Instead of marginalizing over environments (which dilutes everything), we condition on the known fact that the galaxy is in an extreme region. How?&lt;/p&gt;
 &lt;ol&gt;
 &lt;li&gt;&lt;strong&gt;Estimate the volume&lt;/strong&gt; of the overdensity using 3D redshift-space distributions.&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;Compute how overdense&lt;/strong&gt; such a volume could reasonably be expected to in the full survey — i.e., the distribution of &lt;strong&gt;density percentile&lt;/strong&gt; &lt;code&gt;u_δ&lt;/code&gt; given that we can fit N subvolumes of the same size as the overdensity into our survey.&lt;/li&gt;
