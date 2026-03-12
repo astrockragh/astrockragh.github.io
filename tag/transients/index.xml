@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Transients | Christian Kragh Jespersen</title>
-    <link>http://localhost:1313/tag/transients/</link>
-      <atom:link href="http://localhost:1313/tag/transients/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://astrockragh.github.io/tag/transients/</link>
+      <atom:link href="https://astrockragh.github.io/tag/transients/index.xml" rel="self" type="application/rss+xml" />
     <description>Transients</description>
     <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><copyright>© Christian Kragh Jespersen 2025</copyright><lastBuildDate>Thu, 20 Jan 2022 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>http://localhost:1313/media/logo_hu_1c9055000151fecf.png</url>
+      <url>https://astrockragh.github.io/media/logo_hu_1c9055000151fecf.png</url>
       <title>Transients</title>
-      <link>http://localhost:1313/tag/transients/</link>
+      <link>https://astrockragh.github.io/tag/transients/</link>
     </image>
     
     <item>
       <title>Classifying Gamma-Ray Bursts into Two Classes using t-SNE</title>
-      <link>http://localhost:1313/project/tsne_grb/</link>
+      <link>https://astrockragh.github.io/project/tsne_grb/</link>
       <pubDate>Thu, 20 Jan 2022 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/project/tsne_grb/</guid>
+      <guid>https://astrockragh.github.io/project/tsne_grb/</guid>
       <description>&lt;p&gt;The duration of a gamma-ray burst (GRB) is a key indicator of its physical origin, with long bursts perhaps associated with the collapse of massive stars (also known as supernovae) and short bursts with mergers of neutron stars (kilonovae).
 However, trying to categorize these events from the burst itself is very troublesome, as there is substantial overlap in the properties of both short and long GRBs and neither duration nor any other parameter so far considered completely separates the two groups [insert figure]. Some very long bursts even show up without any observble supernova, even when we know exactly where it came from, which even led people to propose extra classes of bursts, like the Extended Short Gamma Ray Burst, to explain the lack of a supernova. In this project, which was done by myself and my two good friends &lt;a href=&#34;https://github.com/JohannSeverin&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Johann Bock Severin&lt;/a&gt; and &lt;a href=&#34;https://github.com/Vinther901&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Jonas Vinther&lt;/a&gt; as a semester project during our first year at the University of Copenhagen, we unambiguously classified every known GRB from the Swift Space observatory, using a dimensionality reduction algorithm, t-distributed stochastic neighborhood embedding, which had never been before and so was quite exciting. Although the classification takes place only using prompt emission light curves, every burst with an associated supernova is found in the longer group and bursts with kilonovae in the short, suggesting along with the duration distributions that these two groups are truly long and short GRBs, or some sort of proxy.&lt;/p&gt;
 &lt;p&gt;Since t-SNE works by comparing vectors dimension by dimension, it was crucial that each dimension actually meant the same for each burst. Unfortunately, there is a great deal of uncertainty surrounding exactly when a burst begins or ends, so the lightcurves where rarely aligned such that the first second of a given burst meant the same as the first second of any other burst. The trick behind getting this to work was shifting the bursts from the time domain into the frequency domain using the &amp;lsquo;Fourier Transform&amp;rsquo;, which eliminates temporal translational differences in the lightcurves and makes it possible to actually compare the bursts dimension by dimension!&lt;/p&gt;

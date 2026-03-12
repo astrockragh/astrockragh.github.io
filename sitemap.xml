@@ -2,336 +2,340 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:1313/</loc>
-    <lastmod>2026-03-13T00:00:00+00:00</lastmod>
+    <loc>https://astrockragh.github.io/</loc>
+    <lastmod>2026-03-11T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>http://localhost:1313/project/</loc>
-    <lastmod>2026-03-13T00:00:00+00:00</lastmod>
+    <loc>https://astrockragh.github.io/tag/galaxies/</loc>
+    <lastmod>2026-03-11T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>http://localhost:1313/post/</loc>
+    <loc>https://astrockragh.github.io/project/measuring_clustering_cosmic_variance/</loc>
+    <lastmod>2026-03-11T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://astrockragh.github.io/tag/observations/</loc>
+    <lastmod>2026-03-11T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://astrockragh.github.io/project/</loc>
+    <lastmod>2026-03-11T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://astrockragh.github.io/tags/</loc>
+    <lastmod>2026-03-11T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://astrockragh.github.io/post/</loc>
     <lastmod>2026-02-17T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>http://localhost:1313/talk/2025_stsci_jhu/</loc>
+    <loc>https://astrockragh.github.io/talk/2025_stsci_jhu/</loc>
     <lastmod>2025-12-09T13:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>http://localhost:1313/tag/invited/</loc>
+    <loc>https://astrockragh.github.io/tag/invited/</loc>
     <lastmod>2025-12-09T13:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>http://localhost:1313/talk/</loc>
+    <loc>https://astrockragh.github.io/talk/</loc>
     <lastmod>2025-12-09T13:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>http://localhost:1313/tags/</loc>
-    <lastmod>2025-12-09T13:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-  </url><url>
-    <loc>http://localhost:1313/talk/2025_ut_austin/</loc>
+    <loc>https://astrockragh.github.io/talk/2025_ut_austin/</loc>
     <lastmod>2025-12-01T12:15:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>http://localhost:1313/talk/2025_perimeter/</loc>
+    <loc>https://astrockragh.github.io/talk/2025_perimeter/</loc>
     <lastmod>2025-11-13T11:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>http://localhost:1313/tag/contributed/</loc>
+    <loc>https://astrockragh.github.io/tag/contributed/</loc>
     <lastmod>2025-11-11T10:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>http://localhost:1313/talk/2025_tasty_toronto_ir_optical/</loc>
+    <loc>https://astrockragh.github.io/talk/2025_tasty_toronto_ir_optical/</loc>
     <lastmod>2025-11-11T10:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>http://localhost:1313/talk/2025_skai/</loc>
+    <loc>https://astrockragh.github.io/talk/2025_skai/</loc>
     <lastmod>2025-11-05T12:15:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>http://localhost:1313/talk/2025_stanford_c4du/</loc>
+    <loc>https://astrockragh.github.io/talk/2025_stanford_c4du/</loc>
     <lastmod>2025-10-13T13:30:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>http://localhost:1313/project/most_massive_environment/</loc>
+    <loc>https://astrockragh.github.io/project/most_massive_environment/</loc>
     <lastmod>2025-10-10T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>http://localhost:1313/tag/galaxies/</loc>
-    <lastmod>2025-10-10T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-  </url><url>
-    <loc>http://localhost:1313/tag/observations/</loc>
-    <lastmod>2025-10-10T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-  </url><url>
-    <loc>http://localhost:1313/talk/2025_harvard_astroai_gnn/</loc>
+    <loc>https://astrockragh.github.io/talk/2025_harvard_astroai_gnn/</loc>
     <lastmod>2025-09-29T12:15:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>http://localhost:1313/talk/2025_harvard_hernquist/</loc>
+    <loc>https://astrockragh.github.io/talk/2025_harvard_hernquist/</loc>
     <lastmod>2025-09-26T16:30:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>http://localhost:1313/talk/2025_itc_luncheon_ir_optical/</loc>
+    <loc>https://astrockragh.github.io/talk/2025_itc_luncheon_ir_optical/</loc>
     <lastmod>2025-09-25T12:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>http://localhost:1313/talk/2025_astroai_ir_optical/</loc>
+    <loc>https://astrockragh.github.io/talk/2025_astroai_ir_optical/</loc>
     <lastmod>2025-09-25T10:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>http://localhost:1313/talk/2025_stockholm/</loc>
+    <loc>https://astrockragh.github.io/talk/2025_stockholm/</loc>
     <lastmod>2025-06-11T12:15:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>http://localhost:1313/talk/2025_sui_massive/</loc>
+    <loc>https://astrockragh.github.io/talk/2025_sui_massive/</loc>
     <lastmod>2025-06-05T13:30:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>http://localhost:1313/talk/2025_bristol_sbi/</loc>
+    <loc>https://astrockragh.github.io/talk/2025_bristol_sbi/</loc>
     <lastmod>2025-05-27T13:30:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>http://localhost:1313/talk/2025_adam_massive/</loc>
+    <loc>https://astrockragh.github.io/talk/2025_adam_massive/</loc>
     <lastmod>2025-05-21T13:30:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>http://localhost:1313/talk/2025_cca_ir_optical/</loc>
+    <loc>https://astrockragh.github.io/talk/2025_cca_ir_optical/</loc>
     <lastmod>2025-03-07T13:30:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>http://localhost:1313/press_public/</loc>
+    <loc>https://astrockragh.github.io/press_public/</loc>
     <lastmod>2025-02-03T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>http://localhost:1313/press_public/airglow_quebec_science/</loc>
+    <loc>https://astrockragh.github.io/press_public/airglow_quebec_science/</loc>
     <lastmod>2025-02-03T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>http://localhost:1313/tag/machine-learning/</loc>
+    <loc>https://astrockragh.github.io/tag/machine-learning/</loc>
     <lastmod>2025-01-14T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>http://localhost:1313/project/ir_optical/</loc>
+    <loc>https://astrockragh.github.io/project/ir_optical/</loc>
     <lastmod>2025-01-14T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>http://localhost:1313/talk/2024_dawn/</loc>
+    <loc>https://astrockragh.github.io/talk/2024_dawn/</loc>
     <lastmod>2024-12-12T12:15:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>http://localhost:1313/talk/2024_cambridge/</loc>
+    <loc>https://astrockragh.github.io/talk/2024_cambridge/</loc>
     <lastmod>2024-12-11T12:15:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>http://localhost:1313/talk/2024_paris_jswt_symposium/</loc>
+    <loc>https://astrockragh.github.io/talk/2024_paris_jswt_symposium/</loc>
     <lastmod>2024-12-03T12:15:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>http://localhost:1313/talk/2024_paris_saclay/</loc>
+    <loc>https://astrockragh.github.io/talk/2024_paris_saclay/</loc>
     <lastmod>2024-11-28T12:15:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>http://localhost:1313/talk/2024_paris_iap/</loc>
+    <loc>https://astrockragh.github.io/talk/2024_paris_iap/</loc>
     <lastmod>2024-11-26T12:15:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>http://localhost:1313/talk/2024_perimeter/</loc>
+    <loc>https://astrockragh.github.io/talk/2024_perimeter/</loc>
     <lastmod>2024-11-05T12:15:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>http://localhost:1313/talk/2024_cca_ir/</loc>
+    <loc>https://astrockragh.github.io/talk/2024_cca_ir/</loc>
     <lastmod>2024-10-18T12:15:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>http://localhost:1313/post/theory_observer/</loc>
+    <loc>https://astrockragh.github.io/post/theory_observer/</loc>
     <lastmod>2024-10-03T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>http://localhost:1313/post/my_name/</loc>
+    <loc>https://astrockragh.github.io/post/my_name/</loc>
     <lastmod>2024-10-03T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>http://localhost:1313/tag/cosmology/</loc>
+    <loc>https://astrockragh.github.io/tag/cosmology/</loc>
     <lastmod>2024-10-02T00:10:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>http://localhost:1313/project/sunss_airglow/</loc>
+    <loc>https://astrockragh.github.io/project/sunss_airglow/</loc>
     <lastmod>2024-10-02T00:10:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>http://localhost:1313/project/most_massive_jwst/</loc>
+    <loc>https://astrockragh.github.io/project/most_massive_jwst/</loc>
     <lastmod>2024-10-01T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>http://localhost:1313/talk/2024_boulder/</loc>
+    <loc>https://astrockragh.github.io/talk/2024_boulder/</loc>
     <lastmod>2024-09-27T12:15:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>http://localhost:1313/talk/2024_thunch/</loc>
+    <loc>https://astrockragh.github.io/talk/2024_thunch/</loc>
     <lastmod>2024-09-05T12:15:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>http://localhost:1313/talk/2024_ucsc/</loc>
+    <loc>https://astrockragh.github.io/talk/2024_ucsc/</loc>
     <lastmod>2024-08-02T12:15:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>http://localhost:1313/project/gnn_environment/</loc>
+    <loc>https://astrockragh.github.io/project/gnn_environment/</loc>
     <lastmod>2024-08-02T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>http://localhost:1313/talk/2024_montreal_summer_school/</loc>
+    <loc>https://astrockragh.github.io/talk/2024_montreal_summer_school/</loc>
     <lastmod>2024-06-28T12:15:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>http://localhost:1313/talk/2024_subaru/</loc>
+    <loc>https://astrockragh.github.io/talk/2024_subaru/</loc>
     <lastmod>2024-05-24T12:15:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>http://localhost:1313/talk/2024_montreal_ciela/</loc>
+    <loc>https://astrockragh.github.io/talk/2024_montreal_ciela/</loc>
     <lastmod>2024-04-04T12:15:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>http://localhost:1313/talk/2024_cca_most_massive/</loc>
+    <loc>https://astrockragh.github.io/talk/2024_cca_most_massive/</loc>
     <lastmod>2024-03-29T12:15:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>http://localhost:1313/talk/2024_aas/</loc>
+    <loc>https://astrockragh.github.io/talk/2024_aas/</loc>
     <lastmod>2024-01-09T12:15:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>http://localhost:1313/project/high_z_jwst/</loc>
+    <loc>https://astrockragh.github.io/project/high_z_jwst/</loc>
     <lastmod>2023-10-23T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>http://localhost:1313/talk/2023_jhu_mangrove/</loc>
+    <loc>https://astrockragh.github.io/talk/2023_jhu_mangrove/</loc>
     <lastmod>2023-06-13T12:15:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>http://localhost:1313/talk/2023_kitp_mangrove/</loc>
+    <loc>https://astrockragh.github.io/talk/2023_kitp_mangrove/</loc>
     <lastmod>2023-03-24T12:15:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>http://localhost:1313/talk/2023_kitp_gnn2/</loc>
+    <loc>https://astrockragh.github.io/talk/2023_kitp_gnn2/</loc>
     <lastmod>2023-03-14T12:15:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>http://localhost:1313/talk/2023_kitp_gnn1/</loc>
+    <loc>https://astrockragh.github.io/talk/2023_kitp_gnn1/</loc>
     <lastmod>2023-02-03T12:15:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>http://localhost:1313/publication/</loc>
+    <loc>https://astrockragh.github.io/publication/</loc>
     <lastmod>2023-10-23T13:26:36-05:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>http://localhost:1313/post/mangrove/</loc>
+    <loc>https://astrockragh.github.io/post/mangrove/</loc>
     <lastmod>2022-09-19T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>http://localhost:1313/project/mangrove/</loc>
+    <loc>https://astrockragh.github.io/project/mangrove/</loc>
     <lastmod>2022-09-19T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>http://localhost:1313/talk/ltu_discussion/</loc>
+    <loc>https://astrockragh.github.io/talk/ltu_discussion/</loc>
     <lastmod>2022-09-14T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>http://localhost:1313/talk/dawn_mangrove/</loc>
+    <loc>https://astrockragh.github.io/talk/dawn_mangrove/</loc>
     <lastmod>2022-08-18T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>http://localhost:1313/talk/gnn_graphmerge_oslo/</loc>
+    <loc>https://astrockragh.github.io/talk/gnn_graphmerge_oslo/</loc>
     <lastmod>2022-04-27T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>http://localhost:1313/talk/gnn_graphmerge_brown/</loc>
+    <loc>https://astrockragh.github.io/talk/gnn_graphmerge_brown/</loc>
     <lastmod>2022-04-05T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>http://localhost:1313/talk/ltu_mangrove/</loc>
+    <loc>https://astrockragh.github.io/talk/ltu_mangrove/</loc>
     <lastmod>2022-03-31T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>http://localhost:1313/talk/gnn_graphmerge_montreal/</loc>
+    <loc>https://astrockragh.github.io/talk/gnn_graphmerge_montreal/</loc>
     <lastmod>2022-03-29T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>http://localhost:1313/talk/gnn_graphmerge_cca/</loc>
+    <loc>https://astrockragh.github.io/talk/gnn_graphmerge_cca/</loc>
     <lastmod>2022-03-18T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>http://localhost:1313/project/puk_troels/</loc>
+    <loc>https://astrockragh.github.io/project/puk_troels/</loc>
     <lastmod>2022-01-25T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>http://localhost:1313/tag/particle-physics/</loc>
+    <loc>https://astrockragh.github.io/tag/particle-physics/</loc>
     <lastmod>2022-01-25T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>http://localhost:1313/project/tsne_grb/</loc>
+    <loc>https://astrockragh.github.io/project/tsne_grb/</loc>
     <lastmod>2022-01-20T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>http://localhost:1313/project/neutrino_ml/</loc>
+    <loc>https://astrockragh.github.io/project/neutrino_ml/</loc>
     <lastmod>2022-01-20T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>http://localhost:1313/project/cosmos/</loc>
+    <loc>https://astrockragh.github.io/project/cosmos/</loc>
     <lastmod>2022-01-20T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>http://localhost:1313/tag/transients/</loc>
+    <loc>https://astrockragh.github.io/tag/transients/</loc>
     <lastmod>2022-01-20T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>http://localhost:1313/talk/highz_gal/</loc>
+    <loc>https://astrockragh.github.io/talk/highz_gal/</loc>
     <lastmod>2021-11-14T10:30:12+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>http://localhost:1313/talk/cosmos/</loc>
+    <loc>https://astrockragh.github.io/talk/cosmos/</loc>
     <lastmod>2021-10-31T10:30:12+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>http://localhost:1313/talk/tsne_uot/</loc>
+    <loc>https://astrockragh.github.io/talk/tsne_uot/</loc>
     <lastmod>2021-04-09T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>http://localhost:1313/press_public/tv2_news/</loc>
+    <loc>https://astrockragh.github.io/press_public/tv2_news/</loc>
     <lastmod>2020-08-21T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>http://localhost:1313/press_public/uniavisen/</loc>
+    <loc>https://astrockragh.github.io/press_public/uniavisen/</loc>
     <lastmod>2020-08-14T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>http://localhost:1313/talk/tsne_ucph/</loc>
+    <loc>https://astrockragh.github.io/talk/tsne_ucph/</loc>
     <lastmod>2020-06-09T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>http://localhost:1313/talk/aas_exoplanet/</loc>
+    <loc>https://astrockragh.github.io/talk/aas_exoplanet/</loc>
     <lastmod>2020-01-06T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>http://localhost:1313/slides/</loc>
+    <loc>https://astrockragh.github.io/slides/</loc>
     <lastmod>2019-02-05T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>http://localhost:1313/slides/example/</loc>
+    <loc>https://astrockragh.github.io/slides/example/</loc>
     <lastmod>2019-02-05T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>http://localhost:1313/admin/index_old/</loc>
+    <loc>https://astrockragh.github.io/admin/index_old/</loc>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>http://localhost:1313/admin/</loc>
+    <loc>https://astrockragh.github.io/admin/</loc>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>http://localhost:1313/categories/</loc>
+    <loc>https://astrockragh.github.io/categories/</loc>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>http://localhost:1313/publication_types/</loc>
+    <loc>https://astrockragh.github.io/publication_types/</loc>
     <changefreq>weekly</changefreq>
   </url>
 </urlset>

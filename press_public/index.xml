@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Press and Public Talks | Christian Kragh Jespersen</title>
-    <link>http://localhost:1313/press_public/</link>
-      <atom:link href="http://localhost:1313/press_public/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://astrockragh.github.io/press_public/</link>
+      <atom:link href="https://astrockragh.github.io/press_public/index.xml" rel="self" type="application/rss+xml" />
     <description>Press and Public Talks</description>
     <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><copyright>© Christian Kragh Jespersen 2025</copyright><lastBuildDate>Mon, 03 Feb 2025 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>http://localhost:1313/media/logo_hu_1c9055000151fecf.png</url>
+      <url>https://astrockragh.github.io/media/logo_hu_1c9055000151fecf.png</url>
       <title>Press and Public Talks</title>
-      <link>http://localhost:1313/press_public/</link>
+      <link>https://astrockragh.github.io/press_public/</link>
     </image>
     
     <item>
       <title>Talking about airglow with Québec Science magazine</title>
-      <link>http://localhost:1313/press_public/airglow_quebec_science/</link>
+      <link>https://astrockragh.github.io/press_public/airglow_quebec_science/</link>
       <pubDate>Mon, 03 Feb 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/press_public/airglow_quebec_science/</guid>
+      <guid>https://astrockragh.github.io/press_public/airglow_quebec_science/</guid>
       <description>&lt;!-- 
 
 
@@ -39,9 +39,9 @@ Further event details, including [page elements](https://wowchemy.com/docs/writi
     
     <item>
       <title>Danish Morning National Television - TV2 News</title>
-      <link>http://localhost:1313/press_public/tv2_news/</link>
+      <link>https://astrockragh.github.io/press_public/tv2_news/</link>
       <pubDate>Fri, 21 Aug 2020 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/press_public/tv2_news/</guid>
+      <guid>https://astrockragh.github.io/press_public/tv2_news/</guid>
       <description>&lt;!-- 
 
 
@@ -64,9 +64,9 @@ Further event details, including [page elements](https://wowchemy.com/docs/writi
     
     <item>
       <title>Solved astronomy mystery after just one year at university</title>
-      <link>http://localhost:1313/press_public/uniavisen/</link>
+      <link>https://astrockragh.github.io/press_public/uniavisen/</link>
       <pubDate>Fri, 14 Aug 2020 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/press_public/uniavisen/</guid>
+      <guid>https://astrockragh.github.io/press_public/uniavisen/</guid>
       <description>&lt;!-- 
 
 

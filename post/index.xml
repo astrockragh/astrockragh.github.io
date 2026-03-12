@@ -2,35 +2,35 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Posts | Christian Kragh Jespersen</title>
-    <link>http://localhost:1313/post/</link>
-      <atom:link href="http://localhost:1313/post/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://astrockragh.github.io/post/</link>
+      <atom:link href="https://astrockragh.github.io/post/index.xml" rel="self" type="application/rss+xml" />
     <description>Posts</description>
     <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><copyright>© Christian Kragh Jespersen 2025</copyright><lastBuildDate>Wed, 18 Feb 2026 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>http://localhost:1313/media/logo_hu_1c9055000151fecf.png</url>
+      <url>https://astrockragh.github.io/media/logo_hu_1c9055000151fecf.png</url>
       <title>Posts</title>
-      <link>http://localhost:1313/post/</link>
+      <link>https://astrockragh.github.io/post/</link>
     </image>
     
     <item>
       <title>Theorist or observer?</title>
-      <link>http://localhost:1313/post/theory_observer/</link>
+      <link>https://astrockragh.github.io/post/theory_observer/</link>
       <pubDate>Thu, 03 Oct 2024 10:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/post/theory_observer/</guid>
+      <guid>https://astrockragh.github.io/post/theory_observer/</guid>
       <description>&lt;p&gt;A question that many astronomers often ask is whether a given person is an &lt;em&gt;observer&lt;/em&gt; or a &lt;em&gt;theorist&lt;/em&gt;. This bimodal view of our discipline is quite outdated, but nonetheless persistent. Below I give a short overview of some of the considerations people make when evaluating my position in the field, considerations that I make when answering the question, and how I see my own role.&lt;/p&gt;
 &lt;h3 id=&#34;why-some-consider-me-a-theorist&#34;&gt;Why some consider me a theorist&lt;/h3&gt;
-&lt;p&gt;My first series of papers in graduate school (on &lt;a href=&#34;http://localhost:1313/project/mangrove&#34;&gt;galaxy formation histories&lt;/a&gt; and &lt;a href=&#34;http://localhost:1313/project/gnn_environment&#34;&gt;environments&lt;/a&gt;) were all done starting from simulation data, which shaped the early talks I gave to scientific audiences, and therefore this view of me as a theorist.&lt;/p&gt;
+&lt;p&gt;My first series of papers in graduate school (on &lt;a href=&#34;https://astrockragh.github.io/project/mangrove&#34;&gt;galaxy formation histories&lt;/a&gt; and &lt;a href=&#34;https://astrockragh.github.io/project/gnn_environment&#34;&gt;environments&lt;/a&gt;) were all done starting from simulation data, which shaped the early talks I gave to scientific audiences, and therefore this view of me as a theorist.&lt;/p&gt;
 &lt;p&gt;Furthermore, most of the people in the field of AstroxML (machine learning applied to astronomy) tend to mainly use simulated data products to tune their models, which land them in the &amp;ldquo;theory&amp;rdquo;-bin, and so do I, by association.&lt;/p&gt;
 &lt;p&gt;This view is mainly wrong because, well, I really do not like using simulated data as a first approach. Philosophically, I am an &lt;strong&gt;empiricist&lt;/strong&gt;, meaning that I am only really interested in things that can be &lt;strong&gt;measured&lt;/strong&gt; in the real world, and I spend a lot of time taking, improving, and using real data from real instruments.&lt;/p&gt;
 &lt;p&gt;But&amp;hellip; then, I must be an observer?&lt;/p&gt;
 &lt;!-- Simulations, statistics, data analysis, machine learning --&gt;
 &lt;h3 id=&#34;why-some-consider-me-an-observer&#34;&gt;Why some consider me an observer&lt;/h3&gt;
-&lt;p&gt;The majority of my time at Princeton and at the University of Copenhagen has been focused on observations. My first paper was on &lt;em&gt;empirically&lt;/em&gt; &lt;a href=&#34;http://localhost:1313/project/tsne_grb&#34;&gt;classifying gamma-ray bursts&lt;/a&gt;, then I worked on measuring and forecasting &lt;a href=&#34;http://localhost:1313/project/high_z_jwst&#34;&gt;cosmic variance for JWST&lt;/a&gt;, writing proposals for JWST, calibrating point-spread functions for &lt;a href=&#34;http://localhost:1313/project/cosmos&#34;&gt;COSMOS2020&lt;/a&gt;, then on observing &lt;a href=&#34;http://localhost:1313/project/neutrino_ml&#34;&gt;neutrinos with IceCube&lt;/a&gt;. This work has continued while at Princeton, where I have been CoI on a couple of succesful JWST proposals, and thought some more about &lt;a href=&#34;http://localhost:1313/project/most_massive_jwst&#34;&gt;cosmic variance&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;However, my biggest claim to being an observer has come from the times I have actually physically been observing (which I where the picture at the top of the post is from), as well as my +3 year-involvement in the engineering/commissioning teams for the Prime Focus Spectrograph (PFS) and its auxilliary telescope, the &lt;a href=&#34;http://localhost:1313/project/sunss_airglow&#34;&gt;Subaru Night Sky Spectrograph (SuNSS)&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;The majority of my time at Princeton and at the University of Copenhagen has been focused on observations. My first paper was on &lt;em&gt;empirically&lt;/em&gt; &lt;a href=&#34;https://astrockragh.github.io/project/tsne_grb&#34;&gt;classifying gamma-ray bursts&lt;/a&gt;, then I worked on measuring and forecasting &lt;a href=&#34;https://astrockragh.github.io/project/high_z_jwst&#34;&gt;cosmic variance for JWST&lt;/a&gt;, writing proposals for JWST, calibrating point-spread functions for &lt;a href=&#34;https://astrockragh.github.io/project/cosmos&#34;&gt;COSMOS2020&lt;/a&gt;, then on observing &lt;a href=&#34;https://astrockragh.github.io/project/neutrino_ml&#34;&gt;neutrinos with IceCube&lt;/a&gt;. This work has continued while at Princeton, where I have been CoI on a couple of succesful JWST proposals, and thought some more about &lt;a href=&#34;https://astrockragh.github.io/project/most_massive_jwst&#34;&gt;cosmic variance&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;However, my biggest claim to being an observer has come from the times I have actually physically been observing (which I where the picture at the top of the post is from), as well as my +3 year-involvement in the engineering/commissioning teams for the Prime Focus Spectrograph (PFS) and its auxilliary telescope, the &lt;a href=&#34;https://astrockragh.github.io/project/sunss_airglow&#34;&gt;Subaru Night Sky Spectrograph (SuNSS)&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;But&amp;hellip; if I am on the engineering team, does that not mean that I do instrumentation then?&lt;/p&gt;
 &lt;!-- SuNSS, PFS, observing on Hawaii, COSMOS, Beasts, Massive Quiescent galaxies with Francesco, proposals --&gt;
 &lt;h3 id=&#34;why-some-consider-me-an-instrumentalist&#34;&gt;Why some consider me an instrumentalist&lt;/h3&gt;
-&lt;p&gt;This is perhaps the easiest view to neglect, but it has happened that people think I only do instrumentation. This comes from the fact that I spend a good part of my time worrying about software (wavelength/flux calibration) and hardware (fiber connectors) for massively multiplexed spectrographs like PFS. However, as of now, most of what I do for these instruments is to study the &lt;a href=&#34;http://localhost:1313/project/sunss_airglow&#34;&gt;airglow&lt;/a&gt;, the intrinsic emission of the night sky, and using what we find to improve the performance.
+&lt;p&gt;This is perhaps the easiest view to neglect, but it has happened that people think I only do instrumentation. This comes from the fact that I spend a good part of my time worrying about software (wavelength/flux calibration) and hardware (fiber connectors) for massively multiplexed spectrographs like PFS. However, as of now, most of what I do for these instruments is to study the &lt;a href=&#34;https://astrockragh.github.io/project/sunss_airglow&#34;&gt;airglow&lt;/a&gt;, the intrinsic emission of the night sky, and using what we find to improve the performance.
 Therefore, I do not really qualify as a real instrumentalist.&lt;/p&gt;
 &lt;p&gt;So if I do not fit into these bins, do I even really count as an astrophysicist?&lt;/p&gt;
 &lt;!-- Software for PFS/SuNSS --&gt;
@@ -64,7 +64,7 @@ Therefore, I do not really qualify as a real instrumentalist.&lt;/p&gt;
                /post/theory_observer/radar_chart_2_hu_82f958a45f6fd995.webp 400w,
                /post/theory_observer/radar_chart_2_hu_c8c78e33ce2b85d4.webp 760w,
                /post/theory_observer/radar_chart_2_hu_61e88fdd2b2cd4e5.webp 1200w&#34;
-               src=&#34;http://localhost:1313/post/theory_observer/radar_chart_2_hu_82f958a45f6fd995.webp&#34;
+               src=&#34;https://astrockragh.github.io/post/theory_observer/radar_chart_2_hu_82f958a45f6fd995.webp&#34;
                width=&#34;760&#34;
                height=&#34;571&#34;
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
@@ -84,9 +84,9 @@ Therefore, I do not really qualify as a real instrumentalist.&lt;/p&gt;
     
     <item>
       <title>So what is your name and how do you say it?</title>
-      <link>http://localhost:1313/post/my_name/</link>
+      <link>https://astrockragh.github.io/post/my_name/</link>
       <pubDate>Thu, 03 Oct 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/post/my_name/</guid>
+      <guid>https://astrockragh.github.io/post/my_name/</guid>
       <description>&lt;h3 id=&#34;what-is-my-name&#34;&gt;What is my name?&lt;/h3&gt;
 &lt;p&gt;My full name is Christian Kragh Jespersen, a very Danish &amp;#x1f1e9;&amp;#x1f1f0; name. Why is it very Danish? Well my first name is the &lt;a href=&#34;https://www.dst.dk/da/Statistik/emner/borgere/navne/hvor-mange-hedder&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;single most common name&lt;/a&gt; in Denmark (including the alternate form &amp;ldquo;Kristian&amp;rdquo;), stemming from the fact that it is one of two allowed names for male Danish monarchs. The other is Frederik, which the current Danish king, Frederik X is called. My surname is part of the patronymic naming tradition of &amp;ldquo;father&amp;rsquo;s name&amp;rdquo;+&amp;ldquo;sen&amp;rdquo; (meaning son). My last name therefore simply means &amp;ldquo;son of Jesper&amp;rdquo;. My father&amp;rsquo;s name is however &lt;strong&gt;not&lt;/strong&gt; Jesper (although one of his brothers is called Jesper), since in 1856 the state decided that it was too much trouble to keep track of changes in surnames every generation, and fixed each family&amp;rsquo;s surname to whatever it was at that time.&lt;/p&gt;
 &lt;h3 id=&#34;how-should-you-write-my-name&#34;&gt;How should you write my name?&lt;/h3&gt;
@@ -101,9 +101,9 @@ Therefore, I do not really qualify as a real instrumentalist.&lt;/p&gt;
     
     <item>
       <title>Building better galaxies with Mangrove</title>
-      <link>http://localhost:1313/post/mangrove/</link>
+      <link>https://astrockragh.github.io/post/mangrove/</link>
       <pubDate>Mon, 19 Sep 2022 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/post/mangrove/</guid>
+      <guid>https://astrockragh.github.io/post/mangrove/</guid>
       <description>&lt;p&gt;
 
 
@@ -126,7 +126,7 @@ Therefore, I do not really qualify as a real instrumentalist.&lt;/p&gt;
                /post/mangrove/featured_old_hu_6912712c5b1585f8.webp 400w,
                /post/mangrove/featured_old_hu_500a636672079076.webp 760w,
                /post/mangrove/featured_old_hu_b754a66bd2327b9b.webp 1200w&#34;
-               src=&#34;http://localhost:1313/post/mangrove/featured_old_hu_6912712c5b1585f8.webp&#34;
+               src=&#34;https://astrockragh.github.io/post/mangrove/featured_old_hu_6912712c5b1585f8.webp&#34;
                width=&#34;760&#34;
                height=&#34;480&#34;
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
@@ -163,7 +163,7 @@ Therefore, I do not really qualify as a real instrumentalist.&lt;/p&gt;
                /post/mangrove/ikea_boxes_hu_c8acad8d823158df.webp 400w,
                /post/mangrove/ikea_boxes_hu_1ee2ed18699d29bd.webp 760w,
                /post/mangrove/ikea_boxes_hu_fc9268ba810e74b6.webp 1200w&#34;
-               src=&#34;http://localhost:1313/post/mangrove/ikea_boxes_hu_c8acad8d823158df.webp&#34;
+               src=&#34;https://astrockragh.github.io/post/mangrove/ikea_boxes_hu_c8acad8d823158df.webp&#34;
                width=&#34;760&#34;
                height=&#34;623&#34;
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
