@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Admins | Christian Kragh Jespersen</title>
-    <link>https://astrockragh.github.io/admin/</link>
-      <atom:link href="https://astrockragh.github.io/admin/index.xml" rel="self" type="application/rss+xml" />
+    <link>http://localhost:1313/admin/</link>
+      <atom:link href="http://localhost:1313/admin/index.xml" rel="self" type="application/rss+xml" />
     <description>Admins</description>
     <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><copyright>© Christian Kragh Jespersen 2025</copyright>
     <image>
-      <url>https://astrockragh.github.io/media/logo_hu_1c9055000151fecf.png</url>
+      <url>http://localhost:1313/media/logo_hu_1c9055000151fecf.png</url>
       <title>Admins</title>
-      <link>https://astrockragh.github.io/admin/</link>
+      <link>http://localhost:1313/admin/</link>
     </image>
     
     <item>
       <title></title>
-      <link>https://astrockragh.github.io/admin/index_old/</link>
+      <link>http://localhost:1313/admin/index_old/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://astrockragh.github.io/admin/index_old/</guid>
+      <guid>http://localhost:1313/admin/index_old/</guid>
       <description></description>
     </item>
     

@@ -2,69 +2,69 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Christian Kragh Jespersen</title>
-    <link>https://astrockragh.github.io/</link>
-      <atom:link href="https://astrockragh.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <link>http://localhost:1313/</link>
+      <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
     <description>Christian Kragh Jespersen</description>
-    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><copyright>© Christian Kragh Jespersen 2025</copyright><lastBuildDate>Tue, 09 Dec 2025 13:00:00 +0000</lastBuildDate>
+    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><copyright>© Christian Kragh Jespersen 2025</copyright><lastBuildDate>Fri, 13 Mar 2026 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>https://astrockragh.github.io/media/logo_hu_1c9055000151fecf.png</url>
+      <url>http://localhost:1313/media/logo_hu_1c9055000151fecf.png</url>
       <title>Christian Kragh Jespersen</title>
-      <link>https://astrockragh.github.io/</link>
+      <link>http://localhost:1313/</link>
     </image>
     
     <item>
       <title>Everything is connected @STScI/JHU</title>
-      <link>https://astrockragh.github.io/talk/2025_stsci_jhu/</link>
+      <link>http://localhost:1313/talk/2025_stsci_jhu/</link>
       <pubDate>Tue, 09 Dec 2025 13:00:00 +0000</pubDate>
-      <guid>https://astrockragh.github.io/talk/2025_stsci_jhu/</guid>
+      <guid>http://localhost:1313/talk/2025_stsci_jhu/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Everything is connected @UT Austin</title>
-      <link>https://astrockragh.github.io/talk/2025_ut_austin/</link>
+      <link>http://localhost:1313/talk/2025_ut_austin/</link>
       <pubDate>Mon, 01 Dec 2025 12:15:00 +0000</pubDate>
-      <guid>https://astrockragh.github.io/talk/2025_ut_austin/</guid>
+      <guid>http://localhost:1313/talk/2025_ut_austin/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Clustering and galaxy environments from the Local Universe to Cosmic Dawn @Perimeter</title>
-      <link>https://astrockragh.github.io/talk/2025_perimeter/</link>
+      <link>http://localhost:1313/talk/2025_perimeter/</link>
       <pubDate>Thu, 13 Nov 2025 11:00:00 +0000</pubDate>
-      <guid>https://astrockragh.github.io/talk/2025_perimeter/</guid>
+      <guid>http://localhost:1313/talk/2025_perimeter/</guid>
       <description></description>
     </item>
     
     <item>
       <title>TBD @University of Toronto</title>
-      <link>https://astrockragh.github.io/talk/2025_tasty_toronto_ir_optical/</link>
+      <link>http://localhost:1313/talk/2025_tasty_toronto_ir_optical/</link>
       <pubDate>Tue, 11 Nov 2025 10:00:00 +0000</pubDate>
-      <guid>https://astrockragh.github.io/talk/2025_tasty_toronto_ir_optical/</guid>
+      <guid>http://localhost:1313/talk/2025_tasty_toronto_ir_optical/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Everything is connected @SkAI Chicago</title>
-      <link>https://astrockragh.github.io/talk/2025_skai/</link>
+      <link>http://localhost:1313/talk/2025_skai/</link>
       <pubDate>Wed, 05 Nov 2025 12:15:00 +0000</pubDate>
-      <guid>https://astrockragh.github.io/talk/2025_skai/</guid>
+      <guid>http://localhost:1313/talk/2025_skai/</guid>
       <description></description>
     </item>
     
     <item>
       <title>The link between assembly and environment revealed by Graph Neureal Networks, @Stanford Center for Decoding the Universe</title>
-      <link>https://astrockragh.github.io/talk/2025_stanford_c4du/</link>
+      <link>http://localhost:1313/talk/2025_stanford_c4du/</link>
       <pubDate>Mon, 13 Oct 2025 13:30:00 +0000</pubDate>
-      <guid>https://astrockragh.github.io/talk/2025_stanford_c4du/</guid>
+      <guid>http://localhost:1313/talk/2025_stanford_c4du/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Explaining Ultramassive Quiescent Galaxies at 3 &lt; z &lt; 5 in the Context of Their Environments</title>
-      <link>https://astrockragh.github.io/project/most_massive_environment/</link>
+      <link>http://localhost:1313/project/most_massive_environment/</link>
       <pubDate>Fri, 10 Oct 2025 00:00:00 +0000</pubDate>
-      <guid>https://astrockragh.github.io/project/most_massive_environment/</guid>
+      <guid>http://localhost:1313/project/most_massive_environment/</guid>
       <description>&lt;h1 id=&#34;explaining-the-masses-of-ultra-massive-universe-breaking-galaxies&#34;&gt;Explaining the masses of ultra-massive &amp;ldquo;universe-breaking&amp;rdquo; galaxies&lt;/h1&gt;
 &lt;p&gt;What do you do when observations break your theory?&lt;/p&gt;
 &lt;p&gt;That’s the situation galaxy physics has faced since the JWST started discovering both extremely distant galaxies, along with &lt;strong&gt;ultra-massive, quiescent galaxies&lt;/strong&gt; at redshifts 3–5 — galaxies more massive than our Milky Way, already completely dead quenched just 1 billion years after the Big Bang. We see this in &lt;strong&gt;spectra&lt;/strong&gt; from JWST, like the ones below from the EXCELS survey (blue lines), where we can fit models (black lines) to infer the star formation history. On a sidenote, one of the reasons that I like working with quiescent galaxies is that we have much better models for them than other galaxies, just admire how well the models fit the data! That&amp;rsquo;s not always a given, which you can read about &lt;a href=&#34;https://astrockragh.github.io/project/ir_optical/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;in this other project&lt;/a&gt;.&lt;/p&gt;
@@ -86,7 +86,7 @@
 
 &lt;figure  &gt;
   &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
-    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;https://astrockragh.github.io/project/most_massive_environment/spectra.png&#34; alt=&#34;The spectra of our galaxies from Carnall&amp;#43;2024&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;http://localhost:1313/project/most_massive_environment/spectra.png&#34; alt=&#34;The spectra of our galaxies from Carnall&amp;#43;2024&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
   &lt;/div&gt;&lt;/figure&gt;
 &lt;/p&gt;
 &lt;p&gt;We have struggled to explain how these galaxies could form stars so rapidly and shut off star formation this early. Theories have invoked extreme star formation efficiencies (close to 100%!), very exotic feedback mechanisms, or even modifications to our well-tested ΛCDM-cosmology. This has all come from statistical analyses of an idealized distribution of galaxies by total mass, the stellar mass function (SMF), using a technique called &lt;strong&gt;Extreme Value Statistics (EVS)&lt;/strong&gt;, which is designed to ask the question:&lt;/p&gt;
@@ -97,7 +97,7 @@
 &lt;p&gt;Every single one of these beautiful, ultra-massive, quiescent galaxies lives in an &lt;strong&gt;overdensity&lt;/strong&gt;, regions with significantly more galaxies than average. The overdensities reflect the fact that galaxies &lt;strong&gt;cluster&lt;/strong&gt;, i.e., they are not randomly distributed on the sky. However, until now,theoretical predictions have treated these galaxies as if they live in average, unclustered, environments.&lt;/p&gt;
 &lt;p&gt;That’s like estimating the wealth of the richest person &lt;em&gt;in the world&lt;/em&gt; by starting from the mean and spread in a random city. You&amp;rsquo;re going to be surprised, because wealth, just like galaxies, clusters quite strongly, with clustered environments producing both extreme wealth and galaxies. You can see that either in the Figure at the top of this post or in the video below, where on of our galaxies of interest is marked in blue&lt;/p&gt;
 &lt;video controls width=&#34;100%&#34;&gt;
-  &lt;source src=&#34;https://astrockragh.github.io/project/most_massive_environment/zoom_tour.mp4&#34; type=&#34;video/mp4&#34;&gt;
+  &lt;source src=&#34;http://localhost:1313/project/most_massive_environment/zoom_tour.mp4&#34; type=&#34;video/mp4&#34;&gt;
 &lt;/video&gt;
 &lt;h4 id=&#34;it-is-clear-that-our-galaxy-is-in-the-middle-of-a-very-dense-part-of-the-universe&#34;&gt;It is clear that our galaxy is in the middle of a very dense part of the Universe!&lt;/h4&gt;
 &lt;hr&gt;
@@ -111,7 +111,7 @@
 &lt;/ol&gt;
 &lt;p&gt;You can see how our &lt;code&gt;P(Maximum mass)&lt;/code&gt; estimates change as a function on the number of total overdensities of a given volume we sample below&lt;/p&gt;
 &lt;video controls width=&#34;100%&#34;&gt;
-  &lt;source src=&#34;https://astrockragh.github.io/project/most_massive_environment/0_phimax.mp4&#34; type=&#34;video/mp4&#34;&gt;
+  &lt;source src=&#34;http://localhost:1313/project/most_massive_environment/0_phimax.mp4&#34; type=&#34;video/mp4&#34;&gt;
 &lt;/video&gt;
 &lt;p&gt;In a way this is the compliment to &lt;a href=&#34;https://astrockragh.github.io/project/most_massive_jwst/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;another one of my papers on massive galaxies in a clustered Universe&lt;/a&gt;, where we instead of &lt;strong&gt;conditioning&lt;/strong&gt; on environment like here, marginalize out our lack of knowledge of the environment. For many galaxies, especially at ultra-high redshift, &lt;em&gt;we do not know their environments&lt;/em&gt;, so there, the above conditioning steps would be inappropriate!&lt;/p&gt;
 &lt;hr&gt;
@@ -145,7 +145,7 @@
                /project/most_massive_environment/combined_updated_SBF_Finkelstein_fiducial_legend_reverse_order_referee_v2_hu_f73a9ceeaa6dfdd0.webp 400w,
                /project/most_massive_environment/combined_updated_SBF_Finkelstein_fiducial_legend_reverse_order_referee_v2_hu_82426cc85b65d4d3.webp 760w,
                /project/most_massive_environment/combined_updated_SBF_Finkelstein_fiducial_legend_reverse_order_referee_v2_hu_d8c2e1ff5b1c6f62.webp 1200w&#34;
-               src=&#34;https://astrockragh.github.io/project/most_massive_environment/combined_updated_SBF_Finkelstein_fiducial_legend_reverse_order_referee_v2_hu_f73a9ceeaa6dfdd0.webp&#34;
+               src=&#34;http://localhost:1313/project/most_massive_environment/combined_updated_SBF_Finkelstein_fiducial_legend_reverse_order_referee_v2_hu_f73a9ceeaa6dfdd0.webp&#34;
                width=&#34;656&#34;
                height=&#34;760&#34;
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
@@ -171,81 +171,81 @@
     
     <item>
       <title>Graphs Neural Networks and Galaxies, @Harvard AstroAI</title>
-      <link>https://astrockragh.github.io/talk/2025_harvard_astroai_gnn/</link>
+      <link>http://localhost:1313/talk/2025_harvard_astroai_gnn/</link>
       <pubDate>Mon, 29 Sep 2025 12:15:00 +0000</pubDate>
-      <guid>https://astrockragh.github.io/talk/2025_harvard_astroai_gnn/</guid>
+      <guid>http://localhost:1313/talk/2025_harvard_astroai_gnn/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Galaxies, their assembly and environments, from the local Universe to Cosmic Dawn @Harvard Hernquist Group Meeting</title>
-      <link>https://astrockragh.github.io/talk/2025_harvard_hernquist/</link>
+      <link>http://localhost:1313/talk/2025_harvard_hernquist/</link>
       <pubDate>Fri, 26 Sep 2025 16:30:00 +0000</pubDate>
-      <guid>https://astrockragh.github.io/talk/2025_harvard_hernquist/</guid>
+      <guid>http://localhost:1313/talk/2025_harvard_hernquist/</guid>
       <description></description>
     </item>
     
     <item>
       <title>The optical and infrared are connected @Harvard ITC</title>
-      <link>https://astrockragh.github.io/talk/2025_itc_luncheon_ir_optical/</link>
+      <link>http://localhost:1313/talk/2025_itc_luncheon_ir_optical/</link>
       <pubDate>Thu, 25 Sep 2025 12:00:00 +0000</pubDate>
-      <guid>https://astrockragh.github.io/talk/2025_itc_luncheon_ir_optical/</guid>
+      <guid>http://localhost:1313/talk/2025_itc_luncheon_ir_optical/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Connecting the optical and infrared using autoencoded optical spectra @Harvard AstroAI</title>
-      <link>https://astrockragh.github.io/talk/2025_astroai_ir_optical/</link>
+      <link>http://localhost:1313/talk/2025_astroai_ir_optical/</link>
       <pubDate>Thu, 25 Sep 2025 10:00:00 +0000</pubDate>
-      <guid>https://astrockragh.github.io/talk/2025_astroai_ir_optical/</guid>
+      <guid>http://localhost:1313/talk/2025_astroai_ir_optical/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Everything is connected @Stockholm</title>
-      <link>https://astrockragh.github.io/talk/2025_stockholm/</link>
+      <link>http://localhost:1313/talk/2025_stockholm/</link>
       <pubDate>Wed, 11 Jun 2025 12:15:00 +0000</pubDate>
-      <guid>https://astrockragh.github.io/talk/2025_stockholm/</guid>
+      <guid>http://localhost:1313/talk/2025_stockholm/</guid>
       <description></description>
     </item>
     
     <item>
       <title>The impact of clustering on the statistics of extreme JWST objects @University of Geneva</title>
-      <link>https://astrockragh.github.io/talk/2025_sui_massive/</link>
+      <link>http://localhost:1313/talk/2025_sui_massive/</link>
       <pubDate>Thu, 05 Jun 2025 13:30:00 +0000</pubDate>
-      <guid>https://astrockragh.github.io/talk/2025_sui_massive/</guid>
+      <guid>http://localhost:1313/talk/2025_sui_massive/</guid>
       <description></description>
     </item>
     
     <item>
       <title>The optical and infrared are connected @Bristol</title>
-      <link>https://astrockragh.github.io/talk/2025_bristol_sbi/</link>
+      <link>http://localhost:1313/talk/2025_bristol_sbi/</link>
       <pubDate>Tue, 27 May 2025 13:30:00 +0000</pubDate>
-      <guid>https://astrockragh.github.io/talk/2025_bristol_sbi/</guid>
+      <guid>http://localhost:1313/talk/2025_bristol_sbi/</guid>
       <description></description>
     </item>
     
     <item>
       <title>The impact of clustering on the statistics of extreme JWST objects @ADAM</title>
-      <link>https://astrockragh.github.io/talk/2025_adam_massive/</link>
+      <link>http://localhost:1313/talk/2025_adam_massive/</link>
       <pubDate>Wed, 21 May 2025 13:30:00 +0000</pubDate>
-      <guid>https://astrockragh.github.io/talk/2025_adam_massive/</guid>
+      <guid>http://localhost:1313/talk/2025_adam_massive/</guid>
       <description></description>
     </item>
     
     <item>
       <title>The optical and infrared are connected @CCA</title>
-      <link>https://astrockragh.github.io/talk/2025_cca_ir_optical/</link>
+      <link>http://localhost:1313/talk/2025_cca_ir_optical/</link>
       <pubDate>Fri, 07 Mar 2025 13:30:00 +0000</pubDate>
-      <guid>https://astrockragh.github.io/talk/2025_cca_ir_optical/</guid>
+      <guid>http://localhost:1313/talk/2025_cca_ir_optical/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Talking about airglow with Québec Science magazine</title>
-      <link>https://astrockragh.github.io/press_public/airglow_quebec_science/</link>
+      <link>http://localhost:1313/press_public/airglow_quebec_science/</link>
       <pubDate>Mon, 03 Feb 2025 00:00:00 +0000</pubDate>
-      <guid>https://astrockragh.github.io/press_public/airglow_quebec_science/</guid>
+      <guid>http://localhost:1313/press_public/airglow_quebec_science/</guid>
       <description>&lt;!-- 
 
 
@@ -268,9 +268,9 @@ Further event details, including [page elements](https://wowchemy.com/docs/writi
     
     <item>
       <title>The optical and infrared are connected</title>
-      <link>https://astrockragh.github.io/project/ir_optical/</link>
+      <link>http://localhost:1313/project/ir_optical/</link>
       <pubDate>Tue, 14 Jan 2025 00:00:00 +0000</pubDate>
-      <guid>https://astrockragh.github.io/project/ir_optical/</guid>
+      <guid>http://localhost:1313/project/ir_optical/</guid>
       <description>&lt;!-- 
 List of points to make:
 
@@ -310,7 +310,7 @@ These different components also emit light in different wavelength ranges, meani
                /project/ir_optical/another_gal_diff_wavelengths_hu_39105af87b3d1c8f.webp 400w,
                /project/ir_optical/another_gal_diff_wavelengths_hu_81c7d908f5637976.webp 760w,
                /project/ir_optical/another_gal_diff_wavelengths_hu_4f253724e4d75e38.webp 1200w&#34;
-               src=&#34;https://astrockragh.github.io/project/ir_optical/another_gal_diff_wavelengths_hu_39105af87b3d1c8f.webp&#34;
+               src=&#34;http://localhost:1313/project/ir_optical/another_gal_diff_wavelengths_hu_39105af87b3d1c8f.webp&#34;
                width=&#34;760&#34;
                height=&#34;331&#34;
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
@@ -368,7 +368,7 @@ These models comprise 30 years of development, so they really are the best that 
                /project/ir_optical/featured_small_hu_3236bcb824e37487.webp 400w,
                /project/ir_optical/featured_small_hu_8f16deae86ab5ef3.webp 760w,
                /project/ir_optical/featured_small_hu_f5fc97cb38d16078.webp 1200w&#34;
-               src=&#34;https://astrockragh.github.io/project/ir_optical/featured_small_hu_3236bcb824e37487.webp&#34;
+               src=&#34;http://localhost:1313/project/ir_optical/featured_small_hu_3236bcb824e37487.webp&#34;
                width=&#34;760&#34;
                height=&#34;384&#34;
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
@@ -403,7 +403,7 @@ You might be a little confused about all the blue lines. These come from what we
                /project/ir_optical/wavelength_separation_demo_hu_b93c82a44c016d9e.webp 400w,
                /project/ir_optical/wavelength_separation_demo_hu_abb5e7fa4a1c178f.webp 760w,
                /project/ir_optical/wavelength_separation_demo_hu_fc5094320628a392.webp 1200w&#34;
-               src=&#34;https://astrockragh.github.io/project/ir_optical/wavelength_separation_demo_hu_b93c82a44c016d9e.webp&#34;
+               src=&#34;http://localhost:1313/project/ir_optical/wavelength_separation_demo_hu_b93c82a44c016d9e.webp&#34;
                width=&#34;576&#34;
                height=&#34;760&#34;
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
@@ -432,7 +432,7 @@ You might be a little confused about all the blue lines. These come from what we
                /project/ir_optical/qpah_pred_data_hu_d7b4a2a2edb35eea.webp 400w,
                /project/ir_optical/qpah_pred_data_hu_22b03fe89e845841.webp 760w,
                /project/ir_optical/qpah_pred_data_hu_50dbfe6c3cdaf1dd.webp 1200w&#34;
-               src=&#34;https://astrockragh.github.io/project/ir_optical/qpah_pred_data_hu_d7b4a2a2edb35eea.webp&#34;
+               src=&#34;http://localhost:1313/project/ir_optical/qpah_pred_data_hu_d7b4a2a2edb35eea.webp&#34;
                width=&#34;699&#34;
                height=&#34;760&#34;
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
@@ -461,7 +461,7 @@ You might be a little confused about all the blue lines. These come from what we
                /project/ir_optical/AGN_bolometric_update_extra_velocity_hu_947bd39056d13bc1.webp 400w,
                /project/ir_optical/AGN_bolometric_update_extra_velocity_hu_41e9ffd29066bd1a.webp 760w,
                /project/ir_optical/AGN_bolometric_update_extra_velocity_hu_fdeee69c3e69e859.webp 1200w&#34;
-               src=&#34;https://astrockragh.github.io/project/ir_optical/AGN_bolometric_update_extra_velocity_hu_947bd39056d13bc1.webp&#34;
+               src=&#34;http://localhost:1313/project/ir_optical/AGN_bolometric_update_extra_velocity_hu_947bd39056d13bc1.webp&#34;
                width=&#34;760&#34;
                height=&#34;287&#34;
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
@@ -502,81 +502,81 @@ This means that the future is bright for making new models.&lt;/p&gt;
     
     <item>
       <title>Everything is connected: galaxy properties couple internally, environmentally, and historically @DAWN Copenhagen</title>
-      <link>https://astrockragh.github.io/talk/2024_dawn/</link>
+      <link>http://localhost:1313/talk/2024_dawn/</link>
       <pubDate>Thu, 12 Dec 2024 12:15:00 +0000</pubDate>
-      <guid>https://astrockragh.github.io/talk/2024_dawn/</guid>
+      <guid>http://localhost:1313/talk/2024_dawn/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Everything is connected: galaxy properties couple internally, environmentally, and historically @Cambridge</title>
-      <link>https://astrockragh.github.io/talk/2024_cambridge/</link>
+      <link>http://localhost:1313/talk/2024_cambridge/</link>
       <pubDate>Wed, 11 Dec 2024 12:15:00 +0000</pubDate>
-      <guid>https://astrockragh.github.io/talk/2024_cambridge/</guid>
+      <guid>http://localhost:1313/talk/2024_cambridge/</guid>
       <description></description>
     </item>
     
     <item>
       <title>The most massive galaxy we will find with JWST @IAP Symposium</title>
-      <link>https://astrockragh.github.io/talk/2024_paris_jswt_symposium/</link>
+      <link>http://localhost:1313/talk/2024_paris_jswt_symposium/</link>
       <pubDate>Tue, 03 Dec 2024 12:15:00 +0000</pubDate>
-      <guid>https://astrockragh.github.io/talk/2024_paris_jswt_symposium/</guid>
+      <guid>http://localhost:1313/talk/2024_paris_jswt_symposium/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Everything is connected: galaxy properties couple internally, environmentally, and historically @CosmoStat (Paris)</title>
-      <link>https://astrockragh.github.io/talk/2024_paris_saclay/</link>
+      <link>http://localhost:1313/talk/2024_paris_saclay/</link>
       <pubDate>Thu, 28 Nov 2024 12:15:00 +0000</pubDate>
-      <guid>https://astrockragh.github.io/talk/2024_paris_saclay/</guid>
+      <guid>http://localhost:1313/talk/2024_paris_saclay/</guid>
       <description>&lt;!-- Galaxies’ properties are coupled to each other, as well as to their environments and merger histories. Unfortunately, these couplings are usually ignored in widely used statistical models of galaxies, often due to the difficulties of efficiently expressing them. I will introduce the tools necessary to explicitly introduce detailed descriptions of environments and merger histories into a statistical framework, and prove a surprising connection between the merger histories and environments of galaxies. I will then show how component coupling is implicitly treated in common codes which infer the physical parameters of galaxies, how the correct coupling strength can be empirically proven, and how this implicit treatment impacts the inferred parameters. --&gt;
 </description>
     </item>
     
     <item>
       <title>Galaxies, their dark matter environments, formation histories, and couplings @Institut d&#39;Astrophysique de Paris</title>
-      <link>https://astrockragh.github.io/talk/2024_paris_iap/</link>
+      <link>http://localhost:1313/talk/2024_paris_iap/</link>
       <pubDate>Tue, 26 Nov 2024 12:15:00 +0000</pubDate>
-      <guid>https://astrockragh.github.io/talk/2024_paris_iap/</guid>
+      <guid>http://localhost:1313/talk/2024_paris_iap/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Galaxies, their dark matter environments, formation histories, and couplings @Perimeter Institute</title>
-      <link>https://astrockragh.github.io/talk/2024_perimeter/</link>
+      <link>http://localhost:1313/talk/2024_perimeter/</link>
       <pubDate>Tue, 05 Nov 2024 12:15:00 +0000</pubDate>
-      <guid>https://astrockragh.github.io/talk/2024_perimeter/</guid>
+      <guid>http://localhost:1313/talk/2024_perimeter/</guid>
       <description>&lt;!-- Galaxies’ properties are coupled to each other, as well as to their environments and merger histories. Unfortunately, these couplings are usually ignored in widely used statistical models of galaxies, often due to the difficulties of efficiently expressing them. I will introduce the tools necessary to explicitly introduce detailed descriptions of environments and merger histories into a statistical framework, and prove a surprising connection between the merger histories and environments of galaxies. I will then show how component coupling is implicitly treated in common codes which infer the physical parameters of galaxies, how the correct coupling strength can be empirically proven, and how this implicit treatment impacts the inferred parameters. --&gt;
 </description>
     </item>
     
     <item>
       <title>Challenging modelling assumptions by connecting the optical and IR @CCA</title>
-      <link>https://astrockragh.github.io/talk/2024_cca_ir/</link>
+      <link>http://localhost:1313/talk/2024_cca_ir/</link>
       <pubDate>Fri, 18 Oct 2024 12:15:00 +0000</pubDate>
-      <guid>https://astrockragh.github.io/talk/2024_cca_ir/</guid>
+      <guid>http://localhost:1313/talk/2024_cca_ir/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Theorist or observer?</title>
-      <link>https://astrockragh.github.io/post/theory_observer/</link>
+      <link>http://localhost:1313/post/theory_observer/</link>
       <pubDate>Thu, 03 Oct 2024 10:00:00 +0000</pubDate>
-      <guid>https://astrockragh.github.io/post/theory_observer/</guid>
+      <guid>http://localhost:1313/post/theory_observer/</guid>
       <description>&lt;p&gt;A question that many astronomers often ask is whether a given person is an &lt;em&gt;observer&lt;/em&gt; or a &lt;em&gt;theorist&lt;/em&gt;. This bimodal view of our discipline is quite outdated, but nonetheless persistent. Below I give a short overview of some of the considerations people make when evaluating my position in the field, considerations that I make when answering the question, and how I see my own role.&lt;/p&gt;
 &lt;h3 id=&#34;why-some-consider-me-a-theorist&#34;&gt;Why some consider me a theorist&lt;/h3&gt;
-&lt;p&gt;My first series of papers in graduate school (on &lt;a href=&#34;https://astrockragh.github.io/project/mangrove&#34;&gt;galaxy formation histories&lt;/a&gt; and &lt;a href=&#34;https://astrockragh.github.io/project/gnn_environment&#34;&gt;environments&lt;/a&gt;) were all done starting from simulation data, which shaped the early talks I gave to scientific audiences, and therefore this view of me as a theorist.&lt;/p&gt;
+&lt;p&gt;My first series of papers in graduate school (on &lt;a href=&#34;http://localhost:1313/project/mangrove&#34;&gt;galaxy formation histories&lt;/a&gt; and &lt;a href=&#34;http://localhost:1313/project/gnn_environment&#34;&gt;environments&lt;/a&gt;) were all done starting from simulation data, which shaped the early talks I gave to scientific audiences, and therefore this view of me as a theorist.&lt;/p&gt;
 &lt;p&gt;Furthermore, most of the people in the field of AstroxML (machine learning applied to astronomy) tend to mainly use simulated data products to tune their models, which land them in the &amp;ldquo;theory&amp;rdquo;-bin, and so do I, by association.&lt;/p&gt;
 &lt;p&gt;This view is mainly wrong because, well, I really do not like using simulated data as a first approach. Philosophically, I am an &lt;strong&gt;empiricist&lt;/strong&gt;, meaning that I am only really interested in things that can be &lt;strong&gt;measured&lt;/strong&gt; in the real world, and I spend a lot of time taking, improving, and using real data from real instruments.&lt;/p&gt;
 &lt;p&gt;But&amp;hellip; then, I must be an observer?&lt;/p&gt;
 &lt;!-- Simulations, statistics, data analysis, machine learning --&gt;
 &lt;h3 id=&#34;why-some-consider-me-an-observer&#34;&gt;Why some consider me an observer&lt;/h3&gt;
-&lt;p&gt;The majority of my time at Princeton and at the University of Copenhagen has been focused on observations. My first paper was on &lt;em&gt;empirically&lt;/em&gt; &lt;a href=&#34;https://astrockragh.github.io/project/tsne_grb&#34;&gt;classifying gamma-ray bursts&lt;/a&gt;, then I worked on measuring and forecasting &lt;a href=&#34;https://astrockragh.github.io/project/high_z_jwst&#34;&gt;cosmic variance for JWST&lt;/a&gt;, writing proposals for JWST, calibrating point-spread functions for &lt;a href=&#34;https://astrockragh.github.io/project/cosmos&#34;&gt;COSMOS2020&lt;/a&gt;, then on observing &lt;a href=&#34;https://astrockragh.github.io/project/neutrino_ml&#34;&gt;neutrinos with IceCube&lt;/a&gt;. This work has continued while at Princeton, where I have been CoI on a couple of succesful JWST proposals, and thought some more about &lt;a href=&#34;https://astrockragh.github.io/project/most_massive_jwst&#34;&gt;cosmic variance&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;However, my biggest claim to being an observer has come from the times I have actually physically been observing (which I where the picture at the top of the post is from), as well as my +3 year-involvement in the engineering/commissioning teams for the Prime Focus Spectrograph (PFS) and its auxilliary telescope, the &lt;a href=&#34;https://astrockragh.github.io/project/sunss_airglow&#34;&gt;Subaru Night Sky Spectrograph (SuNSS)&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;The majority of my time at Princeton and at the University of Copenhagen has been focused on observations. My first paper was on &lt;em&gt;empirically&lt;/em&gt; &lt;a href=&#34;http://localhost:1313/project/tsne_grb&#34;&gt;classifying gamma-ray bursts&lt;/a&gt;, then I worked on measuring and forecasting &lt;a href=&#34;http://localhost:1313/project/high_z_jwst&#34;&gt;cosmic variance for JWST&lt;/a&gt;, writing proposals for JWST, calibrating point-spread functions for &lt;a href=&#34;http://localhost:1313/project/cosmos&#34;&gt;COSMOS2020&lt;/a&gt;, then on observing &lt;a href=&#34;http://localhost:1313/project/neutrino_ml&#34;&gt;neutrinos with IceCube&lt;/a&gt;. This work has continued while at Princeton, where I have been CoI on a couple of succesful JWST proposals, and thought some more about &lt;a href=&#34;http://localhost:1313/project/most_massive_jwst&#34;&gt;cosmic variance&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;However, my biggest claim to being an observer has come from the times I have actually physically been observing (which I where the picture at the top of the post is from), as well as my +3 year-involvement in the engineering/commissioning teams for the Prime Focus Spectrograph (PFS) and its auxilliary telescope, the &lt;a href=&#34;http://localhost:1313/project/sunss_airglow&#34;&gt;Subaru Night Sky Spectrograph (SuNSS)&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;But&amp;hellip; if I am on the engineering team, does that not mean that I do instrumentation then?&lt;/p&gt;
 &lt;!-- SuNSS, PFS, observing on Hawaii, COSMOS, Beasts, Massive Quiescent galaxies with Francesco, proposals --&gt;
 &lt;h3 id=&#34;why-some-consider-me-an-instrumentalist&#34;&gt;Why some consider me an instrumentalist&lt;/h3&gt;
-&lt;p&gt;This is perhaps the easiest view to neglect, but it has happened that people think I only do instrumentation. This comes from the fact that I spend a good part of my time worrying about software (wavelength/flux calibration) and hardware (fiber connectors) for massively multiplexed spectrographs like PFS. However, as of now, most of what I do for these instruments is to study the &lt;a href=&#34;https://astrockragh.github.io/project/sunss_airglow&#34;&gt;airglow&lt;/a&gt;, the intrinsic emission of the night sky, and using what we find to improve the performance.
+&lt;p&gt;This is perhaps the easiest view to neglect, but it has happened that people think I only do instrumentation. This comes from the fact that I spend a good part of my time worrying about software (wavelength/flux calibration) and hardware (fiber connectors) for massively multiplexed spectrographs like PFS. However, as of now, most of what I do for these instruments is to study the &lt;a href=&#34;http://localhost:1313/project/sunss_airglow&#34;&gt;airglow&lt;/a&gt;, the intrinsic emission of the night sky, and using what we find to improve the performance.
 Therefore, I do not really qualify as a real instrumentalist.&lt;/p&gt;
 &lt;p&gt;So if I do not fit into these bins, do I even really count as an astrophysicist?&lt;/p&gt;
 &lt;!-- Software for PFS/SuNSS --&gt;
@@ -610,7 +610,7 @@ Therefore, I do not really qualify as a real instrumentalist.&lt;/p&gt;
                /post/theory_observer/radar_chart_2_hu_82f958a45f6fd995.webp 400w,
                /post/theory_observer/radar_chart_2_hu_c8c78e33ce2b85d4.webp 760w,
                /post/theory_observer/radar_chart_2_hu_61e88fdd2b2cd4e5.webp 1200w&#34;
-               src=&#34;https://astrockragh.github.io/post/theory_observer/radar_chart_2_hu_82f958a45f6fd995.webp&#34;
+               src=&#34;http://localhost:1313/post/theory_observer/radar_chart_2_hu_82f958a45f6fd995.webp&#34;
                width=&#34;760&#34;
                height=&#34;571&#34;
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
@@ -630,9 +630,9 @@ Therefore, I do not really qualify as a real instrumentalist.&lt;/p&gt;
     
     <item>
       <title>So what is your name and how do you say it?</title>
-      <link>https://astrockragh.github.io/post/my_name/</link>
+      <link>http://localhost:1313/post/my_name/</link>
       <pubDate>Thu, 03 Oct 2024 00:00:00 +0000</pubDate>
-      <guid>https://astrockragh.github.io/post/my_name/</guid>
+      <guid>http://localhost:1313/post/my_name/</guid>
       <description>&lt;h3 id=&#34;what-is-my-name&#34;&gt;What is my name?&lt;/h3&gt;
 &lt;p&gt;My full name is Christian Kragh Jespersen, a very Danish &amp;#x1f1e9;&amp;#x1f1f0; name. Why is it very Danish? Well my first name is the &lt;a href=&#34;https://www.dst.dk/da/Statistik/emner/borgere/navne/hvor-mange-hedder&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;single most common name&lt;/a&gt; in Denmark (including the alternate form &amp;ldquo;Kristian&amp;rdquo;), stemming from the fact that it is one of two allowed names for male Danish monarchs. The other is Frederik, which the current Danish king, Frederik X is called. My surname is part of the patronymic naming tradition of &amp;ldquo;father&amp;rsquo;s name&amp;rdquo;+&amp;ldquo;sen&amp;rdquo; (meaning son). My last name therefore simply means &amp;ldquo;son of Jesper&amp;rdquo;. My father&amp;rsquo;s name is however &lt;strong&gt;not&lt;/strong&gt; Jesper (although one of his brothers is called Jesper), since in 1856 the state decided that it was too much trouble to keep track of changes in surnames every generation, and fixed each family&amp;rsquo;s surname to whatever it was at that time.&lt;/p&gt;
 &lt;h3 id=&#34;how-should-you-write-my-name&#34;&gt;How should you write my name?&lt;/h3&gt;
@@ -647,9 +647,9 @@ Therefore, I do not really qualify as a real instrumentalist.&lt;/p&gt;
     
     <item>
       <title>The sky over Mauna Kea observed with SuNSS</title>
-      <link>https://astrockragh.github.io/project/sunss_airglow/</link>
+      <link>http://localhost:1313/project/sunss_airglow/</link>
       <pubDate>Wed, 02 Oct 2024 00:10:00 +0000</pubDate>
-      <guid>https://astrockragh.github.io/project/sunss_airglow/</guid>
+      <guid>http://localhost:1313/project/sunss_airglow/</guid>
       <description>&lt;p&gt;As astronomy pushes towards ever fainter targets, at ever greater distances, in ever greater numbers, we are faced with a new series of problems which need solving.&lt;/p&gt;
 &lt;p&gt;The two main focus areas for the next generation for surveys are thus&lt;/p&gt;
 &lt;ol&gt;
@@ -681,7 +681,7 @@ You can see the focal plane (where we focus the light), with our 2400 fibers, in
                /project/sunss_airglow/focal_plane_hu_15642249b700d8aa.webp 400w,
                /project/sunss_airglow/focal_plane_hu_f2283e2017f5eee3.webp 760w,
                /project/sunss_airglow/focal_plane_hu_d468dbfda65239fc.webp 1200w&#34;
-               src=&#34;https://astrockragh.github.io/project/sunss_airglow/focal_plane_hu_15642249b700d8aa.webp&#34;
+               src=&#34;http://localhost:1313/project/sunss_airglow/focal_plane_hu_15642249b700d8aa.webp&#34;
                width=&#34;760&#34;
                height=&#34;570&#34;
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
@@ -711,7 +711,7 @@ The first you want to do is to get a big telescope! With PFS, we are lucky to ha
                /project/sunss_airglow/me_next_subaru_hu_106352b02b6f19f1.webp 400w,
                /project/sunss_airglow/me_next_subaru_hu_ba1fd0cd1b0a8cb.webp 760w,
                /project/sunss_airglow/me_next_subaru_hu_24bc64404e8353f9.webp 1200w&#34;
-               src=&#34;https://astrockragh.github.io/project/sunss_airglow/me_next_subaru_hu_106352b02b6f19f1.webp&#34;
+               src=&#34;http://localhost:1313/project/sunss_airglow/me_next_subaru_hu_106352b02b6f19f1.webp&#34;
                width=&#34;570&#34;
                height=&#34;760&#34;
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
@@ -751,7 +751,7 @@ The first you want to do is to get a big telescope! With PFS, we are lucky to ha
                /project/sunss_airglow/sky_sub_spectrum_hu_fb4cbc50aa9d8926.webp 400w,
                /project/sunss_airglow/sky_sub_spectrum_hu_1a34491c7f57db6a.webp 760w,
                /project/sunss_airglow/sky_sub_spectrum_hu_afd0769f71f59f93.webp 1200w&#34;
-               src=&#34;https://astrockragh.github.io/project/sunss_airglow/sky_sub_spectrum_hu_fb4cbc50aa9d8926.webp&#34;
+               src=&#34;http://localhost:1313/project/sunss_airglow/sky_sub_spectrum_hu_fb4cbc50aa9d8926.webp&#34;
                width=&#34;760&#34;
                height=&#34;446&#34;
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
@@ -783,7 +783,7 @@ Taking &lt;code&gt;(galaxy+airglow)&lt;/code&gt;&lt;sub&gt;A&lt;/sub&gt;-&lt;cod
                /project/sunss_airglow/sunss_on_subaru_hu_4c76ed470e321fa2.webp 400w,
                /project/sunss_airglow/sunss_on_subaru_hu_b29e4d33db9e3de7.webp 760w,
                /project/sunss_airglow/sunss_on_subaru_hu_2388758a43b6b721.webp 1200w&#34;
-               src=&#34;https://astrockragh.github.io/project/sunss_airglow/sunss_on_subaru_hu_4c76ed470e321fa2.webp&#34;
+               src=&#34;http://localhost:1313/project/sunss_airglow/sunss_on_subaru_hu_4c76ed470e321fa2.webp&#34;
                width=&#34;760&#34;
                height=&#34;291&#34;
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
@@ -815,7 +815,7 @@ The atomic oxygen is denoted as NaD (D for doublet) and atomic oxygen is written
                /project/sunss_airglow/sky_diff_hu_bf994920c61c2c0e.webp 400w,
                /project/sunss_airglow/sky_diff_hu_325c43172c037cd.webp 760w,
                /project/sunss_airglow/sky_diff_hu_7a6c93bc7cfed45e.webp 1200w&#34;
-               src=&#34;https://astrockragh.github.io/project/sunss_airglow/sky_diff_hu_bf994920c61c2c0e.webp&#34;
+               src=&#34;http://localhost:1313/project/sunss_airglow/sky_diff_hu_bf994920c61c2c0e.webp&#34;
                width=&#34;622&#34;
                height=&#34;760&#34;
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
@@ -858,7 +858,7 @@ Even over a single night, we observe that most of the components change their in
                /project/sunss_airglow/subaru_all_sky_hu_571697413013cb80.webp 400w,
                /project/sunss_airglow/subaru_all_sky_hu_bdaef8162acafa0c.webp 760w,
                /project/sunss_airglow/subaru_all_sky_hu_81120530dd62a50.webp 1200w&#34;
-               src=&#34;https://astrockragh.github.io/project/sunss_airglow/subaru_all_sky_hu_571697413013cb80.webp&#34;
+               src=&#34;http://localhost:1313/project/sunss_airglow/subaru_all_sky_hu_571697413013cb80.webp&#34;
                width=&#34;760&#34;
                height=&#34;760&#34;
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
@@ -886,9 +886,9 @@ Even over a single night, we observe that most of the components change their in
     
     <item>
       <title>The most massive galaxy we will find with JWST at high redshift</title>
-      <link>https://astrockragh.github.io/project/most_massive_jwst/</link>
+      <link>http://localhost:1313/project/most_massive_jwst/</link>
       <pubDate>Tue, 01 Oct 2024 00:00:00 +0000</pubDate>
-      <guid>https://astrockragh.github.io/project/most_massive_jwst/</guid>
+      <guid>http://localhost:1313/project/most_massive_jwst/</guid>
       <description>&lt;p&gt;
 
 
@@ -911,7 +911,7 @@ Even over a single night, we observe that most of the components change their in
                /project/most_massive_jwst/demo_hu_7a00c519a8520f67.webp 400w,
                /project/most_massive_jwst/demo_hu_475954daaf8d93ca.webp 760w,
                /project/most_massive_jwst/demo_hu_137026f41a7d965c.webp 1200w&#34;
-               src=&#34;https://astrockragh.github.io/project/most_massive_jwst/demo_hu_7a00c519a8520f67.webp&#34;
+               src=&#34;http://localhost:1313/project/most_massive_jwst/demo_hu_7a00c519a8520f67.webp&#34;
                width=&#34;760&#34;
                height=&#34;592&#34;
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
@@ -942,7 +942,7 @@ Even over a single night, we observe that most of the components change their in
                /project/most_massive_jwst/um_comparison_hu_2808a45c7d96e186.webp 400w,
                /project/most_massive_jwst/um_comparison_hu_c7c776ca975c4d25.webp 760w,
                /project/most_massive_jwst/um_comparison_hu_1e9ade8998985adf.webp 1200w&#34;
-               src=&#34;https://astrockragh.github.io/project/most_massive_jwst/um_comparison_hu_2808a45c7d96e186.webp&#34;
+               src=&#34;http://localhost:1313/project/most_massive_jwst/um_comparison_hu_2808a45c7d96e186.webp&#34;
                width=&#34;760&#34;
                height=&#34;275&#34;
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
@@ -972,7 +972,7 @@ Even over a single night, we observe that most of the components change their in
                /project/most_massive_jwst/demo_sigma_cv_hu_b21822dc428f1589.webp 400w,
                /project/most_massive_jwst/demo_sigma_cv_hu_e7a7b0c209352d48.webp 760w,
                /project/most_massive_jwst/demo_sigma_cv_hu_c19960fd611fa2.webp 1200w&#34;
-               src=&#34;https://astrockragh.github.io/project/most_massive_jwst/demo_sigma_cv_hu_b21822dc428f1589.webp&#34;
+               src=&#34;http://localhost:1313/project/most_massive_jwst/demo_sigma_cv_hu_b21822dc428f1589.webp&#34;
                width=&#34;760&#34;
                height=&#34;569&#34;
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
@@ -1001,7 +1001,7 @@ Even over a single night, we observe that most of the components change their in
                /project/most_massive_jwst/first_hu_4707f7b29726e62d.webp 400w,
                /project/most_massive_jwst/first_hu_b8d48695307c3b3f.webp 760w,
                /project/most_massive_jwst/first_hu_84746fe21422efba.webp 1200w&#34;
-               src=&#34;https://astrockragh.github.io/project/most_massive_jwst/first_hu_4707f7b29726e62d.webp&#34;
+               src=&#34;http://localhost:1313/project/most_massive_jwst/first_hu_4707f7b29726e62d.webp&#34;
                width=&#34;535&#34;
                height=&#34;760&#34;
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
@@ -1012,34 +1012,34 @@ Even over a single night, we observe that most of the components change their in
     
     <item>
       <title>New perspectives in galaxy formation @CU Boulder</title>
-      <link>https://astrockragh.github.io/talk/2024_boulder/</link>
+      <link>http://localhost:1313/talk/2024_boulder/</link>
       <pubDate>Fri, 27 Sep 2024 12:15:00 +0000</pubDate>
-      <guid>https://astrockragh.github.io/talk/2024_boulder/</guid>
+      <guid>http://localhost:1313/talk/2024_boulder/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Challenging modelling assumptions by connecting the optical and IR @Princeton</title>
-      <link>https://astrockragh.github.io/talk/2024_thunch/</link>
+      <link>http://localhost:1313/talk/2024_thunch/</link>
       <pubDate>Thu, 05 Sep 2024 12:15:00 +0000</pubDate>
-      <guid>https://astrockragh.github.io/talk/2024_thunch/</guid>
+      <guid>http://localhost:1313/talk/2024_thunch/</guid>
       <description>&lt;!-- Galaxies are conventionally thought of as composites of physically distinct components, making the components separable. One consequence of this assumption is that different wavelength ranges carry little information about each other, since the different components dominate emission at different wavelengths. This common assumption of separability is implicitly embedded in galaxy spectral energy distribution (SED) fitting codes, which are broadly used to derive the physical parameters of galaxies. In this paper, we show that optical spectra can be used to predict near- and mid-infrared photometry to $\chi^2_N \approx 1$, in strong contrast with SED fitting codes. We also demonstrate that derived quantities such as the bolometric luminosity of active galactic nuclei (AGN) can empirically be tightly constrained from the optical, just as dust parameters such as $\mathrm{q_{PAH}}$. We investigate the shortcomings of the separability assumption in SED fitting codes, finding that it leads to biases and imprecision in parameter inference. We construct a tool for determining the most important areas of improvement for SED models.  --&gt;
 </description>
     </item>
     
     <item>
       <title>Challenging modelling assumptions by connecting the optical and IR @UCSC</title>
-      <link>https://astrockragh.github.io/talk/2024_ucsc/</link>
+      <link>http://localhost:1313/talk/2024_ucsc/</link>
       <pubDate>Fri, 02 Aug 2024 12:15:00 +0000</pubDate>
-      <guid>https://astrockragh.github.io/talk/2024_ucsc/</guid>
+      <guid>http://localhost:1313/talk/2024_ucsc/</guid>
       <description></description>
     </item>
     
     <item>
       <title>The galaxy-environment connection revealed by Graph Neural Networks</title>
-      <link>https://astrockragh.github.io/project/gnn_environment/</link>
+      <link>http://localhost:1313/project/gnn_environment/</link>
       <pubDate>Fri, 02 Aug 2024 00:00:00 +0000</pubDate>
-      <guid>https://astrockragh.github.io/project/gnn_environment/</guid>
+      <guid>http://localhost:1313/project/gnn_environment/</guid>
       <description>&lt;p&gt;To preface all of this, this work, consisting of two projects, was led by the incomparable &lt;a href=&#34;https://jwuphysics.github.io/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;John F. Wu&lt;/a&gt; at STScI/JHU, and it was a joy to work with him on this! Now on to the research.
 The projects were started during the great &lt;a href=&#34;https://datadrivengalaxyevolution.github.io/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;KITP program on Data-Driven Astronomy&lt;/a&gt;, taking my earlier work on the connection between &lt;a href=&#34;https://astrockragh.github.io/project/mangrove/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;galaxies and their formation histories&lt;/a&gt;. A natural follow-up question is whether we can find similar improvements in our modelling of galaxies by exploiting their &lt;strong&gt;environments&lt;/strong&gt; instead of their &lt;strong&gt;formation histories&lt;/strong&gt;. We therefore dive into the intricate relationship between galaxies, dark matter halos, and their large-scale cosmic environments using data from the Illustris TNG300 hydrodynamic simulation. To better understand these connections, we tested two machine learning (ML) models: Explainable Boosting Machines (EBMs) and E(3)-invariant graph neural networks (GNNs). We use GNNs to make sure that we capture the full information in the cosmic web, instead of realying on summary statistics, an approach which we know did not work for analyzing formation histories! The E(3)-invariance, means that the functions we learned are made explicitly invariant to &lt;a href=&#34;https://en.wikipedia.org/wiki/Euclidean_group&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;strong&gt;E&lt;/strong&gt;uclidean transfomations&lt;/a&gt; in &lt;strong&gt;3&lt;/strong&gt;D, meaning all translations, rotations, and reflections in 3D.&lt;/p&gt;
 &lt;p&gt;One of the main issues with analyzing environments is that the connections between different galaxies are not given &lt;em&gt;a priori&lt;/em&gt;. We therefore must pick a subjective length scale, within which we consider galaxies &amp;ldquo;connected&amp;rdquo;. We must then tune this &lt;strong&gt;linking length&lt;/strong&gt; (L), to give us the best results, and see what we can learn from this tuning. In the below plot, I show how graph structures that result from changing linking lengths.&lt;/p&gt;
@@ -1065,7 +1065,7 @@ The projects were started during the great &lt;a href=&#34;https://datadrivengal
                /project/gnn_environment/changing_linking_length_hu_eb44a3a693fb46ae.webp 400w,
                /project/gnn_environment/changing_linking_length_hu_2a88fa541a9adb53.webp 760w,
                /project/gnn_environment/changing_linking_length_hu_28ac692f2d6158d4.webp 1200w&#34;
-               src=&#34;https://astrockragh.github.io/project/gnn_environment/changing_linking_length_hu_eb44a3a693fb46ae.webp&#34;
+               src=&#34;http://localhost:1313/project/gnn_environment/changing_linking_length_hu_eb44a3a693fb46ae.webp&#34;
                width=&#34;760&#34;
                height=&#34;270&#34;
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
@@ -1094,7 +1094,7 @@ The projects were started during the great &lt;a href=&#34;https://datadrivengal
                /project/gnn_environment/error_length_hu_80be36a8e4ebeca3.webp 400w,
                /project/gnn_environment/error_length_hu_1640d095516b640f.webp 760w,
                /project/gnn_environment/error_length_hu_a4d64ebbf548afa6.webp 1200w&#34;
-               src=&#34;https://astrockragh.github.io/project/gnn_environment/error_length_hu_80be36a8e4ebeca3.webp&#34;
+               src=&#34;http://localhost:1313/project/gnn_environment/error_length_hu_80be36a8e4ebeca3.webp&#34;
                width=&#34;760&#34;
                height=&#34;669&#34;
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
@@ -1124,7 +1124,7 @@ The projects were started during the great &lt;a href=&#34;https://datadrivengal
                /project/gnn_environment/error_length_annotate_hu_c0df7b7134c38509.webp 400w,
                /project/gnn_environment/error_length_annotate_hu_a5876027657329b4.webp 760w,
                /project/gnn_environment/error_length_annotate_hu_d81c06a868a9dcb1.webp 1200w&#34;
-               src=&#34;https://astrockragh.github.io/project/gnn_environment/error_length_annotate_hu_c0df7b7134c38509.webp&#34;
+               src=&#34;http://localhost:1313/project/gnn_environment/error_length_annotate_hu_c0df7b7134c38509.webp&#34;
                width=&#34;760&#34;
                height=&#34;671&#34;
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
@@ -1154,7 +1154,7 @@ The projects were started during the great &lt;a href=&#34;https://datadrivengal
                /project/gnn_environment/disperse_meme_hu_105826848a5c0f97.webp 400w,
                /project/gnn_environment/disperse_meme_hu_8dd1c479ef1b28b1.webp 760w,
                /project/gnn_environment/disperse_meme_hu_a9a8bbeabe96a76d.webp 1200w&#34;
-               src=&#34;https://astrockragh.github.io/project/gnn_environment/disperse_meme_hu_105826848a5c0f97.webp&#34;
+               src=&#34;http://localhost:1313/project/gnn_environment/disperse_meme_hu_105826848a5c0f97.webp&#34;
                width=&#34;720&#34;
                height=&#34;564&#34;
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
@@ -1165,9 +1165,9 @@ The projects were started during the great &lt;a href=&#34;https://datadrivengal
     
     <item>
       <title>Graphs Neural Networks, @Montréal Astro x ML Summer School</title>
-      <link>https://astrockragh.github.io/talk/2024_montreal_summer_school/</link>
+      <link>http://localhost:1313/talk/2024_montreal_summer_school/</link>
       <pubDate>Fri, 28 Jun 2024 12:15:00 +0000</pubDate>
-      <guid>https://astrockragh.github.io/talk/2024_montreal_summer_school/</guid>
+      <guid>http://localhost:1313/talk/2024_montreal_summer_school/</guid>
       <description>&lt;p&gt;This summer school lecture included two notebook tutorials, which can be found here:&lt;/p&gt;
 &lt;p&gt;Notebook 1:
 &lt;a href=&#34;https://colab.research.google.com/drive/1K6fvzUP33UWkXWoYxi5nt1ITwjXYHm5t&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://colab.research.google.com/drive/1K6fvzUP33UWkXWoYxi5nt1ITwjXYHm5t&lt;/a&gt;&lt;/p&gt;
@@ -1178,77 +1178,77 @@ The projects were started during the great &lt;a href=&#34;https://datadrivengal
     
     <item>
       <title>Airglow and the Subaru Night Sky Spectrograph (SuNSS) @Subaru Telescope</title>
-      <link>https://astrockragh.github.io/talk/2024_subaru/</link>
+      <link>http://localhost:1313/talk/2024_subaru/</link>
       <pubDate>Fri, 24 May 2024 12:15:00 +0000</pubDate>
-      <guid>https://astrockragh.github.io/talk/2024_subaru/</guid>
+      <guid>http://localhost:1313/talk/2024_subaru/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Galaxies, their dark matter environments, and formation histories @Montréal, Ciela Institute</title>
-      <link>https://astrockragh.github.io/talk/2024_montreal_ciela/</link>
+      <link>http://localhost:1313/talk/2024_montreal_ciela/</link>
       <pubDate>Thu, 04 Apr 2024 12:15:00 +0000</pubDate>
-      <guid>https://astrockragh.github.io/talk/2024_montreal_ciela/</guid>
+      <guid>http://localhost:1313/talk/2024_montreal_ciela/</guid>
       <description>&lt;!-- Galaxies’ properties are coupled to each other, as well as to their environments and merger histories. Unfortunately, these couplings are usually ignored in widely used statistical models of galaxies, often due to the difficulties of efficiently expressing them. I will introduce the tools necessary to explicitly introduce detailed descriptions of environments and merger histories into a statistical framework, and prove a surprising connection between the merger histories and environments of galaxies. I will then show how component coupling is implicitly treated in common codes which infer the physical parameters of galaxies, how the correct coupling strength can be empirically proven, and how this implicit treatment impacts the inferred parameters. --&gt;
 </description>
     </item>
     
     <item>
       <title>The most massive galaxy in the universe @CCA</title>
-      <link>https://astrockragh.github.io/talk/2024_cca_most_massive/</link>
+      <link>http://localhost:1313/talk/2024_cca_most_massive/</link>
       <pubDate>Fri, 29 Mar 2024 12:15:00 +0000</pubDate>
-      <guid>https://astrockragh.github.io/talk/2024_cca_most_massive/</guid>
+      <guid>http://localhost:1313/talk/2024_cca_most_massive/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Airglow and the Subaru Night Sky Spectrograph (SuNSS) @AAS 243th</title>
-      <link>https://astrockragh.github.io/talk/2024_aas/</link>
+      <link>http://localhost:1313/talk/2024_aas/</link>
       <pubDate>Tue, 09 Jan 2024 12:15:00 +0000</pubDate>
-      <guid>https://astrockragh.github.io/talk/2024_aas/</guid>
+      <guid>http://localhost:1313/talk/2024_aas/</guid>
       <description></description>
     </item>
     
     <item>
       <title>The highest redshift galaxy we will find with JWST</title>
-      <link>https://astrockragh.github.io/project/high_z_jwst/</link>
+      <link>http://localhost:1313/project/high_z_jwst/</link>
       <pubDate>Mon, 23 Oct 2023 00:00:00 +0000</pubDate>
-      <guid>https://astrockragh.github.io/project/high_z_jwst/</guid>
+      <guid>http://localhost:1313/project/high_z_jwst/</guid>
       <description>&lt;p&gt;One of the primary goals for the upcoming James Webb Space Telescope is to observe the first galaxies. Predictions for planned and proposed surveys have typically focused on average galaxy counts, assuming a random distribution of galaxies across the observed field. The first and most-massive galaxies, however, are expected to be tightly clustered, which can be quantified through an effect known as &lt;strong&gt;cosmic variance&lt;/strong&gt;. We show that cosmic variance is likely to be the dominant contribution to uncertainty for high-redshift mass and luminosity functions, and that median high-redshift and high-mass galaxy counts for planned observations lie significantly below average counts. Several different strategies are considered for improving our understanding of the first galaxies, including adding depth, area, and independent pointings. Adding independent pointings is shown to be the most efficient both for discovering the single highest-redshift galaxy and also for constraining mass and luminosity functions.&lt;/p&gt;
 </description>
     </item>
     
     <item>
       <title>How to build a galaxy @STScI/JHU</title>
-      <link>https://astrockragh.github.io/talk/2023_jhu_mangrove/</link>
+      <link>http://localhost:1313/talk/2023_jhu_mangrove/</link>
       <pubDate>Tue, 13 Jun 2023 12:15:00 +0000</pubDate>
-      <guid>https://astrockragh.github.io/talk/2023_jhu_mangrove/</guid>
+      <guid>http://localhost:1313/talk/2023_jhu_mangrove/</guid>
       <description></description>
     </item>
     
     <item>
       <title>How to build a galaxy, Galaxy Formation Conference @KITP</title>
-      <link>https://astrockragh.github.io/talk/2023_kitp_mangrove/</link>
+      <link>http://localhost:1313/talk/2023_kitp_mangrove/</link>
       <pubDate>Fri, 24 Mar 2023 12:15:00 +0000</pubDate>
-      <guid>https://astrockragh.github.io/talk/2023_kitp_mangrove/</guid>
+      <guid>http://localhost:1313/talk/2023_kitp_mangrove/</guid>
       <description>&lt;p&gt;Blackboard talk done for the 2023 &amp;ldquo;Building a physical understanding of galaxy evolution with data-driven astronomy&amp;rdquo; KITP workshop &lt;a href=&#34;https://datadrivengalaxyevolution.github.io/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://datadrivengalaxyevolution.github.io/&lt;/a&gt;.&lt;/p&gt;
 </description>
     </item>
     
     <item>
       <title>Graphs Neural Networks in Astrophysics, Data-Driven Galaxy Formation Workshop @KITP</title>
-      <link>https://astrockragh.github.io/talk/2023_kitp_gnn2/</link>
+      <link>http://localhost:1313/talk/2023_kitp_gnn2/</link>
       <pubDate>Tue, 14 Mar 2023 12:15:00 +0000</pubDate>
-      <guid>https://astrockragh.github.io/talk/2023_kitp_gnn2/</guid>
+      <guid>http://localhost:1313/talk/2023_kitp_gnn2/</guid>
       <description>&lt;p&gt;Blackboard talk done for the 2023 &amp;ldquo;Building a physical understanding of galaxy evolution with data-driven astronomy&amp;rdquo; KITP workshop &lt;a href=&#34;https://datadrivengalaxyevolution.github.io/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://datadrivengalaxyevolution.github.io/&lt;/a&gt;.&lt;/p&gt;
 </description>
     </item>
     
     <item>
       <title>Graphs Neural Networks in Astrophysics, Data-Driven Galaxy Formation Workshop @CCA</title>
-      <link>https://astrockragh.github.io/talk/2023_kitp_gnn1/</link>
+      <link>http://localhost:1313/talk/2023_kitp_gnn1/</link>
       <pubDate>Fri, 03 Feb 2023 12:15:00 +0000</pubDate>
-      <guid>https://astrockragh.github.io/talk/2023_kitp_gnn1/</guid>
+      <guid>http://localhost:1313/talk/2023_kitp_gnn1/</guid>
       <description>&lt;p&gt;Done for the 2023 &amp;ldquo;Building a physical understanding of galaxy evolution with data-driven astronomy&amp;rdquo; KITP workshop &lt;a href=&#34;https://datadrivengalaxyevolution.github.io/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://datadrivengalaxyevolution.github.io/&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;Recording can be found by following &lt;a href=&#34;https://www.dropbox.com/scl/fo/tgpwe1ljr4i9go4ajnsq6/h?dl=0&amp;amp;e=1&amp;amp;preview=2023-02-03&amp;#43;&amp;#43;CCA&amp;#43;KITP&amp;#43;-&amp;#43;Tutorial&amp;#43;-&amp;#43;Christian&amp;#43;Kragh&amp;#43;Jespersen&amp;#43;-&amp;#43;Alpha&amp;#43;Beta.mp4&amp;amp;rlkey=mwl1zi14okj5k1pnbflcgnz3l&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;this link&lt;/a&gt;.&lt;/p&gt;
 </description>
@@ -1256,9 +1256,9 @@ The projects were started during the great &lt;a href=&#34;https://datadrivengal
     
     <item>
       <title>Building better galaxies with Mangrove</title>
-      <link>https://astrockragh.github.io/post/mangrove/</link>
+      <link>http://localhost:1313/post/mangrove/</link>
       <pubDate>Mon, 19 Sep 2022 00:00:00 +0000</pubDate>
-      <guid>https://astrockragh.github.io/post/mangrove/</guid>
+      <guid>http://localhost:1313/post/mangrove/</guid>
       <description>&lt;p&gt;
 
 
@@ -1281,7 +1281,7 @@ The projects were started during the great &lt;a href=&#34;https://datadrivengal
                /post/mangrove/featured_old_hu_6912712c5b1585f8.webp 400w,
                /post/mangrove/featured_old_hu_500a636672079076.webp 760w,
                /post/mangrove/featured_old_hu_b754a66bd2327b9b.webp 1200w&#34;
-               src=&#34;https://astrockragh.github.io/post/mangrove/featured_old_hu_6912712c5b1585f8.webp&#34;
+               src=&#34;http://localhost:1313/post/mangrove/featured_old_hu_6912712c5b1585f8.webp&#34;
                width=&#34;760&#34;
                height=&#34;480&#34;
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
@@ -1318,7 +1318,7 @@ The projects were started during the great &lt;a href=&#34;https://datadrivengal
                /post/mangrove/ikea_boxes_hu_c8acad8d823158df.webp 400w,
                /post/mangrove/ikea_boxes_hu_1ee2ed18699d29bd.webp 760w,
                /post/mangrove/ikea_boxes_hu_fc9268ba810e74b6.webp 1200w&#34;
-               src=&#34;https://astrockragh.github.io/post/mangrove/ikea_boxes_hu_c8acad8d823158df.webp&#34;
+               src=&#34;http://localhost:1313/post/mangrove/ikea_boxes_hu_c8acad8d823158df.webp&#34;
                width=&#34;760&#34;
                height=&#34;623&#34;
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
@@ -1413,9 +1413,9 @@ The way we learn from both nodes and neighbourhoods is through &lt;em&gt;Message
     
     <item>
       <title>Learning Galaxy Properties from Merger Trees with Mangrove</title>
-      <link>https://astrockragh.github.io/project/mangrove/</link>
+      <link>http://localhost:1313/project/mangrove/</link>
       <pubDate>Mon, 19 Sep 2022 00:00:00 +0000</pubDate>
-      <guid>https://astrockragh.github.io/project/mangrove/</guid>
+      <guid>http://localhost:1313/project/mangrove/</guid>
       <description>&lt;p&gt;
 
 
@@ -1438,7 +1438,7 @@ The way we learn from both nodes and neighbourhoods is through &lt;em&gt;Message
                /project/mangrove/featured_old_hu_6912712c5b1585f8.webp 400w,
                /project/mangrove/featured_old_hu_500a636672079076.webp 760w,
                /project/mangrove/featured_old_hu_b754a66bd2327b9b.webp 1200w&#34;
-               src=&#34;https://astrockragh.github.io/project/mangrove/featured_old_hu_6912712c5b1585f8.webp&#34;
+               src=&#34;http://localhost:1313/project/mangrove/featured_old_hu_6912712c5b1585f8.webp&#34;
                width=&#34;760&#34;
                height=&#34;480&#34;
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
@@ -1473,7 +1473,7 @@ Although semi-analytic models (SAMs)&lt;sup id=&#34;fnref:1&#34;&gt;&lt;a href=&
                /project/mangrove/speed_hu_4bf8d09492684a38.webp 400w,
                /project/mangrove/speed_hu_90ea3d402d1346d0.webp 760w,
                /project/mangrove/speed_hu_dd20682eada2b8c9.webp 1200w&#34;
-               src=&#34;https://astrockragh.github.io/project/mangrove/speed_hu_4bf8d09492684a38.webp&#34;
+               src=&#34;http://localhost:1313/project/mangrove/speed_hu_4bf8d09492684a38.webp&#34;
                width=&#34;681&#34;
                height=&#34;414&#34;
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
@@ -1554,9 +1554,9 @@ The way we learn from both nodes and neighbourhoods is through &lt;em&gt;Message
     
     <item>
       <title>Putting Galaxies in Halos Fast and Precisely</title>
-      <link>https://astrockragh.github.io/talk/ltu_discussion/</link>
+      <link>http://localhost:1313/talk/ltu_discussion/</link>
       <pubDate>Wed, 14 Sep 2022 00:00:00 +0000</pubDate>
-      <guid>https://astrockragh.github.io/talk/ltu_discussion/</guid>
+      <guid>http://localhost:1313/talk/ltu_discussion/</guid>
       <description>&lt;!-- 
 
 
@@ -1579,9 +1579,9 @@ Further event details, including [page elements](https://wowchemy.com/docs/writi
     
     <item>
       <title>Learning Baryonic Physics from Complete Merger Histories @DAWN Copenhagen</title>
-      <link>https://astrockragh.github.io/talk/dawn_mangrove/</link>
+      <link>http://localhost:1313/talk/dawn_mangrove/</link>
       <pubDate>Thu, 18 Aug 2022 00:00:00 +0000</pubDate>
-      <guid>https://astrockragh.github.io/talk/dawn_mangrove/</guid>
+      <guid>http://localhost:1313/talk/dawn_mangrove/</guid>
       <description>&lt;!-- 
 
 
@@ -1604,9 +1604,9 @@ Further event details, including [page elements](https://wowchemy.com/docs/writi
     
     <item>
       <title>Learning Baryonic Physics from Complete Merger Histories @Euclid Consortium Meeting</title>
-      <link>https://astrockragh.github.io/talk/gnn_graphmerge_oslo/</link>
+      <link>http://localhost:1313/talk/gnn_graphmerge_oslo/</link>
       <pubDate>Wed, 27 Apr 2022 00:00:00 +0000</pubDate>
-      <guid>https://astrockragh.github.io/talk/gnn_graphmerge_oslo/</guid>
+      <guid>http://localhost:1313/talk/gnn_graphmerge_oslo/</guid>
       <description>&lt;!-- 
 
 
@@ -1629,9 +1629,9 @@ Further event details, including [page elements](https://wowchemy.com/docs/writi
     
     <item>
       <title>Learning Baryonic Physics from Complete Merger Histories @Brown University</title>
-      <link>https://astrockragh.github.io/talk/gnn_graphmerge_brown/</link>
+      <link>http://localhost:1313/talk/gnn_graphmerge_brown/</link>
       <pubDate>Tue, 05 Apr 2022 00:00:00 +0000</pubDate>
-      <guid>https://astrockragh.github.io/talk/gnn_graphmerge_brown/</guid>
+      <guid>http://localhost:1313/talk/gnn_graphmerge_brown/</guid>
       <description>&lt;!-- 
 
 
@@ -1654,9 +1654,9 @@ Further event details, including [page elements](https://wowchemy.com/docs/writi
     
     <item>
       <title>Learning Baryonic Physics from Complete Merger Histories @Learning the Universe</title>
-      <link>https://astrockragh.github.io/talk/ltu_mangrove/</link>
+      <link>http://localhost:1313/talk/ltu_mangrove/</link>
       <pubDate>Thu, 31 Mar 2022 00:00:00 +0000</pubDate>
-      <guid>https://astrockragh.github.io/talk/ltu_mangrove/</guid>
+      <guid>http://localhost:1313/talk/ltu_mangrove/</guid>
       <description>&lt;!-- 
 
 
@@ -1679,9 +1679,9 @@ Further event details, including [page elements](https://wowchemy.com/docs/writi
     
     <item>
       <title>Learning Baryonic Physics from Complete Merger Histories @Université de Montréal</title>
-      <link>https://astrockragh.github.io/talk/gnn_graphmerge_montreal/</link>
+      <link>http://localhost:1313/talk/gnn_graphmerge_montreal/</link>
       <pubDate>Tue, 29 Mar 2022 00:00:00 +0000</pubDate>
-      <guid>https://astrockragh.github.io/talk/gnn_graphmerge_montreal/</guid>
+      <guid>http://localhost:1313/talk/gnn_graphmerge_montreal/</guid>
       <description>&lt;!-- 
 
 
@@ -1704,9 +1704,9 @@ Further event details, including [page elements](https://wowchemy.com/docs/writi
     
     <item>
       <title>Learning Baryonic Physics from Complete Merger Histories @CCA</title>
-      <link>https://astrockragh.github.io/talk/gnn_graphmerge_cca/</link>
+      <link>http://localhost:1313/talk/gnn_graphmerge_cca/</link>
       <pubDate>Fri, 18 Mar 2022 00:00:00 +0000</pubDate>
-      <guid>https://astrockragh.github.io/talk/gnn_graphmerge_cca/</guid>
+      <guid>http://localhost:1313/talk/gnn_graphmerge_cca/</guid>
       <description>&lt;!-- 
 
 
@@ -1729,9 +1729,9 @@ Further event details, including [page elements](https://wowchemy.com/docs/writi
     
     <item>
       <title>Classifying  $V^0$ - particles from the ATLAS detector for detector calibration</title>
-      <link>https://astrockragh.github.io/project/puk_troels/</link>
+      <link>http://localhost:1313/project/puk_troels/</link>
       <pubDate>Tue, 25 Jan 2022 00:00:00 +0000</pubDate>
-      <guid>https://astrockragh.github.io/project/puk_troels/</guid>
+      <guid>http://localhost:1313/project/puk_troels/</guid>
       <description>&lt;p&gt;This project was done in collaboration with &lt;a href=&#34;https://github.com/Vinther901&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Jonas Vinther&lt;/a&gt;, &lt;a href=&#34;https://github.com/JohannSeverin&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Johann Bock Severin&lt;/a&gt; and &lt;a href=&#34;https://github.com/JakobSchauser&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Jakob H. Schauser&lt;/a&gt; during our third semester as physics undergraduates. Check out their GitHubs!&lt;/p&gt;
 &lt;p&gt;In all branches of physics, new discoveries are made by identifying some signal peak upon a background of noise. In High Energy Physics, this could be the peak of a new particle found amongst the almost uncountable amount of collisions happening every second the Large Hadron Collider is running. Only a few collisions actually produce interesting particles. This makes it crucial to be able to classify which detections are part of the actual signal, and which are not. In this project we employed a range of statistical methods and machine learning algorithms to get the best estimate of the masses of different $V^0$ - particles, in both simulated data and real data.&lt;/p&gt;
 &lt;p&gt;
@@ -1752,7 +1752,7 @@ Further event details, including [page elements](https://wowchemy.com/docs/writi
 
 &lt;figure  &gt;
   &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
-    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;https://astrockragh.github.io/project/puk_troels/Truesimplefits.png&#34; alt=&#34;Signal in simulation and data for normal fit. The background is fitted with a third degree polynomial and a double Gaussian is used on the peak.&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;http://localhost:1313/project/puk_troels/Truesimplefits.png&#34; alt=&#34;Signal in simulation and data for normal fit. The background is fitted with a third degree polynomial and a double Gaussian is used on the peak.&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
   &lt;/div&gt;&lt;/figure&gt;
 &lt;/p&gt;
 &lt;p&gt;As can be seen in the top figure, among some of the methods tried were simply doing some linear cuts in the feature space, found by simple annealing, using Fisher&amp;rsquo;s discriminant analysis, a simple decision tree and some boosted decision tree algorithms, of which XGBoost ended up being the method of choice. We ended up getting an accuracy of 99.7% for classyfing signal and background.&lt;/p&gt;
@@ -1762,9 +1762,9 @@ Further event details, including [page elements](https://wowchemy.com/docs/writi
     
     <item>
       <title>Classifying Gamma-Ray Bursts into Two Classes using t-SNE</title>
-      <link>https://astrockragh.github.io/project/tsne_grb/</link>
+      <link>http://localhost:1313/project/tsne_grb/</link>
       <pubDate>Thu, 20 Jan 2022 00:00:00 +0000</pubDate>
-      <guid>https://astrockragh.github.io/project/tsne_grb/</guid>
+      <guid>http://localhost:1313/project/tsne_grb/</guid>
       <description>&lt;p&gt;The duration of a gamma-ray burst (GRB) is a key indicator of its physical origin, with long bursts perhaps associated with the collapse of massive stars (also known as supernovae) and short bursts with mergers of neutron stars (kilonovae).
 However, trying to categorize these events from the burst itself is very troublesome, as there is substantial overlap in the properties of both short and long GRBs and neither duration nor any other parameter so far considered completely separates the two groups [insert figure]. Some very long bursts even show up without any observble supernova, even when we know exactly where it came from, which even led people to propose extra classes of bursts, like the Extended Short Gamma Ray Burst, to explain the lack of a supernova. In this project, which was done by myself and my two good friends &lt;a href=&#34;https://github.com/JohannSeverin&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Johann Bock Severin&lt;/a&gt; and &lt;a href=&#34;https://github.com/Vinther901&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Jonas Vinther&lt;/a&gt; as a semester project during our first year at the University of Copenhagen, we unambiguously classified every known GRB from the Swift Space observatory, using a dimensionality reduction algorithm, t-distributed stochastic neighborhood embedding, which had never been before and so was quite exciting. Although the classification takes place only using prompt emission light curves, every burst with an associated supernova is found in the longer group and bursts with kilonovae in the short, suggesting along with the duration distributions that these two groups are truly long and short GRBs, or some sort of proxy.&lt;/p&gt;
 &lt;p&gt;Since t-SNE works by comparing vectors dimension by dimension, it was crucial that each dimension actually meant the same for each burst. Unfortunately, there is a great deal of uncertainty surrounding exactly when a burst begins or ends, so the lightcurves where rarely aligned such that the first second of a given burst meant the same as the first second of any other burst. The trick behind getting this to work was shifting the bursts from the time domain into the frequency domain using the &amp;lsquo;Fourier Transform&amp;rsquo;, which eliminates temporal translational differences in the lightcurves and makes it possible to actually compare the bursts dimension by dimension!&lt;/p&gt;
@@ -1776,9 +1776,9 @@ However, trying to categorize these events from the burst itself is very trouble
     
     <item>
       <title>Improving event reconstrution at IceCube</title>
-      <link>https://astrockragh.github.io/project/neutrino_ml/</link>
+      <link>http://localhost:1313/project/neutrino_ml/</link>
       <pubDate>Thu, 20 Jan 2022 00:00:00 +0000</pubDate>
-      <guid>https://astrockragh.github.io/project/neutrino_ml/</guid>
+      <guid>http://localhost:1313/project/neutrino_ml/</guid>
       <description>&lt;p&gt;This Bachelors Thesis was done in collaboration with &lt;a href=&#34;https://github.com/Vinther901&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Jonas Vinther&lt;/a&gt;, &lt;a href=&#34;https://github.com/JohannSeverin&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Johann Bock Severin&lt;/a&gt; and &lt;a href=&#34;https://github.com/JakobSchauser&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Jakob H. Schauser&lt;/a&gt; during our sixth semester as physics undergraduates. Check out their GitHubs!&lt;/p&gt;
 &lt;p&gt;This project was concerned with improving the reconstruction of neutrino events at The IceCube Neutrino Observatory, an experiment located at The South Pole, which aims to detect neutrinos and other particles in the ice sheet. Currently the observatory is focused on very very high energy neutrinos (TeV-PeV range) where the entire detector lights up and it is pretty easy to see where it came from, as can be seen in the video below.&lt;/p&gt;
 &lt;iframe width=&#34;1280&#34; height=&#34;720&#34; src=&#34;https://www.youtube.com/embed/vTya9hoKsfM&#34; title=&#34;High energy neutrino at IceCube&#34; frameborder=&#34;0&#34; allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&#34; allowfullscreen&gt;&lt;/iframe&gt;.
@@ -1790,9 +1790,9 @@ However, trying to categorize these events from the burst itself is very trouble
     
     <item>
       <title>Point Spread Function improvement for COSMOS2020 survey</title>
-      <link>https://astrockragh.github.io/project/cosmos/</link>
+      <link>http://localhost:1313/project/cosmos/</link>
       <pubDate>Thu, 20 Jan 2022 00:00:00 +0000</pubDate>
-      <guid>https://astrockragh.github.io/project/cosmos/</guid>
+      <guid>http://localhost:1313/project/cosmos/</guid>
       <description>&lt;h2 id=&#34;the-two-catalogs&#34;&gt;The two CATALOGS: &lt;a href=&#34;https://cosmos2020.calet.org/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://cosmos2020.calet.org/&lt;/a&gt;&lt;/h2&gt;
 &lt;p&gt;The COSMOS survey is one the longest-running galaxy surveys. Over two decades, we have collected observations of x-ray, optical, infrared, and radio light to obtain galaxy distances and understand their evolution over 13.7 billion years of cosmic history. &lt;a href=&#34;https://astroweaver.github.io/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;John R. Weaver&lt;/a&gt; at the &lt;a href=&#34;https://cosmicdawn.dk/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Cosmic Dawn Center&lt;/a&gt; lead the 2020 edition of the master galaxy catalog, using bleeding-edge galaxy model-fitting techniques.&lt;/p&gt;
 &lt;p&gt;I worked with John to improve what astronomers call a Point Spread Function, or PSF for short, which essentially details how light becomes spread out and noisy as it moves through the atmosphere. As one might imagine, this isn&amp;rsquo;t the same across the night sky, due to the atmosphere being quite different when looking in different directions. As can be seen in the below figure, if one separates the night-sky into many smaller patches, giving each patch its own PSF, things are a lot better!&lt;/p&gt;
@@ -1814,7 +1814,7 @@ However, trying to categorize these events from the burst itself is very trouble
 
 &lt;figure  &gt;
   &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
-    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;https://astrockragh.github.io/project/cosmos/psf_homogenization.png&#34; alt=&#34;PSF&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;http://localhost:1313/project/cosmos/psf_homogenization.png&#34; alt=&#34;PSF&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
   &lt;/div&gt;&lt;/figure&gt;
 &lt;/p&gt;
 </description>
@@ -1822,26 +1822,26 @@ However, trying to categorize these events from the burst itself is very trouble
     
     <item>
       <title>Finding High Redshift galaxies with JWST</title>
-      <link>https://astrockragh.github.io/talk/highz_gal/</link>
+      <link>http://localhost:1313/talk/highz_gal/</link>
       <pubDate>Sun, 14 Nov 2021 10:30:12 +0000</pubDate>
-      <guid>https://astrockragh.github.io/talk/highz_gal/</guid>
+      <guid>http://localhost:1313/talk/highz_gal/</guid>
       <description></description>
     </item>
     
     <item>
       <title>COSMOS2020: New Insights into Galaxy Assembly and Evolution over the first 10 Billion Years</title>
-      <link>https://astrockragh.github.io/talk/cosmos/</link>
+      <link>http://localhost:1313/talk/cosmos/</link>
       <pubDate>Sun, 31 Oct 2021 10:30:12 +0000</pubDate>
-      <guid>https://astrockragh.github.io/talk/cosmos/</guid>
+      <guid>http://localhost:1313/talk/cosmos/</guid>
       <description>&lt;p&gt;The COSMOS field has proved to be one of the cornerstone surveys in extragalactic astronomy. We have built a new photometric redshift catalog COSMOS2020 from the latest ultra-deep imaging from Subaru, VISTA, and Spitzer. We measure 1M sources across the 2 deg$^2$ field using both apertures and profile-fitting photometry, pairing each with two SED fitting codes to derive four sets of precise photometric redshifts. We then measure the form and evolution the Galaxy Stellar Mass Function from 0.2 &amp;lt; z &amp;lt; 7.5 to reveal a strikingly constant rate of mass assembly stretching back into the Epoch of Reionization. We also find new samples of ultra-luminous galaxies at z&amp;gt;7.5 which form the most robust constraints on the UV Luminosity Function at such early times, confirming an excess of luminous sources. Are we witnessing a stage before feedback has suppressed their growth? Such a scenario challenges galaxy formation theory. We will have our answer soon; five of these luminous z~9 galaxies will be followed up with spatially resolved spectroscopy in the Cycle 1 JWST NIRSpec program BEASTS (PI:John R. Weaver). I delve into the details of the PSF fitting and the cosmic variance analysis.&lt;/p&gt;
 </description>
     </item>
     
     <item>
       <title>Classifying Gamma-Ray Bursts with t-SNE</title>
-      <link>https://astrockragh.github.io/talk/tsne_uot/</link>
+      <link>http://localhost:1313/talk/tsne_uot/</link>
       <pubDate>Fri, 09 Apr 2021 00:00:00 +0000</pubDate>
-      <guid>https://astrockragh.github.io/talk/tsne_uot/</guid>
+      <guid>http://localhost:1313/talk/tsne_uot/</guid>
       <description>&lt;!-- 
 
 
@@ -1864,9 +1864,9 @@ Further event details, including [page elements](https://wowchemy.com/docs/writi
     
     <item>
       <title>Danish Morning National Television - TV2 News</title>
-      <link>https://astrockragh.github.io/press_public/tv2_news/</link>
+      <link>http://localhost:1313/press_public/tv2_news/</link>
       <pubDate>Fri, 21 Aug 2020 00:00:00 +0000</pubDate>
-      <guid>https://astrockragh.github.io/press_public/tv2_news/</guid>
+      <guid>http://localhost:1313/press_public/tv2_news/</guid>
       <description>&lt;!-- 
 
 
@@ -1889,9 +1889,9 @@ Further event details, including [page elements](https://wowchemy.com/docs/writi
     
     <item>
       <title>Solved astronomy mystery after just one year at university</title>
-      <link>https://astrockragh.github.io/press_public/uniavisen/</link>
+      <link>http://localhost:1313/press_public/uniavisen/</link>
       <pubDate>Fri, 14 Aug 2020 00:00:00 +0000</pubDate>
-      <guid>https://astrockragh.github.io/press_public/uniavisen/</guid>
+      <guid>http://localhost:1313/press_public/uniavisen/</guid>
       <description>&lt;!-- 
 
 
@@ -1914,9 +1914,9 @@ Further event details, including [page elements](https://wowchemy.com/docs/writi
     
     <item>
       <title>Classifying Gamma-Ray Bursts with t-SNE</title>
-      <link>https://astrockragh.github.io/talk/tsne_ucph/</link>
+      <link>http://localhost:1313/talk/tsne_ucph/</link>
       <pubDate>Tue, 09 Jun 2020 00:00:00 +0000</pubDate>
-      <guid>https://astrockragh.github.io/talk/tsne_ucph/</guid>
+      <guid>http://localhost:1313/talk/tsne_ucph/</guid>
       <description>&lt;!-- 
 
 
@@ -1939,18 +1939,18 @@ Further event details, including [page elements](https://wowchemy.com/docs/writi
     
     <item>
       <title>Investigating Radius Increases in Hot Exoplanets</title>
-      <link>https://astrockragh.github.io/talk/aas_exoplanet/</link>
+      <link>http://localhost:1313/talk/aas_exoplanet/</link>
       <pubDate>Mon, 06 Jan 2020 00:00:00 +0000</pubDate>
-      <guid>https://astrockragh.github.io/talk/aas_exoplanet/</guid>
+      <guid>http://localhost:1313/talk/aas_exoplanet/</guid>
       <description>&lt;p&gt;Exoplanetary radii is the most commonly measured property of exoplanets, and thus our understanding of how to interpret any measured radius is crucial to the field. Atmospheric existence is often inferred from radius and mass observations, but this is based on the assumption that the interior of planets do not maintain most of the gravitational energy from their collapse. Recently, there have been doubts about this assumption. This project aims to investigate the potential consequences of planets retaining most of the energy from their collapse. Assuming the Murnaghan EOS, we find that stable rocky planets that maintain some of their gravitational energy can have sizeable radius increases, as much as 21% for a planet of 10 M⊕. Furthermore, limits on the amount of energy that can be maintained by a planet will be discussed.&lt;/p&gt;
 </description>
     </item>
     
     <item>
       <title>Slides</title>
-      <link>https://astrockragh.github.io/slides/example/</link>
+      <link>http://localhost:1313/slides/example/</link>
       <pubDate>Tue, 05 Feb 2019 00:00:00 +0000</pubDate>
-      <guid>https://astrockragh.github.io/slides/example/</guid>
+      <guid>http://localhost:1313/slides/example/</guid>
       <description>&lt;h1 id=&#34;create-slides-in-markdown-with-wowchemy&#34;&gt;Create slides in Markdown with Wowchemy&lt;/h1&gt;
 &lt;p&gt;&lt;a href=&#34;https://wowchemy.com/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Wowchemy&lt;/a&gt; | &lt;a href=&#34;https://owchemy.com/docs/managing-content/#create-slides&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Documentation&lt;/a&gt;&lt;/p&gt;
 &lt;hr&gt;
@@ -2072,9 +2072,9 @@ $$&lt;/p&gt;
     
     <item>
       <title></title>
-      <link>https://astrockragh.github.io/admin/index_old/</link>
+      <link>http://localhost:1313/admin/index_old/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://astrockragh.github.io/admin/index_old/</guid>
+      <guid>http://localhost:1313/admin/index_old/</guid>
       <description></description>
     </item>
     

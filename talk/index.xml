@@ -2,224 +2,224 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Recent and Upcoming Talks | Christian Kragh Jespersen</title>
-    <link>https://astrockragh.github.io/talk/</link>
-      <atom:link href="https://astrockragh.github.io/talk/index.xml" rel="self" type="application/rss+xml" />
+    <link>http://localhost:1313/talk/</link>
+      <atom:link href="http://localhost:1313/talk/index.xml" rel="self" type="application/rss+xml" />
     <description>Recent and Upcoming Talks</description>
     <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><copyright>© Christian Kragh Jespersen 2025</copyright><lastBuildDate>Tue, 09 Dec 2025 13:00:00 +0000</lastBuildDate>
     <image>
-      <url>https://astrockragh.github.io/media/logo_hu_1c9055000151fecf.png</url>
+      <url>http://localhost:1313/media/logo_hu_1c9055000151fecf.png</url>
       <title>Recent and Upcoming Talks</title>
-      <link>https://astrockragh.github.io/talk/</link>
+      <link>http://localhost:1313/talk/</link>
     </image>
     
     <item>
       <title>Everything is connected @STScI/JHU</title>
-      <link>https://astrockragh.github.io/talk/2025_stsci_jhu/</link>
+      <link>http://localhost:1313/talk/2025_stsci_jhu/</link>
       <pubDate>Tue, 09 Dec 2025 13:00:00 +0000</pubDate>
-      <guid>https://astrockragh.github.io/talk/2025_stsci_jhu/</guid>
+      <guid>http://localhost:1313/talk/2025_stsci_jhu/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Everything is connected @UT Austin</title>
-      <link>https://astrockragh.github.io/talk/2025_ut_austin/</link>
+      <link>http://localhost:1313/talk/2025_ut_austin/</link>
       <pubDate>Mon, 01 Dec 2025 12:15:00 +0000</pubDate>
-      <guid>https://astrockragh.github.io/talk/2025_ut_austin/</guid>
+      <guid>http://localhost:1313/talk/2025_ut_austin/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Clustering and galaxy environments from the Local Universe to Cosmic Dawn @Perimeter</title>
-      <link>https://astrockragh.github.io/talk/2025_perimeter/</link>
+      <link>http://localhost:1313/talk/2025_perimeter/</link>
       <pubDate>Thu, 13 Nov 2025 11:00:00 +0000</pubDate>
-      <guid>https://astrockragh.github.io/talk/2025_perimeter/</guid>
+      <guid>http://localhost:1313/talk/2025_perimeter/</guid>
       <description></description>
     </item>
     
     <item>
       <title>TBD @University of Toronto</title>
-      <link>https://astrockragh.github.io/talk/2025_tasty_toronto_ir_optical/</link>
+      <link>http://localhost:1313/talk/2025_tasty_toronto_ir_optical/</link>
       <pubDate>Tue, 11 Nov 2025 10:00:00 +0000</pubDate>
-      <guid>https://astrockragh.github.io/talk/2025_tasty_toronto_ir_optical/</guid>
+      <guid>http://localhost:1313/talk/2025_tasty_toronto_ir_optical/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Everything is connected @SkAI Chicago</title>
-      <link>https://astrockragh.github.io/talk/2025_skai/</link>
+      <link>http://localhost:1313/talk/2025_skai/</link>
       <pubDate>Wed, 05 Nov 2025 12:15:00 +0000</pubDate>
-      <guid>https://astrockragh.github.io/talk/2025_skai/</guid>
+      <guid>http://localhost:1313/talk/2025_skai/</guid>
       <description></description>
     </item>
     
     <item>
       <title>The link between assembly and environment revealed by Graph Neureal Networks, @Stanford Center for Decoding the Universe</title>
-      <link>https://astrockragh.github.io/talk/2025_stanford_c4du/</link>
+      <link>http://localhost:1313/talk/2025_stanford_c4du/</link>
       <pubDate>Mon, 13 Oct 2025 13:30:00 +0000</pubDate>
-      <guid>https://astrockragh.github.io/talk/2025_stanford_c4du/</guid>
+      <guid>http://localhost:1313/talk/2025_stanford_c4du/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Graphs Neural Networks and Galaxies, @Harvard AstroAI</title>
-      <link>https://astrockragh.github.io/talk/2025_harvard_astroai_gnn/</link>
+      <link>http://localhost:1313/talk/2025_harvard_astroai_gnn/</link>
       <pubDate>Mon, 29 Sep 2025 12:15:00 +0000</pubDate>
-      <guid>https://astrockragh.github.io/talk/2025_harvard_astroai_gnn/</guid>
+      <guid>http://localhost:1313/talk/2025_harvard_astroai_gnn/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Galaxies, their assembly and environments, from the local Universe to Cosmic Dawn @Harvard Hernquist Group Meeting</title>
-      <link>https://astrockragh.github.io/talk/2025_harvard_hernquist/</link>
+      <link>http://localhost:1313/talk/2025_harvard_hernquist/</link>
       <pubDate>Fri, 26 Sep 2025 16:30:00 +0000</pubDate>
-      <guid>https://astrockragh.github.io/talk/2025_harvard_hernquist/</guid>
+      <guid>http://localhost:1313/talk/2025_harvard_hernquist/</guid>
       <description></description>
     </item>
     
     <item>
       <title>The optical and infrared are connected @Harvard ITC</title>
-      <link>https://astrockragh.github.io/talk/2025_itc_luncheon_ir_optical/</link>
+      <link>http://localhost:1313/talk/2025_itc_luncheon_ir_optical/</link>
       <pubDate>Thu, 25 Sep 2025 12:00:00 +0000</pubDate>
-      <guid>https://astrockragh.github.io/talk/2025_itc_luncheon_ir_optical/</guid>
+      <guid>http://localhost:1313/talk/2025_itc_luncheon_ir_optical/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Connecting the optical and infrared using autoencoded optical spectra @Harvard AstroAI</title>
-      <link>https://astrockragh.github.io/talk/2025_astroai_ir_optical/</link>
+      <link>http://localhost:1313/talk/2025_astroai_ir_optical/</link>
       <pubDate>Thu, 25 Sep 2025 10:00:00 +0000</pubDate>
-      <guid>https://astrockragh.github.io/talk/2025_astroai_ir_optical/</guid>
+      <guid>http://localhost:1313/talk/2025_astroai_ir_optical/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Everything is connected @Stockholm</title>
-      <link>https://astrockragh.github.io/talk/2025_stockholm/</link>
+      <link>http://localhost:1313/talk/2025_stockholm/</link>
       <pubDate>Wed, 11 Jun 2025 12:15:00 +0000</pubDate>
-      <guid>https://astrockragh.github.io/talk/2025_stockholm/</guid>
+      <guid>http://localhost:1313/talk/2025_stockholm/</guid>
       <description></description>
     </item>
     
     <item>
       <title>The impact of clustering on the statistics of extreme JWST objects @University of Geneva</title>
-      <link>https://astrockragh.github.io/talk/2025_sui_massive/</link>
+      <link>http://localhost:1313/talk/2025_sui_massive/</link>
       <pubDate>Thu, 05 Jun 2025 13:30:00 +0000</pubDate>
-      <guid>https://astrockragh.github.io/talk/2025_sui_massive/</guid>
+      <guid>http://localhost:1313/talk/2025_sui_massive/</guid>
       <description></description>
     </item>
     
     <item>
       <title>The optical and infrared are connected @Bristol</title>
-      <link>https://astrockragh.github.io/talk/2025_bristol_sbi/</link>
+      <link>http://localhost:1313/talk/2025_bristol_sbi/</link>
       <pubDate>Tue, 27 May 2025 13:30:00 +0000</pubDate>
-      <guid>https://astrockragh.github.io/talk/2025_bristol_sbi/</guid>
+      <guid>http://localhost:1313/talk/2025_bristol_sbi/</guid>
       <description></description>
     </item>
     
     <item>
       <title>The impact of clustering on the statistics of extreme JWST objects @ADAM</title>
-      <link>https://astrockragh.github.io/talk/2025_adam_massive/</link>
+      <link>http://localhost:1313/talk/2025_adam_massive/</link>
       <pubDate>Wed, 21 May 2025 13:30:00 +0000</pubDate>
-      <guid>https://astrockragh.github.io/talk/2025_adam_massive/</guid>
+      <guid>http://localhost:1313/talk/2025_adam_massive/</guid>
       <description></description>
     </item>
     
     <item>
       <title>The optical and infrared are connected @CCA</title>
-      <link>https://astrockragh.github.io/talk/2025_cca_ir_optical/</link>
+      <link>http://localhost:1313/talk/2025_cca_ir_optical/</link>
       <pubDate>Fri, 07 Mar 2025 13:30:00 +0000</pubDate>
-      <guid>https://astrockragh.github.io/talk/2025_cca_ir_optical/</guid>
+      <guid>http://localhost:1313/talk/2025_cca_ir_optical/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Everything is connected: galaxy properties couple internally, environmentally, and historically @DAWN Copenhagen</title>
-      <link>https://astrockragh.github.io/talk/2024_dawn/</link>
+      <link>http://localhost:1313/talk/2024_dawn/</link>
       <pubDate>Thu, 12 Dec 2024 12:15:00 +0000</pubDate>
-      <guid>https://astrockragh.github.io/talk/2024_dawn/</guid>
+      <guid>http://localhost:1313/talk/2024_dawn/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Everything is connected: galaxy properties couple internally, environmentally, and historically @Cambridge</title>
-      <link>https://astrockragh.github.io/talk/2024_cambridge/</link>
+      <link>http://localhost:1313/talk/2024_cambridge/</link>
       <pubDate>Wed, 11 Dec 2024 12:15:00 +0000</pubDate>
-      <guid>https://astrockragh.github.io/talk/2024_cambridge/</guid>
+      <guid>http://localhost:1313/talk/2024_cambridge/</guid>
       <description></description>
     </item>
     
     <item>
       <title>The most massive galaxy we will find with JWST @IAP Symposium</title>
-      <link>https://astrockragh.github.io/talk/2024_paris_jswt_symposium/</link>
+      <link>http://localhost:1313/talk/2024_paris_jswt_symposium/</link>
       <pubDate>Tue, 03 Dec 2024 12:15:00 +0000</pubDate>
-      <guid>https://astrockragh.github.io/talk/2024_paris_jswt_symposium/</guid>
+      <guid>http://localhost:1313/talk/2024_paris_jswt_symposium/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Everything is connected: galaxy properties couple internally, environmentally, and historically @CosmoStat (Paris)</title>
-      <link>https://astrockragh.github.io/talk/2024_paris_saclay/</link>
+      <link>http://localhost:1313/talk/2024_paris_saclay/</link>
       <pubDate>Thu, 28 Nov 2024 12:15:00 +0000</pubDate>
-      <guid>https://astrockragh.github.io/talk/2024_paris_saclay/</guid>
+      <guid>http://localhost:1313/talk/2024_paris_saclay/</guid>
       <description>&lt;!-- Galaxies’ properties are coupled to each other, as well as to their environments and merger histories. Unfortunately, these couplings are usually ignored in widely used statistical models of galaxies, often due to the difficulties of efficiently expressing them. I will introduce the tools necessary to explicitly introduce detailed descriptions of environments and merger histories into a statistical framework, and prove a surprising connection between the merger histories and environments of galaxies. I will then show how component coupling is implicitly treated in common codes which infer the physical parameters of galaxies, how the correct coupling strength can be empirically proven, and how this implicit treatment impacts the inferred parameters. --&gt;
 </description>
     </item>
     
     <item>
       <title>Galaxies, their dark matter environments, formation histories, and couplings @Institut d&#39;Astrophysique de Paris</title>
-      <link>https://astrockragh.github.io/talk/2024_paris_iap/</link>
+      <link>http://localhost:1313/talk/2024_paris_iap/</link>
       <pubDate>Tue, 26 Nov 2024 12:15:00 +0000</pubDate>
-      <guid>https://astrockragh.github.io/talk/2024_paris_iap/</guid>
+      <guid>http://localhost:1313/talk/2024_paris_iap/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Galaxies, their dark matter environments, formation histories, and couplings @Perimeter Institute</title>
-      <link>https://astrockragh.github.io/talk/2024_perimeter/</link>
+      <link>http://localhost:1313/talk/2024_perimeter/</link>
       <pubDate>Tue, 05 Nov 2024 12:15:00 +0000</pubDate>
-      <guid>https://astrockragh.github.io/talk/2024_perimeter/</guid>
+      <guid>http://localhost:1313/talk/2024_perimeter/</guid>
       <description>&lt;!-- Galaxies’ properties are coupled to each other, as well as to their environments and merger histories. Unfortunately, these couplings are usually ignored in widely used statistical models of galaxies, often due to the difficulties of efficiently expressing them. I will introduce the tools necessary to explicitly introduce detailed descriptions of environments and merger histories into a statistical framework, and prove a surprising connection between the merger histories and environments of galaxies. I will then show how component coupling is implicitly treated in common codes which infer the physical parameters of galaxies, how the correct coupling strength can be empirically proven, and how this implicit treatment impacts the inferred parameters. --&gt;
 </description>
     </item>
     
     <item>
       <title>Challenging modelling assumptions by connecting the optical and IR @CCA</title>
-      <link>https://astrockragh.github.io/talk/2024_cca_ir/</link>
+      <link>http://localhost:1313/talk/2024_cca_ir/</link>
       <pubDate>Fri, 18 Oct 2024 12:15:00 +0000</pubDate>
-      <guid>https://astrockragh.github.io/talk/2024_cca_ir/</guid>
+      <guid>http://localhost:1313/talk/2024_cca_ir/</guid>
       <description></description>
     </item>
     
     <item>
       <title>New perspectives in galaxy formation @CU Boulder</title>
-      <link>https://astrockragh.github.io/talk/2024_boulder/</link>
+      <link>http://localhost:1313/talk/2024_boulder/</link>
       <pubDate>Fri, 27 Sep 2024 12:15:00 +0000</pubDate>
-      <guid>https://astrockragh.github.io/talk/2024_boulder/</guid>
+      <guid>http://localhost:1313/talk/2024_boulder/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Challenging modelling assumptions by connecting the optical and IR @Princeton</title>
-      <link>https://astrockragh.github.io/talk/2024_thunch/</link>
+      <link>http://localhost:1313/talk/2024_thunch/</link>
       <pubDate>Thu, 05 Sep 2024 12:15:00 +0000</pubDate>
-      <guid>https://astrockragh.github.io/talk/2024_thunch/</guid>
+      <guid>http://localhost:1313/talk/2024_thunch/</guid>
       <description>&lt;!-- Galaxies are conventionally thought of as composites of physically distinct components, making the components separable. One consequence of this assumption is that different wavelength ranges carry little information about each other, since the different components dominate emission at different wavelengths. This common assumption of separability is implicitly embedded in galaxy spectral energy distribution (SED) fitting codes, which are broadly used to derive the physical parameters of galaxies. In this paper, we show that optical spectra can be used to predict near- and mid-infrared photometry to $\chi^2_N \approx 1$, in strong contrast with SED fitting codes. We also demonstrate that derived quantities such as the bolometric luminosity of active galactic nuclei (AGN) can empirically be tightly constrained from the optical, just as dust parameters such as $\mathrm{q_{PAH}}$. We investigate the shortcomings of the separability assumption in SED fitting codes, finding that it leads to biases and imprecision in parameter inference. We construct a tool for determining the most important areas of improvement for SED models.  --&gt;
 </description>
     </item>
     
     <item>
       <title>Challenging modelling assumptions by connecting the optical and IR @UCSC</title>
-      <link>https://astrockragh.github.io/talk/2024_ucsc/</link>
+      <link>http://localhost:1313/talk/2024_ucsc/</link>
       <pubDate>Fri, 02 Aug 2024 12:15:00 +0000</pubDate>
-      <guid>https://astrockragh.github.io/talk/2024_ucsc/</guid>
+      <guid>http://localhost:1313/talk/2024_ucsc/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Graphs Neural Networks, @Montréal Astro x ML Summer School</title>
-      <link>https://astrockragh.github.io/talk/2024_montreal_summer_school/</link>
+      <link>http://localhost:1313/talk/2024_montreal_summer_school/</link>
       <pubDate>Fri, 28 Jun 2024 12:15:00 +0000</pubDate>
-      <guid>https://astrockragh.github.io/talk/2024_montreal_summer_school/</guid>
+      <guid>http://localhost:1313/talk/2024_montreal_summer_school/</guid>
       <description>&lt;p&gt;This summer school lecture included two notebook tutorials, which can be found here:&lt;/p&gt;
 &lt;p&gt;Notebook 1:
 &lt;a href=&#34;https://colab.research.google.com/drive/1K6fvzUP33UWkXWoYxi5nt1ITwjXYHm5t&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://colab.research.google.com/drive/1K6fvzUP33UWkXWoYxi5nt1ITwjXYHm5t&lt;/a&gt;&lt;/p&gt;
@@ -230,68 +230,68 @@
     
     <item>
       <title>Airglow and the Subaru Night Sky Spectrograph (SuNSS) @Subaru Telescope</title>
-      <link>https://astrockragh.github.io/talk/2024_subaru/</link>
+      <link>http://localhost:1313/talk/2024_subaru/</link>
       <pubDate>Fri, 24 May 2024 12:15:00 +0000</pubDate>
-      <guid>https://astrockragh.github.io/talk/2024_subaru/</guid>
+      <guid>http://localhost:1313/talk/2024_subaru/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Galaxies, their dark matter environments, and formation histories @Montréal, Ciela Institute</title>
-      <link>https://astrockragh.github.io/talk/2024_montreal_ciela/</link>
+      <link>http://localhost:1313/talk/2024_montreal_ciela/</link>
       <pubDate>Thu, 04 Apr 2024 12:15:00 +0000</pubDate>
-      <guid>https://astrockragh.github.io/talk/2024_montreal_ciela/</guid>
+      <guid>http://localhost:1313/talk/2024_montreal_ciela/</guid>
       <description>&lt;!-- Galaxies’ properties are coupled to each other, as well as to their environments and merger histories. Unfortunately, these couplings are usually ignored in widely used statistical models of galaxies, often due to the difficulties of efficiently expressing them. I will introduce the tools necessary to explicitly introduce detailed descriptions of environments and merger histories into a statistical framework, and prove a surprising connection between the merger histories and environments of galaxies. I will then show how component coupling is implicitly treated in common codes which infer the physical parameters of galaxies, how the correct coupling strength can be empirically proven, and how this implicit treatment impacts the inferred parameters. --&gt;
 </description>
     </item>
     
     <item>
       <title>The most massive galaxy in the universe @CCA</title>
-      <link>https://astrockragh.github.io/talk/2024_cca_most_massive/</link>
+      <link>http://localhost:1313/talk/2024_cca_most_massive/</link>
       <pubDate>Fri, 29 Mar 2024 12:15:00 +0000</pubDate>
-      <guid>https://astrockragh.github.io/talk/2024_cca_most_massive/</guid>
+      <guid>http://localhost:1313/talk/2024_cca_most_massive/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Airglow and the Subaru Night Sky Spectrograph (SuNSS) @AAS 243th</title>
-      <link>https://astrockragh.github.io/talk/2024_aas/</link>
+      <link>http://localhost:1313/talk/2024_aas/</link>
       <pubDate>Tue, 09 Jan 2024 12:15:00 +0000</pubDate>
-      <guid>https://astrockragh.github.io/talk/2024_aas/</guid>
+      <guid>http://localhost:1313/talk/2024_aas/</guid>
       <description></description>
     </item>
     
     <item>
       <title>How to build a galaxy @STScI/JHU</title>
-      <link>https://astrockragh.github.io/talk/2023_jhu_mangrove/</link>
+      <link>http://localhost:1313/talk/2023_jhu_mangrove/</link>
       <pubDate>Tue, 13 Jun 2023 12:15:00 +0000</pubDate>
-      <guid>https://astrockragh.github.io/talk/2023_jhu_mangrove/</guid>
+      <guid>http://localhost:1313/talk/2023_jhu_mangrove/</guid>
       <description></description>
     </item>
     
     <item>
       <title>How to build a galaxy, Galaxy Formation Conference @KITP</title>
-      <link>https://astrockragh.github.io/talk/2023_kitp_mangrove/</link>
+      <link>http://localhost:1313/talk/2023_kitp_mangrove/</link>
       <pubDate>Fri, 24 Mar 2023 12:15:00 +0000</pubDate>
-      <guid>https://astrockragh.github.io/talk/2023_kitp_mangrove/</guid>
+      <guid>http://localhost:1313/talk/2023_kitp_mangrove/</guid>
       <description>&lt;p&gt;Blackboard talk done for the 2023 &amp;ldquo;Building a physical understanding of galaxy evolution with data-driven astronomy&amp;rdquo; KITP workshop &lt;a href=&#34;https://datadrivengalaxyevolution.github.io/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://datadrivengalaxyevolution.github.io/&lt;/a&gt;.&lt;/p&gt;
 </description>
     </item>
     
     <item>
       <title>Graphs Neural Networks in Astrophysics, Data-Driven Galaxy Formation Workshop @KITP</title>
-      <link>https://astrockragh.github.io/talk/2023_kitp_gnn2/</link>
+      <link>http://localhost:1313/talk/2023_kitp_gnn2/</link>
       <pubDate>Tue, 14 Mar 2023 12:15:00 +0000</pubDate>
-      <guid>https://astrockragh.github.io/talk/2023_kitp_gnn2/</guid>
+      <guid>http://localhost:1313/talk/2023_kitp_gnn2/</guid>
       <description>&lt;p&gt;Blackboard talk done for the 2023 &amp;ldquo;Building a physical understanding of galaxy evolution with data-driven astronomy&amp;rdquo; KITP workshop &lt;a href=&#34;https://datadrivengalaxyevolution.github.io/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://datadrivengalaxyevolution.github.io/&lt;/a&gt;.&lt;/p&gt;
 </description>
     </item>
     
     <item>
       <title>Graphs Neural Networks in Astrophysics, Data-Driven Galaxy Formation Workshop @CCA</title>
-      <link>https://astrockragh.github.io/talk/2023_kitp_gnn1/</link>
+      <link>http://localhost:1313/talk/2023_kitp_gnn1/</link>
       <pubDate>Fri, 03 Feb 2023 12:15:00 +0000</pubDate>
-      <guid>https://astrockragh.github.io/talk/2023_kitp_gnn1/</guid>
+      <guid>http://localhost:1313/talk/2023_kitp_gnn1/</guid>
       <description>&lt;p&gt;Done for the 2023 &amp;ldquo;Building a physical understanding of galaxy evolution with data-driven astronomy&amp;rdquo; KITP workshop &lt;a href=&#34;https://datadrivengalaxyevolution.github.io/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://datadrivengalaxyevolution.github.io/&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;Recording can be found by following &lt;a href=&#34;https://www.dropbox.com/scl/fo/tgpwe1ljr4i9go4ajnsq6/h?dl=0&amp;amp;e=1&amp;amp;preview=2023-02-03&amp;#43;&amp;#43;CCA&amp;#43;KITP&amp;#43;-&amp;#43;Tutorial&amp;#43;-&amp;#43;Christian&amp;#43;Kragh&amp;#43;Jespersen&amp;#43;-&amp;#43;Alpha&amp;#43;Beta.mp4&amp;amp;rlkey=mwl1zi14okj5k1pnbflcgnz3l&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;this link&lt;/a&gt;.&lt;/p&gt;
 </description>
@@ -299,9 +299,9 @@
     
     <item>
       <title>Putting Galaxies in Halos Fast and Precisely</title>
-      <link>https://astrockragh.github.io/talk/ltu_discussion/</link>
+      <link>http://localhost:1313/talk/ltu_discussion/</link>
       <pubDate>Wed, 14 Sep 2022 00:00:00 +0000</pubDate>
-      <guid>https://astrockragh.github.io/talk/ltu_discussion/</guid>
+      <guid>http://localhost:1313/talk/ltu_discussion/</guid>
       <description>&lt;!-- 
 
 
@@ -324,9 +324,9 @@ Further event details, including [page elements](https://wowchemy.com/docs/writi
     
     <item>
       <title>Learning Baryonic Physics from Complete Merger Histories @DAWN Copenhagen</title>
-      <link>https://astrockragh.github.io/talk/dawn_mangrove/</link>
+      <link>http://localhost:1313/talk/dawn_mangrove/</link>
       <pubDate>Thu, 18 Aug 2022 00:00:00 +0000</pubDate>
-      <guid>https://astrockragh.github.io/talk/dawn_mangrove/</guid>
+      <guid>http://localhost:1313/talk/dawn_mangrove/</guid>
       <description>&lt;!-- 
 
 
@@ -349,9 +349,9 @@ Further event details, including [page elements](https://wowchemy.com/docs/writi
     
     <item>
       <title>Learning Baryonic Physics from Complete Merger Histories @Euclid Consortium Meeting</title>
-      <link>https://astrockragh.github.io/talk/gnn_graphmerge_oslo/</link>
+      <link>http://localhost:1313/talk/gnn_graphmerge_oslo/</link>
       <pubDate>Wed, 27 Apr 2022 00:00:00 +0000</pubDate>
-      <guid>https://astrockragh.github.io/talk/gnn_graphmerge_oslo/</guid>
+      <guid>http://localhost:1313/talk/gnn_graphmerge_oslo/</guid>
       <description>&lt;!-- 
 
 
@@ -374,9 +374,9 @@ Further event details, including [page elements](https://wowchemy.com/docs/writi
     
     <item>
       <title>Learning Baryonic Physics from Complete Merger Histories @Brown University</title>
-      <link>https://astrockragh.github.io/talk/gnn_graphmerge_brown/</link>
+      <link>http://localhost:1313/talk/gnn_graphmerge_brown/</link>
       <pubDate>Tue, 05 Apr 2022 00:00:00 +0000</pubDate>
-      <guid>https://astrockragh.github.io/talk/gnn_graphmerge_brown/</guid>
+      <guid>http://localhost:1313/talk/gnn_graphmerge_brown/</guid>
       <description>&lt;!-- 
 
 
@@ -399,9 +399,9 @@ Further event details, including [page elements](https://wowchemy.com/docs/writi
     
     <item>
       <title>Learning Baryonic Physics from Complete Merger Histories @Learning the Universe</title>
-      <link>https://astrockragh.github.io/talk/ltu_mangrove/</link>
+      <link>http://localhost:1313/talk/ltu_mangrove/</link>
       <pubDate>Thu, 31 Mar 2022 00:00:00 +0000</pubDate>
-      <guid>https://astrockragh.github.io/talk/ltu_mangrove/</guid>
+      <guid>http://localhost:1313/talk/ltu_mangrove/</guid>
       <description>&lt;!-- 
 
 
@@ -424,9 +424,9 @@ Further event details, including [page elements](https://wowchemy.com/docs/writi
     
     <item>
       <title>Learning Baryonic Physics from Complete Merger Histories @Université de Montréal</title>
-      <link>https://astrockragh.github.io/talk/gnn_graphmerge_montreal/</link>
+      <link>http://localhost:1313/talk/gnn_graphmerge_montreal/</link>
       <pubDate>Tue, 29 Mar 2022 00:00:00 +0000</pubDate>
-      <guid>https://astrockragh.github.io/talk/gnn_graphmerge_montreal/</guid>
+      <guid>http://localhost:1313/talk/gnn_graphmerge_montreal/</guid>
       <description>&lt;!-- 
 
 
@@ -449,9 +449,9 @@ Further event details, including [page elements](https://wowchemy.com/docs/writi
     
     <item>
       <title>Learning Baryonic Physics from Complete Merger Histories @CCA</title>
-      <link>https://astrockragh.github.io/talk/gnn_graphmerge_cca/</link>
+      <link>http://localhost:1313/talk/gnn_graphmerge_cca/</link>
       <pubDate>Fri, 18 Mar 2022 00:00:00 +0000</pubDate>
-      <guid>https://astrockragh.github.io/talk/gnn_graphmerge_cca/</guid>
+      <guid>http://localhost:1313/talk/gnn_graphmerge_cca/</guid>
       <description>&lt;!-- 
 
 
@@ -474,26 +474,26 @@ Further event details, including [page elements](https://wowchemy.com/docs/writi
     
     <item>
       <title>Finding High Redshift galaxies with JWST</title>
-      <link>https://astrockragh.github.io/talk/highz_gal/</link>
+      <link>http://localhost:1313/talk/highz_gal/</link>
       <pubDate>Sun, 14 Nov 2021 10:30:12 +0000</pubDate>
-      <guid>https://astrockragh.github.io/talk/highz_gal/</guid>
+      <guid>http://localhost:1313/talk/highz_gal/</guid>
       <description></description>
     </item>
     
     <item>
       <title>COSMOS2020: New Insights into Galaxy Assembly and Evolution over the first 10 Billion Years</title>
-      <link>https://astrockragh.github.io/talk/cosmos/</link>
+      <link>http://localhost:1313/talk/cosmos/</link>
       <pubDate>Sun, 31 Oct 2021 10:30:12 +0000</pubDate>
-      <guid>https://astrockragh.github.io/talk/cosmos/</guid>
+      <guid>http://localhost:1313/talk/cosmos/</guid>
       <description>&lt;p&gt;The COSMOS field has proved to be one of the cornerstone surveys in extragalactic astronomy. We have built a new photometric redshift catalog COSMOS2020 from the latest ultra-deep imaging from Subaru, VISTA, and Spitzer. We measure 1M sources across the 2 deg$^2$ field using both apertures and profile-fitting photometry, pairing each with two SED fitting codes to derive four sets of precise photometric redshifts. We then measure the form and evolution the Galaxy Stellar Mass Function from 0.2 &amp;lt; z &amp;lt; 7.5 to reveal a strikingly constant rate of mass assembly stretching back into the Epoch of Reionization. We also find new samples of ultra-luminous galaxies at z&amp;gt;7.5 which form the most robust constraints on the UV Luminosity Function at such early times, confirming an excess of luminous sources. Are we witnessing a stage before feedback has suppressed their growth? Such a scenario challenges galaxy formation theory. We will have our answer soon; five of these luminous z~9 galaxies will be followed up with spatially resolved spectroscopy in the Cycle 1 JWST NIRSpec program BEASTS (PI:John R. Weaver). I delve into the details of the PSF fitting and the cosmic variance analysis.&lt;/p&gt;
 </description>
     </item>
     
     <item>
       <title>Classifying Gamma-Ray Bursts with t-SNE</title>
-      <link>https://astrockragh.github.io/talk/tsne_uot/</link>
+      <link>http://localhost:1313/talk/tsne_uot/</link>
       <pubDate>Fri, 09 Apr 2021 00:00:00 +0000</pubDate>
-      <guid>https://astrockragh.github.io/talk/tsne_uot/</guid>
+      <guid>http://localhost:1313/talk/tsne_uot/</guid>
       <description>&lt;!-- 
 
 
@@ -516,9 +516,9 @@ Further event details, including [page elements](https://wowchemy.com/docs/writi
     
     <item>
       <title>Classifying Gamma-Ray Bursts with t-SNE</title>
-      <link>https://astrockragh.github.io/talk/tsne_ucph/</link>
+      <link>http://localhost:1313/talk/tsne_ucph/</link>
       <pubDate>Tue, 09 Jun 2020 00:00:00 +0000</pubDate>
-      <guid>https://astrockragh.github.io/talk/tsne_ucph/</guid>
+      <guid>http://localhost:1313/talk/tsne_ucph/</guid>
       <description>&lt;!-- 
 
 
@@ -541,9 +541,9 @@ Further event details, including [page elements](https://wowchemy.com/docs/writi
     
     <item>
       <title>Investigating Radius Increases in Hot Exoplanets</title>
-      <link>https://astrockragh.github.io/talk/aas_exoplanet/</link>
+      <link>http://localhost:1313/talk/aas_exoplanet/</link>
       <pubDate>Mon, 06 Jan 2020 00:00:00 +0000</pubDate>
-      <guid>https://astrockragh.github.io/talk/aas_exoplanet/</guid>
+      <guid>http://localhost:1313/talk/aas_exoplanet/</guid>
       <description>&lt;p&gt;Exoplanetary radii is the most commonly measured property of exoplanets, and thus our understanding of how to interpret any measured radius is crucial to the field. Atmospheric existence is often inferred from radius and mass observations, but this is based on the assumption that the interior of planets do not maintain most of the gravitational energy from their collapse. Recently, there have been doubts about this assumption. This project aims to investigate the potential consequences of planets retaining most of the energy from their collapse. Assuming the Murnaghan EOS, we find that stable rocky planets that maintain some of their gravitational energy can have sizeable radius increases, as much as 21% for a planet of 10 M⊕. Furthermore, limits on the amount of energy that can be maintained by a planet will be discussed.&lt;/p&gt;
 </description>
     </item>

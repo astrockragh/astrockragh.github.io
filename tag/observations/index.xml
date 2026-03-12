@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Observations | Christian Kragh Jespersen</title>
-    <link>https://astrockragh.github.io/tag/observations/</link>
-      <atom:link href="https://astrockragh.github.io/tag/observations/index.xml" rel="self" type="application/rss+xml" />
+    <link>http://localhost:1313/tag/observations/</link>
+      <atom:link href="http://localhost:1313/tag/observations/index.xml" rel="self" type="application/rss+xml" />
     <description>Observations</description>
     <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><copyright>© Christian Kragh Jespersen 2025</copyright><lastBuildDate>Fri, 10 Oct 2025 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>https://astrockragh.github.io/media/logo_hu_1c9055000151fecf.png</url>
+      <url>http://localhost:1313/media/logo_hu_1c9055000151fecf.png</url>
       <title>Observations</title>
-      <link>https://astrockragh.github.io/tag/observations/</link>
+      <link>http://localhost:1313/tag/observations/</link>
     </image>
     
     <item>
       <title>Explaining Ultramassive Quiescent Galaxies at 3 &lt; z &lt; 5 in the Context of Their Environments</title>
-      <link>https://astrockragh.github.io/project/most_massive_environment/</link>
+      <link>http://localhost:1313/project/most_massive_environment/</link>
       <pubDate>Fri, 10 Oct 2025 00:00:00 +0000</pubDate>
-      <guid>https://astrockragh.github.io/project/most_massive_environment/</guid>
+      <guid>http://localhost:1313/project/most_massive_environment/</guid>
       <description>&lt;h1 id=&#34;explaining-the-masses-of-ultra-massive-universe-breaking-galaxies&#34;&gt;Explaining the masses of ultra-massive &amp;ldquo;universe-breaking&amp;rdquo; galaxies&lt;/h1&gt;
 &lt;p&gt;What do you do when observations break your theory?&lt;/p&gt;
 &lt;p&gt;That’s the situation galaxy physics has faced since the JWST started discovering both extremely distant galaxies, along with &lt;strong&gt;ultra-massive, quiescent galaxies&lt;/strong&gt; at redshifts 3–5 — galaxies more massive than our Milky Way, already completely dead quenched just 1 billion years after the Big Bang. We see this in &lt;strong&gt;spectra&lt;/strong&gt; from JWST, like the ones below from the EXCELS survey (blue lines), where we can fit models (black lines) to infer the star formation history. On a sidenote, one of the reasons that I like working with quiescent galaxies is that we have much better models for them than other galaxies, just admire how well the models fit the data! That&amp;rsquo;s not always a given, which you can read about &lt;a href=&#34;https://astrockragh.github.io/project/ir_optical/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;in this other project&lt;/a&gt;.&lt;/p&gt;
@@ -38,7 +38,7 @@
 
 &lt;figure  &gt;
   &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
-    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;https://astrockragh.github.io/project/most_massive_environment/spectra.png&#34; alt=&#34;The spectra of our galaxies from Carnall&amp;#43;2024&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;http://localhost:1313/project/most_massive_environment/spectra.png&#34; alt=&#34;The spectra of our galaxies from Carnall&amp;#43;2024&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
   &lt;/div&gt;&lt;/figure&gt;
 &lt;/p&gt;
 &lt;p&gt;We have struggled to explain how these galaxies could form stars so rapidly and shut off star formation this early. Theories have invoked extreme star formation efficiencies (close to 100%!), very exotic feedback mechanisms, or even modifications to our well-tested ΛCDM-cosmology. This has all come from statistical analyses of an idealized distribution of galaxies by total mass, the stellar mass function (SMF), using a technique called &lt;strong&gt;Extreme Value Statistics (EVS)&lt;/strong&gt;, which is designed to ask the question:&lt;/p&gt;
@@ -49,7 +49,7 @@
 &lt;p&gt;Every single one of these beautiful, ultra-massive, quiescent galaxies lives in an &lt;strong&gt;overdensity&lt;/strong&gt;, regions with significantly more galaxies than average. The overdensities reflect the fact that galaxies &lt;strong&gt;cluster&lt;/strong&gt;, i.e., they are not randomly distributed on the sky. However, until now,theoretical predictions have treated these galaxies as if they live in average, unclustered, environments.&lt;/p&gt;
 &lt;p&gt;That’s like estimating the wealth of the richest person &lt;em&gt;in the world&lt;/em&gt; by starting from the mean and spread in a random city. You&amp;rsquo;re going to be surprised, because wealth, just like galaxies, clusters quite strongly, with clustered environments producing both extreme wealth and galaxies. You can see that either in the Figure at the top of this post or in the video below, where on of our galaxies of interest is marked in blue&lt;/p&gt;
 &lt;video controls width=&#34;100%&#34;&gt;
-  &lt;source src=&#34;https://astrockragh.github.io/project/most_massive_environment/zoom_tour.mp4&#34; type=&#34;video/mp4&#34;&gt;
+  &lt;source src=&#34;http://localhost:1313/project/most_massive_environment/zoom_tour.mp4&#34; type=&#34;video/mp4&#34;&gt;
 &lt;/video&gt;
 &lt;h4 id=&#34;it-is-clear-that-our-galaxy-is-in-the-middle-of-a-very-dense-part-of-the-universe&#34;&gt;It is clear that our galaxy is in the middle of a very dense part of the Universe!&lt;/h4&gt;
 &lt;hr&gt;
@@ -63,7 +63,7 @@
 &lt;/ol&gt;
 &lt;p&gt;You can see how our &lt;code&gt;P(Maximum mass)&lt;/code&gt; estimates change as a function on the number of total overdensities of a given volume we sample below&lt;/p&gt;
 &lt;video controls width=&#34;100%&#34;&gt;
-  &lt;source src=&#34;https://astrockragh.github.io/project/most_massive_environment/0_phimax.mp4&#34; type=&#34;video/mp4&#34;&gt;
+  &lt;source src=&#34;http://localhost:1313/project/most_massive_environment/0_phimax.mp4&#34; type=&#34;video/mp4&#34;&gt;
 &lt;/video&gt;
 &lt;p&gt;In a way this is the compliment to &lt;a href=&#34;https://astrockragh.github.io/project/most_massive_jwst/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;another one of my papers on massive galaxies in a clustered Universe&lt;/a&gt;, where we instead of &lt;strong&gt;conditioning&lt;/strong&gt; on environment like here, marginalize out our lack of knowledge of the environment. For many galaxies, especially at ultra-high redshift, &lt;em&gt;we do not know their environments&lt;/em&gt;, so there, the above conditioning steps would be inappropriate!&lt;/p&gt;
 &lt;hr&gt;
@@ -97,7 +97,7 @@
                /project/most_massive_environment/combined_updated_SBF_Finkelstein_fiducial_legend_reverse_order_referee_v2_hu_f73a9ceeaa6dfdd0.webp 400w,
                /project/most_massive_environment/combined_updated_SBF_Finkelstein_fiducial_legend_reverse_order_referee_v2_hu_82426cc85b65d4d3.webp 760w,
                /project/most_massive_environment/combined_updated_SBF_Finkelstein_fiducial_legend_reverse_order_referee_v2_hu_d8c2e1ff5b1c6f62.webp 1200w&#34;
-               src=&#34;https://astrockragh.github.io/project/most_massive_environment/combined_updated_SBF_Finkelstein_fiducial_legend_reverse_order_referee_v2_hu_f73a9ceeaa6dfdd0.webp&#34;
+               src=&#34;http://localhost:1313/project/most_massive_environment/combined_updated_SBF_Finkelstein_fiducial_legend_reverse_order_referee_v2_hu_f73a9ceeaa6dfdd0.webp&#34;
                width=&#34;656&#34;
                height=&#34;760&#34;
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
@@ -123,9 +123,9 @@
     
     <item>
       <title>The optical and infrared are connected</title>
-      <link>https://astrockragh.github.io/project/ir_optical/</link>
+      <link>http://localhost:1313/project/ir_optical/</link>
       <pubDate>Tue, 14 Jan 2025 00:00:00 +0000</pubDate>
-      <guid>https://astrockragh.github.io/project/ir_optical/</guid>
+      <guid>http://localhost:1313/project/ir_optical/</guid>
       <description>&lt;!-- 
 List of points to make:
 
@@ -165,7 +165,7 @@ These different components also emit light in different wavelength ranges, meani
                /project/ir_optical/another_gal_diff_wavelengths_hu_39105af87b3d1c8f.webp 400w,
                /project/ir_optical/another_gal_diff_wavelengths_hu_81c7d908f5637976.webp 760w,
                /project/ir_optical/another_gal_diff_wavelengths_hu_4f253724e4d75e38.webp 1200w&#34;
-               src=&#34;https://astrockragh.github.io/project/ir_optical/another_gal_diff_wavelengths_hu_39105af87b3d1c8f.webp&#34;
+               src=&#34;http://localhost:1313/project/ir_optical/another_gal_diff_wavelengths_hu_39105af87b3d1c8f.webp&#34;
                width=&#34;760&#34;
                height=&#34;331&#34;
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
@@ -223,7 +223,7 @@ These models comprise 30 years of development, so they really are the best that 
                /project/ir_optical/featured_small_hu_3236bcb824e37487.webp 400w,
                /project/ir_optical/featured_small_hu_8f16deae86ab5ef3.webp 760w,
                /project/ir_optical/featured_small_hu_f5fc97cb38d16078.webp 1200w&#34;
-               src=&#34;https://astrockragh.github.io/project/ir_optical/featured_small_hu_3236bcb824e37487.webp&#34;
+               src=&#34;http://localhost:1313/project/ir_optical/featured_small_hu_3236bcb824e37487.webp&#34;
                width=&#34;760&#34;
                height=&#34;384&#34;
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
@@ -258,7 +258,7 @@ You might be a little confused about all the blue lines. These come from what we
                /project/ir_optical/wavelength_separation_demo_hu_b93c82a44c016d9e.webp 400w,
                /project/ir_optical/wavelength_separation_demo_hu_abb5e7fa4a1c178f.webp 760w,
                /project/ir_optical/wavelength_separation_demo_hu_fc5094320628a392.webp 1200w&#34;
-               src=&#34;https://astrockragh.github.io/project/ir_optical/wavelength_separation_demo_hu_b93c82a44c016d9e.webp&#34;
+               src=&#34;http://localhost:1313/project/ir_optical/wavelength_separation_demo_hu_b93c82a44c016d9e.webp&#34;
                width=&#34;576&#34;
                height=&#34;760&#34;
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
@@ -287,7 +287,7 @@ You might be a little confused about all the blue lines. These come from what we
                /project/ir_optical/qpah_pred_data_hu_d7b4a2a2edb35eea.webp 400w,
                /project/ir_optical/qpah_pred_data_hu_22b03fe89e845841.webp 760w,
                /project/ir_optical/qpah_pred_data_hu_50dbfe6c3cdaf1dd.webp 1200w&#34;
-               src=&#34;https://astrockragh.github.io/project/ir_optical/qpah_pred_data_hu_d7b4a2a2edb35eea.webp&#34;
+               src=&#34;http://localhost:1313/project/ir_optical/qpah_pred_data_hu_d7b4a2a2edb35eea.webp&#34;
                width=&#34;699&#34;
                height=&#34;760&#34;
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
@@ -316,7 +316,7 @@ You might be a little confused about all the blue lines. These come from what we
                /project/ir_optical/AGN_bolometric_update_extra_velocity_hu_947bd39056d13bc1.webp 400w,
                /project/ir_optical/AGN_bolometric_update_extra_velocity_hu_41e9ffd29066bd1a.webp 760w,
                /project/ir_optical/AGN_bolometric_update_extra_velocity_hu_fdeee69c3e69e859.webp 1200w&#34;
-               src=&#34;https://astrockragh.github.io/project/ir_optical/AGN_bolometric_update_extra_velocity_hu_947bd39056d13bc1.webp&#34;
+               src=&#34;http://localhost:1313/project/ir_optical/AGN_bolometric_update_extra_velocity_hu_947bd39056d13bc1.webp&#34;
                width=&#34;760&#34;
                height=&#34;287&#34;
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
@@ -357,9 +357,9 @@ This means that the future is bright for making new models.&lt;/p&gt;
     
     <item>
       <title>Point Spread Function improvement for COSMOS2020 survey</title>
-      <link>https://astrockragh.github.io/project/cosmos/</link>
+      <link>http://localhost:1313/project/cosmos/</link>
       <pubDate>Thu, 20 Jan 2022 00:00:00 +0000</pubDate>
-      <guid>https://astrockragh.github.io/project/cosmos/</guid>
+      <guid>http://localhost:1313/project/cosmos/</guid>
       <description>&lt;h2 id=&#34;the-two-catalogs&#34;&gt;The two CATALOGS: &lt;a href=&#34;https://cosmos2020.calet.org/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://cosmos2020.calet.org/&lt;/a&gt;&lt;/h2&gt;
 &lt;p&gt;The COSMOS survey is one the longest-running galaxy surveys. Over two decades, we have collected observations of x-ray, optical, infrared, and radio light to obtain galaxy distances and understand their evolution over 13.7 billion years of cosmic history. &lt;a href=&#34;https://astroweaver.github.io/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;John R. Weaver&lt;/a&gt; at the &lt;a href=&#34;https://cosmicdawn.dk/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Cosmic Dawn Center&lt;/a&gt; lead the 2020 edition of the master galaxy catalog, using bleeding-edge galaxy model-fitting techniques.&lt;/p&gt;
 &lt;p&gt;I worked with John to improve what astronomers call a Point Spread Function, or PSF for short, which essentially details how light becomes spread out and noisy as it moves through the atmosphere. As one might imagine, this isn&amp;rsquo;t the same across the night sky, due to the atmosphere being quite different when looking in different directions. As can be seen in the below figure, if one separates the night-sky into many smaller patches, giving each patch its own PSF, things are a lot better!&lt;/p&gt;
@@ -381,7 +381,7 @@ This means that the future is bright for making new models.&lt;/p&gt;
 
 &lt;figure  &gt;
   &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
-    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;https://astrockragh.github.io/project/cosmos/psf_homogenization.png&#34; alt=&#34;PSF&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;http://localhost:1313/project/cosmos/psf_homogenization.png&#34; alt=&#34;PSF&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
   &lt;/div&gt;&lt;/figure&gt;
 &lt;/p&gt;
 </description>
