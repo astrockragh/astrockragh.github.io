@@ -9732,3 +9732,19 @@ div.chart {
   margin-right: auto;
   margin-bottom: 1rem;
   overflow-x: auto; }
+
+.container {
+  max-width: 1800px !important; }
+
+.article-container {
+  max-width: 1400px !important; }
+
+.featured-image-wrapper {
+  max-width: 1400px !important;
+  max-height: none !important; }
+
+.featured-image-wrapper img {
+  max-width: 1400px !important;
+  max-height: none !important;
+  width: 1400px !important;
+  height: auto !important; }
