@@ -5,7 +5,7 @@
     <link>https://astrockragh.github.io/post/</link>
       <atom:link href="https://astrockragh.github.io/post/index.xml" rel="self" type="application/rss+xml" />
     <description>Posts</description>
-    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><copyright>© Christian Kragh Jespersen 2026</copyright><lastBuildDate>Wed, 18 Feb 2026 00:00:00 +0000</lastBuildDate>
+    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><copyright>© Christian Kragh Jespersen 2026</copyright><lastBuildDate>Sat, 14 Mar 2026 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://astrockragh.github.io/media/logo_hu_1c9055000151fecf.png</url>
       <title>Posts</title>
@@ -13,13 +13,13 @@
     </image>
     
     <item>
-      <title>Post-doc market reflections I: Personal Reflections</title>
+      <title>Post-doc Market I: Personal Reflections</title>
       <link>https://astrockragh.github.io/post/postdoc_experience1/</link>
       <pubDate>Wed, 18 Feb 2026 00:00:00 +0000</pubDate>
       <guid>https://astrockragh.github.io/post/postdoc_experience1/</guid>
       <description>&lt;p&gt;Having just gone through the gruelling experience of applying for postdoctoral positions, I wanted to jot down a few lessons learned and reflections. I will try to focus on what I personally was surprised by and would have liked to know a little ahead of time. I will primarily cover things that I did not really find elsewhere (e.g., &amp;ldquo;make sure you have good letter writers&amp;rdquo; is important, but you can find that advice anywhere).&lt;/p&gt;
 &lt;p&gt;I will also preface this by saying that my experiences are of course mainly applicable to others in astronomy and AI for Science. I was also very fortunate on the market this year, and I want to be upfront about the advantages I had: being at Princeton, having exceptional advisors, and working in a subfield (machine learning for astrophysics) that is currently in high demand. These things matter, and I will try to be honest about where they helped. I also want to encourage anyone with questions to reach out at &lt;a href=&#34;mailto:ckragh@princeton.edu&#34;&gt;ckragh [at] princeton.edu&lt;/a&gt; (or whichever email I have when you are reading this).&lt;/p&gt;
-&lt;p&gt;For a more quantitative companion post, where I try to build a forward model of the stochasticity in the application process, see the &lt;a href=&#34;https://astrockragh.github.io/post/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;second post in this series&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;For a more quantitative companion post, where I try to build a forward model/simulation of the market to measure the stochasticity in the application process (among other things), see the &lt;a href=&#34;https://astrockragh.github.io/post/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;second post in this series&lt;/a&gt;. You can see this post as the qualitative part of my reflections, and the second, simulation-based, post as the quantitative part.&lt;/p&gt;
 &lt;h2 id=&#34;what-kind-of-postdoctoral-positions-exist&#34;&gt;What kind of postdoctoral positions exist?&lt;/h2&gt;
 &lt;p&gt;One thing that was not at all clear to me ahead of time was the different kinds of postdoctoral positions one can apply to. In the end, I constructed four broad categories (that others are free to disagree with), with some potential sub-divisions. I will list these roughly in order of average likelihood of any single application succeeding (from lowest to highest).&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Society of Fellows positions:&lt;/strong&gt; A handful of major research universities maintain a &amp;ldquo;Society of Fellows&amp;rdquo; &amp;mdash; a small, interdisciplinary group of early-career scholars who are given full freedom and generous resources for a few years, typically alongside regular meals and interactions with distinguished Senior Fellows. These took me completely by surprise. The sheer mafia-like structure &amp;mdash; you can only apply when you are nominated by a sufficiently senior person &amp;mdash; seems shockingly old-fashioned. These positions are also not advertised very clearly (you will only find them if somebody you know makes you aware of them), to the point where several junior faculty members, even at Princeton, did not know that they existed.&lt;/p&gt;
