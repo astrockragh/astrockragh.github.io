@@ -3,11 +3,31 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://astrockragh.github.io/</loc>
-    <lastmod>2026-03-14T00:00:00+00:00</lastmod>
+    <lastmod>2026-04-17T11:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://astrockragh.github.io/tag/contributed/</loc>
+    <lastmod>2026-04-17T11:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://astrockragh.github.io/talk/2026_dawn/</loc>
+    <lastmod>2026-04-17T11:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://astrockragh.github.io/talk/</loc>
+    <lastmod>2026-04-17T11:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://astrockragh.github.io/tags/</loc>
+    <lastmod>2026-04-17T11:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://astrockragh.github.io/post/postdoc_experience2/</loc>
+    <lastmod>2026-03-19T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>https://astrockragh.github.io/post/</loc>
-    <lastmod>2026-03-14T00:00:00+00:00</lastmod>
+    <lastmod>2026-03-19T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>https://astrockragh.github.io/post/postdoc_experience1/</loc>
@@ -34,19 +54,19 @@
     <lastmod>2026-03-11T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>https://astrockragh.github.io/tags/</loc>
-    <lastmod>2026-03-11T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-  </url><url>
-    <loc>https://astrockragh.github.io/talk/2025_stsci_jhu/</loc>
-    <lastmod>2025-12-09T13:00:00+00:00</lastmod>
+    <loc>https://astrockragh.github.io/talk/2026_cca_mlxastro/</loc>
+    <lastmod>2026-03-10T13:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>https://astrockragh.github.io/tag/invited/</loc>
-    <lastmod>2025-12-09T13:00:00+00:00</lastmod>
+    <lastmod>2026-03-10T13:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>https://astrockragh.github.io/talk/</loc>
+    <loc>https://astrockragh.github.io/talk/2026_aspen/</loc>
+    <lastmod>2026-03-02T11:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://astrockragh.github.io/talk/2025_stsci_jhu/</loc>
     <lastmod>2025-12-09T13:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
@@ -56,10 +76,6 @@
   </url><url>
     <loc>https://astrockragh.github.io/talk/2025_perimeter/</loc>
     <lastmod>2025-11-13T11:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-  </url><url>
-    <loc>https://astrockragh.github.io/tag/contributed/</loc>
-    <lastmod>2025-11-11T10:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>https://astrockragh.github.io/talk/2025_tasty_toronto_ir_optical/</loc>

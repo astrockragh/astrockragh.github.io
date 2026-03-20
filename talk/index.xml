@@ -5,12 +5,36 @@
     <link>https://astrockragh.github.io/talk/</link>
       <atom:link href="https://astrockragh.github.io/talk/index.xml" rel="self" type="application/rss+xml" />
     <description>Recent and Upcoming Talks</description>
-    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><copyright>© Christian Kragh Jespersen 2026</copyright><lastBuildDate>Tue, 09 Dec 2025 13:00:00 +0000</lastBuildDate>
+    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><copyright>© Christian Kragh Jespersen 2026</copyright><lastBuildDate>Fri, 17 Apr 2026 11:00:00 +0000</lastBuildDate>
     <image>
       <url>https://astrockragh.github.io/media/logo_hu_1c9055000151fecf.png</url>
       <title>Recent and Upcoming Talks</title>
       <link>https://astrockragh.github.io/talk/</link>
     </image>
+    
+    <item>
+      <title>Galaxy Physics at Cosmic Dawn from Clustering and Abundances @Charting Cosmic Dawn in Copenhagen</title>
+      <link>https://astrockragh.github.io/talk/2026_dawn/</link>
+      <pubDate>Fri, 17 Apr 2026 11:00:00 +0000</pubDate>
+      <guid>https://astrockragh.github.io/talk/2026_dawn/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Galaxies, their environments, and formation histories @CCA MLxAstro</title>
+      <link>https://astrockragh.github.io/talk/2026_cca_mlxastro/</link>
+      <pubDate>Tue, 10 Mar 2026 13:00:00 +0000</pubDate>
+      <guid>https://astrockragh.github.io/talk/2026_cca_mlxastro/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Galaxy Physics at Cosmic Dawn from Clustering and Abundances @Aspen Centre for Physics</title>
+      <link>https://astrockragh.github.io/talk/2026_aspen/</link>
+      <pubDate>Mon, 02 Mar 2026 11:00:00 +0000</pubDate>
+      <guid>https://astrockragh.github.io/talk/2026_aspen/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Everything is connected @STScI/JHU</title>
