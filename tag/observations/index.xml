@@ -5,12 +5,26 @@
     <link>https://astrockragh.github.io/tag/observations/</link>
       <atom:link href="https://astrockragh.github.io/tag/observations/index.xml" rel="self" type="application/rss+xml" />
     <description>Observations</description>
-    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><copyright>© Christian Kragh Jespersen 2026</copyright><lastBuildDate>Wed, 11 Mar 2026 00:00:00 +0000</lastBuildDate>
+    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><copyright>© Christian Kragh Jespersen 2026</copyright><lastBuildDate>Wed, 13 May 2026 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://astrockragh.github.io/media/logo_hu_1c9055000151fecf.png</url>
       <title>Observations</title>
       <link>https://astrockragh.github.io/tag/observations/</link>
     </image>
+    
+    <item>
+      <title>Simulating the spectra of small ISM molecules</title>
+      <link>https://astrockragh.github.io/project/molecule_simulator/</link>
+      <pubDate>Wed, 13 May 2026 00:00:00 +0000</pubDate>
+      <guid>https://astrockragh.github.io/project/molecule_simulator/</guid>
+      <description>
+
+&lt;iframe src=&#34;https://astrockragh.github.io/widgets/spectrum_viewer.html&#34; width=&#34;100%&#34; height=&#34;720&#34;
+        frameborder=&#34;0&#34; style=&#34;border-radius:8px;&#34;&gt;&lt;/iframe&gt;
+
+
+</description>
+    </item>
     
     <item>
       <title>Galaxy Physics at Cosmic Dawn from Clustering</title>
