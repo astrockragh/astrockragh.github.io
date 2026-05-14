@@ -17,7 +17,35 @@
       <link>https://astrockragh.github.io/project/molecule_simulator/</link>
       <pubDate>Wed, 13 May 2026 00:00:00 +0000</pubDate>
       <guid>https://astrockragh.github.io/project/molecule_simulator/</guid>
-      <description>
+      <description>&lt;p&gt;In our recent DIB ISM molecular identification paper, we model the absorption profiles of Diffuse Interstellar Bands using &lt;a href=&#34;http://pgopher.chm.bris.ac.uk/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;PGOPHER&lt;/a&gt;, a molecular spectral simulation code for asymmetric top molecules. The model computes ro-vibrational band contours as a function of the three principal rotational constants (A, B, C), the rotational excitation temperature, ro-vibrational coupling fractions (f&lt;sub&gt;A&lt;/sub&gt;, f&lt;sub&gt;B&lt;/sub&gt;, f&lt;sub&gt;C&lt;/sub&gt;), and line broadening parameters, under either C&lt;sub&gt;2v&lt;/sub&gt; or C&lt;sub&gt;s&lt;/sub&gt; molecular symmetry. For C&lt;sub&gt;s&lt;/sub&gt; molecules, two transition dipole axes contribute to the profile, mixed by a ratio r&lt;sub&gt;BC&lt;/sub&gt;. The direct absorption profile is shown alongside a temperature derivative profile, which encodes how the spectrum responds to small changes in rotational temperature &amp;mdash; a key observable that lets us break the long-standing degeneracy between molecular geometry and excitation temperature.&lt;/p&gt;
+&lt;h3 id=&#34;the-model&#34;&gt;The model&lt;/h3&gt;
+&lt;p&gt;For a molecule with &lt;strong&gt;C₂ᵥ&lt;/strong&gt; symmetry, the observed DIB profile and its R(V)-derivative are related to the simulated profile p(λ) and its temperature derivative ∂p/∂T by:&lt;/p&gt;
+&lt;p&gt;$$
+\frac{{d f}}{{d E}} = d + \gamma \cdot p(\lambda)
+$$&lt;/p&gt;
+&lt;p&gt;$$
+\frac{{d f}}{{d R(V)}} = e + \alpha \cdot p(\lambda) + \beta \cdot \frac{{\partial p(\lambda)}}{{\partial T}}
+$$&lt;/p&gt;
+&lt;p&gt;For a molecule with &lt;strong&gt;Cₛ&lt;/strong&gt; symmetry, two transition dipole axes contribute, mixed by a dipole ratio r:&lt;/p&gt;
+&lt;p&gt;$$
+\frac{{d f}}{{d E}} = d + \gamma \left( p_1 + r \cdot p_2 \right)
+$$&lt;/p&gt;
+&lt;p&gt;$$
+\frac{{d f}}{{d R(V)}} = e + \alpha \left( p_1 + r \cdot p_2 \right) + \beta \left( \frac{{\partial p_1}}{{\partial T}} + r \cdot \frac{{\partial p_2}}{{\partial T}} \right)
+$$&lt;/p&gt;
+&lt;p&gt;Here d and e are constant background offsets, γ scales the theoretical profile to the observed DIB amplitude, α captures the change in DIB column density with R(V), and β captures the change in rotational temperature with R(V). In the widget, the left panel shows the direct profile (the γ term), and the right panel shows the temperature derivative (the β term) plus a tunable leakage of the direct profile (the α term), controlled by the slider labeled α (dT direct). For the visualization, we have fixed β = 1, and d=e=0, but α and r can be tuned freely. Now, what else can be done&lt;/p&gt;
+&lt;h3 id=&#34;parameters&#34;&gt;Parameters&lt;/h3&gt;
+&lt;p&gt;&lt;strong&gt;Symmetry&lt;/strong&gt; — C&lt;sub&gt;2v&lt;/sub&gt; or C&lt;sub&gt;s&lt;/sub&gt;: toggles between a single transition dipole axis (C&lt;sub&gt;2v&lt;/sub&gt;) and two axes (C&lt;sub&gt;s&lt;/sub&gt;). For C&lt;sub&gt;s&lt;/sub&gt;, the r&lt;sub&gt;BC&lt;/sub&gt; slider becomes active.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Rotational constants&lt;/strong&gt; — A, B, C (cm⁻¹): the three principal rotational constants of the asymmetric top, with A ≥ B ≥ C by convention. These set the rotational energy levels and thus the overall width and shape of the band contour. Larger constants correspond to a smaller, lighter molecule.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Rotational temperature&lt;/strong&gt; — T&lt;sub&gt;rot&lt;/sub&gt; (K): the excitation temperature of the rotational level populations, assumed to follow a Boltzmann distribution. Higher temperatures populate more rotational levels, broadening the profile envelope.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Ro-vibrational coupling&lt;/strong&gt; — f&lt;sub&gt;A&lt;/sub&gt;, f&lt;sub&gt;B&lt;/sub&gt;, f&lt;sub&gt;C&lt;/sub&gt;: the ratios of the excited-state to ground-state rotational constants along each axis (e.g., f&lt;sub&gt;A&lt;/sub&gt; = A&lt;sub&gt;excited&lt;/sub&gt; / A&lt;sub&gt;ground&lt;/sub&gt;). Values less than 1 indicate that the molecule expands along that axis in the upper state, introducing asymmetry into the profile. This is the primary mechanism for producing the heavy red tail seen in asymmetric DIB profiles.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Lorentzian broadening&lt;/strong&gt; — τ (cm⁻¹): the half-width at half-maximum of a Lorentzian broadening kernel, applied via online convolution. This can represent either the finite excited-state lifetime of the carrier (homogeneous line broadening) or velocity dispersion between interstellar clouds along the line of sight.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Gaussian broadening&lt;/strong&gt; — σ (cm⁻¹): the standard deviation of a Gaussian broadening kernel, also applied via online convolution. This represents the instrumental line-spread function or additional Doppler broadening.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Dipole ratio&lt;/strong&gt; — r&lt;sub&gt;BC&lt;/sub&gt;: the ratio of the squared transition dipole moments along the two allowed axes in C&lt;sub&gt;s&lt;/sub&gt; symmetry. This controls the relative contribution of the two spectral components.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;α (dT direct)&lt;/strong&gt;: controls the leakage of the direct profile into the temperature derivative panel. This mimics the α term in the model equations above, representing the change in DIB column density with environment. Set to 0 for a pure thermal derivative.&lt;/p&gt;
+&lt;h3 id=&#34;the-widget&#34;&gt;The widget&lt;/h3&gt;
+&lt;p&gt;The interactive widget below is built from a precomputed grid of PGOPHER spectra spanning a range of molecular parameters. It uses nearest-neighbor lookup to find the closest match in the grid, allows for online tuning of r&lt;sub&gt;BC&lt;/sub&gt; and α, and then applies Lorentzian and Gaussian broadening online via direct convolution. The goal is to let all others build up the intuition we spent a long time building for how these spectra change with different physical parameters, without installing all the necessary software. See how temperature broadens the envelope, how the ratio of rotational constants controls the band shape, how ro-vibrational coupling introduces profile asymmetry, and how the temperature derivative picks up spectral structure that the direct profile alone cannot constrain.&lt;/p&gt;
+
 
 &lt;iframe src=&#34;https://astrockragh.github.io/widgets/spectrum_viewer.html&#34; width=&#34;100%&#34; height=&#34;720&#34;
         frameborder=&#34;0&#34; style=&#34;border-radius:8px;&#34;&gt;&lt;/iframe&gt;
