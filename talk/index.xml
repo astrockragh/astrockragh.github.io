@@ -6,12 +6,6 @@
       <atom:link href="https://astrockragh.github.io/talk/index.xml" rel="self" type="application/rss+xml" />
     <description>Recent and Upcoming Talks</description>
     <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><copyright>© Christian Kragh Jespersen 2026</copyright><lastBuildDate>Fri, 17 Apr 2026 11:00:00 +0000</lastBuildDate>
-    <image>
-      <url>https://astrockragh.github.io/media/logo_hu_1c9055000151fecf.png</url>
-      <title>Recent and Upcoming Talks</title>
-      <link>https://astrockragh.github.io/talk/</link>
-    </image>
-    
     <item>
       <title>Galaxy Physics at Cosmic Dawn from Clustering and Abundances @Charting Cosmic Dawn in Copenhagen</title>
       <link>https://astrockragh.github.io/talk/2026_dawn/</link>

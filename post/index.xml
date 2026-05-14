@@ -6,12 +6,6 @@
       <atom:link href="https://astrockragh.github.io/post/index.xml" rel="self" type="application/rss+xml" />
     <description>Posts</description>
     <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><copyright>© Christian Kragh Jespersen 2026</copyright><lastBuildDate>Thu, 19 Mar 2026 00:00:00 +0000</lastBuildDate>
-    <image>
-      <url>https://astrockragh.github.io/media/logo_hu_1c9055000151fecf.png</url>
-      <title>Posts</title>
-      <link>https://astrockragh.github.io/post/</link>
-    </image>
-    
     <item>
       <title>Post-doc Market II: Modelling the Stochasticity in the Market</title>
       <link>https://astrockragh.github.io/post/postdoc_experience2/</link>

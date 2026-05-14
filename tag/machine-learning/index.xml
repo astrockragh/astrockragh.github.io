@@ -6,12 +6,6 @@
       <atom:link href="https://astrockragh.github.io/tag/machine-learning/index.xml" rel="self" type="application/rss+xml" />
     <description>Machine Learning</description>
     <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><copyright>© Christian Kragh Jespersen 2026</copyright><lastBuildDate>Tue, 14 Jan 2025 00:00:00 +0000</lastBuildDate>
-    <image>
-      <url>https://astrockragh.github.io/media/logo_hu_1c9055000151fecf.png</url>
-      <title>Machine Learning</title>
-      <link>https://astrockragh.github.io/tag/machine-learning/</link>
-    </image>
-    
     <item>
       <title>The optical and infrared are connected</title>
       <link>https://astrockragh.github.io/project/ir_optical/</link>
