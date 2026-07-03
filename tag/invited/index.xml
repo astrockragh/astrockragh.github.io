@@ -5,12 +5,36 @@
     <link>https://astrockragh.github.io/tag/invited/</link>
       <atom:link href="https://astrockragh.github.io/tag/invited/index.xml" rel="self" type="application/rss+xml" />
     <description>Invited</description>
-    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><copyright>© Christian Kragh Jespersen 2026</copyright><lastBuildDate>Tue, 10 Mar 2026 13:00:00 +0000</lastBuildDate>
+    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><copyright>© Christian Kragh Jespersen 2026</copyright><lastBuildDate>Mon, 03 Aug 2026 13:30:00 +0000</lastBuildDate>
     <image>
       <url>https://astrockragh.github.io/media/logo_hu_1c9055000151fecf.png</url>
       <title>Invited</title>
       <link>https://astrockragh.github.io/tag/invited/</link>
     </image>
+    
+    <item>
+      <title>The Geometric Structure and Physical Parameters of two DIB Carriers in APOGEE, @SDSS-V</title>
+      <link>https://astrockragh.github.io/talk/2026_sdss/</link>
+      <pubDate>Mon, 03 Aug 2026 13:30:00 +0000</pubDate>
+      <guid>https://astrockragh.github.io/talk/2026_sdss/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Galaxies, their environments, and formation histories @SBI GalEv 2026</title>
+      <link>https://astrockragh.github.io/talk/2026_cambridgesbi/</link>
+      <pubDate>Fri, 26 Jun 2026 13:00:00 +0000</pubDate>
+      <guid>https://astrockragh.github.io/talk/2026_cambridgesbi/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Galaxy Physics at Cosmic Dawn from Clustering and Abundances @Oxford</title>
+      <link>https://astrockragh.github.io/talk/2026_oxford_highz/</link>
+      <pubDate>Thu, 25 Jun 2026 11:00:00 +0000</pubDate>
+      <guid>https://astrockragh.github.io/talk/2026_oxford_highz/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Galaxies, their environments, and formation histories @CCA MLxAstro</title>

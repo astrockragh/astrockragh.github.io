@@ -5,12 +5,36 @@
     <link>https://astrockragh.github.io/tag/contributed/</link>
       <atom:link href="https://astrockragh.github.io/tag/contributed/index.xml" rel="self" type="application/rss+xml" />
     <description>Contributed</description>
-    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><copyright>© Christian Kragh Jespersen 2026</copyright><lastBuildDate>Fri, 17 Apr 2026 11:00:00 +0000</lastBuildDate>
+    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><copyright>© Christian Kragh Jespersen 2026</copyright><lastBuildDate>Tue, 14 Jul 2026 13:30:00 +0000</lastBuildDate>
     <image>
       <url>https://astrockragh.github.io/media/logo_hu_1c9055000151fecf.png</url>
       <title>Contributed</title>
       <link>https://astrockragh.github.io/tag/contributed/</link>
     </image>
+    
+    <item>
+      <title>The link between halo assembly and environment revealed by Graph Neureal Networks, @Cosmic Horizons Conference</title>
+      <link>https://astrockragh.github.io/talk/2026_cosmichorizons/</link>
+      <pubDate>Tue, 14 Jul 2026 13:30:00 +0000</pubDate>
+      <guid>https://astrockragh.github.io/talk/2026_cosmichorizons/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Connecting the Optical and Infrared @EAS 2026</title>
+      <link>https://astrockragh.github.io/talk/2026_eas_opticalir/</link>
+      <pubDate>Tue, 30 Jun 2026 11:00:00 +0000</pubDate>
+      <guid>https://astrockragh.github.io/talk/2026_eas_opticalir/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Galaxy Physics at Cosmic Dawn from Clustering and Abundances @EAS 2026</title>
+      <link>https://astrockragh.github.io/talk/2026_eas_highz/</link>
+      <pubDate>Mon, 29 Jun 2026 11:00:00 +0000</pubDate>
+      <guid>https://astrockragh.github.io/talk/2026_eas_highz/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Galaxy Physics at Cosmic Dawn from Clustering and Abundances @Charting Cosmic Dawn in Copenhagen</title>

@@ -5,12 +5,60 @@
     <link>https://astrockragh.github.io/talk/</link>
       <atom:link href="https://astrockragh.github.io/talk/index.xml" rel="self" type="application/rss+xml" />
     <description>Recent and Upcoming Talks</description>
-    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><copyright>© Christian Kragh Jespersen 2026</copyright><lastBuildDate>Fri, 17 Apr 2026 11:00:00 +0000</lastBuildDate>
+    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><copyright>© Christian Kragh Jespersen 2026</copyright><lastBuildDate>Mon, 03 Aug 2026 13:30:00 +0000</lastBuildDate>
     <image>
       <url>https://astrockragh.github.io/media/logo_hu_1c9055000151fecf.png</url>
       <title>Recent and Upcoming Talks</title>
       <link>https://astrockragh.github.io/talk/</link>
     </image>
+    
+    <item>
+      <title>The Geometric Structure and Physical Parameters of two DIB Carriers in APOGEE, @SDSS-V</title>
+      <link>https://astrockragh.github.io/talk/2026_sdss/</link>
+      <pubDate>Mon, 03 Aug 2026 13:30:00 +0000</pubDate>
+      <guid>https://astrockragh.github.io/talk/2026_sdss/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>The link between halo assembly and environment revealed by Graph Neureal Networks, @Cosmic Horizons Conference</title>
+      <link>https://astrockragh.github.io/talk/2026_cosmichorizons/</link>
+      <pubDate>Tue, 14 Jul 2026 13:30:00 +0000</pubDate>
+      <guid>https://astrockragh.github.io/talk/2026_cosmichorizons/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Connecting the Optical and Infrared @EAS 2026</title>
+      <link>https://astrockragh.github.io/talk/2026_eas_opticalir/</link>
+      <pubDate>Tue, 30 Jun 2026 11:00:00 +0000</pubDate>
+      <guid>https://astrockragh.github.io/talk/2026_eas_opticalir/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Galaxy Physics at Cosmic Dawn from Clustering and Abundances @EAS 2026</title>
+      <link>https://astrockragh.github.io/talk/2026_eas_highz/</link>
+      <pubDate>Mon, 29 Jun 2026 11:00:00 +0000</pubDate>
+      <guid>https://astrockragh.github.io/talk/2026_eas_highz/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Galaxies, their environments, and formation histories @SBI GalEv 2026</title>
+      <link>https://astrockragh.github.io/talk/2026_cambridgesbi/</link>
+      <pubDate>Fri, 26 Jun 2026 13:00:00 +0000</pubDate>
+      <guid>https://astrockragh.github.io/talk/2026_cambridgesbi/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Galaxy Physics at Cosmic Dawn from Clustering and Abundances @Oxford</title>
+      <link>https://astrockragh.github.io/talk/2026_oxford_highz/</link>
+      <pubDate>Thu, 25 Jun 2026 11:00:00 +0000</pubDate>
+      <guid>https://astrockragh.github.io/talk/2026_oxford_highz/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Galaxy Physics at Cosmic Dawn from Clustering and Abundances @Charting Cosmic Dawn in Copenhagen</title>

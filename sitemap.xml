@@ -3,7 +3,47 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://astrockragh.github.io/</loc>
-    <lastmod>2026-05-13T00:00:00+00:00</lastmod>
+    <lastmod>2026-08-03T13:30:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://astrockragh.github.io/tag/invited/</loc>
+    <lastmod>2026-08-03T13:30:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://astrockragh.github.io/talk/</loc>
+    <lastmod>2026-08-03T13:30:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://astrockragh.github.io/tags/</loc>
+    <lastmod>2026-08-03T13:30:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://astrockragh.github.io/talk/2026_sdss/</loc>
+    <lastmod>2026-08-03T13:30:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://astrockragh.github.io/tag/contributed/</loc>
+    <lastmod>2026-07-14T13:30:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://astrockragh.github.io/talk/2026_cosmichorizons/</loc>
+    <lastmod>2026-07-14T13:30:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://astrockragh.github.io/talk/2026_eas_opticalir/</loc>
+    <lastmod>2026-06-30T11:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://astrockragh.github.io/talk/2026_eas_highz/</loc>
+    <lastmod>2026-06-29T11:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://astrockragh.github.io/talk/2026_cambridgesbi/</loc>
+    <lastmod>2026-06-26T13:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://astrockragh.github.io/talk/2026_oxford_highz/</loc>
+    <lastmod>2026-06-25T11:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>https://astrockragh.github.io/tag/galaxies/</loc>
@@ -22,19 +62,7 @@
     <lastmod>2026-05-13T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>https://astrockragh.github.io/tags/</loc>
-    <lastmod>2026-05-13T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-  </url><url>
-    <loc>https://astrockragh.github.io/tag/contributed/</loc>
-    <lastmod>2026-04-17T11:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-  </url><url>
     <loc>https://astrockragh.github.io/talk/2026_dawn/</loc>
-    <lastmod>2026-04-17T11:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-  </url><url>
-    <loc>https://astrockragh.github.io/talk/</loc>
     <lastmod>2026-04-17T11:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
@@ -59,10 +87,6 @@
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>https://astrockragh.github.io/talk/2026_cca_mlxastro/</loc>
-    <lastmod>2026-03-10T13:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-  </url><url>
-    <loc>https://astrockragh.github.io/tag/invited/</loc>
     <lastmod>2026-03-10T13:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
