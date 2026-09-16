@@ -1,16 +1,1 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>Tags | Christian Kragh Jespersen</title>
-    <link>https://astrockragh.github.io/tags/</link>
-      <atom:link href="https://astrockragh.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
-    <description>Tags</description>
-    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><copyright>© Christian Kragh Jespersen 2026</copyright><lastBuildDate>Mon, 03 Aug 2026 13:30:00 +0000</lastBuildDate>
-    <image>
-      <url>https://astrockragh.github.io/media/logo_hu_1c9055000151fecf.png</url>
-      <title>Tags</title>
-      <link>https://astrockragh.github.io/tags/</link>
-    </image>
-    
-  </channel>
-</rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Tags on Christian Kragh Jespersen</title><link>https://astrockragh.github.io/tags/</link><description>Recent content in Tags on Christian Kragh Jespersen</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Wed, 25 Nov 2026 10:00:00 +0000</lastBuildDate><atom:link href="https://astrockragh.github.io/tags/index.xml" rel="self" type="application/rss+xml"/><item><title>Contributed</title><link>https://astrockragh.github.io/tags/contributed/</link><pubDate>Tue, 14 Jul 2026 13:30:00 +0000</pubDate><guid>https://astrockragh.github.io/tags/contributed/</guid><description/></item><item><title>Invited</title><link>https://astrockragh.github.io/tags/invited/</link><pubDate>Mon, 03 Aug 2026 13:30:00 +0000</pubDate><guid>https://astrockragh.github.io/tags/invited/</guid><description/></item><item><title>Galaxies</title><link>https://astrockragh.github.io/tags/galaxies/</link><pubDate>Wed, 13 May 2026 00:00:00 +0000</pubDate><guid>https://astrockragh.github.io/tags/galaxies/</guid><description/></item><item><title>Observations</title><link>https://astrockragh.github.io/tags/observations/</link><pubDate>Wed, 13 May 2026 00:00:00 +0000</pubDate><guid>https://astrockragh.github.io/tags/observations/</guid><description/></item><item><title>Machine Learning</title><link>https://astrockragh.github.io/tags/machine-learning/</link><pubDate>Tue, 14 Jan 2025 00:00:00 +0000</pubDate><guid>https://astrockragh.github.io/tags/machine-learning/</guid><description/></item><item><title>Cosmology</title><link>https://astrockragh.github.io/tags/cosmology/</link><pubDate>Wed, 02 Oct 2024 00:10:00 +0000</pubDate><guid>https://astrockragh.github.io/tags/cosmology/</guid><description/></item><item><title>Particle Physics</title><link>https://astrockragh.github.io/tags/particle-physics/</link><pubDate>Tue, 25 Jan 2022 00:00:00 +0000</pubDate><guid>https://astrockragh.github.io/tags/particle-physics/</guid><description/></item><item><title>Transients</title><link>https://astrockragh.github.io/tags/transients/</link><pubDate>Thu, 20 Jan 2022 00:00:00 +0000</pubDate><guid>https://astrockragh.github.io/tags/transients/</guid><description/></item></channel></rss>
