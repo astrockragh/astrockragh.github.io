@@ -1,1 +1,5 @@
 User-agent: *
+Allow: /
+
+
+Sitemap: https://astrockragh.github.io/sitemap.xml
